@@ -9,7 +9,6 @@
     <meta name="author" content="Ein Mann, der nach Resonanz sucht">
     
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../nav-style.css">
     <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 
     <!-- JSON-LD Structured Data for Blog Post -->
@@ -81,7 +80,7 @@
                 <section>
                     <h2>Risiko als Katalysator: Die verborgene Logik hinter der Angst</h2>
                     <p>Ein besonders sensibler Aspekt dieser Sehnsucht ist die Rolle des Risikos. Suchanfragen rund um die "Pille danach" oder die Angst, "trotz Pille schwanger zu werden", sind oft mehr als nur eine Informationssuche. Sie sind Teil eines psychologischen Rituals. Die Fantasie beinhaltet das Eingehen eines Risikos – real oder imaginiert. Dieses Risiko erzeugt Angst. Der Akt der Suche nach einer Lösung für die Konsequenzen ("Was tun, wenn...") ist eine Methode, diese Angst zu verarbeiten und einzudämmen. Es ist die digitale Beichte am "Morgen danach", die die Fantasie der "Nacht davor" psychologisch zulässig macht.</p>
-                    <p>Die "Sorglosigkeit" des Partners ("er hat nicht aufgepasst") wird in diesem Kontext umgedeutet. Aus Fahrlässigkeit wird ein Akt überwältigender Leidenschaft. Er war so von Verlangen erfüllt, dass er die Kontrolle verlor. Dieses Narrativ ist zutiefst schmeichelhaft, denn es macht die Frau zur Ursache für diesen Kontrollverlust. Es erfüllt den Kernwunsch, so begehrt zu werden, dass rationale Bedenken dahinter zurückstehen. Die Verantwortung wird externalisiert, und was bleibt, ist das Gefühl, Objekt einer unwiderstehlichen Anziehung zu sein.</p>
+                    <p>Die "Sorglosigkeit" des Partners ("er hat nicht aufgepasst") wird in diesem Kontext umgedeutet. Aus Fahrlässigkeit wird ein Akt ��berwältigender Leidenschaft. Er war so von Verlangen erfüllt, dass er die Kontrolle verlor. Dieses Narrativ ist zutiefst schmeichelhaft, denn es macht die Frau zur Ursache für diesen Kontrollverlust. Es erfüllt den Kernwunsch, so begehrt zu werden, dass rationale Bedenken dahinter zurückstehen. Die Verantwortung wird externalisiert, und was bleibt, ist das Gefühl, Objekt einer unwiderstehlichen Anziehung zu sein.</p>
                     <p>Letztendlich ist die Sehnsucht nach Hingabe ein zutiefst menschliches Bedürfnis, das in unserer modernen Welt oft keinen Platz findet. Es ist der Wunsch nach einer Verbindung, die über das Oberflächliche hinausgeht. Es ist die Suche nach einem Menschen, in dessen Gegenwart wir endlich aufhören können zu kämpfen – nicht nur gegen die Welt, sondern gegen uns selbst. Es ist nicht die Suche nach Schwäche, sondern die Suche nach der ultimativen Stärke: der Stärke, die aus dem Mut erwächst, einem anderen Menschen vollkommen zu vertrauen.</p>
                 </section>
             </article>
@@ -95,6 +94,7 @@
         const menuToggle = document.getElementById('mobile-menu');
         const navLinks = document.querySelector('.nav-links');
         menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
             navLinks.classList.toggle('active');
         });
     </script>

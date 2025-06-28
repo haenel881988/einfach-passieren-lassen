@@ -2,7 +2,7 @@
 :root {
     --text-color: #2c2c2c;
     --background-color: #fbfaf8;
-    --primary-color: #c09f80; /* Geändert zu einem warmen Gold/Bronze */
+    --primary-color: #c09f80;
     --border-color: #e0e0e0;
     --font-main: 'Lora', 'Georgia', serif;
     --font-heading: 'Playfair Display', 'Georgia', serif;
@@ -16,12 +16,12 @@ body {
     color: var(--text-color);
     background-color: var(--background-color);
     margin: 0;
-    padding: 40px 20px;
+    padding: 0; /* Removed padding */
 }
 
 .container {
     max-width: 720px;
-    margin: 0 auto;
+    margin: 40px auto; /* Added margin for spacing */
     padding: 40px;
     background-color: #fff;
     border: 1px solid var(--border-color);
@@ -52,6 +52,91 @@ p {
     font-size: 1.15em;
     margin-bottom: 1.8em;
 }
+
+.subtitle {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    margin-top: -15px;
+    margin-bottom: 40px;
+}
+
+/* --- Navigation Bar --- */
+.main-nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.nav-logo a {
+    font-family: var(--font-heading);
+    font-size: 1.5em;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--font-main);
+    font-weight: 700;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+/* --- Responsive Navigation (Hamburger Menu) --- */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: var(--text-color);
+    margin: 4px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-7px, 6px);
+}
+.menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.menu-toggle.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-7px, -6px);
+}
+
 
 /* --- Form Styling --- */
 form {
@@ -85,7 +170,7 @@ form input:focus,
 form textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 8px rgba(192, 159, 128, 0.3); /* Leichter, passender Schatten */
+    box-shadow: 0 0 8px rgba(192, 159, 128, 0.3);
 }
 
 form button {
@@ -104,7 +189,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #a98c70; /* Etwas dunklere Variante für Hover */
+    background-color: #a98c70;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
@@ -112,8 +197,9 @@ form button:hover {
 /* --- Footer --- */
 footer {
     text-align: center;
-    margin-top: 80px;
-    padding-top: 30px;
+    margin: 40px auto 0;
+    padding: 30px 20px;
+    max-width: 720px;
     border-top: 1px solid var(--border-color);
     font-size: 0.95em;
     color: #888;
@@ -125,12 +211,10 @@ footer {
     padding-bottom: 30px;
     margin-bottom: 40px;
 }
-
 .blog-list-item:last-child {
     border-bottom: none;
     margin-bottom: 0;
 }
-
 .blog-list-item h2 {
     font-size: 1.8em;
     margin-top: 0;
@@ -138,22 +222,18 @@ footer {
     border-bottom: none;
     text-align: left;
 }
-
 .blog-list-item h2 a {
     text-decoration: none;
     color: #000;
     transition: color 0.3s;
 }
-
 .blog-list-item h2 a:hover {
     color: var(--primary-color);
 }
-
 .blog-list-item p {
     font-size: 1.1em;
     margin-bottom: 20px;
 }
-
 .read-more {
     font-family: var(--font-heading);
     text-decoration: none;
@@ -162,27 +242,85 @@ footer {
     font-size: 1.1em;
     transition: color 0.3s;
 }
-
 .read-more:hover {
     color: #000;
 }
 
+/* --- FAQ Accordion Styling --- */
+.faq-item {
+    border-bottom: 1px solid var(--border-color);
+    padding: 20px 0;
+}
+.faq-item:last-child {
+    border-bottom: none;
+}
+.faq-question {
+    font-family: var(--font-heading);
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-question::after {
+    content: '+';
+    font-size: 1.5em;
+    transition: transform 0.3s;
+}
+.faq-item.active .faq-question::after {
+    transform: rotate(45deg);
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+.faq-answer p {
+    padding-top: 15px;
+    margin-bottom: 0;
+}
 
 /* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
     body {
-        padding: 0;
+        line-height: 1.7; /* Tighter line-height for mobile */
     }
     .container {
         width: 100%;
         padding: 30px 20px;
+        margin: 0 auto; /* Remove top/bottom margin */
         border: none;
         box-shadow: none;
     }
-
     h1 { font-size: 2.2em; }
     h2 { font-size: 1.8em; }
     p { font-size: 1.1em; }
+
+    .main-nav {
+        padding: 10px 20px;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 57px; /* Adjusted for border */
+        left: 0;
+        padding: 20px 0;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    .nav-links li {
+        margin: 15px 0;
+        text-align: center;
+    }
 
     form button {
         width: 100%;

@@ -6,7 +6,6 @@
     <title>Gedanken zur Hingabe, Sicherheit und Verletzlichkeit</title>
     <meta name="description" content="Eine Sammlung von Gedanken und Artikeln über die tiefen Sehnsüchte nach Verbindung, die Suche nach einem sicheren Hafen und den Mut zur Verletzlichkeit.">
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../nav-style.css">
     <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 </head>
 <body>
@@ -60,6 +59,7 @@
         const menuToggle = document.getElementById('mobile-menu');
         const navLinks = document.querySelector('.nav-links');
         menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
             navLinks.classList.toggle('active');
         });
     </script>

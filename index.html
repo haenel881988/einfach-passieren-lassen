@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://einfach-passieren-lassen.ch/">
     <meta property="og:title" content="Der eine Moment. Die eine Begegnung. | Eine Suche nach dir.">
-    <meta property="og:description" content="Dies ist kein Zufall. Es ist eine Einladung an die eine Frau, die versteht, dass wahre Stärke aus Verletzlichkeit erwächst.">
+    <meta property="og:description" content="Dies ist kein Zufall. Es ist eine Einladung an die eine Frau, die versteht, dass wahre Stärke aus Verletzlichkeit erw��chst.">
     <meta property="og:image" content="https://einfach-passieren-lassen.ch/og-image.jpg">
 
     <!-- Twitter Meta Tags -->
@@ -24,7 +24,6 @@
     <meta name="twitter:image" content="https://einfach-passieren-lassen.ch/og-image.jpg">
     
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav-style.css">
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -144,6 +143,7 @@
         const menuToggle = document.getElementById('mobile-menu');
         const navLinks = document.querySelector('.nav-links');
         menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
             navLinks.classList.toggle('active');
         });
     </script>

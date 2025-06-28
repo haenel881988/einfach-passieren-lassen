@@ -9,7 +9,6 @@
     <meta name="author" content="Ein Mann, der nach Resonanz sucht">
     
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../nav-style.css">
     <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 
     <!-- JSON-LD Structured Data for Blog Post -->
@@ -94,6 +93,7 @@
         const menuToggle = document.getElementById('mobile-menu');
         const navLinks = document.querySelector('.nav-links');
         menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
             navLinks.classList.toggle('active');
         });
     </script>
