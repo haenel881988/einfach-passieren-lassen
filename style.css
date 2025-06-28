@@ -119,6 +119,55 @@ footer {
     color: #888;
 }
 
+/* --- Blog List Styling --- */
+.blog-list-item {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.blog-list-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.blog-list-item h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: none;
+    text-align: left;
+}
+
+.blog-list-item h2 a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.blog-list-item h2 a:hover {
+    color: var(--primary-color);
+}
+
+.blog-list-item p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    font-family: var(--font-heading);
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.read-more:hover {
+    color: #000;
+}
+
+
 /* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
     body {

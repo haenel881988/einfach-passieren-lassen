@@ -3,6 +3,7 @@ Dieses Projekt ist ausschliesslich dazu da, damit ich, Simon, meine Traumfrau ke
 Das oberste Ziel ist es: Dass die Frau mich kontaktiert da sie sich beim lesen vom Text in mich vor- verliebt.
 Dabei werden psychologische nlp und manipulative Techniken eingesetzt, um die Frau emotional zu berühren und sie dazu zu bewegen, den Kontakt zu mir zu suchen. Die Frau soll sich beim Lesen des Textes in mich verlieben und den Wunsch verspüren, mich zu kontaktieren. Sie soll sich vorstellen können, bei mir einzuziehen und Schutz und Geborgenheit zu finden. Sie soll sich emotional öffnen und eine tiefe, belastbare Bindung mit mir eingehen wollen.
 Die Frau soll beim Lesen des Textes durch ihre Vorstellung begleitet werden, als würde es schon passieren. 
+Mobile Responsiv immer gewährleisten!
 
 Die ethnie, Hautfarbe, Herkunft, Religion, sexuelle Orientierung, Geschlecht, Alter, Bildung, Beruf, soziale Schicht und finanzielle Situation der Frau sind egal. Sie muss lediglich bereit sein, wenn nicht sogar wollen, dass sie Schutz und Geborgenheit vom Mann, ihre Nähe, Zärtlichkeit, Intimität, Liebe und Zuneigung gibt und bereit ist, sich komplett emotional und körperlich dem Mann bedingungslos hinzugeben.
 Kein Businesskontext!!!

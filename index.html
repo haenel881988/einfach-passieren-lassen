@@ -24,6 +24,7 @@
     <meta name="twitter:image" content="https://einfach-passieren-lassen.ch/og-image.jpg">
     
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav-style.css">
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -46,6 +47,23 @@
     </script>
 </head>
 <body>
+
+    <nav class="main-nav">
+        <div class="nav-logo">
+            <a href="index.html">Ein offener Brief</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Start</a></li>
+            <li><a href="ueber-mich.html">Über Mich</a></li>
+            <li><a href="blog/index.html">Blog</a></li>
+        </ul>
+    </nav>
+
     <div class="container">
         <header>
             <h1>Vielleicht liest du das nur ein einziges Mal.</h1>
@@ -118,8 +136,17 @@
             </section>
         </main>
         <footer>
-            <p class="subtle">Dies ist kein Spiel. Dies ist ein aufrichtiger Versuch, eine außergewöhnliche Verbindung zu finden. | <a href="blog/sehnsucht-nach-hingabe.html">Gedanken zur Hingabe</a> | <a href="blog/der-sichere-hafen.html">Der sichere Hafen</a> | <a href="blog/das-erste-mal.html">Das erste Mal</a> | <a href="blog/emotionale-leere.html">Innere Leere</a></p>
+            <p class="subtle">Dies ist kein Spiel. Dies ist ein aufrichtiger Versuch, eine außergewöhnliche Verbindung zu finden. | <a href="blog/index.html">Alle Gedanken</a></p>
         </footer>
     </div>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
 </body>
 </html>

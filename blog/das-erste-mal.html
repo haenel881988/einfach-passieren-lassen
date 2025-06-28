@@ -9,6 +9,7 @@
     <meta name="author" content="Ein Mann, der nach Resonanz sucht">
     
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../nav-style.css">
     <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 
     <!-- JSON-LD Structured Data for Blog Post -->
@@ -33,6 +34,23 @@
     </script>
 </head>
 <body>
+
+    <nav class="main-nav">
+        <div class="nav-logo">
+            <a href="../index.html">Ein offener Brief</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Start</a></li>
+            <li><a href="../ueber-mich.html">Über Mich</a></li>
+            <li><a href="index.html" class="active">Blog</a></li>
+        </ul>
+    </nav>
+
     <div class="container">
         <header>
             <h1>Das erste Mal: Mehr als nur ein Moment</h1>
@@ -97,5 +115,14 @@
             <p class="subtle">Zurück zur <a href="../index.html">Startseite</a>.</p>
         </footer>
     </div>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
 </body>
 </html>
