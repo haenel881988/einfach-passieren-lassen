@@ -9,6 +9,8 @@ Das Ziel ist es, eine Frau zu finden, die:
 -   Aufgrund eigener Lebenserfahrungen eine Resonanz zu den Themen Trauma, Vulnerabilität und dem Wunsch nach Schutz und Geborgenheit verspürt.
 -   Authentizität und emotionale Tiefe über oberflächliche Selbstdarstellung stellt.
 
+Mobile Responsiv immer gewährleisten.
+
 ## 2. Methode
 
 Die Methode basiert auf einer tiefenpsychologischen SEO-Strategie. Anstelle von generischen, traffic-starken Keywords wird ein Set von "codierten" Suchbegriffen und Phrasen verwendet. Diese Keywords sind so gewählt, dass sie nur für eine Person mit einem passenden psychologischen und emotionalen Hintergrund eine Bedeutung haben.
@@ -25,3 +27,33 @@ Die Website richtet sich an eine Frau, die möglicherweise aktiv oder passiv nac
 
 -   **Technologie:** Simples, semantisches HTML & CSS. Fokus auf reinen Inhalt und perfekte On-Page-SEO.
 -   **Deployment:** Hosting via Vercel, verknüpft mit diesem GitHub Repository.
+
+
+
+Kontaktformular wird via Formspree eingebunden. Hier der Code.:
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/meokvdqk"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label>
+  <button type="submit">Send</button>
+</form>
+
+// Hinweis fürs Formular:
+
+Vorname, Nachname
+Telefonnummer
+Emailadresse
+Geburtsdatum
+Dateiupload --> sie soll sich zeigen mit Ausweis
+Dateiupload --> ganzkörperfoto
+Textfeld 

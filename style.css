@@ -1,67 +1,141 @@
+/* --- Global Settings & Typography --- */
+:root {
+    --text-color: #2c2c2c;
+    --background-color: #fbfaf8;
+    --primary-color: #c09f80; /* Geändert zu einem warmen Gold/Bronze */
+    --border-color: #e0e0e0;
+    --font-main: 'Lora', 'Georgia', serif;
+    --font-heading: 'Playfair Display', 'Georgia', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700&display=swap');
+
 body {
-    font-family: 'Georgia', 'serif';
-    line-height: 1.8;
-    color: #333;
-    background-color: #fdfdfd;
+    font-family: var(--font-main);
+    line-height: 1.9;
+    color: var(--text-color);
+    background-color: var(--background-color);
     margin: 0;
-    padding: 0;
+    padding: 40px 20px;
 }
 
 .container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px;
     background-color: #fff;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
 }
 
-header {
+h1, h2 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: #000;
     text-align: center;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
 }
 
 h1 {
-    font-size: 2.5em;
-    font-weight: normal;
-    color: #000;
+    font-size: 2.8em;
+    margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 1.8em;
-    font-weight: normal;
-    color: #333;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-    margin-top: 40px;
+    font-size: 2em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 p {
-    font-size: 1.1em;
-    margin-bottom: 1.5em;
+    font-size: 1.15em;
+    margin-bottom: 1.8em;
 }
 
-a {
-    color: #8a0f0f;
-    text-decoration: none;
-    transition: color 0.3s;
+/* --- Form Styling --- */
+form {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
 }
 
-a:hover {
-    color: #000;
+form label {
+    font-family: var(--font-main);
+    font-weight: 700;
+    font-size: 1em;
+    color: #333;
 }
 
+form input,
+form textarea {
+    font-family: var(--font-main);
+    font-size: 1em;
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 8px rgba(192, 159, 128, 0.3); /* Leichter, passender Schatten */
+}
+
+form button {
+    font-family: var(--font-heading);
+    font-size: 1.3em;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 18px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    justify-self: center;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form button:hover {
+    background-color: #a98c70; /* Etwas dunklere Variante für Hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* --- Footer --- */
 footer {
     text-align: center;
-    margin-top: 60px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
-    font-size: 0.9em;
+    margin-top: 80px;
+    padding-top: 30px;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.95em;
+    color: #888;
 }
 
-.subtle {
-    color: #aaa;
-    font-style: italic;
+/* --- Mobile Responsiveness --- */
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    .container {
+        width: 100%;
+        padding: 30px 20px;
+        border: none;
+        box-shadow: none;
+    }
+
+    h1 { font-size: 2.2em; }
+    h2 { font-size: 1.8em; }
+    p { font-size: 1.1em; }
+
+    form button {
+        width: 100%;
+    }
 }
