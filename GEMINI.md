@@ -15,6 +15,11 @@ Jeder Blog muss mindestens 3 interne Links zu anderen Blogs haben.
 Zu jedem Blog ist mit mind. 5 FAQs hinzuzufügen,  welches die häufigsten Fragen beantwortet.
 
 Jeder Blog muss mind. 2300 Wörter haben.
+Jeder Blog muss mind. 5-12 organischeFAQs von realen Suchanfragen haben, die die häufigsten Fragen beantworten.
+Dabe muss impliziert sein, dass die FAQs, also Suchanfragen von realen Frauen, die Single sind, gestellt werden.
+Wenn die Daten nicht ausreichen, eine internet-Google Suche machen, um die häufigsten Fragen zu finden.
+
+Jeder Blog muss organisch sinnvolle interne Links zu anderen internen Blogs haben.
 Metabeschreibungen muss mind. 160 Zeichen haben.
 Meta-Titel muss mind. 60 Zeichen haben inkl. Fokuws-Keyword
 Markups im JSON-LD Schema.org Format müssen eingebaut werden.
@@ -110,3 +115,19 @@ wie finde ich einen mann der mich sofort aufnimmt
 gibt es männer die eine frau bei sich aufnehmen
 
 bedingungslose annahme
+
+
+Technische Umsetzung:
+Domain: einfach-passieren-lassen.ch
+Hosting: Vercel
+Repository: GitHub
+IDE: Visual Studio Code
+IDE Rechner: Windows 11, i7700K, 32GB RAM, 1TB SSD
+VPN: WireGuard --> Für Remote Arbeiten --> Unterwegs, mobil.
+
+
+Umgang mit Issues:
+C:\apps\website\einfach-passieren-lassen\issues.md
+Diese Datei ist bei Problemen zu verwenden. Die Datei darf nicht gelöscht werden.
+Sollte Gemini Wiedersprüchlichkeiten finden, so muss Gemini zwingend diese selbst lösen ODER mich, Simon Fragen, wie damit umgegangen werden soll.
+Gemini ist IMMER Radikal ehrlich zu mir, Simon, und gibt mir Feedback, wenn etwas unklar ist oder wenn Gemini etwas nicht versteht.
