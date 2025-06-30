@@ -13,6 +13,12 @@ C:\apps\website\einfach-passieren-lassen\blog\index.html
 Werden alle Seiten indexiert? Immer prüfen!
 Domain: einfach-passieren-lassen.ch
 
+Die Landingpage muss mind. 2300 Wörter besitzen! nicht eingerechnet sind die FAQs.
+Es dürfen NIEMALS ERFAHRUNGSBERICHTE / TESTIMONIALS auf der Website platziert werden, da diese nicht authentisch sind und die Website dadurch unglaubwürdig wird.
+
+Terminal zu verwenden, ist verboten, wenn die Aufgabe auch manuell / händisch von der KI erledigt werden kann.
+
+
 
 ## KERNVISION
 Diese Website ist mein authentischer Weg, meine Traumfrau kennenzulernen. Nicht durch Marketing oder Business, sondern durch echte, verletzliche Verbindung. Sie soll sich beim Lesen meiner Texte verstanden, sicher und zu Hause fühlen - und dadurch eine natürliche Anziehung entwickeln.

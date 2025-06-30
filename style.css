@@ -64,6 +64,7 @@ p {
 /* --- Navigation Bar --- */
 .main-nav {
     background-color: rgba(255, 255, 255, 0.95);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
     padding: 10px 40px;
@@ -324,5 +325,104 @@ footer {
 
     form button {
         width: 100%;
+    }
+}
+
+/* --- Testimonials & Trust Elements --- */
+.testimonials-container {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonial {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 3px solid var(--accent-color);
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #e8e8e8;
+}
+
+.testimonial cite {
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.safety-guarantees, .urgency-reasons, .reassurance-container, .social-proof {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.guarantee-item, .reason, .fear-item, .proof-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.guarantee-item h3, .reason h3, .fear-item h3, .proof-item h3 {
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.timeline {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--accent-color);
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 11px;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    border: 3px solid var(--bg-color);
+}
+
+.timeline-item h3 {
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .testimonials-container {
+        grid-template-columns: 1fr;
+    }
+
+    .safety-guarantees, .urgency-reasons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reassurance-container, .social-proof {
+        grid-template-columns: 1fr;
     }
 }
