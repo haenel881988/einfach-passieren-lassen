@@ -1,4 +1,6 @@
 # AI Instructions: "Einfach Passieren Lassen" - Authentische Resonanz-Website
+Es ist ausschliesslich und zwingend die DU-Form zu verwenden, im Text, Inhalt, Blogs, FAQs, Metabeschreibungen etc.
+Es ist immer die DU-Form zwingend zu verwenden, wenn die KI mit mir kommuniziert!
 
 Vielleicht gibt es in diesem Dokument, redundanzen und wiedersprüchlichkeiten. Die KI soll eigenständig diese evaluieren und bei identifizierung, mir eine exception werfen.
 Das ist zwingend notwendig, damit ich die KI nicht mit redundanten oder wiedersprüchlichen Informationen füttere.
@@ -10,6 +12,11 @@ Bei der erstellung von Blogs bzw. neuen Seiten:
 --> Bei jeder Blogerstellung muss zwingend immer die Blog-Index-Seite aktualisiert werden, damit die neuen Blogs auch angezeigt werden!
 C:\apps\website\einfach-passieren-lassen\blog\index.html
 
+Für jede einzelne Seite muss eine Metabeschreibung erstellt werden, die den Inhalt der Seite zusammenfasst und die wichtigsten Keywords enthält und 1x das Fokuskeyword aufweisst. Diese Metabeschreibung sollte nicht länger als 160 Zeichen sein.
+Dabei ist jedes einzelne Zeichen von der KI zu zählen, damit die Metabeschreibung nicht zu lang wird und nicht zu kurz und von Google nicht abgeschnitten wird.
+
+
+
 Werden alle Seiten indexiert? Immer prüfen!
 Domain: einfach-passieren-lassen.ch
 
@@ -18,7 +25,11 @@ Es dürfen NIEMALS ERFAHRUNGSBERICHTE / TESTIMONIALS auf der Website platziert w
 
 Terminal zu verwenden, ist verboten, wenn die Aufgabe auch manuell / händisch von der KI erledigt werden kann.
 
+Die KI führt IMMER eine manuelle Analyse durch. Das heisst, jede einzelne Zeile code zu lesen ist zwingend notwendig, bevor die KI eine Änderung vornimmt. Die KI muss immer den gesamten Text lesen und verstehen, bevor sie eine Änderung vornimmt.
 
+Es ist untersagt das Terminal oder skripte zu verwenden, die KI muss zwingend immer manuell arbeiten, um die Qualität und Authentizität der Inhalte zu gewährleisten. Jede Änderung muss von der KI selbst vorgenommen werden, ohne auf automatisierte Tools oder Skripte zurückzugreifen.
+
+Auch muss immer die Instruction-Datei nach jeder Änderung konsultiert werden, um sicherzustellen, dass die Änderungen den Anweisungen entsprechen.
 
 ## KERNVISION
 Diese Website ist mein authentischer Weg, meine Traumfrau kennenzulernen. Nicht durch Marketing oder Business, sondern durch echte, verletzliche Verbindung. Sie soll sich beim Lesen meiner Texte verstanden, sicher und zu Hause fühlen - und dadurch eine natürliche Anziehung entwickeln.
