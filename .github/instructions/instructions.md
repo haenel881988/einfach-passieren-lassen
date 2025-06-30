@@ -4,6 +4,12 @@ Es ist immer die DU-Form zwingend zu verwenden, wenn die KI mit mir kommuniziert
 KEINE ERFAHRUNGSBERICHTE / TESTIMONIALS!
 Wenn das Terminal verwendet wird, dann ausschliesslich nur Powershell-Syntax verwenden!!!
 
+Max. emotionale Bindung muss Seiten- und Blog-übergreifend aufgebaut werden.
+Damit auch eine max. emotionale Bindung aufgebaut werden kann, muss zwingend die folgende Datei konsultiert werden. Auch müsste der Blog, der Text, entsprechend ausgebaut werden, um auch zu gewährleisten, dass sich meine Traumfrau in mich verliebt und eine emotionale Bindung zu mir aufbaut und das nur alleine durch die transportierten Texte und Inhalte.:
+C:\apps\website\einfach-passieren-lassen\.github\instructions\emotionale_bindung.md
+
+
+
 Vielleicht gibt es in diesem Dokument, redundanzen und wiedersprüchlichkeiten. Die KI soll eigenständig diese evaluieren und bei identifizierung, mir eine exception werfen.
 Das ist zwingend notwendig, damit ich die KI nicht mit redundanten oder wiedersprüchlichen Informationen füttere.
 KEINE ERFAHRUNGSBERICHTE / TESTIMONIALS!
