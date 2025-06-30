@@ -2,6 +2,7 @@
 Es ist ausschliesslich und zwingend die DU-Form zu verwenden, im Text, Inhalt, Blogs, FAQs, Metabeschreibungen etc.
 Es ist immer die DU-Form zwingend zu verwenden, wenn die KI mit mir kommuniziert!
 KEINE ERFAHRUNGSBERICHTE / TESTIMONIALS!
+Wenn das Terminal verwendet wird, dann ausschliesslich nur Powershell-Syntax verwenden!!!
 
 Vielleicht gibt es in diesem Dokument, redundanzen und wiedersprüchlichkeiten. Die KI soll eigenständig diese evaluieren und bei identifizierung, mir eine exception werfen.
 Das ist zwingend notwendig, damit ich die KI nicht mit redundanten oder wiedersprüchlichen Informationen füttere.
