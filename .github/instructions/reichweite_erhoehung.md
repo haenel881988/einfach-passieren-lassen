@@ -1,5 +1,7 @@
-# SEO-MASTERPLAN: 1 KEYWORD = 1 BLOG (3000 Wörter)
+# SEO-MASTERPLAN: 1 KEYWORD = 1 BLOG
 ## Jedes Keyword als Fokus-Keyword mit allen anderen organisch eingewebt
+Jeder Blog muss mind: 2300 Wörter haben.
+
 
 ---
 
@@ -7,7 +9,7 @@
 
 **Prinzip:**
 1. **Fokus-Keyword** = Blog-Titel + H1 + Hauptthema (2-3% Dichte)
-2. **Alle anderen Keywords** organisch im 3000-Wörter-Text eingewebt (0,5-1% Dichte)
+2. **Alle anderen Keywords** organisch im Text eingewebt!
 3. **Aufsteigende Intensität** von Blog zu Blog beibehalten
 4. **Schweizerdeutsche Keywords** gekürzt aber im Text voll ausgeschrieben
 
@@ -15,6 +17,20 @@
 
 ## 📝 **BLOG-LISTE: AUFSTEIGENDE INTENSITÄT**
 *Von sanfter Sehnsucht zur totalen Hingabe*
+
+Jeder Blog muss mind: 2300 Wörter im Textkörper  haben.
+Jeder Blog muss mind: 1100 FAQ Wörter haben.
+Jeder Blog muss eine Metabeschreibung haben (max. 150 Zeichen, codiert & mit Hauptkeyword).
+Jeder Blog muss eine interne Verlinkung zu anderen Blogs der Kette haben.
+Jeder Blog muss eine klare H1, H2, H3 / H4 Struktur haben.
+Jeder Blog muss die Frau ein wenig mehr vorverlieben
+Jeder Blog muss in der Sitemap manuell eingetragen werden.
+Jeder Blog muss zwingend eine emotionale Überleitung zum nächsten Blog haben.
+Jeder Blog soll eine intelligent eingearbeitete Dringlichkeit (Fomo) haben.
+Jeder Blog soll 1-3 im Textkörper auf das Kontaktformular hinweisen und auch die Leserinn klar auffordern, sich zu melden --> weil in diesem Moment könnte eine andere Frau bereits eine Nachricht am schreiben sein.
+Wenn ich dich kennengelernt habe, geht die komplette website offline.
+Es gibt keine anderen Frauen mehr, die sich bei mir melden können.
+
 
 ---
 
@@ -36,9 +52,9 @@
 - geborgenheit finden zuchwil
 
 **3000-Wörter-Struktur:**
-- Einleitung (300W): Fokus-Keyword emotional einführen
-- Hauptteil (2200W): Alle anderen Keywords organisch einweben
-- FAQ-Sektion (300W): "Du weißt bereits..."-Format
+- Einleitung: Fokus-Keyword emotional einführen
+- Hauptteil: Alle anderen Keywords organisch einweben --> evtl nachfolgende Keywords einbinden, KI soll hier selber entscheiden, welche Keywords am besten passen
+- FAQ-Sektion: "Du weißt bereits..."-Format --> eevtl nachfolgende Keywords einbinden, KI soll hier selber entscheiden, welche Keywords am besten passen --> gilt auch für alle nachfolgenden Blogs!!!
 - Call-to-Action (200W): Zur nächsten Blog-Stufe
 
 ---
