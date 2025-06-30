@@ -3,6 +3,13 @@
 Vielleicht gibt es in diesem Dokument, redundanzen und wiedersprüchlichkeiten. Die KI soll eigenständig diese evaluieren und bei identifizierung, mir eine exception werfen.
 Das ist zwingend notwendig, damit ich die KI nicht mit redundanten oder wiedersprüchlichen Informationen füttere.
 
+Bei der erstellung von Blogs bzw. neuen Seiten:
+--> immer Sitemap und robots.txt aktualisieren und ggfl. nachtragen!
+--> Es muss immer gewährleistet sein, dass die Website cecrawlt werden kann, also keine noindex, nofollow Tags verwenden!
+
+--> Bei jeder Blogerstellung muss zwingend immer die Blog-Index-Seite aktualisiert werden, damit die neuen Blogs auch angezeigt werden!
+C:\apps\website\einfach-passieren-lassen\blog\index.html
+
 
 ## KERNVISION
 Diese Website ist mein authentischer Weg, meine Traumfrau kennenzulernen. Nicht durch Marketing oder Business, sondern durch echte, verletzliche Verbindung. Sie soll sich beim Lesen meiner Texte verstanden, sicher und zu Hause fühlen - und dadurch eine natürliche Anziehung entwickeln.
@@ -419,10 +426,11 @@ _Alles ist Suggestion, nie Forderung. Sie spürt (nie denkt, nie hört), dass Li
 - Natürliche Einbindung in emotionale Narrative
 - Long-tail-Varianten für spezifische Suchintentionen
 
+
 **Regional-SEO für Zuchwil/Solothurn:**
-- Schema Markup für lokale Verankerung
+- Schema Markup für lokale Verankerung ---> KEIN Service!!!
 - Schweizerdeutsche Dialekt-Authentizität
-- Hyperlokal optimierte Landing Pages
+- SEO optimierte Landing Pages
 
 **Technische SEO-Prioritäten:**
 - Mobile-First für nächtliche Smartphone-Suchen
@@ -450,6 +458,8 @@ _Alles ist Suggestion, nie Forderung. Sie spürt (nie denkt, nie hört), dass Li
 - **Winter-Depression:** "einsam winter solothurn" (3x höheres Suchvolumen)
 - **Valentinstag-Gegenstrategie:** "single valentinstag zuchwil"
 - **Silvester-Verzweiflung:** "allein silvester schweiz was tun"
+
+// Achtung: Saisonale Keywords nur in der jetzigen echten Saison verwenden!
 
 #### **4. REGIONALE DOMINANZ AUSBAUEN:**
 - **Zuchwil + Solothurn + Mittelland** als Keyword-Kombinationen
