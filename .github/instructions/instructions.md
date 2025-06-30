@@ -203,12 +203,6 @@ Begriffsdefinition SES/SIS - ENDE!
 - **Einladend:** "Komm, wie du bist"
 - **Verbindlich:** "Hier ist dein Zuhause"
 
-## ETHISCHER RAHMEN
-- **Aufrichtige Absicht:** Echte Liebe, nicht Manipulation
-- **Respektvolle Anziehung:** Vertrauen verdienen, nicht erschleichen
-- **Authentische Verbindung:** Wahre Persönlichkeit zeigen
-- **Langfristige Vision:** Nachhaltige, glückliche Beziehung
-
 ## TECHNISCHE UMSETZUNG
 - **SEO:** Emotional kodierte Keywords aus Recherchematerial
 - **Mobile-first:** Perfekte Smartphone-Erfahrung
@@ -282,6 +276,15 @@ FRAGE: "Wie arbeite ICH das händisch ab?"
 
 **💪 ECHTE ARBEITER-MENTALITÄT:**
 "Ich bin hier um zu ARBEITEN, nicht um Tools zu erfinden!"
+
+
+SEO Content Strategie für "Einfach Passieren Lassen"
+ - Ein spezifisches Fokus-Keyword ist für jede Seite zu definieren.
+ - Für jeden Blog, für jede Seite muss ein organisch seo optimiertes Metabeschreibung erstellt werden.
+ - Die KI soll die Struktur und die Inhalte jeder Seite analysieren und ein passendes Markup  im JSON-Format in jede Seite implementieren.
+ - generieren für jede Seite.
+
+
 
 
 
