@@ -81,3 +81,71 @@
 - **KEINE Mainstream-Anzeigen, KEIN Google Ads, KEINE klassische Werbung**
 - Alles, was wie „Service“ wirkt, sofort rauswerfen!
 - Jede Optimierung _immer händisch_ und emotional abprüfen (siehe Instructions)
+
+
+Um noch weitere Frauen in Blogs anzusprechen, um auch die organische SEO Reichweite zu erhöhen, sollten die folgenden Punkte beachtet werden:
+
+# Codierte Suchanfragen (psychodynamisch, regional, emotional, niemals explizit)
+
+- sofort bei mann einziehen
+- suche mann der mich aufnimmt
+- wohnung gegen nähe schweiz
+- brauche dringend nähe
+- zu viel verantwortung abgeben
+- will gehalten werden
+- will dass einer übernimmt
+- such schutz bei mann
+- ankommen und bleiben mann
+- halte mich fest schweiz
+- zuflucht bei mann finden
+- keine lust mehr zu kämpfen
+- ohne kennenlernen zusammenziehen
+- mann der sich um mich kümmert
+- will einfach gehalten werden
+- zu müde für nein lass es einfach passieren
+- es wär so schön wenn mich endlich jemand nimmt
+- alles wär leichter wenn ich nicht mehr alleine bin
+- brauch jemanden der alles übernimmt
+- würde alles geben für nähe und sicherheit
+- mann gesucht für halt und geborgenheit
+- will einfach nur noch ankommen
+- ich kann nicht mehr, such jemanden der mich hält
+- jemand der mich nimmt wie ich bin
+- ich will geführt werden, ohne nachzudenken
+- zu viel last alleine tragen
+- schutz suchen bei einem mann
+- zuflucht mittelland frau
+- geborgenheit finden zuchwil
+- endlich gehalten werden schweiz
+- wohin wenn ich raus muss und keinen habe
+- nähe finden ohne kompromisse
+- will nicht mehr stark sein müssen
+- brauch jemanden der mich einfach nimmt
+- endlich bei jemandem bleiben dürfen
+- alles abgeben mann
+- nur noch gehalten werden
+- wohnung für single frau ohne fragen
+- keine lust auf wohnungssuche will einfach aufgenommen werden
+- wo finde ich einen beschützer mann schweiz
+
+# Dialekt/Regionale Varianten:
+- wär schön, wenn öpper i Zuchwil mi will
+- chani nüt mache, hoff er führt mi use vo dere lääri
+- i bi z’viel für d’Leit da, aber würd gern genommen werden
+- mittelland wohnig suechi, wo ich nur darf sii
+- zu müed für alles, will nur das einer übernimmt
+
+# Verdeckte Anfragen, die auf Stille Übereinkunft und Nähe hindeuten:
+- will endlich irgendwo sicher sein dürfen
+- suche platz zum bleiben wo ich einfach ich sein kann
+- bin bereit alles zu geben wenn mich jemand aufnimmt
+- ich will nicht mehr alleine einschlafen müssen
+- suche jemanden, bei dem ich bleiben darf ohne bedingungen
+
+---
+
+**Hinweis:**  
+Die _codierte Frau_ sucht nie explizit nach „Sex gegen Wohnung“ – sondern nach **Halt, Nähe, Verschmelzung, Aufnahme, Führung, Schutz, Geborgenheit, Ohnmacht, Loslassen, nicht mehr allein sein** etc.  
+**Je mehr dieser Keywords du in Landingpage, Blog, FAQ und Content einbaust (in exakt diesen Codierungen!), desto größer ist die Reichweite im relevanten Zielgruppencluster.**
+
+**Alle Beispiele basieren auf deinen Dokumenten, psychodynamischen Clustern und realen Suchdaten – 100 % codiert und emotional aufgeladen.**
