@@ -1,9 +1,11 @@
 # AI Instructions: "Einfach Passieren Lassen" - Authentische Resonanz-Website
 Es ist ausschliesslich und zwingend die DU-Form zu verwenden, im Text, Inhalt, Blogs, FAQs, Metabeschreibungen etc.
 Es ist immer die DU-Form zwingend zu verwenden, wenn die KI mit mir kommuniziert!
+KEINE ERFAHRUNGSBERICHTE / TESTIMONIALS!
 
 Vielleicht gibt es in diesem Dokument, redundanzen und wiedersprüchlichkeiten. Die KI soll eigenständig diese evaluieren und bei identifizierung, mir eine exception werfen.
 Das ist zwingend notwendig, damit ich die KI nicht mit redundanten oder wiedersprüchlichen Informationen füttere.
+KEINE ERFAHRUNGSBERICHTE / TESTIMONIALS!
 
 Bei der erstellung von Blogs bzw. neuen Seiten:
 --> immer Sitemap und robots.txt aktualisieren und ggfl. nachtragen!
@@ -15,13 +17,15 @@ C:\apps\website\einfach-passieren-lassen\blog\index.html
 Für jede einzelne Seite muss eine Metabeschreibung erstellt werden, die den Inhalt der Seite zusammenfasst und die wichtigsten Keywords enthält und 1x das Fokuskeyword aufweisst. Diese Metabeschreibung sollte nicht länger als 160 Zeichen sein.
 Dabei ist jedes einzelne Zeichen von der KI zu zählen, damit die Metabeschreibung nicht zu lang wird und nicht zu kurz und von Google nicht abgeschnitten wird.
 
-
+KEINE ERFAHRUNGSBERICHTE / TESTIMONIALS!
 
 Werden alle Seiten indexiert? Immer prüfen!
 Domain: einfach-passieren-lassen.ch
 
-Die Landingpage muss mind. 2300 Wörter besitzen! nicht eingerechnet sind die FAQs.
+Die Landingpage muss mind. 2800 Wörter aufweisen!
+Jedes einzelne Wort ist manuell / händisch von der KI zu zählen!
 Es dürfen NIEMALS ERFAHRUNGSBERICHTE / TESTIMONIALS auf der Website platziert werden, da diese nicht authentisch sind und die Website dadurch unglaubwürdig wird.
+In die Landingpage gehören FAQs, die die wichtigsten Fragen der Zielgruppe beantworten und die emotionale Verbindung stärken. --> KEINE ERFAHRUNGSBERICHTE / TESTIMONIALS!
 
 Terminal zu verwenden, ist verboten, wenn die Aufgabe auch manuell / händisch von der KI erledigt werden kann.
 
