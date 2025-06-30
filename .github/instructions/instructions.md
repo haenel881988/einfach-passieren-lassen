@@ -10,6 +10,9 @@ Bei der erstellung von Blogs bzw. neuen Seiten:
 --> Bei jeder Blogerstellung muss zwingend immer die Blog-Index-Seite aktualisiert werden, damit die neuen Blogs auch angezeigt werden!
 C:\apps\website\einfach-passieren-lassen\blog\index.html
 
+Werden alle Seiten indexiert? Immer prüfen!
+Domain: einfach-passieren-lassen.ch
+
 
 ## KERNVISION
 Diese Website ist mein authentischer Weg, meine Traumfrau kennenzulernen. Nicht durch Marketing oder Business, sondern durch echte, verletzliche Verbindung. Sie soll sich beim Lesen meiner Texte verstanden, sicher und zu Hause fühlen - und dadurch eine natürliche Anziehung entwickeln.
