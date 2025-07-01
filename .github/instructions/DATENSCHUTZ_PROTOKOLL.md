@@ -47,3 +47,28 @@ Vor jeder Änderung: `git commit -m "BACKUP vor Änderung"`
 ## ⚖️ KONFLIKT-RESOLUTION
 
 Bei Unsicherheit: **IMMER BEWAHREN, NIEMALS LÖSCHEN**
+
+### **BRAINSTORMING & IDEENRÄUME SCHUTZ:**
+- ❌ **NIEMALS BRAINSTORMING-ABSCHNITTE LÖSCHEN** (auch wenn sie "unwichtig" scheinen)
+- ❌ **IDEENRÄUME RESPEKTIEREN** - besonders am Ende von Dateien
+- ❌ **User's Gedankennotizen bewahren** - egal wo sie stehen
+- ❌ **Experimentelle Ideen** sind User's kreativer Raum
+
+### **BRAINSTORMING-ERKENNUNGSREGELN:**
+```
+TYPISCHE MARKIERUNGEN:
+- "## BRAINSTORMING" / "## IDEEN"  
+- "# Ideen" / "# Gedanken"
+- Text am Ende einer Datei nach "---"
+- Stichpunkte mit "- Idee:" oder ähnlich
+- Unstrukturierte Notizen unter Hauptinhalt
+```
+
+### **BRAINSTORMING-RAUM KONZEPT:**
+**User kann in jeder Datei zuunterst einen Ideenraum anlegen:**
+- Für spontane Gedanken
+- Für experimentelle Überlegungen  
+- Für zukünftige Entwicklungsideen
+- Als kreativer Freiraum ohne Struktur-Zwang
+
+**➜ DIESE RÄUME SIND TABU FÜR KI-OPTIMIERUNG!**
