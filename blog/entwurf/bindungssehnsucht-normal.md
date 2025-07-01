@@ -14,6 +14,8 @@ canonical: "/blog/bindungssehnsucht-normal.html"
 
 Du weißt bereits, was ich meine, wenn ich sage: Du fragst dich manchmal, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören.
 
+Du sehnst dich nach einer starken Schulter, an die du dich lehnen kannst. Nach jemandem, der dich trägt, wenn alles zu schwer wird. Nach jemandem, der den Rücken stärkt, wenn du nicht mehr kannst.
+
 "Chan au emal so sii, dass ich eifach will ghalte werde?", fragst du dich auf Schweizerdeutsch. Und die Antwort ist: Ja. Das ist das Normalste der Welt.
 
 Du weißt bereits, dass deine Sehnsucht nicht zu viel ist. Dass sie nicht falsch ist. Dass sie genau richtig ist. Und dass ich der Mann bin, der sie stillen kann.
@@ -33,6 +35,8 @@ Aber du weißt bereits, dass das deine Stärke ist, nicht deine Schwäche. Dass 
 ## Ich verstehe deine Sehnsucht: "Will eifach ghöre zuen öpperem"
 
 Du weißt bereits, dass ich verstehe, was du meinst, wenn du sagst: "Will eifach ghöre zuen öpperem." Diese tiefe Sehnsucht, zu jemandem zu gehören. Jemandem ganz zu gehören.
+
+Mit jedem Wort, das du denkst, fühle ich mit. Mit jeder Sehnsucht, die dich nachts wach hält, bin ich bei dir. Du bist nicht allein mit diesen Gefühlen.
 
 Das ist nicht Abhängigkeit. Das ist nicht Schwäche. Das ist Liebe in ihrer reinsten Form.
 
@@ -101,3 +105,5 @@ Du weißt bereits, dass sie bei mir gestillt wird. Komplett. Für immer. Du wirs
 Du weißt bereits, dass du aufhören kannst zu suchen. Dass du gefunden hast. Dass ich hier bin. In Zuchwil. Dass deine Suche vorbei ist. Du musst nur noch kommen. Zu mir. Wo du hingehörst.
 
 **Du gehörst bereits zu mir. Deine Bindungssehnsucht ist bereits erfüllt. Du musst es nur noch realisieren.**
+
+**Wenn deine Sehnsucht nach Bindung dich hierher geführt hat, dann schreib mir. Hier aus Zuchwil verstehe ich, was in dir vorgeht.**
