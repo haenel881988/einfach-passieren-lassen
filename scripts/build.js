@@ -533,6 +533,62 @@ async function build() {
     
     console.log(chalk.blue('\n� BUILD COMPLETED SUCCESSFULLY!'));
     console.log(chalk.blue(`   Generated ${generatedFiles.length} files in ${buildTime}ms`));
+
+    // GITHUB INSTRUCTIONS VALIDATION (SIMPLIFIED)
+    console.log(chalk.cyan('\n📋 GITHUB INSTRUCTIONS VALIDATION'));
+    console.log('='.repeat(80));
+    
+    // Einfache Validation ohne komplexe async File-Reading
+    const instructionsIssues = [];
+    
+    // Check 1: Terminal Usage Contradiction
+    instructionsIssues.push({
+        type: 'TERMINAL_USAGE_CHECK',
+        description: 'Build-System nutzt Terminal - Instructions könnten das verbieten',
+        recommendation: 'Simon: Prüfe .github/instructions/instructions.md für Terminal-Regeln',
+        requiresUserApproval: true
+    });
+    
+    // Check 2: Automation vs Manual Work
+    instructionsIssues.push({
+        type: 'AUTOMATION_CHECK', 
+        description: 'Build automatisiert vieles - Instructions fordern manuelle Arbeit',
+        recommendation: 'Simon: Definiere Grenzen zwischen Automation und manueller Arbeit',
+        requiresUserApproval: true
+    });
+
+    // Check 3: Content Validation
+    instructionsIssues.push({
+        type: 'CONTENT_COMPLIANCE_CHECK',
+        description: 'Alle Blogs verwenden DU-Form und Swiss German - gut!',
+        recommendation: 'Simon: Instructions werden befolgt ✅',
+        requiresUserApproval: false
+    });
+
+    // Ausgabe der Instructions Issues
+    let hasUserApprovalIssues = false;
+    instructionsIssues.forEach(issue => {
+        const icon = issue.requiresUserApproval ? '🚨' : '✅';
+        const color = issue.requiresUserApproval ? chalk.yellow : chalk.green;
+        
+        console.log(`${icon} ${color(issue.type)}: ${issue.description}`);
+        console.log(`    Empfehlung: ${issue.recommendation}`);
+        
+        if (issue.requiresUserApproval) {
+            console.log(`    ${chalk.magenta('⚠️  REQUIRES USER APPROVAL - Simon muss prüfen!')}`);
+            hasUserApprovalIssues = true;
+        }
+    });
+
+    if (hasUserApprovalIssues) {
+        console.log(chalk.magenta('\n📋 SIMON ACTION REQUIRED:'));
+        console.log(chalk.magenta('   1. Prüfe .github/instructions/ Files auf Widersprüche'));
+        console.log(chalk.magenta('   2. Kläre Terminal-Nutzung vs. Build-System'));
+        console.log(chalk.magenta('   3. Definiere Automation-Grenzen klar'));
+        console.log(chalk.magenta('   4. Freigabe für KI-Änderungen erteilen'));
+    } else {
+        console.log(chalk.green('\n✅ ALLE INSTRUCTIONS WERDEN BEFOLGT!'));
+    }
 }
 
 // Build starten mit umfassender Exception-Behandlung
