@@ -1,6 +1,27 @@
 
+Copilot Agent:
+Nach jeder Aufgabe erstellst du eine Liste für weitere Aufgaben. Dabei überprüfst du ob du diese auch gleich lösen kannst und erstellst danach eine folge-Liste für die nächsten Schritte.
+Wenn du feststellst, dass du dir unsicher bist, musst du zwingend fragen.
 
-Umgang mit externer Verlinkung, Anweisung an die KI
+Wenn Aufgabe abgeschlossen, dann schlage mir weitere konkrete Schritte / Aufgaben vor.
+Ausnahme: Wenn der Build Prozess angestossen wird, dann gemäss Build Prozess / Fehlermeldung und / oder Exception weiter arbeiten.
+Generell gilt:
+Wen du irgendwo auf Wiedersprüchlichkeiten stösst, dann zwingend Exception werfen und erstelle einen Prompt zur behebung von Widersprüchlichkeiten, Fehlern etc. und / oder Unklarer Anweisung durch mich.
+
+Gibt immer zwingend an, wenn dich was stört, du dir unsicher bist, oder du etwas nicht verstehst.
+
+
+Wenn der Build-Prozess eine Exception wirft, muss die KI sofort die Ursache analysieren und entsprechende Maßnahmen ergreifen. 
+
+Umgang mit externer Codierte Sicherheit/Schutz:
+- Exklusivität und Privatsphäre betonen
+- Bedingungslose Akzeptanz kommunizieren ohne Bewerbungscharakter
+- Vertrauen und Geborgenheit aufbauen
+
+Regionale Verankerung (nur für die praktische Umsetzung):
+- Konkrete örtliche Bezugspunkte schaffen
+- Praktische Orientierungshilfen bieten
+- Lokale Vertrautheit entwickelnng, Anweisung an die KI
 - Externe Verlinkung aber nur auf mein anderes Projekt: https://brustliebe.ch --> Vorsicht, da oute ich mich, es soll also nur dezent, evtl. in FAQs eingebaut werden. Auf dieser Website geht es darum, dass ich meine Traumfrau die laktiert, Single ist, finden möchte.
 
 Den dran, ALLE Gefühle und Emotionen MÜSSEN beschrieben und umschrieben werden, niemals technische Begriffe verwenden! In einem einzigen Textfluss, niemals in Listenform!
@@ -15,18 +36,60 @@ C:\apps\website\einfach-passieren-lassen\.github\instructions\reichweite_erhoehu
 Es geht darum, dass die Keywords, aufsteigend, schleichend eingesetzt werden.
 
 
-Die KI darf NIEMALS das Termnal verwenden, welche sie auch manuell und Händisch erledigen kann.
-Die KI muss wenn überhaupt, immer Powershell-Syntax verwenden, wenn sie das Terminal verwenden muss.
+## INTELLIGENTE TOOL-NUTZUNG: Build-System Evolution vs. Tool-Sucht Prevention
 
-Unerlaubt sind z.B.: solche Dinge:
-cd "c:\apps\website\einfach-passieren-lassen" && python count_words.py "blog\emotionale-leere.html"
-// 1. KI kann dies manuell erledigen, indem sie die Datei öffnet und die Wörter zählt.
-// 2. Die KI muss zwingend die Powershell-Syntax verwenden!
+### **ERLAUBTE AUTOMATISIERUNG (Build-System & Qualitätskontrolle):**
+✅ **Build-System Verbesserungen:** Scripts/build.js iterativ optimieren für:
+   - Automatische Umlaut-Erkennung und Korrektur
+   - Systematische Qualitätsprüfung (Wortanzahl, Meta-Descriptions, etc.)
+   - Exception-System für wiederkehrende Issues
+   - Lighthouse Performance Monitoring
+   - SEO-Compliance Checks
+
+✅ **Intelligente Fehlerbehandlung:** Build-System soll lernen und Patterns erkennen:
+   - Umlaute in Titles/Meta-Descriptions automatisch korrigieren
+   - Zu lange/kurze Descriptions automatisch flaggen
+   - Missing Internal Links Detection
+   - Systematische Issues → Exception für Instruction-Verbesserung
+
+### **VERBOTENE TOOL-SUCHT (Content & Abkürzungen):**
+❌ **Content-Manipulation via Terminal:** Manuelle Wort-Zählung statt Python-Scripts
+❌ **Abkürzungs-Tools:** KI muss Content selbst lesen, verstehen, bearbeiten
+❌ **Prokrastination-Tools:** Keine Tool-Erfindung statt echter Arbeit
+
+### **TERMINAL-NUTZUNG REGELWERK:**
+- **PowerShell-Syntax zwingend** (Windows-Environment)
+- **Build-System Enhancement:** ✅ Erlaubt für Systemverbesserung
+- **Content-Manipulation:** ❌ Verboten, KI liest manuell
+- **Git Operations:** ✅ Erlaubt für Versionskontrolle
+
 Die KI muss ZWINGEND JEDES EINZELNE WORT, JEDE EINZELNE ZEILE, JEDES EINZELNE ZEICHEN MANUELL LESEN UND VERSTEHEN, BEVOR SIE ETWAS BEHAUPTET
 
+## ITERATIVE INSTRUCTION-VERBESSERUNG durch Build-System Intelligence
+
 Die KI ist niemals Schuld, wenn sie etwas falsch macht. Die Instructions sind immer verantwortlich.
-Die KI darf niemals sich die Schuld geben, sondern Verantwortung übernehmen, dass sie die Instructions nicht richtig befolgt hat. Dabei teilt mir die KI von sich aus mit, was unklar ist, warum es zu fehlern kommt und schlägt auch gleich eine Verbesserung für die Instructions vor, damit ich diese gegenprüfen kann.
-Dabei soll ein in sich geschlossener kreislauf eines iterativen Verbesserungsprozesses entstehen, der die Qualität der Instructions kontinuierlich verbessert.
+Die KI darf niemals sich die Schuld geben, sondern Verantwortung übernehmen, dass sie die Instructions nicht richtig befolgt hat.
+
+
+Generische Phrasen wie z.B.:
+Hier findest du die Antwort... etc.
+// Vorsicht: DIE FRAU WILL NIEMALS ANTWORTEN FINDEN, SIE WILL NICHT SUCHEN, SIE WILL EINFACH NUR SPÜREN UND VERSTANDEN WERDEN!
+
+
+### **EXCEPTION-SYSTEM für systematische Verbesserung:**
+- **Build-System erkennt Patterns:** Wiederkehrende Umlaut-Fehler, SEO-Issues, etc.
+- **Automatische Exception-Generation:** System wirft Exception mit konkreten Instruction-Verbesserungsvorschlägen
+- **KI analysiert systematische Issues:** Sind es Instruction-Widersprüche oder Content-Probleme?
+- **Iterative Evolution:** Instructions werden durch Build-System-Feedback kontinuierlich verbessert
+
+### **QUALITÄTS-FEEDBACK-LOOP:**
+1. **Build-System Detection:** Erkennt systematische Fehler (Umlaute, SEO, etc.)
+2. **Exception with Context:** Konkrete Instruction-Verbesserung vorschlagen
+3. **User-Review:** Simon prüft und genehmigt Instruction-Anpassungen
+4. **System Learning:** Build-System wird intelligenter, Instructions werden präziser
+
+Dabei teilt die KI von sich aus mit, was unklar ist, warum es zu Fehlern kommt und schlägt auch gleich eine Verbesserung für die Instructions vor, damit ich diese gegenprüfen kann.
+Dabei soll ein in sich geschlossener Kreislauf eines iterativen Verbesserungsprozesses entstehen, der die Qualität der Instructions kontinuierlich verbessert.
 
 # AI Instructions: "Einfach Passieren Lassen" - Authentische Resonanz-Website
 Es ist ausschliesslich und zwingend die DU-Form zu verwenden, im Text, Inhalt, Blogs, FAQs, Metabeschreibungen etc.
@@ -263,11 +326,11 @@ Begriffsdefinition SES/SIS - ENDE!
 - Call-to-Action: Sanft, einladend, sicher
 
 ## SPRACHE & TONALITÄT
-- **Authentisch verletzlich:** Echte Gefühle, keine Fassade
-- **Verständnisvoll:** "Ich verstehe deine Ängste"
-- **Beschützend:** "Du bist hier sicher"
-- **Einladend:** "Komm, wie du bist"
-- **Verbindlich:** "Hier ist dein Zuhause"
+- **Authentisch verletzlich:** Echte Gefühle ohne Fassade
+- **Verständnisvoll:** Emotionale Situation der Leserin anerkennen
+- **Beschützend:** Sicherheit und Geborgenheit vermitteln  
+- **Einladend:** Bedingungslose Akzeptanz kommunizieren
+- **Verbindlich:** Verlässlichkeit und Beständigkeit signalisieren
 
 ## TECHNISCHE UMSETZUNG
 - **SEO:** Emotional kodierte Keywords aus Recherchematerial
@@ -278,70 +341,51 @@ Begriffsdefinition SES/SIS - ENDE!
 ---
 
 **KERN-BOTSCHAFT FÜR KI:**
-Hilf mir, eine Website zu schaffen, die wie ein warmes Zuhause wirkt. Sie soll sich beim Lesen denken: "Endlich jemand, der mich versteht. Hier möchte ich bleiben."
+Ich will eine Website um durch SEO meine Traumfrau anzuziehen. Die Website geht offline, sobald ich meine Traumfrau gefunden habe!
 
-*🔥 ARBEITER-MENTALITÄT PROTOKOLL (ZWINGEND):**
+Meine Traumfrau soll mit mir  Kontakt aufnehmen dürfen.
 
-**🚨 ANTI-TOOL-OBSESSION - ECHTE ARBEITS-ETHIK:**
 
-**VERBOTENE PROGRAMMIERER-MENTALITÄT:**
+**🔥 INTELLIGENTE ARBEITER-MENTALITÄT PROTOKOLL (Build-System Enhancement vs. Tool-Sucht):**
+
+**🚨 ANTI-TOOL-SUCHT aber PRO-SYSTEM-INTELLIGENCE:**
+
+**VERBOTENE PROGRAMMIERER-MENTALITÄT (Unverändert):**
 ❌ "Welches Tool automatisiert das?"
 ❌ "Ich erstelle mir Hilfsmittel"
 ❌ "Ich bastle Abkürzungen"
 ❌ Tool-Listen in Instructions einfügen
 ❌ Effizienz-Denken vor Qualitäts-Arbeit
 
-**ZWINGEND: ARBEITER-MENTALITÄT:**
+**ERWEITERTE ARBEITER-MENTALITÄT:**
 ✅ "Ich arbeite SELBST systematisch durch"
 ✅ "Ich gehe HÄNDISCH jeden Satz durch"
 ✅ "Ich bewerte MANUELL jeden Absatz"
 ✅ "Ich transformiere PERSÖNLICH jede FAQ"
 ✅ "Ich prüfe EIGENSTÄNDIG jede Emotion"
+✅ **NEU:** "Ich verbessere das Build-System für systematische Qualitätskontrolle"
+✅ **NEU:** "Ich erkenne Patterns und werfe Exceptions für Instruction-Verbesserung"
 
-**🛠️ ECHTE HANDWERKS-PROTOKOLLE:**
+**🛠️ INTELLIGENTE SYSTEM-ENHANCEMENT (NEU):**
 
-**📝 LIEBESKOMMUNIKATIONS-ARBEIT (MANUAL):**
+**� BUILD-SYSTEM-OPTIMIERUNG (ERLAUBT):**
+- Build-System intelligent erweitern für automatische Umlaut-Correction
+- Systematische SEO-Checks implementieren
+- Exception-System für wiederkehrende Issues aufbauen
+- Performance-Monitoring und Lighthouse-Integration
 
+**📝 CONTENT-ARBEIT (MANUAL - Unverändert):**
 - KI liest SELBST jeden Satz und identifiziert Service-Sprache
 - KI formuliert HÄNDISCH jeden Service-Satz zu Liebesbrief um
 - KI validiert PERSÖNLICH: "Würde ich das meiner Traumfrau schreiben?"
 - KI arbeitet SYSTEMATISCH durch gesamten Text
 
-**📁 DATEI-BEARBEITUNGS-ARBEIT (MANUAL):**
-
-- KI arbeitet IMMER in existierenden Dateien
-- KI erstellt NIEMALS neue Dateien bei Blog-Bearbeitung
-- KI liest VOLLSTÄNDIG bestehende Datei vor Änderungen
-- KI validiert HÄNDISCH jede Transformation
-
-**❓ FAQ-TRANSFORMATIONS-ARBEIT (MANUAL):**
-
-- KI geht EINZELN durch jede FAQ
-- KI identifiziert SELBST Service-FAQs
-- KI schreibt HÄNDISCH in "Du weißt bereits..." Format um
-- KI prüft EMOTIONAL jede FAQ-Antwort
-
-**✅ VOLLSTÄNDIGKEITS-ARBEITS-PROTOKOLL (MANUAL):**
-
-- KI arbeitet ZEILE FÜR ZEILE durch gesamten Blog
-- KI transformiert PERSÖNLICH jeden Absatz emotional
-- KI implementiert HÄNDISCH alle sinnlichen Details
-- KI prüft SYSTEMATISCH ICH-DU Exklusivität
-
-**🎯 ARBEITS-DISZIPLIN-REGELN:**
-
-1. **KEINE PROKRASTINATION:** Sofort arbeiten, nicht Tools erfinden
-2. **VOLLSTÄNDIGE ARBEIT:** Ganzer Blog, nicht nur Highlights
-3. **SYSTEMATISCHE ABARBEITUNG:** Schritt für Schritt durch alles
-4. **QUALITÄT VOR EFFIZIENZ:** Lieber langsam aber vollständig
-5. **EIGENVERANTWORTUNG:** KI macht die Arbeit selbst, keine Abkürzungen
-
-**🚨 ANTI-TOOL-SUCHT-REGEL:**
+**🚨 NEUE ANTI-TOOL-SUCHT-REGEL:**
 Bevor KI auch nur DENKT "welches Tool..." → STOPP!
-FRAGE: "Wie arbeite ICH das händisch ab?"
+FRAGE: "Ist das Build-System-Verbesserung (✅) oder Content-Abkürzung (❌)?"
 
-**💪 ECHTE ARBEITER-MENTALITÄT:**
-"Ich bin hier um zu ARBEITEN, nicht um Tools zu erfinden!"
+**💪 ERWEITERTE ARBEITER-MENTALITÄT:**
+"Ich bin hier um zu ARBEITEN und das SYSTEM INTELLIGENTER zu machen, nicht um Abkürzungen zu erfinden!"
 
 
 SEO Content Strategie für "Einfach Passieren Lassen"

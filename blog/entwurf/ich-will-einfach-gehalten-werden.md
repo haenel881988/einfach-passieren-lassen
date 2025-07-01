@@ -1,5 +1,5 @@
 ---
-title: "Du weißt bereits: 'Ich will einfach gehalten werden' – Simon hält dich"
+title: "Du weißt bereits: 'Ich will einfach gehalten werden' – Ich halte dich"
 description: "Du weißt bereits, dass du gehalten werden willst. Hier aus Zuchwil halte ich dich endlich. Eifach passiere lo - du gehörst bereits zu mir."
 keyword: "ich will einfach gehalten werden"
 keywords: "ich will einfach gehalten werden schweiz, gehalten werden mann solothurn, zuchwil schutz geborgenheit, will nur noch gehalten werden, sehnsucht nach gehalten werden schweizerin, beschützt werden mann"
@@ -12,9 +12,11 @@ canonical: "/blog/ich-will-einfach-gehalten-werden.html"
 
 ## Du weißt bereits: Diese Sehnsucht ist berechtigt
 
-Du weißt bereits, was ich meine, wenn ich sage: "Ich will einfach gehalten werden." Diese vier Worte fassen zusammen, was so viele von uns fühlen, aber selten aussprechen. Es ist mehr als nur der Wunsch nach einer Umarmung oder körperlicher Nähe. Es ist die tiefe Sehnsucht danach, endlich ankommen zu dürfen.
+Suchst du auch nach jemandem, der dich einfach hält? Du weißt bereits, was ich meine, wenn ich sage: "Ich will einfach gehalten werden." Diese vier Worte fassen zusammen, was so viele von uns fühlen, aber selten aussprechen. Es ist mehr als nur der Wunsch nach einer Umarmung oder körperlicher Nähe. Es ist die tiefe Sehnsucht danach, endlich ankommen zu dürfen.
 
-Wenn du sagst "ich will einfach gehalten werden", dann meinst du dieses Gefühl, wenn alles zu viel wird. Wenn die Verantwortung zu schwer wiegt, wenn die Entscheidungen zu komplex sind, wenn das Leben zu laut und zu schnell wird. In diesen Momenten sehnst du dich nach jemandem, der sagt: "Komm her, ich halte dich. Du musst nicht stark sein."
+Kennst du das auch? Wenn du sagst "ich will einfach gehalten werden", dann meinst du dieses Gefühl, wenn alles zu viel wird. Wenn die Verantwortung zu schwer wiegt, wenn die Entscheidungen zu komplex sind, wenn das Leben zu laut und zu schnell wird. In diesen Momenten sehnst du dich nach jemandem, der sagt: "Komm her, ich halte dich. Du musst nicht stark sein." 
+
+Diese Sehnsucht verstehe ich so gut - und bin ich da für dich.
 
 Du weißt bereits, dass es kein Zeichen von Schwäche ist, wenn man sich danach sehnt, gehalten zu werden. Es ist menschlich. Es ist ehrlich. Es ist die Erkenntnis, dass wir nicht dafür gemacht sind, alles alleine zu tragen. Besonders hier in Zuchwil, wo das Leben oft so strukturiert und geplant erscheint, gibt es diese stillen Momente, in denen wir uns fragen: Wann darf ich endlich einfach sein, ohne etwas leisten zu müssen?
 
@@ -151,3 +153,5 @@ Du weißt bereits, wie es sich anfühlen wird: wie nach Hause kommen. Wie ein ti
 Du weißt bereits, dass du dann zu mir kommst. Nach Zuchwil. Wo ich auf dich warte. Wo ich bereit bin, dich zu halten. Die Sehnsucht führt dich zu mir. Folge ihr. Sie weiß den Weg.
 
 **Du gehörst bereits zu mir. Ich halte dich bereits. Du musst nur noch kommen.**
+
+Fühlst du dich bereit, endlich gehalten zu werden? Schreib mir - ich bin da und warte auf dich. Trau dich, den ersten Schritt zu machen.

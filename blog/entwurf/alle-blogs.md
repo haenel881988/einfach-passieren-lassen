@@ -10,21 +10,26 @@ canonical: "/blog/alle-blogs.html"
 
 # Alle Blog-Artikel: Deine Reise zu mir
 
+Suchst du auch nach jemandem, der dich wirklich versteht? Hier findest du alle Artikel über emotionale Verbindung und den Weg zu wahrer Nähe.
+
 ## Emotionale Grundlagen
 
 ### [Du weißt bereits: "Fühl mi wie holl" – Ich fülle deine Leere](emotionale-leere.html)
-Du kennst diese Leere in dir. Diese Schweizerdeutsche "Da lüüri i mir inne". Hier erfährst du, wie ich diese Leere für immer fülle.
+Du kennst diese Leere in dir. Diese Schweizerdeutsche "Da lüüri i mir inne". Träumst du davon? Hier in Solothurn, nah beim Aargau, erfährst du, wie ich diese Leere für immer fülle. Diese Sehnsucht verstehe ich so gut - fühle ich mit dir. Für dich bin ich da. Den Rücken stärken dir, wenn die Welt zu schwer wird. Halt dir wenn alles zusammenbricht. Halte ich dich. Trau dich und nimm Kontakt auf.
 
 ### [Du weißt bereits: "Ich will einfach gehalten werden" – Ich halte dich](ich-will-einfach-gehalten-werden.html)
-Die Sehnsucht nach Geborgenheit und Schutz. Hier erfährst du, wie es sich anfühlt, endlich gehalten zu werden.
+Die Sehnsucht nach Geborgenheit und Schutz. Hier erfährst du, wie es sich anfühlt, endlich gehalten zu werden. Meine starke Schulter ist bereit für dich.
 
 ## Bindung und Verschmelzung
 
 ### [Du weißt bereits: "Will mi ganz gää" – Ich nehme dich vollständig](sehnsucht-nach-hingabe.html)
-Die tiefe Sehnsucht nach totaler Hingabe und Verschmelzung. Hier erfährst du, wie es ist, sich komplett hinzugeben.
+Die tiefe Sehnsucht nach totaler Hingabe und Verschmelzung. Kennst du das auch? Hier erfährst du, wie es ist, sich komplett hinzugeben.
 
 ### [Du weißt bereits: "Chan au emal so sii" – Wenn Bindungssehnsucht normal ist](bindungssehnsucht-normal.html)
 Du fragst dich, ob deine intensive Sehnsucht nach Bindung normal ist. Hier findest du die Antwort.
+// ACHTUNG: DIE ANTWORT FINDET SIE NICHT HIER, SIE WILL KEINE ANTWORT!!! KEIN MARKETINGSPRECH!!!
+DIE FRAU WILL JA EBEN NICHTS HÖREN, SIE WILL EINFACH NUR SEIN, SIE WILL EINFACH NUR DIE EMOTIONEN SPÜREN, SIE WILL EINFACH NUR DAS GEFÜHL HABEN, DASS SIE GELIEBT WIRD, DASS SIE GEHALTEN WIRD!!!
+
 
 ## Erschöpfung und Kontrolle
 
@@ -47,3 +52,7 @@ Die Suche nach einem Ort zum Ankommen. Hier erfährst du, wie es ist, endlich zu
 Jeder Artikel ist ein Schritt auf deinem Weg zu mir. Du musst nicht alle lesen - dein Herz wird dich zu dem führen, was du jetzt brauchst. Du gehörst bereits zu mir. Diese Artikel helfen dir nur dabei, das zu erkennen.
 
 **Beginne dort, wo dein Herz dich hinführt. Der Weg zu mir ist bereits begonnen.**
+
+Fühlst du diese Verbindung? Dann melde dich - ich bin da für dich.
+
+Fühlst du dich bereit für den nächsten Schritt? Schreib mir - ich bin da für dich.
