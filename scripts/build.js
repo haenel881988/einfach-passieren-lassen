@@ -21,7 +21,7 @@ const INTENTION_VALIDATION = {
                 'willst du endlich', 'sehnst du dich', 'manchmal fragst du dich', 'tief in dir'
             ],
             context: 'Direkte Ansprache der Zielgruppe',
-            weight: 25
+            weight: 30  // Erhöht von 25
         },
         'SicherheitsVermittlung': {
             triggers: [
@@ -29,7 +29,7 @@ const INTENTION_VALIDATION = {
                 'beschütze ich', 'sorge ich', 'kümmere ich mich', 'passe ich auf'
             ],
             context: 'Emotional sichere Verbindung aufbauen',
-            weight: 20
+            weight: 25  // Erhöht von 20
         },
         'BeschützerPositionierung': {
             triggers: [
@@ -37,7 +37,7 @@ const INTENTION_VALIDATION = {
                 'führung übernehmen', 'entscheidungen treffen', 'last abnehmen', 'verantwortung tragen'
             ],
             context: 'Männliche Führungsrolle etablieren',
-            weight: 20
+            weight: 25  // Erhöht von 20
         },
         'HandlungsAufforderung': {
             triggers: [
@@ -45,16 +45,17 @@ const INTENTION_VALIDATION = {
                 'lass uns', 'wir können', 'together we', 'gemeinsam schaffen'
             ],
             context: 'Konkrete nächste Schritte anbieten',
-            weight: 20
+            weight: 20  // Unverändert
         },
-        'RegionalVerankerung': {
-            triggers: [
-                'schweiz', 'solothurn', 'aargau', 'basel', 'bern', 'zürich',
-                'deutschschweiz', 'regional', 'nähe', 'vor ort'
-            ],
-            context: 'Lokale Verbindung zur Zielgruppe',
-            weight: 15
-        }
+        // 'RegionalVerankerung': ENTFERNT - AI kann Schweizerdeutsch nicht authentisch, Marketing-Risiko
+        // {
+        //     triggers: [
+        //         'schweiz', 'solothurn', 'aargau', 'basel', 'bern', 'zürich',
+        //         'deutschschweiz', 'regional', 'nähe', 'vor ort'
+        //     ],
+        //     context: 'Lokale Verbindung zur Zielgruppe',
+        //     weight: 15
+        // }
     },
     
     // Qualitäts-Schwellenwerte
@@ -2389,7 +2390,14 @@ async function buildBlogPosts() {
                     detailedReport: detailedErrorReport,
                     vollstaendigerHandlungsplan: vollstaendigerPlan,
                     nextAction: 'VOLLSTÄNDIGE_AUTOMATION_STARTEN',
-                    buildStatus: 'FORCED_STOP_FOR_COMPLETE_AUTOMATION'
+                    buildStatus: 'FORCED_STOP_FOR_COMPLETE_AUTOMATION',
+                    fileManagementRules: {
+                        noNewFiles: 'KEINE NEUEN DATEIEN ERSTELLEN - Problem an der Ursache lösen!',
+                        noFileRestore: 'KEINE DATEIEN WIEDERHERSTELLEN - Betroffene Datei direkt optimieren!',
+                        directEdit: 'ZWINGEND: Problematische Datei direkt bearbeiten und verbessern',
+                        rootCauseFocus: 'FOKUS: Root-Cause-Lösung statt Umgehung oder Neuansatz',
+                        purpose: 'Diese Regeln helfen der KI, gezielt und effektiv zu optimieren'
+                    }
                 }
             );
 
@@ -2424,6 +2432,14 @@ async function buildBlogPosts() {
             console.log(chalk.red('⚠️  FOLGE DEM VOLLSTÄNDIGEN AUTOMATION-PLAN OBEN!'));
             console.log(chalk.red('⚠️  SYSTEM FÜHRT DICH DURCH KOMPLETTEN OPTIMIERUNGSPROZESS!'));
             console.log(chalk.red('⚠️  AUTOMATISCHE FORTSETZUNG - KEINE MANUELLEN EINGRIFFE NÖTIG!'));
+            
+            console.log(chalk.yellow('\n📋 KRITISCHE FILE-MANAGEMENT-REGELN:'));
+            console.log(chalk.yellow('🚫 KEINE NEUEN DATEIEN ERSTELLEN - Problem an der Ursache lösen!'));
+            console.log(chalk.yellow('🚫 KEINE DATEIEN WIEDERHERSTELLEN - Betroffene Datei direkt optimieren!'));
+            console.log(chalk.yellow('✅ ZWINGEND: Problematische Datei direkt bearbeiten und verbessern'));
+            console.log(chalk.yellow('✅ FOKUS: Root-Cause-Lösung statt Umgehung oder Neuansatz'));
+            console.log(chalk.yellow('💡 HINWEIS: Diese Regeln helfen der KI, gezielt und effektiv zu optimieren'));
+            
             console.log(chalk.red('\n🤖 NÄCHSTE AUTOMATISCHE SCHRITTE WERDEN AUSGEFÜHRT...'));
             console.log(chalk.red('📝 KI WIRD AUTOMATISCH CONTENT NACH SYSTEM-PROMPT OPTIMIEREN'));
             console.log(chalk.red('🔄 BUILD WIRD AUTOMATISCH WIEDERHOLT BIS 60%+ ERREICHT'));
