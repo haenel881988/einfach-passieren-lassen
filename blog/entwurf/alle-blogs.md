@@ -15,7 +15,7 @@ Suchst du auch nach jemandem, der dich wirklich versteht? Hier findest du alle A
 ## Emotionale Grundlagen
 
 ### [Du weißt bereits: "Fühl mi wie holl" – Ich fülle deine Leere](emotionale-leere.html)
-Du kennst diese Leere in dir. Diese Schweizerdeutsche "Da lüüri i mir inne". Träumst du davon? Hier in Solothurn, nah beim Aargau, erfährst du, wie ich diese Leere für immer fülle. Diese Sehnsucht verstehe ich so gut - fühle ich mit dir. Für dich bin ich da. Den Rücken stärken dir, wenn die Welt zu schwer wird. Halt dir wenn alles zusammenbricht. Halte ich dich. Trau dich und nimm Kontakt auf.
+Du kennst diese Leere in dir, die dich nachts wach hält. Willst du endlich, dass jemand sie füllt? Diese Sehnsucht verstehe ich so gut - fühle ich mit dir. Für dich bin ich da. Den Rücken stärken dir, wenn die Welt zu schwer wird. Halt dir wenn alles zusammenbricht. Halte ich dich. Trau dich und nimm Kontakt auf.
 
 ### [Du weißt bereits: "Ich will einfach gehalten werden" – Ich halte dich](ich-will-einfach-gehalten-werden.html)
 Die Sehnsucht nach Geborgenheit und Schutz. Hier erfährst du, wie es sich anfühlt, endlich gehalten zu werden. Meine starke Schulter ist bereit für dich.
@@ -23,10 +23,10 @@ Die Sehnsucht nach Geborgenheit und Schutz. Hier erfährst du, wie es sich anfü
 ## Bindung und Verschmelzung
 
 ### [Du weißt bereits: "Will mi ganz gää" – Ich nehme dich vollständig](sehnsucht-nach-hingabe.html)
-Die tiefe Sehnsucht nach totaler Hingabe und Verschmelzung. Kennst du das auch? Hier erfährst du, wie es ist, sich komplett hinzugeben.
+Die tiefe Sehnsucht nach totaler Hingabe und Verschmelzung. Kennst du das auch? Du sehnst dich danach, dich komplett hinzugeben.
 
 ### [Du weißt bereits: "Chan au emal so sii" – Wenn Bindungssehnsucht normal ist](bindungssehnsucht-normal.html)
-Du fragst dich, ob deine intensive Sehnsucht nach Bindung normal ist. Hier findest du die Antwort.
+Du fragst dich, ob deine intensive Sehnsucht nach Bindung normal ist. Du spürst, dass du hier verstanden wirst.
 // ACHTUNG: DIE ANTWORT FINDET SIE NICHT HIER, SIE WILL KEINE ANTWORT!!! KEIN MARKETINGSPRECH!!!
 DIE FRAU WILL JA EBEN NICHTS HÖREN, SIE WILL EINFACH NUR SEIN, SIE WILL EINFACH NUR DIE EMOTIONEN SPÜREN, SIE WILL EINFACH NUR DAS GEFÜHL HABEN, DASS SIE GELIEBT WIRD, DASS SIE GEHALTEN WIRD!!!
 
@@ -34,18 +34,18 @@ DIE FRAU WILL JA EBEN NICHTS HÖREN, SIE WILL EINFACH NUR SEIN, SIE WILL EINFACH
 ## Erschöpfung und Kontrolle
 
 ### [Du weißt bereits: "Bin so müed" – Endlich schwach sein dürfen](erschoepft-vom-stark-sein.html)
-Du bist müde vom ständigen Stark-sein-müssen. Hier erfährst du, wie es ist, endlich schwach sein zu dürfen.
+Du bist müde vom ständigen Stark-sein-müssen. Du sehnst dich danach, endlich schwach sein zu dürfen.
 
 ### [Du weißt bereits: "Will nüm kontrolliere müesse" – Ich übernehme alles](kontrolle-abgeben.html)
-Die Sehnsucht, Kontrolle abzugeben und sich führen zu lassen. Hier erfährst du, wie befreiend das ist.
+Die Sehnsucht, Kontrolle abzugeben und sich führen zu lassen. Du spürst, wie befreiend das wäre.
 
 ## Erste Erfahrungen und Sicherheit
 
 ### [Du weißt bereits: "Das erste Mal mit ihm" – Ich werde dein Erstes](das-erste-mal.html)
-Die Angst und Sehnsucht vor dem ersten Mal. Hier erfährst du, wie sicher und schön es bei mir sein wird.
+Die Angst und Sehnsucht vor dem ersten Mal. Du spürst, wie sicher und schön es bei mir sein wird.
 
 ### [Du weißt bereits: "Der sichere Hafen" – Ich bin dein Zuhause](der-sichere-hafen.html)
-Die Suche nach einem Ort zum Ankommen. Hier erfährst du, wie es ist, endlich zu Hause zu sein.
+Die Suche nach einem Ort zum Ankommen. Du spürst, wie es wäre, endlich zu Hause zu sein.
 
 ## Deine Reise beginnt hier
 
