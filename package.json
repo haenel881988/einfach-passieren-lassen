@@ -1,0 +1,22 @@
+{
+  "name": "einfach-passieren-lassen-build",
+  "version": "1.0.0",
+  "description": "Build system for markdown to HTML conversion with SEO validation",
+  "main": "scripts/build.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "watch": "chokidar \"blog/entwurf/*.md\" -c \"npm run build\"",
+    "validate": "node scripts/quality-check.js"
+  },
+  "keywords": ["blog", "markdown", "seo", "switzerland"],
+  "author": "Simon Haenel",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^12.0.2",
+    "front-matter": "^4.0.2",
+    "cheerio": "^1.0.0-rc.12",
+    "chalk": "^5.3.0",
+    "chokidar-cli": "^3.0.0"
+  },
+  "type": "module"
+}

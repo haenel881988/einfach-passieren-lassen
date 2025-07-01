@@ -1,3 +1,4 @@
+
 # DEPLOYMENT ANLEITUNG FÜR VERCEL
 
 Dieses Dokument beschreibt die exakten Schritte und Einstellungen, um dieses Projekt erfolgreich auf Vercel zu deployen.

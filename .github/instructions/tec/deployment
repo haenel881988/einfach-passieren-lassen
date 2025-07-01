@@ -1,0 +1,48 @@
+Die KI und ich haben uns entschieden, ein Deployment bzw. Build Prozess zu etablieren.
+
+
+
+Unter dem Pfad, sind die Rohdateien in md-Format zu finden.:
+C:\apps\website\einfach-passieren-lassen\blog\entwurf
+
+Hier werden die Dateien durch den Build Prozess in die HTML Datei migriert.:
+C:\apps\website\einfach-passieren-lassen\blog\
+
+Dabei muss der Build-Prozess folgendes Beachten:
+
+1. SEO Optimierung
+- Fokus-Keyword gesetzt?
+- Metabeschreibung von rund 155 Zeichen vorhanden?
+- Markups im JSON-LD Format vorhanden?
+- Sitemap aktualisieren
+- Robots.txt angepasst / aktualisiert? 
+- Interne Verlinkungen zu anderen relevanten Artikeln?
+- Besitzt die Seite eine solide Struktur mit Überschriften (H1, H2, H3)?
+- Wird das Fokus-Keyword im Titel, H1 und evtl. H2 verwendet?
+- Wird das Fokus-Keyword auf natürlicher Weise im Text eingebaut? --> Keywordstuffing vermeiden!
+- Besitzt die md-Datei mind. 2300 Wörter?
+
+
+2. Qualitätskontrolle:
+- Bauen die Blogs organisch aufeinander auf?
+- Werden die Keywords schleichend und aufsteigend im Text verwendet?
+- Werden die Keywords organisch in den Text eingebaut, ohne dass es wie eine Aufzählung oder Liste wirkt?
+- Werden die Keywords in den Text eingebaut, so dass es sich natürlich liest und nicht wie eine Aufzählung oder Liste wirkt?
+- Werden die Keywords in den Text eingebaut, so dass sie nicht markiert sind, sondern organisch im Text erscheinen?
+- Bestehende HTML Artikel müssen vom Build Prozess automatisch ersetzt werden, sollte eine gleichname HTML Datei bereits existieren.
+- Der Build Prozess muss automatisch überprüfen, ob alle Blog-Artikel aufbauend sich ergänzen.
+- Der Build Prozess muss validieren, dass NIEMALS Erfahrungsberichte, Testberichte, Anleitungen, Tutorials, HowTo's, etc. in den Blogs verwendet werden.
+- Der Build Prozess muss sicherstellen, dass keinerlei Stichworter, Aufzählungen, Listen, etc. in den Blogs verwendet werden. --> diese müssen organisch im Text eingebaut werden.
+Der Build Prozess soll die emotionale Bindung validieren:
+C:\apps\website\einfach-passieren-lassen\.github\instructions\emotionale_bindung.md
+
+
+
+<!!!Ideen / Brainstorming --> mit KI IMMER zuerst besprechen und umsetzen:
+
+Lass den Build-Prozess auch gleich alle instructions prüfen und entsprechend vorschläge machen, wie diese Probleme in der instruction-Datei an der ursache, gelöst werden muss.
+// Was denkst du dazu, dass die exception durch einen Algorithmus dir nur eine empfehlung abgibt, mit den verweisen auf problematische instructions-Dateien und Inhalten sowie zeile?
+Die Exception muss darauf verweisen, dass du gleich die Verbesserungen dem User / mir vorschlägst, welche ich überprüfen muss und dir erst freigeben muss für die verbesserung? Danke
+
+!!!>
+

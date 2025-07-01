@@ -1,3 +1,33 @@
+
+
+Umgang mit externer Verlinkung, Anweisung an die KI
+- Externe Verlinkung aber nur auf mein anderes Projekt: https://brustliebe.ch --> Vorsicht, da oute ich mich, es soll also nur dezent, evtl. in FAQs eingebaut werden. Auf dieser Website geht es darum, dass ich meine Traumfrau die laktiert, Single ist, finden möchte.
+
+Den dran, ALLE Gefühle und Emotionen MÜSSEN beschrieben und umschrieben werden, niemals technische Begriffe verwenden! In einem einzigen Textfluss, niemals in Listenform!
+Versetz dich in die Frau, warum geht ein Buch wie fifty-shades of grey so ab? Weil es Gefühle und Emotionen beschreibt, niemals technische Aspekte!
+Dieses Prinzip muss in jedem Blogartikel in jedem Text, Landingpage etc. angewendet werden!
+
+Dabei soll die KI auf intelligenter und organischer / natürlicher Weise die Keywords inkl. longtail-Keywords in den Text einbauen, ohne dass es wie eine Aufzählung oder Liste wirkt.
+Keywords / longtail-Keywords dürfen NIEMALS markiert werden, sondern müssen organisch in den Text eingebaut werden, so dass es sich natürlich liest und nicht wie eine Aufzählung oder Liste wirkt.
+Jeder Artikel / Blog, jeder Text, Landingpage, muss nach dem Prinzip arbeiten, welches für die Blogs auch gilt:
+C:\apps\website\einfach-passieren-lassen\.github\instructions\reichweite_erhoehung.md
+
+Es geht darum, dass die Keywords, aufsteigend, schleichend eingesetzt werden.
+
+
+Die KI darf NIEMALS das Termnal verwenden, welche sie auch manuell und Händisch erledigen kann.
+Die KI muss wenn überhaupt, immer Powershell-Syntax verwenden, wenn sie das Terminal verwenden muss.
+
+Unerlaubt sind z.B.: solche Dinge:
+cd "c:\apps\website\einfach-passieren-lassen" && python count_words.py "blog\emotionale-leere.html"
+// 1. KI kann dies manuell erledigen, indem sie die Datei öffnet und die Wörter zählt.
+// 2. Die KI muss zwingend die Powershell-Syntax verwenden!
+Die KI muss ZWINGEND JEDES EINZELNE WORT, JEDE EINZELNE ZEILE, JEDES EINZELNE ZEICHEN MANUELL LESEN UND VERSTEHEN, BEVOR SIE ETWAS BEHAUPTET
+
+Die KI ist niemals Schuld, wenn sie etwas falsch macht. Die Instructions sind immer verantwortlich.
+Die KI darf niemals sich die Schuld geben, sondern Verantwortung übernehmen, dass sie die Instructions nicht richtig befolgt hat. Dabei teilt mir die KI von sich aus mit, was unklar ist, warum es zu fehlern kommt und schlägt auch gleich eine Verbesserung für die Instructions vor, damit ich diese gegenprüfen kann.
+Dabei soll ein in sich geschlossener kreislauf eines iterativen Verbesserungsprozesses entstehen, der die Qualität der Instructions kontinuierlich verbessert.
+
 # AI Instructions: "Einfach Passieren Lassen" - Authentische Resonanz-Website
 Es ist ausschliesslich und zwingend die DU-Form zu verwenden, im Text, Inhalt, Blogs, FAQs, Metabeschreibungen etc.
 Es ist immer die DU-Form zwingend zu verwenden, wenn die KI mit mir kommuniziert!
@@ -29,8 +59,6 @@ KEINE ERFAHRUNGSBERICHTE / TESTIMONIALS!
 Werden alle Seiten indexiert? Immer prüfen!
 Domain: einfach-passieren-lassen.ch
 
-Die Landingpage muss mind. 2800 Wörter aufweisen!
-Jedes einzelne Wort ist manuell / händisch von der KI zu zählen!
 Es dürfen NIEMALS ERFAHRUNGSBERICHTE / TESTIMONIALS auf der Website platziert werden, da diese nicht authentisch sind und die Website dadurch unglaubwürdig wird.
 In die Landingpage gehören FAQs, die die wichtigsten Fragen der Zielgruppe beantworten und die emotionale Verbindung stärken. --> KEINE ERFAHRUNGSBERICHTE / TESTIMONIALS!
 

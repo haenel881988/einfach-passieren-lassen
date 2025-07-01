@@ -1,0 +1,1 @@
+In diesem Ordner \entwurf müssen alle Blogs zuerst erstellt in einer MD-Datei erstellt werden, da die KI die HTML Tags als Text mitzählt.

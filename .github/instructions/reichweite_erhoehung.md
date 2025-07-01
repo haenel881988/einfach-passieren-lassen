@@ -1,12 +1,5 @@
-
-Max. emotionale Bindung muss Seiten- und Blog-übergreifend aufgebaut werden.:
-C:\apps\website\einfach-passieren-lassen\.github\instructions\emotionale_bindung.md
-
-
-# SEO-MASTERPLAN: 1 KEYWORD = 1 BLOG
+# SEO-MASTERPLAN: 1 KEYWORD = 1 BLOG (3000 Wörter)
 ## Jedes Keyword als Fokus-Keyword mit allen anderen organisch eingewebt
-Jeder Blog muss mind: 2300 Wörter haben.
-
 
 ---
 
@@ -14,7 +7,7 @@ Jeder Blog muss mind: 2300 Wörter haben.
 
 **Prinzip:**
 1. **Fokus-Keyword** = Blog-Titel + H1 + Hauptthema (2-3% Dichte)
-2. **Alle anderen Keywords** organisch im Text eingewebt!
+2. **Alle anderen Keywords** organisch im 3000-Wörter-Text eingewebt (0,5-1% Dichte)
 3. **Aufsteigende Intensität** von Blog zu Blog beibehalten
 4. **Schweizerdeutsche Keywords** gekürzt aber im Text voll ausgeschrieben
 
@@ -22,28 +15,6 @@ Jeder Blog muss mind: 2300 Wörter haben.
 
 ## 📝 **BLOG-LISTE: AUFSTEIGENDE INTENSITÄT**
 *Von sanfter Sehnsucht zur totalen Hingabe*
-
-Jeder Blog muss mind: 2300 Wörter im Textkörper haben, da die KI offenbar die HTML Tags mitzählt, hier eine Hochrechnung:
-Blog-Struktur: 31% HTML/Code, 69% Text Hochrechnung: Pro 3400-Wörter-Blog = ~5000 Zeilen HTML-Datei
-Dies muss bei der Erstellung vom Blog zwingend berücksichtigt sein.
-Das gleiche gilt auch für die Meta-Beschreibung, Markups im JSON-LD Format.
-Jeder Blog muss mind: 1100 FAQ Wörter haben.
-1800, da ich nicht weiss, ob die KI die HTML Tags nun mitzählt oder nicht!!! Das muss die KI eigentständing berücksichtigen!
-
-
-Jeder Blog muss eine Metabeschreibung haben (max. 150 Zeichen, codiert & mit Hauptkeyword). --> Achtung: HTML TAGs und Codes NICHT mitzählen!!! Das ist zwingend!!!
-Jeder Blog muss eine interne Verlinkung zu anderen Blogs der Kette haben.
-Jeder Blog muss eine klare H1, H2, H3 / H4 Struktur haben.
-Jeder Blog muss die Frau ein wenig mehr vorverlieben
-Jeder Blog muss in der Sitemap manuell eingetragen werden.
-Jeder Blog muss zwingend eine emotionale Überleitung zum nächsten Blog haben.
-Jeder Blog soll eine intelligent eingearbeitete Dringlichkeit (Fomo) haben.
-Jeder Blog soll 1-3 im Textkörper auf das Kontaktformular hinweisen und auch die Leserinn klar auffordern, sich zu melden --> weil in diesem Moment könnte eine andere Frau bereits eine Nachricht am schreiben sein.
-Wenn ich dich kennengelernt habe, geht die komplette website offline.
-Es gibt keine anderen Frauen mehr, die sich bei mir melden können.
-
-
-
 
 ---
 
@@ -64,10 +35,10 @@ Es gibt keine anderen Frauen mehr, die sich bei mir melden können.
 - endlich gehalten werden schweiz
 - geborgenheit finden zuchwil
 
-**Blog-Struktur:**
-- Einleitung: Fokus-Keyword emotional einführen
-- Hauptteil: Alle anderen Keywords organisch einweben --> evtl nachfolgende Keywords einbinden, KI soll hier selber entscheiden, welche Keywords am besten passen
-- FAQ-Sektion: "Du weißt bereits..."-Format --> eevtl nachfolgende Keywords einbinden, KI soll hier selber entscheiden, welche Keywords am besten passen --> gilt auch für alle nachfolgenden Blogs!!!
+**3000-Wörter-Struktur:**
+- Einleitung (300W): Fokus-Keyword emotional einführen
+- Hauptteil (2200W): Alle anderen Keywords organisch einweben --> evtl nachfolgende Keywords einbinden, KI soll hier selber entscheiden, welche Keywords am besten passen
+- FAQ-Sektion (300W): "Du weißt bereits..."-Format --> eevtl nachfolgende Keywords einbinden, KI soll hier selber entscheiden, welche Keywords am besten passen --> gilt auch für alle nachfolgenden Blogs!!!
 - Call-to-Action (200W): Zur nächsten Blog-Stufe
 
 ---
@@ -991,30 +962,3 @@ Jeder Blog soll in der Blogkette eine aufsteigende Intensität haben, von „Ich
 - was wenn ich keine wahl habe
 - ich will dass das universum für mich entscheidet
 - einfach nur ein werkzeug des schicksals sein
-
----
-
-### **🛠️ TECHNISCHE BLOG-SPEZIFIKATIONEN:**
-**Blog-Struktur-Analyse: 31% HTML/Code, 69% Text**
-
-#### **WORTANZAHL-BERECHNUNG (KRITISCH!):**
-- **Reiner Text erforderlich:** 2300 Wörter Textkörper + 1100 Wörter FAQ = 3400 Wörter
-- **Mit HTML-Overhead:** ~5000 Zeilen HTML-Datei total
-- **KI muss unterscheiden:** HTML-Tags vs. reiner Text bei Zählung!
-
-#### **PFLICHT-ELEMENTE PRO BLOG:**
-1. **Meta-Description:** Max. 150 Zeichen (OHNE HTML-Tags!) mit Hauptkeyword
-2. **JSON-LD Schema:** Vollständiges BlogPosting-Markup
-3. **H1-H4 Struktur:** Semantisch korrekte Hierarchie
-4. **Interne Verlinkung:** Zu vorherigen/nächsten Blogs
-5. **3x Kontaktform-CTAs:** Strategisch im Text verteilt
-6. **FOMO-Elemente:** "Andere Frau tippt bereits..."
-7. **Sitemap-Eintrag:** Manuell hinzufügen
-
-#### **EMOTIONALE PROGRESSION ZWINGEND:**
-- **Blog 1-6:** Sanfte Sehnsucht (gehalten werden, ankommen)
-- **Blog 7-12:** Kontrolle abgeben (führen lassen, entscheiden)  
-- **Blog 13-18:** Totale Hingabe (verschmelzen, auflösen)
-
-#### **EXKLUSIVITÄTS-MESSAGE:**
-"Wenn ich dich kennengelernt habe, geht die komplette Website offline. Es gibt keine anderen Frauen mehr, die sich bei mir melden können."
