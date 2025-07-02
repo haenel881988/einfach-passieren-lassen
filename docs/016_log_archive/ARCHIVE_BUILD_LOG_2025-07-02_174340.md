@@ -1,3337 +1,3685 @@
 # Build Process Log
             
-**Timestamp:** 2025-07-02T17:33:05.678Z
-**Dauer:** 462ms
-**Log-Datei:** docs\015_build_logs\BUILD_LOG_2025-07-02_173305.md
+**Timestamp:** 2025-07-02T17:43:40.358Z
+**Dauer:** 456ms
+**Log-Datei:** docs\015_build_logs\BUILD_LOG_2025-07-02_174340.md
 **Node-Version:** v22.14.0
 **Arbeitsverzeichnis:** C:\apps\website\einfach-passieren-lassen
 
 ## Vollständige Terminal-Ausgabe
 
-### 1. [LOG] 2025-07-02T17:33:05.679Z
+### 1. [LOG] 2025-07-02T17:43:40.360Z
 
 ```
 🚀 STARTE INTELLIGENT BUILD PROCESS...
 ```
 
-### 2. [LOG] 2025-07-02T17:33:05.680Z
+### 2. [LOG] 2025-07-02T17:43:40.360Z
 
 ```
 Neue Intention-Validation aktiv!
 ```
 
-### 3. [LOG] 2025-07-02T17:33:05.681Z
+### 3. [LOG] 2025-07-02T17:43:40.362Z
 
 ```
 
 ▶️ Führe Check-Skript aus: comprehensiveCheck.js
 ```
 
-### 4. [LOG] 2025-07-02T17:33:05.804Z
+### 4. [LOG] 2025-07-02T17:43:40.482Z
 
 ```
 ✅ comprehensiveCheck.js erfolgreich ausgeführt
 ```
 
-### 5. [LOG] 2025-07-02T17:33:05.804Z
+### 5. [LOG] 2025-07-02T17:43:40.482Z
 
 ```
 📋 comprehensiveCheck.js Output: 🔍 Starte umfassenden Build-Prozess Check...
-✅ Umfassender Check abgeschlossen. Logfile: C:\apps\website\einfach-passieren-lassen\scripts\build-checks\logfiles\comprehensiveCheck_2025-07-02_17-33-05-764.log
+✅ Umfassender Check abgeschlossen. Logfile: C:\apps\website\einfach-passieren-lassen\scripts\build-checks\logfiles\comprehensiveCheck_2025-07-02_17-43-40-438.log
 📊 Analysiert: 9 Blogs, Durchschnitt: 2256 Wörter
 ⚠️ 9 kritische Issues gefunden
 ```
 
-### 6. [LOG] 2025-07-02T17:33:05.805Z
+### 6. [LOG] 2025-07-02T17:43:40.483Z
 
 ```
 
 ▶️ Führe Check-Skript aus: logCleanup.js
 ```
 
-### 7. [LOG] 2025-07-02T17:33:05.846Z
+### 7. [LOG] 2025-07-02T17:43:40.522Z
 
 ```
 ✅ logCleanup.js erfolgreich ausgeführt
 ```
 
-### 8. [LOG] 2025-07-02T17:33:05.846Z
+### 8. [LOG] 2025-07-02T17:43:40.522Z
 
 ```
 
 ▶️ Führe Check-Skript aus: masterBuildChecker.js
 ```
 
-### 9. [LOG] 2025-07-02T17:33:05.967Z
+### 9. [LOG] 2025-07-02T17:43:40.647Z
 
 ```
 ✅ masterBuildChecker.js erfolgreich ausgeführt
 ```
 
-### 10. [LOG] 2025-07-02T17:33:05.967Z
+### 10. [LOG] 2025-07-02T17:43:40.647Z
 
 ```
 📋 masterBuildChecker.js Output: 🔍 Starte MASTER BUILD CHECK - Alle Prüfungen in einer Logdatei...
 ✅ MASTER BUILD CHECK abgeschlossen!
-📊 Eine Logdatei: C:\apps\website\einfach-passieren-lassen\scripts\build-checks\logfiles\MASTER_BUILD_CHECK_2025-07-02_17-33-05-928.log
+📊 Eine Logdatei: C:\apps\website\einfach-passieren-lassen\scripts\build-checks\logfiles\MASTER_BUILD_CHECK_2025-07-02_17-43-40-595.log
 📈 Analysiert: 9 Blogs, ⌀ 2256 Wörter
 ⚠️ 9 Errors, 24 Warnings
 ✅ Build-Prozess: NIEMALS ABGEBROCHEN (wie gefordert)
 ```
 
-### 11. [LOG] 2025-07-02T17:33:05.968Z
+### 11. [LOG] 2025-07-02T17:43:40.647Z
 
 ```
 
 ▶️ Führe Check-Skript aus: seoCheck.js
 ```
 
-### 12. [LOG] 2025-07-02T17:33:06.010Z
+### 12. [LOG] 2025-07-02T17:43:40.688Z
 
 ```
 ✅ seoCheck.js erfolgreich ausgeführt
 ```
 
-### 13. [LOG] 2025-07-02T17:33:06.011Z
+### 13. [LOG] 2025-07-02T17:43:40.689Z
 
 ```
 🧹 STARTING CLEAN BUILD - Lösche vorhandene HTML-Dateien...
 ```
 
-### 14. [LOG] 2025-07-02T17:33:06.012Z
+### 14. [LOG] 2025-07-02T17:43:40.690Z
 
 ```
 📋 Gefunden: 10 Markdown-Dateien für Clean-Build
 ```
 
-### 15. [LOG] 2025-07-02T17:33:06.012Z
+### 15. [LOG] 2025-07-02T17:43:40.690Z
 
 ```
    🗑️ Gelöscht: bindungssehnsucht-normal.html
 ```
 
-### 16. [LOG] 2025-07-02T17:33:06.013Z
+### 16. [LOG] 2025-07-02T17:43:40.691Z
 
 ```
    🗑️ Gelöscht: das-erste-mal.html
 ```
 
-### 17. [LOG] 2025-07-02T17:33:06.014Z
+### 17. [LOG] 2025-07-02T17:43:40.692Z
 
 ```
    🗑️ Gelöscht: der-sichere-hafen.html
 ```
 
-### 18. [LOG] 2025-07-02T17:33:06.014Z
+### 18. [LOG] 2025-07-02T17:43:40.692Z
 
 ```
    🗑️ Gelöscht: emotionale-leere.html
 ```
 
-### 19. [LOG] 2025-07-02T17:33:06.015Z
+### 19. [LOG] 2025-07-02T17:43:40.693Z
 
 ```
    🗑️ Gelöscht: erschoepft-vom-stark-sein.html
 ```
 
-### 20. [LOG] 2025-07-02T17:33:06.015Z
+### 20. [LOG] 2025-07-02T17:43:40.693Z
 
 ```
    🗑️ Gelöscht: ich-will-einfach-gehalten-werden.html
 ```
 
-### 21. [LOG] 2025-07-02T17:33:06.016Z
+### 21. [LOG] 2025-07-02T17:43:40.694Z
 
 ```
    🗑️ Gelöscht: kontrolle-abgeben.html
 ```
 
-### 22. [LOG] 2025-07-02T17:33:06.016Z
+### 22. [LOG] 2025-07-02T17:43:40.694Z
 
 ```
    🗑️ Gelöscht: README.html
 ```
 
-### 23. [LOG] 2025-07-02T17:33:06.017Z
+### 23. [LOG] 2025-07-02T17:43:40.695Z
 
 ```
    🗑️ Gelöscht: sehnsucht-nach-hingabe.html
 ```
 
-### 24. [LOG] 2025-07-02T17:33:06.018Z
+### 24. [LOG] 2025-07-02T17:43:40.695Z
 
 ```
    🗑️ Gelöscht: zu-viel-liebe-zu-wenig-liebe.html
 ```
 
-### 25. [LOG] 2025-07-02T17:33:06.018Z
+### 25. [LOG] 2025-07-02T17:43:40.695Z
 
 ```
 ✅ CLEAN COMPLETED: 10 Dateien gelöscht, 0 übersprungen
 ```
 
-### 26. [LOG] 2025-07-02T17:33:06.018Z
+### 26. [LOG] 2025-07-02T17:43:40.695Z
 
 ```
 🔨 Starte saubere Neu-Generierung...
 ```
 
-### 27. [INFO] 2025-07-02T17:33:06.018Z
+### 27. [INFO] 2025-07-02T17:43:40.696Z
 
 ```
 Clean Build: 10 HTML-Dateien gelöscht
 ```
 
-### 28. [LOG] 2025-07-02T17:33:06.019Z
+### 28. [LOG] 2025-07-02T17:43:40.696Z
 
 ```
 
 🚀 STARTE INTELLIGENT BUILD PROCESS...
 ```
 
-### 29. [LOG] 2025-07-02T17:33:06.019Z
+### 29. [LOG] 2025-07-02T17:43:40.696Z
 
 ```
-📋 Terminal-Ausgabe wird gespeichert in: docs\015_build_logs\BUILD_LOG_2025-07-02_173305.md
+📋 Terminal-Ausgabe wird gespeichert in: docs\015_build_logs\BUILD_LOG_2025-07-02_174340.md
 ```
 
-### 30. [LOG] 2025-07-02T17:33:06.020Z
+### 30. [LOG] 2025-07-02T17:43:40.696Z
 
 ```
 Neue Intention-Validation aktiv!
 
 ```
 
-### 31. [LOG] 2025-07-02T17:33:06.020Z
+### 31. [LOG] 2025-07-02T17:43:40.697Z
 
 ```
 
 🔍 FÜHRE ERWEITERTE SEO-VALIDIERUNG DURCH...
 ```
 
-### 32. [LOG] 2025-07-02T17:33:06.020Z
+### 32. [LOG] 2025-07-02T17:43:40.697Z
 
 ```
    ℹ️ Sitemap enthält 14 URLs
 ```
 
-### 33. [LOG] 2025-07-02T17:33:06.022Z
+### 33. [LOG] 2025-07-02T17:43:40.698Z
 
 ```
 ✅ Globale SEO-Validierung erfolgreich - Keine Issues gefunden
 ```
 
-### 34. [LOG] 2025-07-02T17:33:06.022Z
+### 34. [LOG] 2025-07-02T17:43:40.698Z
 
 ```
 🔍 Sammle VS Code Problems...
 ```
 
-### 35. [PROBLEM] 2025-07-02T17:33:06.029Z
+### 35. [PROBLEM] 2025-07-02T17:43:40.706Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:40 - Missing semicolon
 ```
 
-### 36. [PROBLEM] 2025-07-02T17:33:06.029Z
+### 36. [PROBLEM] 2025-07-02T17:43:40.706Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:1943 - Missing semicolon
 ```
 
-### 37. [PROBLEM] 2025-07-02T17:33:06.029Z
+### 37. [PROBLEM] 2025-07-02T17:43:40.706Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:2327 - Missing semicolon
 ```
 
-### 38. [PROBLEM] 2025-07-02T17:33:06.029Z
+### 38. [PROBLEM] 2025-07-02T17:43:40.706Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:2713 - Missing semicolon
 ```
 
-### 39. [PROBLEM] 2025-07-02T17:33:06.029Z
+### 39. [PROBLEM] 2025-07-02T17:43:40.706Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:2741 - Missing semicolon
 ```
 
-### 40. [PROBLEM] 2025-07-02T17:33:06.029Z
+### 40. [PROBLEM] 2025-07-02T17:43:40.707Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:3562 - Missing semicolon
 ```
 
-### 41. [PROBLEM] 2025-07-02T17:33:06.029Z
+### 41. [PROBLEM] 2025-07-02T17:43:40.707Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:3599 - Missing semicolon
 ```
 
-### 42. [PROBLEM] 2025-07-02T17:33:06.030Z
+### 42. [PROBLEM] 2025-07-02T17:43:40.707Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:4316 - Missing semicolon
 ```
 
-### 43. [PROBLEM] 2025-07-02T17:33:06.030Z
+### 43. [PROBLEM] 2025-07-02T17:43:40.707Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:5013 - Missing semicolon
 ```
 
-### 44. [PROBLEM] 2025-07-02T17:33:06.030Z
+### 44. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:5406 - Missing semicolon
 ```
 
-### 45. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 45. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6202 - Missing semicolon
 ```
 
-### 46. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 46. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6587 - Missing semicolon
 ```
 
-### 47. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 47. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6720 - Missing semicolon
 ```
 
-### 48. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 48. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6743 - Missing semicolon
 ```
 
-### 49. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 49. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6803 - Missing semicolon
 ```
 
-### 50. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 50. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6895 - Missing semicolon
 ```
 
-### 51. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 51. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6923 - Missing semicolon
 ```
 
-### 52. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 52. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6954 - Missing semicolon
 ```
 
-### 53. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 53. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7029 - Missing semicolon
 ```
 
-### 54. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 54. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7054 - Missing semicolon
 ```
 
-### 55. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 55. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7099 - Missing semicolon
 ```
 
-### 56. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 56. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7531 - Missing semicolon
 ```
 
-### 57. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 57. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7585 - Missing semicolon
 ```
 
-### 58. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 58. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7983 - Missing semicolon
 ```
 
-### 59. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 59. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:8071 - Missing semicolon
 ```
 
-### 60. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 60. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:8075 - Missing semicolon
 ```
 
-### 61. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 61. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:8112 - Missing semicolon
 ```
 
-### 62. [PROBLEM] 2025-07-02T17:33:06.031Z
+### 62. [PROBLEM] 2025-07-02T17:43:40.708Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:8493 - Missing semicolon
 ```
 
-### 63. [PROBLEM] 2025-07-02T17:33:06.032Z
+### 63. [PROBLEM] 2025-07-02T17:43:40.709Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:9746 - Missing semicolon
 ```
 
-### 64. [PROBLEM] 2025-07-02T17:33:06.032Z
+### 64. [PROBLEM] 2025-07-02T17:43:40.709Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:9945 - Console.log statement found - consider removing in production
 ```
 
-### 65. [PROBLEM] 2025-07-02T17:33:06.033Z
+### 65. [PROBLEM] 2025-07-02T17:43:40.710Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:40 - Missing semicolon
 ```
 
-### 66. [PROBLEM] 2025-07-02T17:33:06.034Z
+### 66. [PROBLEM] 2025-07-02T17:43:40.711Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:1950 - Missing semicolon
 ```
 
-### 67. [PROBLEM] 2025-07-02T17:33:06.034Z
+### 67. [PROBLEM] 2025-07-02T17:43:40.711Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:2360 - Missing semicolon
 ```
 
-### 68. [PROBLEM] 2025-07-02T17:33:06.034Z
+### 68. [PROBLEM] 2025-07-02T17:43:40.711Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:2762 - Missing semicolon
 ```
 
-### 69. [PROBLEM] 2025-07-02T17:33:06.034Z
+### 69. [PROBLEM] 2025-07-02T17:43:40.711Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:2790 - Missing semicolon
 ```
 
-### 70. [PROBLEM] 2025-07-02T17:33:06.034Z
+### 70. [PROBLEM] 2025-07-02T17:43:40.711Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:3618 - Missing semicolon
 ```
 
-### 71. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 71. [PROBLEM] 2025-07-02T17:43:40.711Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:3655 - Missing semicolon
 ```
 
-### 72. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 72. [PROBLEM] 2025-07-02T17:43:40.711Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:4372 - Missing semicolon
 ```
 
-### 73. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 73. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:5069 - Missing semicolon
 ```
 
-### 74. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 74. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:5462 - Missing semicolon
 ```
 
-### 75. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 75. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6258 - Missing semicolon
 ```
 
-### 76. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 76. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6643 - Missing semicolon
 ```
 
-### 77. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 77. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6776 - Missing semicolon
 ```
 
-### 78. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 78. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6799 - Missing semicolon
 ```
 
-### 79. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 79. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6859 - Missing semicolon
 ```
 
-### 80. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 80. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6951 - Missing semicolon
 ```
 
-### 81. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 81. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6979 - Missing semicolon
 ```
 
-### 82. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 82. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7010 - Missing semicolon
 ```
 
-### 83. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 83. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7085 - Missing semicolon
 ```
 
-### 84. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 84. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7110 - Missing semicolon
 ```
 
-### 85. [PROBLEM] 2025-07-02T17:33:06.035Z
+### 85. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7155 - Missing semicolon
 ```
 
-### 86. [PROBLEM] 2025-07-02T17:33:06.036Z
+### 86. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7587 - Missing semicolon
 ```
 
-### 87. [PROBLEM] 2025-07-02T17:33:06.036Z
+### 87. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7641 - Missing semicolon
 ```
 
-### 88. [PROBLEM] 2025-07-02T17:33:06.036Z
+### 88. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8039 - Missing semicolon
 ```
 
-### 89. [PROBLEM] 2025-07-02T17:33:06.036Z
+### 89. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8127 - Missing semicolon
 ```
 
-### 90. [PROBLEM] 2025-07-02T17:33:06.036Z
+### 90. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8131 - Missing semicolon
 ```
 
-### 91. [PROBLEM] 2025-07-02T17:33:06.036Z
+### 91. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8168 - Missing semicolon
 ```
 
-### 92. [PROBLEM] 2025-07-02T17:33:06.036Z
+### 92. [PROBLEM] 2025-07-02T17:43:40.712Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8549 - Missing semicolon
 ```
 
-### 93. [PROBLEM] 2025-07-02T17:33:06.036Z
+### 93. [PROBLEM] 2025-07-02T17:43:40.713Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:9802 - Missing semicolon
 ```
 
-### 94. [PROBLEM] 2025-07-02T17:33:06.036Z
+### 94. [PROBLEM] 2025-07-02T17:43:40.713Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:10001 - Console.log statement found - consider removing in production
 ```
 
-### 95. [PROBLEM] 2025-07-02T17:33:06.038Z
+### 95. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] app-gui\src\App.jsx:4 - Missing semicolon
 ```
 
-### 96. [PROBLEM] 2025-07-02T17:33:06.038Z
+### 96. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] app-gui\src\App.jsx:72 - Missing semicolon
 ```
 
-### 97. [PROBLEM] 2025-07-02T17:33:06.038Z
+### 97. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] app-gui\src\App.jsx:99 - Missing semicolon
 ```
 
-### 98. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 98. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] build-process\mainBuild.js:52 - Console.log statement found - consider removing in production
 ```
 
-### 99. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 99. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] build-process\mainBuild.js:64 - Console.log statement found - consider removing in production
 ```
 
-### 100. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 100. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] build-process\mainBuild.js:98 - Console.log statement found - consider removing in production
 ```
 
-### 101. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 101. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] build-process\mainBuild.js:102 - Console.log statement found - consider removing in production
 ```
 
-### 102. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 102. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] build-process\mainBuild.js:104 - Console.log statement found - consider removing in production
 ```
 
-### 103. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 103. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] build-process\mainBuild.js:110 - Console.log statement found - consider removing in production
 ```
 
-### 104. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 104. [PROBLEM] 2025-07-02T17:43:40.715Z
 
 ```
 [WARNING] build-process\mainBuild.js:112 - Console.log statement found - consider removing in production
 ```
 
-### 105. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 105. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\mainBuild.js:116 - Console.log statement found - consider removing in production
 ```
 
-### 106. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 106. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\mainBuild.js:123 - Console.log statement found - consider removing in production
 ```
 
-### 107. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 107. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\mainBuild.js:145 - Console.log statement found - consider removing in production
 ```
 
-### 108. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 108. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\mainBuild.js:147 - Missing semicolon
 ```
 
-### 109. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 109. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\mainBuild.js:174 - Missing semicolon
 ```
 
-### 110. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 110. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\mainBuild.js:205 - Console.log statement found - consider removing in production
 ```
 
-### 111. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 111. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\mainBuild.js:231 - Console.log statement found - consider removing in production
 ```
 
-### 112. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 112. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\mainBuild.js:254 - Console.log statement found - consider removing in production
 ```
 
-### 113. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 113. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\contentOptimizer.js:53 - Missing semicolon
 ```
 
-### 114. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 114. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\contentOptimizer.js:66 - Missing semicolon
 ```
 
-### 115. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 115. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\contentOptimizer.js:111 - Missing semicolon
 ```
 
-### 116. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 116. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\contentOptimizer.js:157 - Missing semicolon
 ```
 
-### 117. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 117. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\contentOptimizer.js:338 - Missing semicolon
 ```
 
-### 118. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 118. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\fileUtils.js:22 - Console.log statement found - consider removing in production
 ```
 
-### 119. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 119. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\fileUtils.js:45 - Console.log statement found - consider removing in production
 ```
 
-### 120. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 120. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\fileUtils.js:90 - Console.log statement found - consider removing in production
 ```
 
-### 121. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 121. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\fileUtils.js:151 - Console.log statement found - consider removing in production
 ```
 
-### 122. [PROBLEM] 2025-07-02T17:33:06.039Z
+### 122. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\fileUtils.js:174 - Console.log statement found - consider removing in production
 ```
 
-### 123. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 123. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\logger.js:17 - Console.log statement found - consider removing in production
 ```
 
-### 124. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 124. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\logger.js:34 - Console.log statement found - consider removing in production
 ```
 
-### 125. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 125. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\logger.js:62 - Console.log statement found - consider removing in production
 ```
 
-### 126. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 126. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [ERROR] build-process\modules\logger.js:145 - Typo: "fucntion" should be "function"
 ```
 
-### 127. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 127. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [ERROR] build-process\modules\logger.js:146 - Typo: "fucntion" should be "function"
 ```
 
-### 128. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 128. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\logger.js:243 - Missing semicolon
 ```
 
-### 129. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 129. [PROBLEM] 2025-07-02T17:43:40.716Z
 
 ```
 [WARNING] build-process\modules\logger.js:276 - Console.log statement found - consider removing in production
 ```
 
-### 130. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 130. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:20 - Console.log statement found - consider removing in production
 ```
 
-### 131. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 131. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:94 - Console.log statement found - consider removing in production
 ```
 
-### 132. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 132. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:96 - Console.log statement found - consider removing in production
 ```
 
-### 133. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 133. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:109 - Console.log statement found - consider removing in production
 ```
 
-### 134. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 134. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:248 - Console.log statement found - consider removing in production
 ```
 
-### 135. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 135. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:335 - Console.log statement found - consider removing in production
 ```
 
-### 136. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 136. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:406 - Console.log statement found - consider removing in production
 ```
 
-### 137. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 137. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:423 - Missing semicolon
 ```
 
-### 138. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 138. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:505 - Console.log statement found - consider removing in production
 ```
 
-### 139. [PROBLEM] 2025-07-02T17:33:06.040Z
+### 139. [PROBLEM] 2025-07-02T17:43:40.717Z
 
 ```
 [WARNING] build-process\modules\seoCheck.js:513 - Missing semicolon
 ```
 
-### 140. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 140. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\comprehensiveCheck.js:15 - Console.log statement found - consider removing in production
 ```
 
-### 141. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 141. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\comprehensiveCheck.js:34 - Missing semicolon
 ```
 
-### 142. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 142. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\comprehensiveCheck.js:62 - Console.log statement found - consider removing in production
 ```
 
-### 143. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 143. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\comprehensiveCheck.js:63 - Console.log statement found - consider removing in production
 ```
 
-### 144. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 144. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\comprehensiveCheck.js:66 - Console.log statement found - consider removing in production
 ```
 
-### 145. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 145. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\comprehensiveCheck.js:158 - Missing semicolon
 ```
 
-### 146. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 146. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\comprehensiveCheck.js:209 - Missing semicolon
 ```
 
-### 147. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 147. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\comprehensiveCheck.js:246 - Missing semicolon
 ```
 
-### 148. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 148. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:15 - Console.log statement found - consider removing in production
 ```
 
-### 149. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 149. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:75 - Console.log statement found - consider removing in production
 ```
 
-### 150. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 150. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:76 - Console.log statement found - consider removing in production
 ```
 
-### 151. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 151. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:77 - Console.log statement found - consider removing in production
 ```
 
-### 152. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 152. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:78 - Console.log statement found - consider removing in production
 ```
 
-### 153. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 153. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:79 - Console.log statement found - consider removing in production
 ```
 
-### 154. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 154. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:84 - Console.log statement found - consider removing in production
 ```
 
-### 155. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 155. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:87 - Missing semicolon
 ```
 
-### 156. [PROBLEM] 2025-07-02T17:33:06.041Z
+### 156. [PROBLEM] 2025-07-02T17:43:40.718Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:116 - Missing semicolon
 ```
 
-### 157. [PROBLEM] 2025-07-02T17:33:06.042Z
+### 157. [PROBLEM] 2025-07-02T17:43:40.719Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:240 - Missing semicolon
 ```
 
-### 158. [PROBLEM] 2025-07-02T17:33:06.042Z
+### 158. [PROBLEM] 2025-07-02T17:43:40.719Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:373 - Missing semicolon
 ```
 
-### 159. [PROBLEM] 2025-07-02T17:33:06.042Z
+### 159. [PROBLEM] 2025-07-02T17:43:40.719Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:421 - Missing semicolon
 ```
 
-### 160. [PROBLEM] 2025-07-02T17:33:06.042Z
+### 160. [PROBLEM] 2025-07-02T17:43:40.719Z
 
 ```
 [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:470 - Missing semicolon
 ```
 
-### 161. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 161. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:14 - Missing semicolon
+[WARNING] scripts\build.js:12 - Console.log statement found - consider removing in production
 ```
 
-### 162. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 162. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:41 - Missing semicolon
+[WARNING] scripts\build.js:15 - Missing semicolon
 ```
 
-### 163. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 163. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:72 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:16 - Missing semicolon
 ```
 
-### 164. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 164. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:95 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:19 - Missing semicolon
 ```
 
-### 165. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 165. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:118 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:29 - Missing semicolon
 ```
 
-### 166. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 166. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:139 - Missing semicolon
+[WARNING] scripts\build.js:35 - Console.log statement found - consider removing in production
 ```
 
-### 167. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 167. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:151 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:87 - Console.log statement found - consider removing in production
 ```
 
-### 168. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 168. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[ERROR] scripts\build.js:266 - Typo: "fucntion" should be "function"
+[WARNING] scripts\build.js:99 - Console.log statement found - consider removing in production
 ```
 
-### 169. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 169. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[ERROR] scripts\build.js:267 - Typo: "fucntion" should be "function"
+[WARNING] scripts\build.js:114 - Console.log statement found - consider removing in production
 ```
 
-### 170. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 170. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:314 - Missing semicolon
+[WARNING] scripts\build.js:117 - Console.log statement found - consider removing in production
 ```
 
-### 171. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 171. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:324 - Missing semicolon
+[WARNING] scripts\build.js:119 - Console.log statement found - consider removing in production
 ```
 
-### 172. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 172. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:410 - Missing semicolon
+[WARNING] scripts\build.js:130 - Console.log statement found - consider removing in production
 ```
 
-### 173. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 173. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:480 - Missing semicolon
+[WARNING] scripts\build.js:132 - Console.log statement found - consider removing in production
 ```
 
-### 174. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 174. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:520 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:135 - Console.log statement found - consider removing in production
 ```
 
-### 175. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 175. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:649 - Missing semicolon
+[WARNING] scripts\build.js:142 - Console.log statement found - consider removing in production
 ```
 
-### 176. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 176. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:653 - Missing semicolon
+[WARNING] scripts\build.js:144 - Console.log statement found - consider removing in production
 ```
 
-### 177. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 177. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:660 - Missing semicolon
+[WARNING] scripts\build.js:147 - Console.log statement found - consider removing in production
 ```
 
-### 178. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 178. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:667 - Missing semicolon
+[WARNING] scripts\build.js:154 - Console.log statement found - consider removing in production
 ```
 
-### 179. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 179. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:729 - Missing semicolon
+[WARNING] scripts\build.js:156 - Console.log statement found - consider removing in production
 ```
 
-### 180. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 180. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:754 - Missing semicolon
+[WARNING] scripts\build.js:172 - Console.log statement found - consider removing in production
 ```
 
-### 181. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 181. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:773 - Missing semicolon
+[WARNING] scripts\build.js:194 - Missing semicolon
 ```
 
-### 182. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 182. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:801 - Missing semicolon
+[WARNING] scripts\build.js:212 - Console.log statement found - consider removing in production
 ```
 
-### 183. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 183. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:880 - Missing semicolon
+[WARNING] scripts\build.js:220 - Missing semicolon
 ```
 
-### 184. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 184. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:923 - Missing semicolon
+[WARNING] scripts\build.js:236 - Missing semicolon
 ```
 
-### 185. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 185. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:934 - Missing semicolon
+[WARNING] scripts\build.js:251 - Missing semicolon
 ```
 
-### 186. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 186. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:996 - Missing semicolon
+[WARNING] scripts\build.js:268 - Console.log statement found - consider removing in production
 ```
 
-### 187. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 187. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1025 - Missing semicolon
+[WARNING] scripts\build.js:271 - Missing semicolon
 ```
 
-### 188. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 188. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1029 - Missing semicolon
+[WARNING] scripts\build.js:276 - Console.log statement found - consider removing in production
 ```
 
-### 189. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 189. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1089 - Missing semicolon
+[WARNING] scripts\build.js:279 - Console.log statement found - consider removing in production
 ```
 
-### 190. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 190. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1154 - Missing semicolon
+[WARNING] scripts\build.js:281 - Console.log statement found - consider removing in production
 ```
 
-### 191. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 191. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1345 - Missing semicolon
+[WARNING] scripts\build.js:285 - Missing semicolon
 ```
 
-### 192. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 192. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1383 - Missing semicolon
+[WARNING] scripts\build.js:304 - Console.log statement found - consider removing in production
 ```
 
-### 193. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 193. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1395 - Missing semicolon
+[WARNING] scripts\build.js:306 - Missing semicolon
 ```
 
-### 194. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 194. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1475 - Missing semicolon
+[WARNING] scripts\build.js:325 - Console.log statement found - consider removing in production
 ```
 
-### 195. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 195. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1571 - Missing semicolon
+[WARNING] scripts\build.js:337 - Missing semicolon
 ```
 
-### 196. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 196. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1572 - Missing semicolon
+[WARNING] scripts\build.js:346 - Console.log statement found - consider removing in production
 ```
 
-### 197. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 197. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1693 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:347 - Console.log statement found - consider removing in production
 ```
 
-### 198. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 198. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1694 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:348 - Console.log statement found - consider removing in production
 ```
 
-### 199. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 199. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1716 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:353 - Console.log statement found - consider removing in production
 ```
 
-### 200. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 200. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1726 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:354 - Console.log statement found - consider removing in production
 ```
 
-### 201. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 201. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1731 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:365 - Console.log statement found - consider removing in production
 ```
 
-### 202. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 202. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1745 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:366 - Console.log statement found - consider removing in production
 ```
 
-### 203. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 203. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1749 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:367 - Console.log statement found - consider removing in production
 ```
 
-### 204. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 204. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1751 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:368 - Console.log statement found - consider removing in production
 ```
 
-### 205. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 205. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1754 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:369 - Console.log statement found - consider removing in production
 ```
 
-### 206. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 206. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1805 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:373 - Console.log statement found - consider removing in production
 ```
 
-### 207. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 207. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1807 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:374 - Console.log statement found - consider removing in production
 ```
 
-### 208. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 208. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1812 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:375 - Console.log statement found - consider removing in production
 ```
 
-### 209. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 209. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1818 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:376 - Console.log statement found - consider removing in production
 ```
 
-### 210. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 210. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1820 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:377 - Console.log statement found - consider removing in production
 ```
 
-### 211. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 211. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1826 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:381 - Console.log statement found - consider removing in production
 ```
 
-### 212. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 212. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1827 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:382 - Console.log statement found - consider removing in production
 ```
 
-### 213. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 213. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1828 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:385 - Console.log statement found - consider removing in production
 ```
 
-### 214. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 214. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1831 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:392 - Console.log statement found - consider removing in production
 ```
 
-### 215. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 215. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1832 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:393 - Console.log statement found - consider removing in production
 ```
 
-### 216. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 216. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1833 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:394 - Console.log statement found - consider removing in production
 ```
 
-### 217. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 217. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1834 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:415 - Console.log statement found - consider removing in production
 ```
 
-### 218. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 218. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1835 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:424 - Console.log statement found - consider removing in production
 ```
 
-### 219. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 219. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1836 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:433 - Missing semicolon
 ```
 
-### 220. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 220. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1839 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:460 - Missing semicolon
 ```
 
-### 221. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 221. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1843 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:491 - Console.log statement found - consider removing in production
 ```
 
-### 222. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 222. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1844 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:514 - Console.log statement found - consider removing in production
 ```
 
-### 223. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 223. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1845 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:537 - Console.log statement found - consider removing in production
 ```
 
-### 224. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 224. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1849 - Missing semicolon
+[WARNING] scripts\build.js:558 - Missing semicolon
 ```
 
-### 225. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 225. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1873 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:570 - Console.log statement found - consider removing in production
 ```
 
-### 226. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 226. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1875 - Console.log statement found - consider removing in production
+[ERROR] scripts\build.js:685 - Typo: "fucntion" should be "function"
 ```
 
-### 227. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 227. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1881 - Console.log statement found - consider removing in production
+[ERROR] scripts\build.js:686 - Typo: "fucntion" should be "function"
 ```
 
-### 228. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 228. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1884 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:733 - Missing semicolon
 ```
 
-### 229. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 229. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1904 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:743 - Missing semicolon
 ```
 
-### 230. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 230. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1905 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:829 - Missing semicolon
 ```
 
-### 231. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 231. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1928 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:899 - Missing semicolon
 ```
 
-### 232. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 232. [PROBLEM] 2025-07-02T17:43:40.720Z
 
 ```
-[WARNING] scripts\build.js:1932 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:939 - Console.log statement found - consider removing in production
 ```
 
-### 233. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 233. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1933 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1068 - Missing semicolon
 ```
 
-### 234. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 234. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1935 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1072 - Missing semicolon
 ```
 
-### 235. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 235. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1936 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1079 - Missing semicolon
 ```
 
-### 236. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 236. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1940 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1086 - Missing semicolon
 ```
 
-### 237. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 237. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1942 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1148 - Missing semicolon
 ```
 
-### 238. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 238. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1945 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1173 - Missing semicolon
 ```
 
-### 239. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 239. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1948 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1192 - Missing semicolon
 ```
 
-### 240. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 240. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1951 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1220 - Missing semicolon
 ```
 
-### 241. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 241. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1952 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1299 - Missing semicolon
 ```
 
-### 242. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 242. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1956 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1342 - Missing semicolon
 ```
 
-### 243. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 243. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1957 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1353 - Missing semicolon
 ```
 
-### 244. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 244. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1976 - Missing semicolon
+[WARNING] scripts\build.js:1415 - Missing semicolon
 ```
 
-### 245. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 245. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1984 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1444 - Missing semicolon
 ```
 
-### 246. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 246. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1988 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1448 - Missing semicolon
 ```
 
-### 247. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 247. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1990 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1508 - Missing semicolon
 ```
 
-### 248. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 248. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1993 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1573 - Missing semicolon
 ```
 
-### 249. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 249. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1994 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1764 - Missing semicolon
 ```
 
-### 250. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 250. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1995 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1802 - Missing semicolon
 ```
 
-### 251. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 251. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1996 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1814 - Missing semicolon
 ```
 
-### 252. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 252. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:1997 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1894 - Missing semicolon
 ```
 
-### 253. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 253. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2000 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1990 - Missing semicolon
 ```
 
-### 254. [PROBLEM] 2025-07-02T17:33:06.043Z
+### 254. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2002 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:1991 - Missing semicolon
 ```
 
-### 255. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 255. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2007 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2112 - Console.log statement found - consider removing in production
 ```
 
-### 256. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 256. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2009 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2113 - Console.log statement found - consider removing in production
 ```
 
-### 257. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 257. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2014 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2135 - Console.log statement found - consider removing in production
 ```
 
-### 258. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 258. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2024 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2145 - Console.log statement found - consider removing in production
 ```
 
-### 259. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 259. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2038 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2150 - Console.log statement found - consider removing in production
 ```
 
-### 260. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 260. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2039 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2164 - Console.log statement found - consider removing in production
 ```
 
-### 261. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 261. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2040 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2168 - Console.log statement found - consider removing in production
 ```
 
-### 262. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 262. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2041 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2170 - Console.log statement found - consider removing in production
 ```
 
-### 263. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 263. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2042 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2173 - Console.log statement found - consider removing in production
 ```
 
-### 264. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 264. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2043 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2224 - Console.log statement found - consider removing in production
 ```
 
-### 265. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 265. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2044 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2226 - Console.log statement found - consider removing in production
 ```
 
-### 266. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 266. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2048 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2231 - Console.log statement found - consider removing in production
 ```
 
-### 267. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 267. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2049 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2237 - Console.log statement found - consider removing in production
 ```
 
-### 268. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 268. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2050 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2239 - Console.log statement found - consider removing in production
 ```
 
-### 269. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 269. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2051 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2251 - Console.log statement found - consider removing in production
 ```
 
-### 270. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 270. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2052 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2252 - Console.log statement found - consider removing in production
 ```
 
-### 271. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 271. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2053 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2253 - Console.log statement found - consider removing in production
 ```
 
-### 272. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 272. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2054 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2256 - Console.log statement found - consider removing in production
 ```
 
-### 273. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 273. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2055 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2257 - Console.log statement found - consider removing in production
 ```
 
-### 274. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 274. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2075 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2258 - Console.log statement found - consider removing in production
 ```
 
-### 275. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 275. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2092 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2259 - Console.log statement found - consider removing in production
 ```
 
-### 276. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 276. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2130 - Missing semicolon
+[WARNING] scripts\build.js:2260 - Console.log statement found - consider removing in production
 ```
 
-### 277. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 277. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2186 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2261 - Console.log statement found - consider removing in production
 ```
 
-### 278. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 278. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2239 - Missing semicolon
+[WARNING] scripts\build.js:2264 - Console.log statement found - consider removing in production
 ```
 
-### 279. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 279. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2268 - Missing semicolon
+[WARNING] scripts\build.js:2268 - Console.log statement found - consider removing in production
 ```
 
-### 280. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 280. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2305 - Missing semicolon
+[WARNING] scripts\build.js:2269 - Console.log statement found - consider removing in production
 ```
 
-### 281. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 281. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2317 - Missing semicolon
+[WARNING] scripts\build.js:2270 - Console.log statement found - consider removing in production
 ```
 
-### 282. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 282. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2345 - Missing semicolon
+[WARNING] scripts\build.js:2274 - Missing semicolon
 ```
 
-### 283. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 283. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2357 - Missing semicolon
+[WARNING] scripts\build.js:2298 - Console.log statement found - consider removing in production
 ```
 
-### 284. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 284. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2383 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2300 - Console.log statement found - consider removing in production
 ```
 
-### 285. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 285. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2435 - Missing semicolon
+[WARNING] scripts\build.js:2306 - Console.log statement found - consider removing in production
 ```
 
-### 286. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 286. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2439 - Missing semicolon
+[WARNING] scripts\build.js:2309 - Console.log statement found - consider removing in production
 ```
 
-### 287. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 287. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2452 - Missing semicolon
+[WARNING] scripts\build.js:2329 - Console.log statement found - consider removing in production
 ```
 
-### 288. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 288. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2461 - Missing semicolon
+[WARNING] scripts\build.js:2330 - Console.log statement found - consider removing in production
 ```
 
-### 289. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 289. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2470 - Missing semicolon
+[WARNING] scripts\build.js:2353 - Console.log statement found - consider removing in production
 ```
 
-### 290. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 290. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2479 - Missing semicolon
+[WARNING] scripts\build.js:2357 - Console.log statement found - consider removing in production
 ```
 
-### 291. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 291. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2500 - Missing semicolon
+[WARNING] scripts\build.js:2358 - Console.log statement found - consider removing in production
 ```
 
-### 292. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 292. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2513 - Missing semicolon
+[WARNING] scripts\build.js:2360 - Console.log statement found - consider removing in production
 ```
 
-### 293. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 293. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2526 - Missing semicolon
+[WARNING] scripts\build.js:2361 - Console.log statement found - consider removing in production
 ```
 
-### 294. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 294. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2539 - Missing semicolon
+[WARNING] scripts\build.js:2365 - Console.log statement found - consider removing in production
 ```
 
-### 295. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 295. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2566 - Missing semicolon
+[WARNING] scripts\build.js:2367 - Console.log statement found - consider removing in production
 ```
 
-### 296. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 296. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2575 - Missing semicolon
+[WARNING] scripts\build.js:2370 - Console.log statement found - consider removing in production
 ```
 
-### 297. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 297. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2584 - Missing semicolon
+[WARNING] scripts\build.js:2373 - Console.log statement found - consider removing in production
 ```
 
-### 298. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 298. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2593 - Missing semicolon
+[WARNING] scripts\build.js:2376 - Console.log statement found - consider removing in production
 ```
 
-### 299. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 299. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2602 - Missing semicolon
+[WARNING] scripts\build.js:2377 - Console.log statement found - consider removing in production
 ```
 
-### 300. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 300. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2695 - Missing semicolon
+[WARNING] scripts\build.js:2381 - Console.log statement found - consider removing in production
 ```
 
-### 301. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 301. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2699 - Missing semicolon
+[WARNING] scripts\build.js:2382 - Console.log statement found - consider removing in production
 ```
 
-### 302. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 302. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2709 - Missing semicolon
+[WARNING] scripts\build.js:2401 - Missing semicolon
 ```
 
-### 303. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 303. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2719 - Missing semicolon
+[WARNING] scripts\build.js:2409 - Console.log statement found - consider removing in production
 ```
 
-### 304. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 304. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2738 - Missing semicolon
+[WARNING] scripts\build.js:2413 - Console.log statement found - consider removing in production
 ```
 
-### 305. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 305. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2763 - Missing semicolon
+[WARNING] scripts\build.js:2415 - Console.log statement found - consider removing in production
 ```
 
-### 306. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 306. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2772 - Missing semicolon
+[WARNING] scripts\build.js:2418 - Console.log statement found - consider removing in production
 ```
 
-### 307. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 307. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2781 - Missing semicolon
+[WARNING] scripts\build.js:2419 - Console.log statement found - consider removing in production
 ```
 
-### 308. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 308. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2790 - Missing semicolon
+[WARNING] scripts\build.js:2420 - Console.log statement found - consider removing in production
 ```
 
-### 309. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 309. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2799 - Missing semicolon
+[WARNING] scripts\build.js:2421 - Console.log statement found - consider removing in production
 ```
 
-### 310. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 310. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2808 - Missing semicolon
+[WARNING] scripts\build.js:2422 - Console.log statement found - consider removing in production
 ```
 
-### 311. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 311. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2831 - Missing semicolon
+[WARNING] scripts\build.js:2425 - Console.log statement found - consider removing in production
 ```
 
-### 312. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 312. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2844 - Missing semicolon
+[WARNING] scripts\build.js:2427 - Console.log statement found - consider removing in production
 ```
 
-### 313. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 313. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2857 - Missing semicolon
+[WARNING] scripts\build.js:2432 - Console.log statement found - consider removing in production
 ```
 
-### 314. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 314. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2866 - Missing semicolon
+[WARNING] scripts\build.js:2434 - Console.log statement found - consider removing in production
 ```
 
-### 315. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 315. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2875 - Missing semicolon
+[WARNING] scripts\build.js:2439 - Console.log statement found - consider removing in production
 ```
 
-### 316. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 316. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2884 - Missing semicolon
+[WARNING] scripts\build.js:2449 - Console.log statement found - consider removing in production
 ```
 
-### 317. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 317. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2914 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2463 - Console.log statement found - consider removing in production
 ```
 
-### 318. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 318. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2941 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2464 - Console.log statement found - consider removing in production
 ```
 
-### 319. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 319. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2943 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2465 - Console.log statement found - consider removing in production
 ```
 
-### 320. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 320. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2945 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2466 - Console.log statement found - consider removing in production
 ```
 
-### 321. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 321. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:2973 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2467 - Console.log statement found - consider removing in production
 ```
 
-### 322. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 322. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:3122 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2468 - Console.log statement found - consider removing in production
 ```
 
-### 323. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 323. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:3123 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2469 - Console.log statement found - consider removing in production
 ```
 
-### 324. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 324. [PROBLEM] 2025-07-02T17:43:40.721Z
 
 ```
-[WARNING] scripts\build.js:3124 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:2473 - Console.log statement found - consider removing in production
 ```
 
-### 325. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 325. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2474 - Console.log statement found - consider removing in production
+```
+
+### 326. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2475 - Console.log statement found - consider removing in production
+```
+
+### 327. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2476 - Console.log statement found - consider removing in production
+```
+
+### 328. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2477 - Console.log statement found - consider removing in production
+```
+
+### 329. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2478 - Console.log statement found - consider removing in production
+```
+
+### 330. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2479 - Console.log statement found - consider removing in production
+```
+
+### 331. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2480 - Console.log statement found - consider removing in production
+```
+
+### 332. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2500 - Console.log statement found - consider removing in production
+```
+
+### 333. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2517 - Console.log statement found - consider removing in production
+```
+
+### 334. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2555 - Missing semicolon
+```
+
+### 335. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2611 - Console.log statement found - consider removing in production
+```
+
+### 336. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2664 - Missing semicolon
+```
+
+### 337. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2693 - Missing semicolon
+```
+
+### 338. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2730 - Missing semicolon
+```
+
+### 339. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2742 - Missing semicolon
+```
+
+### 340. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2770 - Missing semicolon
+```
+
+### 341. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2782 - Missing semicolon
+```
+
+### 342. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2808 - Console.log statement found - consider removing in production
+```
+
+### 343. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2860 - Missing semicolon
+```
+
+### 344. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2864 - Missing semicolon
+```
+
+### 345. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2877 - Missing semicolon
+```
+
+### 346. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2886 - Missing semicolon
+```
+
+### 347. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2895 - Missing semicolon
+```
+
+### 348. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2904 - Missing semicolon
+```
+
+### 349. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2925 - Missing semicolon
+```
+
+### 350. [PROBLEM] 2025-07-02T17:43:40.721Z
+
+```
+[WARNING] scripts\build.js:2938 - Missing semicolon
+```
+
+### 351. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:2951 - Missing semicolon
+```
+
+### 352. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:2964 - Missing semicolon
+```
+
+### 353. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:2991 - Missing semicolon
+```
+
+### 354. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3000 - Missing semicolon
+```
+
+### 355. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3009 - Missing semicolon
+```
+
+### 356. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3018 - Missing semicolon
+```
+
+### 357. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3027 - Missing semicolon
+```
+
+### 358. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3120 - Missing semicolon
+```
+
+### 359. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3124 - Missing semicolon
+```
+
+### 360. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3134 - Missing semicolon
 ```
 
-### 326. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 361. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3139 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3144 - Missing semicolon
 ```
 
-### 327. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 362. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3143 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3163 - Missing semicolon
 ```
 
-### 328. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 363. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3150 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3188 - Missing semicolon
 ```
 
-### 329. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 364. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3156 - Missing semicolon
+[WARNING] scripts\build.js:3197 - Missing semicolon
 ```
 
-### 330. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 365. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3157 - Missing semicolon
+[WARNING] scripts\build.js:3206 - Missing semicolon
 ```
 
-### 331. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 366. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3160 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3215 - Missing semicolon
 ```
 
-### 332. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 367. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3172 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3224 - Missing semicolon
 ```
 
-### 333. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 368. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3175 - Missing semicolon
+[WARNING] scripts\build.js:3233 - Missing semicolon
 ```
 
-### 334. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 369. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3178 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3256 - Missing semicolon
 ```
 
-### 335. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 370. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3181 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3269 - Missing semicolon
 ```
 
-### 336. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 371. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3185 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3282 - Missing semicolon
 ```
 
-### 337. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 372. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3186 - Missing semicolon
+[WARNING] scripts\build.js:3291 - Missing semicolon
 ```
 
-### 338. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 373. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3192 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3300 - Missing semicolon
 ```
 
-### 339. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 374. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3194 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3309 - Missing semicolon
 ```
 
-### 340. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3198 - Console.log statement found - consider removing in production
-```
-
-### 341. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3202 - Missing semicolon
-```
-
-### 342. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3210 - Console.log statement found - consider removing in production
-```
-
-### 343. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3214 - Console.log statement found - consider removing in production
-```
-
-### 344. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3220 - Console.log statement found - consider removing in production
-```
-
-### 345. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3225 - Console.log statement found - consider removing in production
-```
-
-### 346. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3228 - Console.log statement found - consider removing in production
-```
-
-### 347. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3230 - Console.log statement found - consider removing in production
-```
-
-### 348. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3234 - Console.log statement found - consider removing in production
-```
-
-### 349. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3235 - Console.log statement found - consider removing in production
-```
-
-### 350. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3236 - Console.log statement found - consider removing in production
-```
-
-### 351. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3238 - Console.log statement found - consider removing in production
-```
-
-### 352. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3247 - Console.log statement found - consider removing in production
-```
-
-### 353. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3252 - Console.log statement found - consider removing in production
-```
-
-### 354. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3253 - Console.log statement found - consider removing in production
-```
-
-### 355. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3254 - Console.log statement found - consider removing in production
-```
-
-### 356. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3255 - Console.log statement found - consider removing in production
-```
-
-### 357. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3269 - Console.log statement found - consider removing in production
-```
-
-### 358. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3271 - Console.log statement found - consider removing in production
-```
-
-### 359. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3281 - Console.log statement found - consider removing in production
-```
-
-### 360. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3284 - Console.log statement found - consider removing in production
-```
-
-### 361. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3287 - Console.log statement found - consider removing in production
-```
-
-### 362. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3288 - Console.log statement found - consider removing in production
-```
-
-### 363. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3289 - Console.log statement found - consider removing in production
-```
-
-### 364. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3290 - Console.log statement found - consider removing in production
-```
-
-### 365. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3291 - Console.log statement found - consider removing in production
-```
-
-### 366. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3296 - Console.log statement found - consider removing in production
-```
-
-### 367. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3297 - Console.log statement found - consider removing in production
-```
-
-### 368. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3326 - Console.log statement found - consider removing in production
-```
-
-### 369. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3329 - Console.log statement found - consider removing in production
-```
-
-### 370. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3330 - Console.log statement found - consider removing in production
-```
-
-### 371. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3331 - Console.log statement found - consider removing in production
-```
-
-### 372. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3332 - Console.log statement found - consider removing in production
-```
-
-### 373. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3333 - Console.log statement found - consider removing in production
-```
-
-### 374. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3334 - Console.log statement found - consider removing in production
-```
-
-### 375. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3337 - Console.log statement found - consider removing in production
-```
-
-### 376. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3338 - Console.log statement found - consider removing in production
-```
-
-### 377. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 375. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3339 - Console.log statement found - consider removing in production
 ```
 
-### 378. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 376. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3340 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3366 - Console.log statement found - consider removing in production
 ```
 
-### 379. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3341 - Console.log statement found - consider removing in production
-```
-
-### 380. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3342 - Console.log statement found - consider removing in production
-```
-
-### 381. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3343 - Console.log statement found - consider removing in production
-```
-
-### 382. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3345 - Console.log statement found - consider removing in production
-```
-
-### 383. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3347 - Console.log statement found - consider removing in production
-```
-
-### 384. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3350 - Console.log statement found - consider removing in production
-```
-
-### 385. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3351 - Console.log statement found - consider removing in production
-```
-
-### 386. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3352 - Console.log statement found - consider removing in production
-```
-
-### 387. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3353 - Console.log statement found - consider removing in production
-```
-
-### 388. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3355 - Console.log statement found - consider removing in production
-```
-
-### 389. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3356 - Console.log statement found - consider removing in production
-```
-
-### 390. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3357 - Console.log statement found - consider removing in production
-```
-
-### 391. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3358 - Console.log statement found - consider removing in production
-```
-
-### 392. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3360 - Console.log statement found - consider removing in production
-```
-
-### 393. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3361 - Console.log statement found - consider removing in production
-```
-
-### 394. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3362 - Console.log statement found - consider removing in production
-```
-
-### 395. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3363 - Console.log statement found - consider removing in production
-```
-
-### 396. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3364 - Console.log statement found - consider removing in production
-```
-
-### 397. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3365 - Console.log statement found - consider removing in production
-```
-
-### 398. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3367 - Console.log statement found - consider removing in production
-```
-
-### 399. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 377. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3368 - Console.log statement found - consider removing in production
 ```
 
-### 400. [PROBLEM] 2025-07-02T17:33:06.044Z
-
-```
-[WARNING] scripts\build.js:3369 - Console.log statement found - consider removing in production
-```
-
-### 401. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 378. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3370 - Console.log statement found - consider removing in production
 ```
 
-### 402. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 379. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3373 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3398 - Console.log statement found - consider removing in production
 ```
 
-### 403. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 380. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3374 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3547 - Console.log statement found - consider removing in production
 ```
 
-### 404. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 381. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3375 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3548 - Console.log statement found - consider removing in production
 ```
 
-### 405. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 382. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3395 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3549 - Console.log statement found - consider removing in production
 ```
 
-### 406. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 383. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3431 - Missing semicolon
+[WARNING] scripts\build.js:3559 - Missing semicolon
 ```
 
-### 407. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 384. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3451 - Missing semicolon
+[WARNING] scripts\build.js:3564 - Console.log statement found - consider removing in production
 ```
 
-### 408. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 385. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3479 - Missing semicolon
+[WARNING] scripts\build.js:3568 - Console.log statement found - consider removing in production
 ```
 
-### 409. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 386. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3521 - Missing semicolon
+[WARNING] scripts\build.js:3575 - Console.log statement found - consider removing in production
 ```
 
-### 410. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 387. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3564 - Missing semicolon
+[WARNING] scripts\build.js:3581 - Missing semicolon
 ```
 
-### 411. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 388. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3582 - Missing semicolon
+```
+
+### 389. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3585 - Console.log statement found - consider removing in production
+```
+
+### 390. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3597 - Console.log statement found - consider removing in production
+```
+
+### 391. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3600 - Missing semicolon
+```
+
+### 392. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3603 - Console.log statement found - consider removing in production
+```
+
+### 393. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3606 - Console.log statement found - consider removing in production
 ```
 
-### 412. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 394. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3611 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3610 - Console.log statement found - consider removing in production
 ```
 
-### 413. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 395. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3616 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3611 - Missing semicolon
 ```
 
-### 414. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 396. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3622 - Missing semicolon
+[WARNING] scripts\build.js:3617 - Console.log statement found - consider removing in production
 ```
 
-### 415. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 397. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3625 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3619 - Console.log statement found - consider removing in production
 ```
 
-### 416. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 398. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3640 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3623 - Console.log statement found - consider removing in production
 ```
 
-### 417. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 399. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3643 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3627 - Missing semicolon
 ```
 
-### 418. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 400. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3647 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3635 - Console.log statement found - consider removing in production
 ```
 
-### 419. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 401. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3652 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3639 - Console.log statement found - consider removing in production
 ```
 
-### 420. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 402. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3656 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3645 - Console.log statement found - consider removing in production
 ```
 
-### 421. [PROBLEM] 2025-07-02T17:33:06.044Z
+### 403. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3657 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3650 - Console.log statement found - consider removing in production
 ```
 
-### 422. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 404. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3653 - Console.log statement found - consider removing in production
+```
+
+### 405. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3655 - Console.log statement found - consider removing in production
+```
+
+### 406. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3659 - Console.log statement found - consider removing in production
+```
+
+### 407. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3660 - Console.log statement found - consider removing in production
+```
+
+### 408. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3661 - Console.log statement found - consider removing in production
+```
+
+### 409. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3663 - Console.log statement found - consider removing in production
 ```
 
-### 423. [PROBLEM] 2025-07-02T17:33:06.045Z
-
-```
-[WARNING] scripts\build.js:3664 - Console.log statement found - consider removing in production
-```
-
-### 424. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 410. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3672 - Console.log statement found - consider removing in production
 ```
 
-### 425. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 411. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3673 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3677 - Console.log statement found - consider removing in production
 ```
 
-### 426. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 412. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3683 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3678 - Console.log statement found - consider removing in production
 ```
 
-### 427. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 413. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3690 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3679 - Console.log statement found - consider removing in production
 ```
 
-### 428. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 414. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3692 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3680 - Console.log statement found - consider removing in production
 ```
 
-### 429. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 415. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3694 - Console.log statement found - consider removing in production
+```
+
+### 416. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3696 - Console.log statement found - consider removing in production
+```
+
+### 417. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3706 - Console.log statement found - consider removing in production
+```
+
+### 418. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3709 - Console.log statement found - consider removing in production
+```
+
+### 419. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3712 - Console.log statement found - consider removing in production
+```
+
+### 420. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3713 - Console.log statement found - consider removing in production
+```
+
+### 421. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3714 - Console.log statement found - consider removing in production
+```
+
+### 422. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3715 - Console.log statement found - consider removing in production
+```
+
+### 423. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3716 - Console.log statement found - consider removing in production
+```
+
+### 424. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3721 - Console.log statement found - consider removing in production
+```
+
+### 425. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3722 - Console.log statement found - consider removing in production
+```
+
+### 426. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3751 - Console.log statement found - consider removing in production
+```
+
+### 427. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3754 - Console.log statement found - consider removing in production
+```
+
+### 428. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3755 - Console.log statement found - consider removing in production
+```
+
+### 429. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3756 - Console.log statement found - consider removing in production
+```
+
+### 430. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3757 - Console.log statement found - consider removing in production
+```
+
+### 431. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3758 - Console.log statement found - consider removing in production
 ```
 
-### 430. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 432. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3759 - Console.log statement found - consider removing in production
 ```
 
-### 431. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 433. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3762 - Console.log statement found - consider removing in production
+```
+
+### 434. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3763 - Console.log statement found - consider removing in production
+```
+
+### 435. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3764 - Console.log statement found - consider removing in production
 ```
 
-### 432. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 436. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3765 - Console.log statement found - consider removing in production
+```
+
+### 437. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
 [WARNING] scripts\build.js:3766 - Console.log statement found - consider removing in production
 ```
 
-### 433. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 438. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3769 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3767 - Console.log statement found - consider removing in production
 ```
 
-### 434. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 439. [PROBLEM] 2025-07-02T17:43:40.722Z
 
 ```
-[WARNING] scripts\build.js:3773 - Console.log statement found - consider removing in production
+[WARNING] scripts\build.js:3768 - Console.log statement found - consider removing in production
 ```
 
-### 435. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 440. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3770 - Console.log statement found - consider removing in production
+```
+
+### 441. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3772 - Console.log statement found - consider removing in production
+```
+
+### 442. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3775 - Console.log statement found - consider removing in production
+```
+
+### 443. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3776 - Console.log statement found - consider removing in production
+```
+
+### 444. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3777 - Console.log statement found - consider removing in production
+```
+
+### 445. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3778 - Console.log statement found - consider removing in production
+```
+
+### 446. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3780 - Console.log statement found - consider removing in production
+```
+
+### 447. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3781 - Console.log statement found - consider removing in production
+```
+
+### 448. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3782 - Console.log statement found - consider removing in production
+```
+
+### 449. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3783 - Console.log statement found - consider removing in production
+```
+
+### 450. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3785 - Console.log statement found - consider removing in production
+```
+
+### 451. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3786 - Console.log statement found - consider removing in production
+```
+
+### 452. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3787 - Console.log statement found - consider removing in production
+```
+
+### 453. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3788 - Console.log statement found - consider removing in production
+```
+
+### 454. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3789 - Console.log statement found - consider removing in production
+```
+
+### 455. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3790 - Console.log statement found - consider removing in production
+```
+
+### 456. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3792 - Console.log statement found - consider removing in production
+```
+
+### 457. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3793 - Console.log statement found - consider removing in production
+```
+
+### 458. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3794 - Console.log statement found - consider removing in production
+```
+
+### 459. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3795 - Console.log statement found - consider removing in production
+```
+
+### 460. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3798 - Console.log statement found - consider removing in production
+```
+
+### 461. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3799 - Console.log statement found - consider removing in production
+```
+
+### 462. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3800 - Console.log statement found - consider removing in production
+```
+
+### 463. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3820 - Console.log statement found - consider removing in production
+```
+
+### 464. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3856 - Missing semicolon
+```
+
+### 465. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3876 - Missing semicolon
+```
+
+### 466. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3904 - Missing semicolon
+```
+
+### 467. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3946 - Missing semicolon
+```
+
+### 468. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:3989 - Missing semicolon
+```
+
+### 469. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4031 - Console.log statement found - consider removing in production
+```
+
+### 470. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4036 - Console.log statement found - consider removing in production
+```
+
+### 471. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4041 - Console.log statement found - consider removing in production
+```
+
+### 472. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4047 - Missing semicolon
+```
+
+### 473. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4050 - Console.log statement found - consider removing in production
+```
+
+### 474. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4065 - Console.log statement found - consider removing in production
+```
+
+### 475. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4068 - Console.log statement found - consider removing in production
+```
+
+### 476. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4072 - Console.log statement found - consider removing in production
+```
+
+### 477. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4077 - Console.log statement found - consider removing in production
+```
+
+### 478. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4081 - Console.log statement found - consider removing in production
+```
+
+### 479. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4082 - Console.log statement found - consider removing in production
+```
+
+### 480. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4088 - Console.log statement found - consider removing in production
+```
+
+### 481. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4089 - Console.log statement found - consider removing in production
+```
+
+### 482. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4097 - Console.log statement found - consider removing in production
+```
+
+### 483. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4098 - Console.log statement found - consider removing in production
+```
+
+### 484. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4108 - Console.log statement found - consider removing in production
+```
+
+### 485. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4115 - Console.log statement found - consider removing in production
+```
+
+### 486. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4117 - Console.log statement found - consider removing in production
+```
+
+### 487. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4183 - Console.log statement found - consider removing in production
+```
+
+### 488. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4184 - Console.log statement found - consider removing in production
+```
+
+### 489. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4189 - Console.log statement found - consider removing in production
+```
+
+### 490. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4191 - Console.log statement found - consider removing in production
+```
+
+### 491. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4194 - Console.log statement found - consider removing in production
+```
+
+### 492. [PROBLEM] 2025-07-02T17:43:40.722Z
+
+```
+[WARNING] scripts\build.js:4198 - Console.log statement found - consider removing in production
+```
+
+### 493. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\keyword-cleanup.js:38 - Console.log statement found - consider removing in production
 ```
 
-### 436. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 494. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\keyword-cleanup.js:40 - Missing semicolon
 ```
 
-### 437. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 495. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\keyword-cleanup.js:58 - Console.log statement found - consider removing in production
 ```
 
-### 438. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 496. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\keyword-cleanup.js:64 - Console.log statement found - consider removing in production
 ```
 
-### 439. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 497. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\keyword-cleanup.js:67 - Console.log statement found - consider removing in production
 ```
 
-### 440. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 498. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\keyword-cleanup.js:71 - Console.log statement found - consider removing in production
 ```
 
-### 441. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 499. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\keyword-cleanup.js:72 - Console.log statement found - consider removing in production
 ```
 
-### 442. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 500. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\keyword-cleanup.js:73 - Console.log statement found - consider removing in production
 ```
 
-### 443. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 501. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:45 - Missing semicolon
 ```
 
-### 444. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 502. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:61 - Console.log statement found - consider removing in production
 ```
 
-### 445. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 503. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:68 - Console.log statement found - consider removing in production
 ```
 
-### 446. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 504. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:83 - Console.log statement found - consider removing in production
 ```
 
-### 447. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 505. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:91 - Missing semicolon
 ```
 
-### 448. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 506. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:116 - Console.log statement found - consider removing in production
 ```
 
-### 449. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 507. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:144 - Missing semicolon
 ```
 
-### 450. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 508. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:158 - Missing semicolon
 ```
 
-### 451. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 509. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:174 - Console.log statement found - consider removing in production
 ```
 
-### 452. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 510. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:177 - Missing semicolon
 ```
 
-### 453. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 511. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:185 - Console.log statement found - consider removing in production
 ```
 
-### 454. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 512. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:204 - Console.log statement found - consider removing in production
 ```
 
-### 455. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 513. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:209 - Console.log statement found - consider removing in production
 ```
 
-### 456. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 514. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:228 - Missing semicolon
 ```
 
-### 457. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 515. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:235 - Console.log statement found - consider removing in production
 ```
 
-### 458. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 516. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:264 - Console.log statement found - consider removing in production
 ```
 
-### 459. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 517. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:265 - Console.log statement found - consider removing in production
 ```
 
-### 460. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 518. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:266 - Console.log statement found - consider removing in production
 ```
 
-### 461. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 519. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] scripts\log-manager.js:267 - Console.log statement found - consider removing in production
 ```
 
-### 462. [PROBLEM] 2025-07-02T17:33:06.045Z
+### 520. [PROBLEM] 2025-07-02T17:43:40.723Z
 
 ```
 [WARNING] style.css:170 - Missing semicolon in CSS property
 ```
 
-### 463. [INFO] 2025-07-02T17:33:06.046Z
+### 521. [INFO] 2025-07-02T17:43:40.724Z
 
 ```
-✅ Problems-Scan abgeschlossen. 428 Problem(e) gefunden.
+✅ Problems-Scan abgeschlossen. 486 Problem(e) gefunden.
 ```
 
-### 464. [LOG] 2025-07-02T17:33:06.046Z
+### 522. [LOG] 2025-07-02T17:43:40.724Z
 
 ```
 📄 Gefunden: 10 Markdown-Dateien
 
 ```
 
-### 465. [LOG] 2025-07-02T17:33:06.046Z
+### 523. [LOG] 2025-07-02T17:43:40.724Z
 
 ```
 
 📋 Verarbeite: bindungssehnsucht-normal.md
 ```
 
-### 466. [LOG] 2025-07-02T17:33:06.050Z
+### 524. [LOG] 2025-07-02T17:43:40.727Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 467. [LOG] 2025-07-02T17:33:06.051Z
+### 525. [LOG] 2025-07-02T17:43:40.728Z
 
 ```
    ✅ Intention-Score: 60% - EXCELLENT!
 ```
 
-### 468. [LOG] 2025-07-02T17:33:06.051Z
+### 526. [LOG] 2025-07-02T17:43:40.729Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 469. [LOG] 2025-07-02T17:33:06.067Z
+### 527. [LOG] 2025-07-02T17:43:40.747Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 470. [LOG] 2025-07-02T17:33:06.067Z
+### 528. [LOG] 2025-07-02T17:43:40.747Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 471. [LOG] 2025-07-02T17:33:06.068Z
+### 529. [LOG] 2025-07-02T17:43:40.748Z
 
 ```
    ✅ HTML erstellt: bindungssehnsucht-normal.html
 ```
 
-### 472. [LOG] 2025-07-02T17:33:06.068Z
+### 530. [LOG] 2025-07-02T17:43:40.748Z
 
 ```
 
 📋 Verarbeite: das-erste-mal.md
 ```
 
-### 473. [LOG] 2025-07-02T17:33:06.069Z
+### 531. [LOG] 2025-07-02T17:43:40.749Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 474. [LOG] 2025-07-02T17:33:06.070Z
+### 532. [LOG] 2025-07-02T17:43:40.751Z
 
 ```
    ❌ Intention-Score: 50% (Min: 60%)
 ```
 
-### 475. [LOG] 2025-07-02T17:33:06.071Z
+### 533. [LOG] 2025-07-02T17:43:40.751Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 476. [LOG] 2025-07-02T17:33:06.072Z
+### 534. [LOG] 2025-07-02T17:43:40.752Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 477. [LOG] 2025-07-02T17:33:06.072Z
+### 535. [LOG] 2025-07-02T17:43:40.752Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 478. [LOG] 2025-07-02T17:33:06.073Z
+### 536. [LOG] 2025-07-02T17:43:40.753Z
 
 ```
    ✅ HTML erstellt: das-erste-mal.html
 ```
 
-### 479. [LOG] 2025-07-02T17:33:06.073Z
+### 537. [LOG] 2025-07-02T17:43:40.753Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 480. [LOG] 2025-07-02T17:33:06.073Z
+### 538. [LOG] 2025-07-02T17:43:40.753Z
 
 ```
 
 📋 Verarbeite: der-sichere-hafen.md
 ```
 
-### 481. [LOG] 2025-07-02T17:33:06.073Z
+### 539. [LOG] 2025-07-02T17:43:40.754Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 482. [LOG] 2025-07-02T17:33:06.074Z
+### 540. [LOG] 2025-07-02T17:43:40.755Z
 
 ```
    ❌ Intention-Score: 15% (Min: 60%)
 ```
 
-### 483. [LOG] 2025-07-02T17:33:06.075Z
+### 541. [LOG] 2025-07-02T17:43:40.755Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 484. [LOG] 2025-07-02T17:33:06.076Z
+### 542. [LOG] 2025-07-02T17:43:40.757Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 485. [LOG] 2025-07-02T17:33:06.076Z
+### 543. [LOG] 2025-07-02T17:43:40.757Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 486. [LOG] 2025-07-02T17:33:06.077Z
+### 544. [LOG] 2025-07-02T17:43:40.758Z
 
 ```
    ✅ HTML erstellt: der-sichere-hafen.html
 ```
 
-### 487. [LOG] 2025-07-02T17:33:06.077Z
+### 545. [LOG] 2025-07-02T17:43:40.758Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 488. [LOG] 2025-07-02T17:33:06.077Z
+### 546. [LOG] 2025-07-02T17:43:40.758Z
 
 ```
 
 📋 Verarbeite: emotionale-leere.md
 ```
 
-### 489. [LOG] 2025-07-02T17:33:06.077Z
+### 547. [LOG] 2025-07-02T17:43:40.759Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 490. [LOG] 2025-07-02T17:33:06.079Z
+### 548. [LOG] 2025-07-02T17:43:40.760Z
 
 ```
    ❌ Intention-Score: 16% (Min: 60%)
 ```
 
-### 491. [LOG] 2025-07-02T17:33:06.079Z
+### 549. [LOG] 2025-07-02T17:43:40.760Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 492. [LOG] 2025-07-02T17:33:06.081Z
+### 550. [LOG] 2025-07-02T17:43:40.762Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 493. [LOG] 2025-07-02T17:33:06.081Z
+### 551. [LOG] 2025-07-02T17:43:40.763Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 494. [LOG] 2025-07-02T17:33:06.084Z
+### 552. [LOG] 2025-07-02T17:43:40.765Z
 
 ```
    ✅ HTML erstellt: emotionale-leere.html
 ```
 
-### 495. [LOG] 2025-07-02T17:33:06.084Z
+### 553. [LOG] 2025-07-02T17:43:40.766Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 496. [LOG] 2025-07-02T17:33:06.085Z
+### 554. [LOG] 2025-07-02T17:43:40.766Z
 
 ```
 
 📋 Verarbeite: erschoepft-vom-stark-sein.md
 ```
 
-### 497. [LOG] 2025-07-02T17:33:06.085Z
+### 555. [LOG] 2025-07-02T17:43:40.766Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 498. [LOG] 2025-07-02T17:33:06.086Z
+### 556. [LOG] 2025-07-02T17:43:40.767Z
 
 ```
    ❌ Intention-Score: 22% (Min: 60%)
 ```
 
-### 499. [LOG] 2025-07-02T17:33:06.086Z
+### 557. [LOG] 2025-07-02T17:43:40.767Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 500. [LOG] 2025-07-02T17:33:06.087Z
+### 558. [LOG] 2025-07-02T17:43:40.768Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 501. [LOG] 2025-07-02T17:33:06.087Z
+### 559. [LOG] 2025-07-02T17:43:40.768Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 502. [LOG] 2025-07-02T17:33:06.088Z
+### 560. [LOG] 2025-07-02T17:43:40.769Z
 
 ```
    ✅ HTML erstellt: erschoepft-vom-stark-sein.html
 ```
 
-### 503. [LOG] 2025-07-02T17:33:06.088Z
+### 561. [LOG] 2025-07-02T17:43:40.769Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 504. [LOG] 2025-07-02T17:33:06.088Z
+### 562. [LOG] 2025-07-02T17:43:40.769Z
 
 ```
 
 📋 Verarbeite: ich-will-einfach-gehalten-werden.md
 ```
 
-### 505. [LOG] 2025-07-02T17:33:06.089Z
+### 563. [LOG] 2025-07-02T17:43:40.770Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 506. [LOG] 2025-07-02T17:33:06.089Z
+### 564. [LOG] 2025-07-02T17:43:40.770Z
 
 ```
    ❌ Intention-Score: 41% (Min: 60%)
 ```
 
-### 507. [LOG] 2025-07-02T17:33:06.090Z
+### 565. [LOG] 2025-07-02T17:43:40.771Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 508. [LOG] 2025-07-02T17:33:06.093Z
+### 566. [LOG] 2025-07-02T17:43:40.772Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 509. [LOG] 2025-07-02T17:33:06.093Z
+### 567. [LOG] 2025-07-02T17:43:40.772Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 510. [LOG] 2025-07-02T17:33:06.095Z
+### 568. [LOG] 2025-07-02T17:43:40.775Z
 
 ```
    ✅ HTML erstellt: ich-will-einfach-gehalten-werden.html
 ```
 
-### 511. [LOG] 2025-07-02T17:33:06.095Z
+### 569. [LOG] 2025-07-02T17:43:40.775Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 512. [LOG] 2025-07-02T17:33:06.095Z
+### 570. [LOG] 2025-07-02T17:43:40.775Z
 
 ```
 
 📋 Verarbeite: kontrolle-abgeben.md
 ```
 
-### 513. [LOG] 2025-07-02T17:33:06.096Z
+### 571. [LOG] 2025-07-02T17:43:40.776Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 514. [LOG] 2025-07-02T17:33:06.096Z
+### 572. [LOG] 2025-07-02T17:43:40.776Z
 
 ```
    ❌ Intention-Score: 18% (Min: 60%)
 ```
 
-### 515. [LOG] 2025-07-02T17:33:06.097Z
+### 573. [LOG] 2025-07-02T17:43:40.776Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 516. [LOG] 2025-07-02T17:33:06.098Z
+### 574. [LOG] 2025-07-02T17:43:40.777Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 517. [LOG] 2025-07-02T17:33:06.098Z
+### 575. [LOG] 2025-07-02T17:43:40.777Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 518. [LOG] 2025-07-02T17:33:06.099Z
+### 576. [LOG] 2025-07-02T17:43:40.778Z
 
 ```
    ✅ HTML erstellt: kontrolle-abgeben.html
 ```
 
-### 519. [LOG] 2025-07-02T17:33:06.099Z
+### 577. [LOG] 2025-07-02T17:43:40.778Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 520. [LOG] 2025-07-02T17:33:06.099Z
+### 578. [LOG] 2025-07-02T17:43:40.778Z
 
 ```
 
 📋 Verarbeite: README.md
 ```
 
-### 521. [LOG] 2025-07-02T17:33:06.100Z
+### 579. [LOG] 2025-07-02T17:43:40.779Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 522. [LOG] 2025-07-02T17:33:06.101Z
+### 580. [LOG] 2025-07-02T17:43:40.780Z
 
 ```
    ❌ Intention-Score: 18% (Min: 60%)
 ```
 
-### 523. [LOG] 2025-07-02T17:33:06.101Z
+### 581. [LOG] 2025-07-02T17:43:40.780Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 524. [LOG] 2025-07-02T17:33:06.105Z
+### 582. [LOG] 2025-07-02T17:43:40.785Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 525. [LOG] 2025-07-02T17:33:06.105Z
+### 583. [LOG] 2025-07-02T17:43:40.785Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 526. [LOG] 2025-07-02T17:33:06.106Z
+### 584. [LOG] 2025-07-02T17:43:40.786Z
 
 ```
    ✅ HTML erstellt: README.html
 ```
 
-### 527. [LOG] 2025-07-02T17:33:06.106Z
+### 585. [LOG] 2025-07-02T17:43:40.786Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 528. [LOG] 2025-07-02T17:33:06.107Z
+### 586. [LOG] 2025-07-02T17:43:40.786Z
 
 ```
 
 📋 Verarbeite: sehnsucht-nach-hingabe.md
 ```
 
-### 529. [LOG] 2025-07-02T17:33:06.107Z
+### 587. [LOG] 2025-07-02T17:43:40.787Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 530. [LOG] 2025-07-02T17:33:06.108Z
+### 588. [LOG] 2025-07-02T17:43:40.788Z
 
 ```
    ❌ Intention-Score: 15% (Min: 60%)
 ```
 
-### 531. [LOG] 2025-07-02T17:33:06.108Z
+### 589. [LOG] 2025-07-02T17:43:40.788Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 532. [LOG] 2025-07-02T17:33:06.109Z
+### 590. [LOG] 2025-07-02T17:43:40.789Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 533. [LOG] 2025-07-02T17:33:06.110Z
+### 591. [LOG] 2025-07-02T17:43:40.789Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 534. [LOG] 2025-07-02T17:33:06.110Z
+### 592. [LOG] 2025-07-02T17:43:40.790Z
 
 ```
    ✅ HTML erstellt: sehnsucht-nach-hingabe.html
 ```
 
-### 535. [LOG] 2025-07-02T17:33:06.110Z
+### 593. [LOG] 2025-07-02T17:43:40.790Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 536. [LOG] 2025-07-02T17:33:06.111Z
+### 594. [LOG] 2025-07-02T17:43:40.790Z
 
 ```
 
 📋 Verarbeite: zu-viel-liebe-zu-wenig-liebe.md
 ```
 
-### 537. [LOG] 2025-07-02T17:33:06.111Z
+### 595. [LOG] 2025-07-02T17:43:40.791Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 538. [LOG] 2025-07-02T17:33:06.112Z
+### 596. [LOG] 2025-07-02T17:43:40.792Z
 
 ```
    ❌ Intention-Score: 14% (Min: 60%)
 ```
 
-### 539. [LOG] 2025-07-02T17:33:06.113Z
+### 597. [LOG] 2025-07-02T17:43:40.792Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 540. [LOG] 2025-07-02T17:33:06.114Z
+### 598. [LOG] 2025-07-02T17:43:40.794Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 541. [LOG] 2025-07-02T17:33:06.114Z
+### 599. [LOG] 2025-07-02T17:43:40.794Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 542. [LOG] 2025-07-02T17:33:06.115Z
+### 600. [LOG] 2025-07-02T17:43:40.795Z
 
 ```
    ✅ HTML erstellt: zu-viel-liebe-zu-wenig-liebe.html
 ```
 
-### 543. [LOG] 2025-07-02T17:33:06.115Z
+### 601. [LOG] 2025-07-02T17:43:40.795Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 544. [LOG] 2025-07-02T17:33:06.115Z
+### 602. [LOG] 2025-07-02T17:43:40.795Z
 
 ```
 
 🔨 Generiere Blog-Index...
 ```
 
-### 545. [LOG] 2025-07-02T17:33:06.121Z
+### 603. [LOG] 2025-07-02T17:43:40.800Z
 
 ```
    ✅ Blog-Index erstellt: blog/index.html
 ```
 
-### 546. [LOG] 2025-07-02T17:33:06.121Z
+### 604. [LOG] 2025-07-02T17:43:40.800Z
 
 ```
 
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 547. [LOG] 2025-07-02T17:33:06.121Z
+### 605. [LOG] 2025-07-02T17:43:40.800Z
 
 ```
 📊 BUILD REPORT
 ```
 
-### 548. [LOG] 2025-07-02T17:33:06.121Z
+### 606. [LOG] 2025-07-02T17:43:40.800Z
 
 ```
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 549. [LOG] 2025-07-02T17:33:06.121Z
+### 607. [LOG] 2025-07-02T17:43:40.800Z
 
 ```
 
 📄 Verarbeitete Dateien: 10/10
 ```
 
-### 550. [LOG] 2025-07-02T17:33:06.121Z
+### 608. [LOG] 2025-07-02T17:43:40.800Z
 
 ```
 
@@ -3339,19 +3687,19 @@ Neue Intention-Validation aktiv!
 
 ```
 
-### 551. [LOG] 2025-07-02T17:33:06.122Z
+### 609. [LOG] 2025-07-02T17:43:40.801Z
 
 ```
 🤖 AUTOMATISCH GENERIERTER KI-PROMPT:
 ```
 
-### 552. [LOG] 2025-07-02T17:33:06.122Z
+### 610. [LOG] 2025-07-02T17:43:40.801Z
 
 ```
 ────────────────────────────────────────────────────────────
 ```
 
-### 553. [LOG] 2025-07-02T17:33:06.122Z
+### 611. [LOG] 2025-07-02T17:43:40.801Z
 
 ```
 
@@ -3414,132 +3762,132 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 
 ```
 
-### 554. [LOG] 2025-07-02T17:33:06.124Z
+### 612. [LOG] 2025-07-02T17:43:40.802Z
 
 ```
 ────────────────────────────────────────────────────────────
 ```
 
-### 555. [LOG] 2025-07-02T17:33:06.124Z
+### 613. [LOG] 2025-07-02T17:43:40.802Z
 
 ```
 
 📋 Weitere 8 Dateien benötigen Optimierung:
 ```
 
-### 556. [LOG] 2025-07-02T17:33:06.125Z
+### 614. [LOG] 2025-07-02T17:43:40.802Z
 
 ```
    2. der-sichere-hafen.md (Score: 15%)
 ```
 
-### 557. [LOG] 2025-07-02T17:33:06.125Z
+### 615. [LOG] 2025-07-02T17:43:40.802Z
 
 ```
    3. emotionale-leere.md (Score: 16%)
 ```
 
-### 558. [LOG] 2025-07-02T17:33:06.125Z
+### 616. [LOG] 2025-07-02T17:43:40.802Z
 
 ```
    4. erschoepft-vom-stark-sein.md (Score: 22%)
 ```
 
-### 559. [LOG] 2025-07-02T17:33:06.125Z
+### 617. [LOG] 2025-07-02T17:43:40.802Z
 
 ```
    5. ich-will-einfach-gehalten-werden.md (Score: 41%)
 ```
 
-### 560. [LOG] 2025-07-02T17:33:06.125Z
+### 618. [LOG] 2025-07-02T17:43:40.802Z
 
 ```
    6. kontrolle-abgeben.md (Score: 18%)
 ```
 
-### 561. [LOG] 2025-07-02T17:33:06.125Z
+### 619. [LOG] 2025-07-02T17:43:40.802Z
 
 ```
    7. README.md (Score: 18%)
 ```
 
-### 562. [LOG] 2025-07-02T17:33:06.125Z
+### 620. [LOG] 2025-07-02T17:43:40.803Z
 
 ```
    8. sehnsucht-nach-hingabe.md (Score: 15%)
 ```
 
-### 563. [LOG] 2025-07-02T17:33:06.126Z
+### 621. [LOG] 2025-07-02T17:43:40.803Z
 
 ```
    9. zu-viel-liebe-zu-wenig-liebe.md (Score: 14%)
 ```
 
-### 564. [LOG] 2025-07-02T17:33:06.126Z
+### 622. [LOG] 2025-07-02T17:43:40.803Z
 
 ```
 
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 565. [LOG] 2025-07-02T17:33:06.126Z
+### 623. [LOG] 2025-07-02T17:43:40.803Z
 
 ```
 
 💡 NÄCHSTE SCHRITTE:
 ```
 
-### 566. [LOG] 2025-07-02T17:33:06.126Z
+### 624. [LOG] 2025-07-02T17:43:40.803Z
 
 ```
 1. Kopiere den generierten KI-Prompt
 ```
 
-### 567. [LOG] 2025-07-02T17:33:06.126Z
+### 625. [LOG] 2025-07-02T17:43:40.803Z
 
 ```
 2. Füge ihn in Chat ein für spezifische Optimierung
 ```
 
-### 568. [LOG] 2025-07-02T17:33:06.126Z
+### 626. [LOG] 2025-07-02T17:43:40.803Z
 
 ```
 3. Führe nach Änderungen erneut "pnpm build" aus
 ```
 
-### 569. [LOG] 2025-07-02T17:33:06.126Z
+### 627. [LOG] 2025-07-02T17:43:40.803Z
 
 ```
 4. System zeigt automatisch nächstes Problem
 ```
 
-### 570. [LOG] 2025-07-02T17:33:06.127Z
+### 628. [LOG] 2025-07-02T17:43:40.804Z
 
 ```
 
 🚨 BUILD COMPLETED - CONTENT OPTIMIZATION ALERTS GENERATED!
 ```
 
-### 571. [LOG] 2025-07-02T17:33:06.127Z
+### 629. [LOG] 2025-07-02T17:43:40.804Z
 
 ```
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 572. [LOG] 2025-07-02T17:33:06.130Z
+### 630. [LOG] 2025-07-02T17:43:40.805Z
 
 ```
 📋 Content-Optimization-Alert gespeichert: docs\015_build_logs\CONTENT_OPTIMIZATION_ALERT_2025-07-02.json
 ```
 
-### 573. [LOG] 2025-07-02T17:33:06.130Z
+### 631. [LOG] 2025-07-02T17:43:40.805Z
 
 ```
 
 📋 VOLLSTÄNDIGER AUTOMATION-PLAN:
 ```
 
-### 574. [LOG] 2025-07-02T17:33:06.131Z
+### 632. [LOG] 2025-07-02T17:43:40.805Z
 
 ```
 
@@ -3560,7 +3908,7 @@ ERWARTETE ARBEITSZEIT: 18 Minuten für vollständige Optimierung
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 575. [LOG] 2025-07-02T17:33:06.131Z
+### 633. [LOG] 2025-07-02T17:43:40.805Z
 
 ```
 
@@ -3586,7 +3934,7 @@ ENDERGEBNIS: Alle 9 Dateien automatisch optimiert!
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 576. [LOG] 2025-07-02T17:33:06.132Z
+### 634. [LOG] 2025-07-02T17:43:40.806Z
 
 ```
 
@@ -3630,7 +3978,7 @@ INTEGRATION-STRATEGIE:
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 577. [LOG] 2025-07-02T17:33:06.132Z
+### 635. [LOG] 2025-07-02T17:43:40.806Z
 
 ```
 
@@ -3670,7 +4018,7 @@ AUTOMATISCHE FEHLERERKENNUNG:
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 578. [LOG] 2025-07-02T17:33:06.133Z
+### 636. [LOG] 2025-07-02T17:43:40.807Z
 
 ```
 
@@ -3757,124 +4105,124 @@ KEINE MANUELLEN EINGRIFFE NÖTIG - SYSTEM FÜHRT DURCH KOMPLETTEN PROZESS!
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 579. [LOG] 2025-07-02T17:33:06.134Z
+### 637. [LOG] 2025-07-02T17:43:40.808Z
 
 ```
 
 � QUALITY-ALERT DETAILS:
 ```
 
-### 580. [LOG] 2025-07-02T17:33:06.134Z
+### 638. [LOG] 2025-07-02T17:43:40.808Z
 
 ```
    Type: CONTENT_OPTIMIZATION_NEEDED
 ```
 
-### 581. [LOG] 2025-07-02T17:33:06.135Z
+### 639. [LOG] 2025-07-02T17:43:40.808Z
 
 ```
    Message: Vollständige Content-Optimierung durch KI empfohlen
 ```
 
-### 582. [LOG] 2025-07-02T17:33:06.135Z
+### 640. [LOG] 2025-07-02T17:43:40.808Z
 
 ```
-   Timestamp: 2025-07-02T17:33:06.135Z
+   Timestamp: 2025-07-02T17:43:40.808Z
 ```
 
-### 583. [LOG] 2025-07-02T17:33:06.135Z
+### 641. [LOG] 2025-07-02T17:43:40.808Z
 
 ```
    Files affected: 9/10
 ```
 
-### 584. [LOG] 2025-07-02T17:33:06.135Z
+### 642. [LOG] 2025-07-02T17:43:40.808Z
 
 ```
    First problem: das-erste-mal.md (50%)
 ```
 
-### 585. [LOG] 2025-07-02T17:33:06.135Z
+### 643. [LOG] 2025-07-02T17:43:40.809Z
 
 ```
    Recommended action: CONTENT_OPTIMIZATION_RECOMMENDED
 ```
 
-### 586. [LOG] 2025-07-02T17:33:06.135Z
+### 644. [LOG] 2025-07-02T17:43:40.809Z
 
 ```
 
 📋 DETAILED QUALITY REPORT:
 ```
 
-### 587. [LOG] 2025-07-02T17:33:06.135Z
+### 645. [LOG] 2025-07-02T17:43:40.809Z
 
 ```
    1. INTENTION_OPTIMIZATION_REQUIRED: das-erste-mal.md (Score: 50%, Issues: 0)
 ```
 
-### 588. [LOG] 2025-07-02T17:33:06.135Z
+### 646. [LOG] 2025-07-02T17:43:40.809Z
 
 ```
    2. PENDING_OPTIMIZATION: der-sichere-hafen.md (Score: 15%, Issues: 0)
 ```
 
-### 589. [LOG] 2025-07-02T17:33:06.135Z
+### 647. [LOG] 2025-07-02T17:43:40.809Z
 
 ```
    3. PENDING_OPTIMIZATION: emotionale-leere.md (Score: 16%, Issues: 0)
 ```
 
-### 590. [LOG] 2025-07-02T17:33:06.136Z
+### 648. [LOG] 2025-07-02T17:43:40.809Z
 
 ```
    4. PENDING_OPTIMIZATION: erschoepft-vom-stark-sein.md (Score: 22%, Issues: 0)
 ```
 
-### 591. [LOG] 2025-07-02T17:33:06.136Z
+### 649. [LOG] 2025-07-02T17:43:40.809Z
 
 ```
    5. PENDING_OPTIMIZATION: ich-will-einfach-gehalten-werden.md (Score: 41%, Issues: 0)
 ```
 
-### 592. [LOG] 2025-07-02T17:33:06.136Z
+### 650. [LOG] 2025-07-02T17:43:40.809Z
 
 ```
    6. PENDING_OPTIMIZATION: kontrolle-abgeben.md (Score: 18%, Issues: 0)
 ```
 
-### 593. [LOG] 2025-07-02T17:33:06.136Z
+### 651. [LOG] 2025-07-02T17:43:40.809Z
 
 ```
    7. PENDING_OPTIMIZATION: README.md (Score: 18%, Issues: 0)
 ```
 
-### 594. [LOG] 2025-07-02T17:33:06.136Z
+### 652. [LOG] 2025-07-02T17:43:40.810Z
 
 ```
    8. PENDING_OPTIMIZATION: sehnsucht-nach-hingabe.md (Score: 15%, Issues: 0)
 ```
 
-### 595. [LOG] 2025-07-02T17:33:06.136Z
+### 653. [LOG] 2025-07-02T17:43:40.810Z
 
 ```
    9. PENDING_OPTIMIZATION: zu-viel-liebe-zu-wenig-liebe.md (Score: 14%, Issues: 0)
 ```
 
-### 596. [LOG] 2025-07-02T17:33:06.136Z
+### 654. [LOG] 2025-07-02T17:43:40.810Z
 
 ```
 
 🎯 KI-PROMPT BEREIT FÜR OPTIMIERUNG:
 ```
 
-### 597. [LOG] 2025-07-02T17:33:06.136Z
+### 655. [LOG] 2025-07-02T17:43:40.810Z
 
 ```
 ────────────────────────────────────────────────────────────
 ```
 
-### 598. [LOG] 2025-07-02T17:33:06.136Z
+### 656. [LOG] 2025-07-02T17:43:40.810Z
 
 ```
 
@@ -3937,113 +4285,113 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 
 ```
 
-### 599. [LOG] 2025-07-02T17:33:06.138Z
+### 657. [LOG] 2025-07-02T17:43:40.811Z
 
 ```
 ────────────────────────────────────────────────────────────
 ```
 
-### 600. [LOG] 2025-07-02T17:33:06.138Z
+### 658. [LOG] 2025-07-02T17:43:40.811Z
 
 ```
 
 ✅ BUILD ERFOLGREICH - OPTIMIERUNG EMPFOHLEN!
 ```
 
-### 601. [LOG] 2025-07-02T17:33:06.138Z
+### 659. [LOG] 2025-07-02T17:43:40.811Z
 
 ```
 📋 QUALITY-ALERTS GESPEICHERT FÜR SPÄTERE VERBESSERUNG!
 ```
 
-### 602. [LOG] 2025-07-02T17:33:06.139Z
+### 660. [LOG] 2025-07-02T17:43:40.811Z
 
 ```
 🚀 VERCEL DEPLOYMENT KANN FORTFAHREN!
 ```
 
-### 603. [LOG] 2025-07-02T17:33:06.139Z
+### 661. [LOG] 2025-07-02T17:43:40.811Z
 
 ```
 💡 AUTOMATION-PLAN VERFÜGBAR FÜR OPTIMIERUNG!
 ```
 
-### 604. [LOG] 2025-07-02T17:33:06.139Z
+### 662. [LOG] 2025-07-02T17:43:40.812Z
 
 ```
 
 📋 FILE-MANAGEMENT-REGELN FÜR OPTIMIERUNG:
 ```
 
-### 605. [LOG] 2025-07-02T17:33:06.139Z
+### 663. [LOG] 2025-07-02T17:43:40.812Z
 
 ```
 ✅ KEINE NEUEN DATEIEN ERSTELLEN - Problem an der Ursache lösen!
 ```
 
-### 606. [LOG] 2025-07-02T17:33:06.139Z
+### 664. [LOG] 2025-07-02T17:43:40.812Z
 
 ```
 ✅ KEINE DATEIEN WIEDERHERSTELLEN - Betroffene Datei direkt optimieren!
 ```
 
-### 607. [LOG] 2025-07-02T17:33:06.139Z
+### 665. [LOG] 2025-07-02T17:43:40.812Z
 
 ```
 ✅ ZWINGEND: Problematische Datei direkt bearbeiten und verbessern
 ```
 
-### 608. [LOG] 2025-07-02T17:33:06.139Z
+### 666. [LOG] 2025-07-02T17:43:40.812Z
 
 ```
 ✅ FOKUS: Root-Cause-Lösung statt Umgehung oder Neuansatz
 ```
 
-### 609. [LOG] 2025-07-02T17:33:06.139Z
+### 667. [LOG] 2025-07-02T17:43:40.812Z
 
 ```
 💡 HINWEIS: Diese Regeln helfen der KI, gezielt und effektiv zu optimieren
 ```
 
-### 610. [LOG] 2025-07-02T17:33:06.139Z
+### 668. [LOG] 2025-07-02T17:43:40.813Z
 
 ```
 
 🤖 OPTIMIZATION-PLAN BEREIT FÜR MANUELLE VERBESSERUNG
 ```
 
-### 611. [LOG] 2025-07-02T17:33:06.140Z
+### 669. [LOG] 2025-07-02T17:43:40.813Z
 
 ```
 📝 KI KANN CONTENT NACH QUALITY-ALERTS OPTIMIEREN
 ```
 
-### 612. [LOG] 2025-07-02T17:33:06.140Z
+### 670. [LOG] 2025-07-02T17:43:40.813Z
 
 ```
 🔄 BUILD LÄUFT VOLLSTÄNDIG DURCH - KEINE BLOCKIERUNG
 ```
 
-### 613. [LOG] 2025-07-02T17:33:06.140Z
+### 671. [LOG] 2025-07-02T17:43:40.813Z
 
 ```
 ✅ BUILD ERFOLGREICH ABGESCHLOSSEN - VERCEL DEPLOYMENT READY
 ```
 
-### 614. [LOG] 2025-07-02T17:33:06.140Z
+### 672. [LOG] 2025-07-02T17:43:40.813Z
 
 ```
 
 ✅ BUILD ERFOLGREICH ABGESCHLOSSEN!
 ```
 
-### 615. [LOG] 2025-07-02T17:33:06.140Z
+### 673. [LOG] 2025-07-02T17:43:40.813Z
 
 ```
    Verarbeitete Dateien: 10/10
 ```
 
-### 616. [LOG] 2025-07-02T17:33:06.140Z
+### 674. [LOG] 2025-07-02T17:43:40.813Z
 
 ```
    Content-Optimierungspotential: 9 Dateien
@@ -4051,21 +4399,21 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 
 ## Performance-Statistiken
 
-- **Gesamte Log-Einträge:** 616
+- **Gesamte Log-Einträge:** 674
 - **ERROR-Level:** 0
 - **WARN-Level:** 0
 - **LOG-Level:** 186
-- **PROBLEM-Level:** 428
-- **Build-Dauer:** 462ms
+- **PROBLEM-Level:** 486
+- **Build-Dauer:** 456ms
 - **Durchschnitt pro Log:** 1ms
 
 ## VS Code Problems Report
 
-**❌ 428 Problem(e) gefunden:**
+**❌ 486 Problem(e) gefunden:**
 
 ### Übersicht
 - **Errors:** 4
-- **Warnings:** 424  
+- **Warnings:** 482  
 - **Infos:** 0
 
 ### 🚨 Errors (4)
@@ -4073,2144 +4421,2434 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 #### 1. build-process\modules\logger.js:145
 **Severity:** ERROR  
 **Message:** Typo: "fucntion" should be "function"  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 2. build-process\modules\logger.js:146
 **Severity:** ERROR  
 **Message:** Typo: "fucntion" should be "function"  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
-#### 3. scripts\build.js:266
+#### 3. scripts\build.js:685
 **Severity:** ERROR  
 **Message:** Typo: "fucntion" should be "function"  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 4. scripts\build.js:267
+#### 4. scripts\build.js:686
 **Severity:** ERROR  
 **Message:** Typo: "fucntion" should be "function"  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-### ⚠️ Warnings (424)
+### ⚠️ Warnings (482)
 
 #### 1. app-gui\dist-electron\index-Ckhtba7t.js:40
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.029Z
+**Timestamp:** 2025-07-02T17:43:40.706Z
 
 #### 2. app-gui\dist-electron\index-Ckhtba7t.js:1943
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.029Z
+**Timestamp:** 2025-07-02T17:43:40.706Z
 
 #### 3. app-gui\dist-electron\index-Ckhtba7t.js:2327
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.029Z
+**Timestamp:** 2025-07-02T17:43:40.706Z
 
 #### 4. app-gui\dist-electron\index-Ckhtba7t.js:2713
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.029Z
+**Timestamp:** 2025-07-02T17:43:40.706Z
 
 #### 5. app-gui\dist-electron\index-Ckhtba7t.js:2741
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.029Z
+**Timestamp:** 2025-07-02T17:43:40.706Z
 
 #### 6. app-gui\dist-electron\index-Ckhtba7t.js:3562
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.029Z
+**Timestamp:** 2025-07-02T17:43:40.707Z
 
 #### 7. app-gui\dist-electron\index-Ckhtba7t.js:3599
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.029Z
+**Timestamp:** 2025-07-02T17:43:40.707Z
 
 #### 8. app-gui\dist-electron\index-Ckhtba7t.js:4316
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.030Z
+**Timestamp:** 2025-07-02T17:43:40.707Z
 
 #### 9. app-gui\dist-electron\index-Ckhtba7t.js:5013
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.030Z
+**Timestamp:** 2025-07-02T17:43:40.707Z
 
 #### 10. app-gui\dist-electron\index-Ckhtba7t.js:5406
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.030Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 11. app-gui\dist-electron\index-Ckhtba7t.js:6202
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 12. app-gui\dist-electron\index-Ckhtba7t.js:6587
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 13. app-gui\dist-electron\index-Ckhtba7t.js:6720
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 14. app-gui\dist-electron\index-Ckhtba7t.js:6743
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 15. app-gui\dist-electron\index-Ckhtba7t.js:6803
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 16. app-gui\dist-electron\index-Ckhtba7t.js:6895
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 17. app-gui\dist-electron\index-Ckhtba7t.js:6923
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 18. app-gui\dist-electron\index-Ckhtba7t.js:6954
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 19. app-gui\dist-electron\index-Ckhtba7t.js:7029
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 20. app-gui\dist-electron\index-Ckhtba7t.js:7054
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 21. app-gui\dist-electron\index-Ckhtba7t.js:7099
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 22. app-gui\dist-electron\index-Ckhtba7t.js:7531
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 23. app-gui\dist-electron\index-Ckhtba7t.js:7585
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 24. app-gui\dist-electron\index-Ckhtba7t.js:7983
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 25. app-gui\dist-electron\index-Ckhtba7t.js:8071
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 26. app-gui\dist-electron\index-Ckhtba7t.js:8075
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 27. app-gui\dist-electron\index-Ckhtba7t.js:8112
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 28. app-gui\dist-electron\index-Ckhtba7t.js:8493
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.031Z
+**Timestamp:** 2025-07-02T17:43:40.708Z
 
 #### 29. app-gui\dist-electron\index-Ckhtba7t.js:9746
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.032Z
+**Timestamp:** 2025-07-02T17:43:40.709Z
 
 #### 30. app-gui\dist-electron\index-Ckhtba7t.js:9945
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.032Z
+**Timestamp:** 2025-07-02T17:43:40.709Z
 
 #### 31. app-gui\dist-electron\index-DhEd7u67.js:40
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.033Z
+**Timestamp:** 2025-07-02T17:43:40.710Z
 
 #### 32. app-gui\dist-electron\index-DhEd7u67.js:1950
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.034Z
+**Timestamp:** 2025-07-02T17:43:40.711Z
 
 #### 33. app-gui\dist-electron\index-DhEd7u67.js:2360
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.034Z
+**Timestamp:** 2025-07-02T17:43:40.711Z
 
 #### 34. app-gui\dist-electron\index-DhEd7u67.js:2762
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.034Z
+**Timestamp:** 2025-07-02T17:43:40.711Z
 
 #### 35. app-gui\dist-electron\index-DhEd7u67.js:2790
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.034Z
+**Timestamp:** 2025-07-02T17:43:40.711Z
 
 #### 36. app-gui\dist-electron\index-DhEd7u67.js:3618
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.034Z
+**Timestamp:** 2025-07-02T17:43:40.711Z
 
 #### 37. app-gui\dist-electron\index-DhEd7u67.js:3655
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.711Z
 
 #### 38. app-gui\dist-electron\index-DhEd7u67.js:4372
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.711Z
 
 #### 39. app-gui\dist-electron\index-DhEd7u67.js:5069
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 40. app-gui\dist-electron\index-DhEd7u67.js:5462
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 41. app-gui\dist-electron\index-DhEd7u67.js:6258
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 42. app-gui\dist-electron\index-DhEd7u67.js:6643
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 43. app-gui\dist-electron\index-DhEd7u67.js:6776
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 44. app-gui\dist-electron\index-DhEd7u67.js:6799
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 45. app-gui\dist-electron\index-DhEd7u67.js:6859
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 46. app-gui\dist-electron\index-DhEd7u67.js:6951
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 47. app-gui\dist-electron\index-DhEd7u67.js:6979
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 48. app-gui\dist-electron\index-DhEd7u67.js:7010
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 49. app-gui\dist-electron\index-DhEd7u67.js:7085
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 50. app-gui\dist-electron\index-DhEd7u67.js:7110
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 51. app-gui\dist-electron\index-DhEd7u67.js:7155
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.035Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 52. app-gui\dist-electron\index-DhEd7u67.js:7587
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.036Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 53. app-gui\dist-electron\index-DhEd7u67.js:7641
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.036Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 54. app-gui\dist-electron\index-DhEd7u67.js:8039
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.036Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 55. app-gui\dist-electron\index-DhEd7u67.js:8127
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.036Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 56. app-gui\dist-electron\index-DhEd7u67.js:8131
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.036Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 57. app-gui\dist-electron\index-DhEd7u67.js:8168
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.036Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 58. app-gui\dist-electron\index-DhEd7u67.js:8549
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.036Z
+**Timestamp:** 2025-07-02T17:43:40.712Z
 
 #### 59. app-gui\dist-electron\index-DhEd7u67.js:9802
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.036Z
+**Timestamp:** 2025-07-02T17:43:40.713Z
 
 #### 60. app-gui\dist-electron\index-DhEd7u67.js:10001
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.036Z
+**Timestamp:** 2025-07-02T17:43:40.713Z
 
 #### 61. app-gui\src\App.jsx:4
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.038Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 62. app-gui\src\App.jsx:72
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.038Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 63. app-gui\src\App.jsx:99
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.038Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 64. build-process\mainBuild.js:52
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 65. build-process\mainBuild.js:64
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 66. build-process\mainBuild.js:98
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 67. build-process\mainBuild.js:102
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 68. build-process\mainBuild.js:104
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 69. build-process\mainBuild.js:110
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 70. build-process\mainBuild.js:112
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.715Z
 
 #### 71. build-process\mainBuild.js:116
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 72. build-process\mainBuild.js:123
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 73. build-process\mainBuild.js:145
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 74. build-process\mainBuild.js:147
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 75. build-process\mainBuild.js:174
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 76. build-process\mainBuild.js:205
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 77. build-process\mainBuild.js:231
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 78. build-process\mainBuild.js:254
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 79. build-process\modules\contentOptimizer.js:53
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 80. build-process\modules\contentOptimizer.js:66
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 81. build-process\modules\contentOptimizer.js:111
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 82. build-process\modules\contentOptimizer.js:157
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 83. build-process\modules\contentOptimizer.js:338
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 84. build-process\modules\fileUtils.js:22
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 85. build-process\modules\fileUtils.js:45
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 86. build-process\modules\fileUtils.js:90
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 87. build-process\modules\fileUtils.js:151
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 88. build-process\modules\fileUtils.js:174
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.039Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 89. build-process\modules\logger.js:17
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 90. build-process\modules\logger.js:34
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 91. build-process\modules\logger.js:62
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 92. build-process\modules\logger.js:243
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 93. build-process\modules\logger.js:276
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.716Z
 
 #### 94. build-process\modules\seoCheck.js:20
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 95. build-process\modules\seoCheck.js:94
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 96. build-process\modules\seoCheck.js:96
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 97. build-process\modules\seoCheck.js:109
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 98. build-process\modules\seoCheck.js:248
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 99. build-process\modules\seoCheck.js:335
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 100. build-process\modules\seoCheck.js:406
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 101. build-process\modules\seoCheck.js:423
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 102. build-process\modules\seoCheck.js:505
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 103. build-process\modules\seoCheck.js:513
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.040Z
+**Timestamp:** 2025-07-02T17:43:40.717Z
 
 #### 104. scripts\build-checks\check_scripts\comprehensiveCheck.js:15
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 105. scripts\build-checks\check_scripts\comprehensiveCheck.js:34
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 106. scripts\build-checks\check_scripts\comprehensiveCheck.js:62
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 107. scripts\build-checks\check_scripts\comprehensiveCheck.js:63
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 108. scripts\build-checks\check_scripts\comprehensiveCheck.js:66
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 109. scripts\build-checks\check_scripts\comprehensiveCheck.js:158
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 110. scripts\build-checks\check_scripts\comprehensiveCheck.js:209
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 111. scripts\build-checks\check_scripts\comprehensiveCheck.js:246
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 112. scripts\build-checks\check_scripts\masterBuildChecker.js:15
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 113. scripts\build-checks\check_scripts\masterBuildChecker.js:75
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 114. scripts\build-checks\check_scripts\masterBuildChecker.js:76
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 115. scripts\build-checks\check_scripts\masterBuildChecker.js:77
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 116. scripts\build-checks\check_scripts\masterBuildChecker.js:78
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 117. scripts\build-checks\check_scripts\masterBuildChecker.js:79
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 118. scripts\build-checks\check_scripts\masterBuildChecker.js:84
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 119. scripts\build-checks\check_scripts\masterBuildChecker.js:87
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 120. scripts\build-checks\check_scripts\masterBuildChecker.js:116
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.041Z
+**Timestamp:** 2025-07-02T17:43:40.718Z
 
 #### 121. scripts\build-checks\check_scripts\masterBuildChecker.js:240
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.042Z
+**Timestamp:** 2025-07-02T17:43:40.719Z
 
 #### 122. scripts\build-checks\check_scripts\masterBuildChecker.js:373
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.042Z
+**Timestamp:** 2025-07-02T17:43:40.719Z
 
 #### 123. scripts\build-checks\check_scripts\masterBuildChecker.js:421
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.042Z
+**Timestamp:** 2025-07-02T17:43:40.719Z
 
 #### 124. scripts\build-checks\check_scripts\masterBuildChecker.js:470
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.042Z
+**Timestamp:** 2025-07-02T17:43:40.719Z
 
-#### 125. scripts\build.js:14
+#### 125. scripts\build.js:12
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 126. scripts\build.js:15
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 126. scripts\build.js:41
+#### 127. scripts\build.js:16
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 127. scripts\build.js:72
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 128. scripts\build.js:95
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 129. scripts\build.js:118
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 130. scripts\build.js:139
+#### 128. scripts\build.js:19
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 131. scripts\build.js:151
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 132. scripts\build.js:314
+#### 129. scripts\build.js:29
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 133. scripts\build.js:324
+#### 130. scripts\build.js:35
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 131. scripts\build.js:87
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 132. scripts\build.js:99
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 133. scripts\build.js:114
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 134. scripts\build.js:117
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 135. scripts\build.js:119
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 136. scripts\build.js:130
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 137. scripts\build.js:132
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 138. scripts\build.js:135
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 139. scripts\build.js:142
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 140. scripts\build.js:144
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 141. scripts\build.js:147
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 142. scripts\build.js:154
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 143. scripts\build.js:156
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 144. scripts\build.js:172
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 145. scripts\build.js:194
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 134. scripts\build.js:410
+#### 146. scripts\build.js:212
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 147. scripts\build.js:220
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 135. scripts\build.js:480
+#### 148. scripts\build.js:236
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 136. scripts\build.js:520
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 137. scripts\build.js:649
+#### 149. scripts\build.js:251
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 138. scripts\build.js:653
+#### 150. scripts\build.js:268
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 151. scripts\build.js:271
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 139. scripts\build.js:660
+#### 152. scripts\build.js:276
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 153. scripts\build.js:279
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 154. scripts\build.js:281
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 155. scripts\build.js:285
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 140. scripts\build.js:667
+#### 156. scripts\build.js:304
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 157. scripts\build.js:306
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 141. scripts\build.js:729
+#### 158. scripts\build.js:325
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 159. scripts\build.js:337
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 142. scripts\build.js:754
+#### 160. scripts\build.js:346
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 161. scripts\build.js:347
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 162. scripts\build.js:348
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 163. scripts\build.js:353
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 164. scripts\build.js:354
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 165. scripts\build.js:365
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 166. scripts\build.js:366
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 167. scripts\build.js:367
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 168. scripts\build.js:368
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 169. scripts\build.js:369
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 170. scripts\build.js:373
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 171. scripts\build.js:374
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 172. scripts\build.js:375
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 173. scripts\build.js:376
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 174. scripts\build.js:377
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 175. scripts\build.js:381
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 176. scripts\build.js:382
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 177. scripts\build.js:385
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 178. scripts\build.js:392
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 179. scripts\build.js:393
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 180. scripts\build.js:394
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 181. scripts\build.js:415
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 182. scripts\build.js:424
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 183. scripts\build.js:433
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 143. scripts\build.js:773
+#### 184. scripts\build.js:460
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 144. scripts\build.js:801
+#### 185. scripts\build.js:491
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 186. scripts\build.js:514
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 187. scripts\build.js:537
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 188. scripts\build.js:558
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 145. scripts\build.js:880
+#### 189. scripts\build.js:570
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 190. scripts\build.js:733
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 146. scripts\build.js:923
+#### 191. scripts\build.js:743
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 147. scripts\build.js:934
+#### 192. scripts\build.js:829
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 148. scripts\build.js:996
+#### 193. scripts\build.js:899
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.720Z
 
-#### 149. scripts\build.js:1025
+#### 194. scripts\build.js:939
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.720Z
+
+#### 195. scripts\build.js:1068
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 150. scripts\build.js:1029
+#### 196. scripts\build.js:1072
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 151. scripts\build.js:1089
+#### 197. scripts\build.js:1079
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 152. scripts\build.js:1154
+#### 198. scripts\build.js:1086
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 153. scripts\build.js:1345
+#### 199. scripts\build.js:1148
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 154. scripts\build.js:1383
+#### 200. scripts\build.js:1173
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 155. scripts\build.js:1395
+#### 201. scripts\build.js:1192
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 156. scripts\build.js:1475
+#### 202. scripts\build.js:1220
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 157. scripts\build.js:1571
+#### 203. scripts\build.js:1299
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 158. scripts\build.js:1572
+#### 204. scripts\build.js:1342
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 159. scripts\build.js:1693
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 160. scripts\build.js:1694
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 161. scripts\build.js:1716
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 162. scripts\build.js:1726
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 163. scripts\build.js:1731
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 164. scripts\build.js:1745
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 165. scripts\build.js:1749
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 166. scripts\build.js:1751
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 167. scripts\build.js:1754
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 168. scripts\build.js:1805
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 169. scripts\build.js:1807
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 170. scripts\build.js:1812
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 171. scripts\build.js:1818
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 172. scripts\build.js:1820
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 173. scripts\build.js:1826
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 174. scripts\build.js:1827
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 175. scripts\build.js:1828
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 176. scripts\build.js:1831
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 177. scripts\build.js:1832
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 178. scripts\build.js:1833
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 179. scripts\build.js:1834
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 180. scripts\build.js:1835
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 181. scripts\build.js:1836
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 182. scripts\build.js:1839
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 183. scripts\build.js:1843
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 184. scripts\build.js:1844
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 185. scripts\build.js:1845
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 186. scripts\build.js:1849
+#### 205. scripts\build.js:1353
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 187. scripts\build.js:1873
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 188. scripts\build.js:1875
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 189. scripts\build.js:1881
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 190. scripts\build.js:1884
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 191. scripts\build.js:1904
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 192. scripts\build.js:1905
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 193. scripts\build.js:1928
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 194. scripts\build.js:1932
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 195. scripts\build.js:1933
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 196. scripts\build.js:1935
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 197. scripts\build.js:1936
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 198. scripts\build.js:1940
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 199. scripts\build.js:1942
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 200. scripts\build.js:1945
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 201. scripts\build.js:1948
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 202. scripts\build.js:1951
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 203. scripts\build.js:1952
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 204. scripts\build.js:1956
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 205. scripts\build.js:1957
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 206. scripts\build.js:1976
+#### 206. scripts\build.js:1415
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.043Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 207. scripts\build.js:1984
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 208. scripts\build.js:1988
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 209. scripts\build.js:1990
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 210. scripts\build.js:1993
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 211. scripts\build.js:1994
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 212. scripts\build.js:1995
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 213. scripts\build.js:1996
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 214. scripts\build.js:1997
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 215. scripts\build.js:2000
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 216. scripts\build.js:2002
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.043Z
-
-#### 217. scripts\build.js:2007
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 218. scripts\build.js:2009
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 219. scripts\build.js:2014
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 220. scripts\build.js:2024
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 221. scripts\build.js:2038
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 222. scripts\build.js:2039
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 223. scripts\build.js:2040
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 224. scripts\build.js:2041
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 225. scripts\build.js:2042
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 226. scripts\build.js:2043
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 227. scripts\build.js:2044
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 228. scripts\build.js:2048
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 229. scripts\build.js:2049
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 230. scripts\build.js:2050
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 231. scripts\build.js:2051
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 232. scripts\build.js:2052
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 233. scripts\build.js:2053
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 234. scripts\build.js:2054
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 235. scripts\build.js:2055
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 236. scripts\build.js:2075
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 237. scripts\build.js:2092
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 238. scripts\build.js:2130
+#### 207. scripts\build.js:1444
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 239. scripts\build.js:2186
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 240. scripts\build.js:2239
+#### 208. scripts\build.js:1448
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 209. scripts\build.js:1508
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 210. scripts\build.js:1573
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 211. scripts\build.js:1764
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 212. scripts\build.js:1802
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 213. scripts\build.js:1814
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 214. scripts\build.js:1894
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 215. scripts\build.js:1990
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 216. scripts\build.js:1991
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 217. scripts\build.js:2112
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 218. scripts\build.js:2113
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 219. scripts\build.js:2135
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 220. scripts\build.js:2145
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 221. scripts\build.js:2150
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 222. scripts\build.js:2164
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 223. scripts\build.js:2168
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 224. scripts\build.js:2170
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 225. scripts\build.js:2173
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 226. scripts\build.js:2224
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 227. scripts\build.js:2226
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 228. scripts\build.js:2231
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 229. scripts\build.js:2237
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 230. scripts\build.js:2239
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 231. scripts\build.js:2251
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 232. scripts\build.js:2252
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 233. scripts\build.js:2253
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 234. scripts\build.js:2256
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 235. scripts\build.js:2257
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 236. scripts\build.js:2258
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 237. scripts\build.js:2259
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 238. scripts\build.js:2260
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 239. scripts\build.js:2261
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 240. scripts\build.js:2264
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
 #### 241. scripts\build.js:2268
 **Severity:** WARNING  
-**Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 242. scripts\build.js:2305
+#### 242. scripts\build.js:2269
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 243. scripts\build.js:2270
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 244. scripts\build.js:2274
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 243. scripts\build.js:2317
+#### 245. scripts\build.js:2298
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 246. scripts\build.js:2300
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 247. scripts\build.js:2306
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 248. scripts\build.js:2309
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 249. scripts\build.js:2329
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 250. scripts\build.js:2330
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 251. scripts\build.js:2353
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 252. scripts\build.js:2357
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 253. scripts\build.js:2358
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 254. scripts\build.js:2360
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 255. scripts\build.js:2361
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 256. scripts\build.js:2365
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 257. scripts\build.js:2367
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 258. scripts\build.js:2370
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 259. scripts\build.js:2373
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 260. scripts\build.js:2376
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 261. scripts\build.js:2377
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 262. scripts\build.js:2381
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 263. scripts\build.js:2382
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 264. scripts\build.js:2401
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 244. scripts\build.js:2345
+#### 265. scripts\build.js:2409
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 266. scripts\build.js:2413
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 267. scripts\build.js:2415
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 268. scripts\build.js:2418
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 269. scripts\build.js:2419
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 270. scripts\build.js:2420
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 271. scripts\build.js:2421
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 272. scripts\build.js:2422
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 273. scripts\build.js:2425
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 274. scripts\build.js:2427
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 275. scripts\build.js:2432
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 276. scripts\build.js:2434
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 277. scripts\build.js:2439
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 278. scripts\build.js:2449
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 279. scripts\build.js:2463
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 280. scripts\build.js:2464
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 281. scripts\build.js:2465
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 282. scripts\build.js:2466
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 283. scripts\build.js:2467
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 284. scripts\build.js:2468
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 285. scripts\build.js:2469
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 286. scripts\build.js:2473
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 287. scripts\build.js:2474
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 288. scripts\build.js:2475
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 289. scripts\build.js:2476
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 290. scripts\build.js:2477
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 291. scripts\build.js:2478
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 292. scripts\build.js:2479
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 293. scripts\build.js:2480
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 294. scripts\build.js:2500
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 295. scripts\build.js:2517
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 296. scripts\build.js:2555
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 245. scripts\build.js:2357
+#### 297. scripts\build.js:2611
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 298. scripts\build.js:2664
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 246. scripts\build.js:2383
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 247. scripts\build.js:2435
+#### 299. scripts\build.js:2693
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 248. scripts\build.js:2439
+#### 300. scripts\build.js:2730
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 249. scripts\build.js:2452
+#### 301. scripts\build.js:2742
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 250. scripts\build.js:2461
+#### 302. scripts\build.js:2770
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 251. scripts\build.js:2470
+#### 303. scripts\build.js:2782
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 252. scripts\build.js:2479
+#### 304. scripts\build.js:2808
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.721Z
+
+#### 305. scripts\build.js:2860
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 253. scripts\build.js:2500
+#### 306. scripts\build.js:2864
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 254. scripts\build.js:2513
+#### 307. scripts\build.js:2877
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 255. scripts\build.js:2526
+#### 308. scripts\build.js:2886
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 256. scripts\build.js:2539
+#### 309. scripts\build.js:2895
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 257. scripts\build.js:2566
+#### 310. scripts\build.js:2904
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 258. scripts\build.js:2575
+#### 311. scripts\build.js:2925
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 259. scripts\build.js:2584
+#### 312. scripts\build.js:2938
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.721Z
 
-#### 260. scripts\build.js:2593
+#### 313. scripts\build.js:2951
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 261. scripts\build.js:2602
+#### 314. scripts\build.js:2964
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 262. scripts\build.js:2695
+#### 315. scripts\build.js:2991
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 263. scripts\build.js:2699
+#### 316. scripts\build.js:3000
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 264. scripts\build.js:2709
+#### 317. scripts\build.js:3009
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 265. scripts\build.js:2719
+#### 318. scripts\build.js:3018
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 266. scripts\build.js:2738
+#### 319. scripts\build.js:3027
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 267. scripts\build.js:2763
+#### 320. scripts\build.js:3120
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 268. scripts\build.js:2772
+#### 321. scripts\build.js:3124
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 269. scripts\build.js:2781
+#### 322. scripts\build.js:3134
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 270. scripts\build.js:2790
+#### 323. scripts\build.js:3144
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 271. scripts\build.js:2799
+#### 324. scripts\build.js:3163
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 272. scripts\build.js:2808
+#### 325. scripts\build.js:3188
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 273. scripts\build.js:2831
+#### 326. scripts\build.js:3197
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 274. scripts\build.js:2844
+#### 327. scripts\build.js:3206
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 275. scripts\build.js:2857
+#### 328. scripts\build.js:3215
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 276. scripts\build.js:2866
+#### 329. scripts\build.js:3224
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 277. scripts\build.js:2875
+#### 330. scripts\build.js:3233
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 278. scripts\build.js:2884
+#### 331. scripts\build.js:3256
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 279. scripts\build.js:2914
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 280. scripts\build.js:2941
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 281. scripts\build.js:2943
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 282. scripts\build.js:2945
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 283. scripts\build.js:2973
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 284. scripts\build.js:3122
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 285. scripts\build.js:3123
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 286. scripts\build.js:3124
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 287. scripts\build.js:3134
+#### 332. scripts\build.js:3269
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 288. scripts\build.js:3139
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 289. scripts\build.js:3143
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 290. scripts\build.js:3150
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 291. scripts\build.js:3156
+#### 333. scripts\build.js:3282
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 292. scripts\build.js:3157
+#### 334. scripts\build.js:3291
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 293. scripts\build.js:3160
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 294. scripts\build.js:3172
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 295. scripts\build.js:3175
+#### 335. scripts\build.js:3300
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 296. scripts\build.js:3178
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 297. scripts\build.js:3181
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 298. scripts\build.js:3185
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 299. scripts\build.js:3186
+#### 336. scripts\build.js:3309
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 300. scripts\build.js:3192
+#### 337. scripts\build.js:3339
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 301. scripts\build.js:3194
+#### 338. scripts\build.js:3366
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 302. scripts\build.js:3198
+#### 339. scripts\build.js:3368
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 303. scripts\build.js:3202
+#### 340. scripts\build.js:3370
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 341. scripts\build.js:3398
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 342. scripts\build.js:3547
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 343. scripts\build.js:3548
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 344. scripts\build.js:3549
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 345. scripts\build.js:3559
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 304. scripts\build.js:3210
+#### 346. scripts\build.js:3564
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 305. scripts\build.js:3214
+#### 347. scripts\build.js:3568
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 306. scripts\build.js:3220
+#### 348. scripts\build.js:3575
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 307. scripts\build.js:3225
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 308. scripts\build.js:3228
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 309. scripts\build.js:3230
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 310. scripts\build.js:3234
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 311. scripts\build.js:3235
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 312. scripts\build.js:3236
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 313. scripts\build.js:3238
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 314. scripts\build.js:3247
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 315. scripts\build.js:3252
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 316. scripts\build.js:3253
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 317. scripts\build.js:3254
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 318. scripts\build.js:3255
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 319. scripts\build.js:3269
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 320. scripts\build.js:3271
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 321. scripts\build.js:3281
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 322. scripts\build.js:3284
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 323. scripts\build.js:3287
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 324. scripts\build.js:3288
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 325. scripts\build.js:3289
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 326. scripts\build.js:3290
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 327. scripts\build.js:3291
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 328. scripts\build.js:3296
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 329. scripts\build.js:3297
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 330. scripts\build.js:3326
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 331. scripts\build.js:3329
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 332. scripts\build.js:3330
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 333. scripts\build.js:3331
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 334. scripts\build.js:3332
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 335. scripts\build.js:3333
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 336. scripts\build.js:3334
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 337. scripts\build.js:3337
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 338. scripts\build.js:3338
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 339. scripts\build.js:3339
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 340. scripts\build.js:3340
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 341. scripts\build.js:3341
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 342. scripts\build.js:3342
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 343. scripts\build.js:3343
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 344. scripts\build.js:3345
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 345. scripts\build.js:3347
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 346. scripts\build.js:3350
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 347. scripts\build.js:3351
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 348. scripts\build.js:3352
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 349. scripts\build.js:3353
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 350. scripts\build.js:3355
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 351. scripts\build.js:3356
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 352. scripts\build.js:3357
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 353. scripts\build.js:3358
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 354. scripts\build.js:3360
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 355. scripts\build.js:3361
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 356. scripts\build.js:3362
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 357. scripts\build.js:3363
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 358. scripts\build.js:3364
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 359. scripts\build.js:3365
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 360. scripts\build.js:3367
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 361. scripts\build.js:3368
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 362. scripts\build.js:3369
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 363. scripts\build.js:3370
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 364. scripts\build.js:3373
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 365. scripts\build.js:3374
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 366. scripts\build.js:3375
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 367. scripts\build.js:3395
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 368. scripts\build.js:3431
+#### 349. scripts\build.js:3581
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 369. scripts\build.js:3451
+#### 350. scripts\build.js:3582
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 370. scripts\build.js:3479
+#### 351. scripts\build.js:3585
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 352. scripts\build.js:3597
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 353. scripts\build.js:3600
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 371. scripts\build.js:3521
+#### 354. scripts\build.js:3603
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 355. scripts\build.js:3606
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 356. scripts\build.js:3610
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 357. scripts\build.js:3611
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 372. scripts\build.js:3564
+#### 358. scripts\build.js:3617
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 359. scripts\build.js:3619
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 360. scripts\build.js:3623
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 361. scripts\build.js:3627
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 373. scripts\build.js:3606
+#### 362. scripts\build.js:3635
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 374. scripts\build.js:3611
+#### 363. scripts\build.js:3639
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 375. scripts\build.js:3616
+#### 364. scripts\build.js:3645
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 376. scripts\build.js:3622
+#### 365. scripts\build.js:3650
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 366. scripts\build.js:3653
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 367. scripts\build.js:3655
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 368. scripts\build.js:3659
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 369. scripts\build.js:3660
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 370. scripts\build.js:3661
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 371. scripts\build.js:3663
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 372. scripts\build.js:3672
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 373. scripts\build.js:3677
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 374. scripts\build.js:3678
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 375. scripts\build.js:3679
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 376. scripts\build.js:3680
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 377. scripts\build.js:3694
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 378. scripts\build.js:3696
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 379. scripts\build.js:3706
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 380. scripts\build.js:3709
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 381. scripts\build.js:3712
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 382. scripts\build.js:3713
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 383. scripts\build.js:3714
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 384. scripts\build.js:3715
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 385. scripts\build.js:3716
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 386. scripts\build.js:3721
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 387. scripts\build.js:3722
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 388. scripts\build.js:3751
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 389. scripts\build.js:3754
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 390. scripts\build.js:3755
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 391. scripts\build.js:3756
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 392. scripts\build.js:3757
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 393. scripts\build.js:3758
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 394. scripts\build.js:3759
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 395. scripts\build.js:3762
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 396. scripts\build.js:3763
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 397. scripts\build.js:3764
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 398. scripts\build.js:3765
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 399. scripts\build.js:3766
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 400. scripts\build.js:3767
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 401. scripts\build.js:3768
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 402. scripts\build.js:3770
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 403. scripts\build.js:3772
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 404. scripts\build.js:3775
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 405. scripts\build.js:3776
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 406. scripts\build.js:3777
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 407. scripts\build.js:3778
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 408. scripts\build.js:3780
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 409. scripts\build.js:3781
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 410. scripts\build.js:3782
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 411. scripts\build.js:3783
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 412. scripts\build.js:3785
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 413. scripts\build.js:3786
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 414. scripts\build.js:3787
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 415. scripts\build.js:3788
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 416. scripts\build.js:3789
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 417. scripts\build.js:3790
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 418. scripts\build.js:3792
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 419. scripts\build.js:3793
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 420. scripts\build.js:3794
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 421. scripts\build.js:3795
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 422. scripts\build.js:3798
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 423. scripts\build.js:3799
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 424. scripts\build.js:3800
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 425. scripts\build.js:3820
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 426. scripts\build.js:3856
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.044Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 377. scripts\build.js:3625
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 378. scripts\build.js:3640
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 379. scripts\build.js:3643
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 380. scripts\build.js:3647
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 381. scripts\build.js:3652
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 382. scripts\build.js:3656
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 383. scripts\build.js:3657
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.044Z
-
-#### 384. scripts\build.js:3663
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 385. scripts\build.js:3664
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 386. scripts\build.js:3672
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 387. scripts\build.js:3673
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 388. scripts\build.js:3683
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 389. scripts\build.js:3690
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 390. scripts\build.js:3692
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 391. scripts\build.js:3758
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 392. scripts\build.js:3759
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 393. scripts\build.js:3764
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 394. scripts\build.js:3766
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 395. scripts\build.js:3769
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 396. scripts\build.js:3773
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 397. scripts\keyword-cleanup.js:38
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 398. scripts\keyword-cleanup.js:40
+#### 427. scripts\build.js:3876
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 399. scripts\keyword-cleanup.js:58
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 400. scripts\keyword-cleanup.js:64
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 401. scripts\keyword-cleanup.js:67
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 402. scripts\keyword-cleanup.js:71
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 403. scripts\keyword-cleanup.js:72
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 404. scripts\keyword-cleanup.js:73
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 405. scripts\log-manager.js:45
+#### 428. scripts\build.js:3904
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 406. scripts\log-manager.js:61
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 407. scripts\log-manager.js:68
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 408. scripts\log-manager.js:83
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 409. scripts\log-manager.js:91
+#### 429. scripts\build.js:3946
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 410. scripts\log-manager.js:116
-**Severity:** WARNING  
-**Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
-
-#### 411. scripts\log-manager.js:144
+#### 430. scripts\build.js:3989
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 412. scripts\log-manager.js:158
+#### 431. scripts\build.js:4031
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 432. scripts\build.js:4036
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 433. scripts\build.js:4041
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 434. scripts\build.js:4047
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 413. scripts\log-manager.js:174
+#### 435. scripts\build.js:4050
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.722Z
 
-#### 414. scripts\log-manager.js:177
+#### 436. scripts\build.js:4065
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 437. scripts\build.js:4068
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 438. scripts\build.js:4072
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 439. scripts\build.js:4077
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 440. scripts\build.js:4081
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 441. scripts\build.js:4082
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 442. scripts\build.js:4088
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 443. scripts\build.js:4089
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 444. scripts\build.js:4097
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 445. scripts\build.js:4098
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 446. scripts\build.js:4108
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 447. scripts\build.js:4115
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 448. scripts\build.js:4117
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 449. scripts\build.js:4183
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 450. scripts\build.js:4184
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 451. scripts\build.js:4189
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 452. scripts\build.js:4191
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 453. scripts\build.js:4194
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 454. scripts\build.js:4198
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.722Z
+
+#### 455. scripts\keyword-cleanup.js:38
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 456. scripts\keyword-cleanup.js:40
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 415. scripts\log-manager.js:185
+#### 457. scripts\keyword-cleanup.js:58
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 416. scripts\log-manager.js:204
+#### 458. scripts\keyword-cleanup.js:64
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 417. scripts\log-manager.js:209
+#### 459. scripts\keyword-cleanup.js:67
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 418. scripts\log-manager.js:228
+#### 460. scripts\keyword-cleanup.js:71
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 461. scripts\keyword-cleanup.js:72
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 462. scripts\keyword-cleanup.js:73
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 463. scripts\log-manager.js:45
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 419. scripts\log-manager.js:235
+#### 464. scripts\log-manager.js:61
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 420. scripts\log-manager.js:264
+#### 465. scripts\log-manager.js:68
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 421. scripts\log-manager.js:265
+#### 466. scripts\log-manager.js:83
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 422. scripts\log-manager.js:266
+#### 467. scripts\log-manager.js:91
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 468. scripts\log-manager.js:116
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 423. scripts\log-manager.js:267
+#### 469. scripts\log-manager.js:144
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 470. scripts\log-manager.js:158
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 471. scripts\log-manager.js:174
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
-#### 424. style.css:170
+#### 472. scripts\log-manager.js:177
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 473. scripts\log-manager.js:185
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 474. scripts\log-manager.js:204
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 475. scripts\log-manager.js:209
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 476. scripts\log-manager.js:228
+**Severity:** WARNING  
+**Message:** Missing semicolon  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 477. scripts\log-manager.js:235
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 478. scripts\log-manager.js:264
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 479. scripts\log-manager.js:265
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 480. scripts\log-manager.js:266
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 481. scripts\log-manager.js:267
+**Severity:** WARNING  
+**Message:** Console.log statement found - consider removing in production  
+**Timestamp:** 2025-07-02T17:43:40.723Z
+
+#### 482. style.css:170
 **Severity:** WARNING  
 **Message:** Missing semicolon in CSS property  
-**Timestamp:** 2025-07-02T17:33:06.045Z
+**Timestamp:** 2025-07-02T17:43:40.723Z
 
 ### 📁 Problems gruppiert nach Datei
 
@@ -6360,281 +6998,339 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 - **Zeile 421:** ⚠️ Missing semicolon
 - **Zeile 470:** ⚠️ Missing semicolon
 
-#### scripts\build.js (274 Problem(e))
-- **Zeile 14:** ⚠️ Missing semicolon
-- **Zeile 41:** ⚠️ Missing semicolon
-- **Zeile 72:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 95:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 118:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 139:** ⚠️ Missing semicolon
-- **Zeile 151:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 266:** 🚨 Typo: "fucntion" should be "function"
-- **Zeile 267:** 🚨 Typo: "fucntion" should be "function"
-- **Zeile 314:** ⚠️ Missing semicolon
-- **Zeile 324:** ⚠️ Missing semicolon
-- **Zeile 410:** ⚠️ Missing semicolon
-- **Zeile 480:** ⚠️ Missing semicolon
-- **Zeile 520:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 649:** ⚠️ Missing semicolon
-- **Zeile 653:** ⚠️ Missing semicolon
-- **Zeile 660:** ⚠️ Missing semicolon
-- **Zeile 667:** ⚠️ Missing semicolon
-- **Zeile 729:** ⚠️ Missing semicolon
-- **Zeile 754:** ⚠️ Missing semicolon
-- **Zeile 773:** ⚠️ Missing semicolon
-- **Zeile 801:** ⚠️ Missing semicolon
-- **Zeile 880:** ⚠️ Missing semicolon
-- **Zeile 923:** ⚠️ Missing semicolon
-- **Zeile 934:** ⚠️ Missing semicolon
-- **Zeile 996:** ⚠️ Missing semicolon
-- **Zeile 1025:** ⚠️ Missing semicolon
-- **Zeile 1029:** ⚠️ Missing semicolon
-- **Zeile 1089:** ⚠️ Missing semicolon
-- **Zeile 1154:** ⚠️ Missing semicolon
-- **Zeile 1345:** ⚠️ Missing semicolon
-- **Zeile 1383:** ⚠️ Missing semicolon
-- **Zeile 1395:** ⚠️ Missing semicolon
-- **Zeile 1475:** ⚠️ Missing semicolon
-- **Zeile 1571:** ⚠️ Missing semicolon
-- **Zeile 1572:** ⚠️ Missing semicolon
-- **Zeile 1693:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1694:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1716:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1726:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1731:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1745:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1749:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1751:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1754:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1805:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1807:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1812:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1818:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1820:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1826:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1827:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1828:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1831:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1832:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1833:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1834:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1835:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1836:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1839:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1843:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1844:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1845:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1849:** ⚠️ Missing semicolon
-- **Zeile 1873:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1875:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1881:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1884:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1904:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1905:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1928:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1932:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1933:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1935:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1936:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1940:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1942:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1945:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1948:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1951:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1952:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1956:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1957:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1976:** ⚠️ Missing semicolon
-- **Zeile 1984:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1988:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1990:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1993:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1994:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1995:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1996:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 1997:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2000:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2002:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2007:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2009:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2014:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2024:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2038:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2039:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2040:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2041:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2042:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2043:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2044:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2048:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2049:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2050:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2051:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2052:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2053:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2054:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2055:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2075:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2092:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2130:** ⚠️ Missing semicolon
-- **Zeile 2186:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2239:** ⚠️ Missing semicolon
-- **Zeile 2268:** ⚠️ Missing semicolon
-- **Zeile 2305:** ⚠️ Missing semicolon
-- **Zeile 2317:** ⚠️ Missing semicolon
-- **Zeile 2345:** ⚠️ Missing semicolon
-- **Zeile 2357:** ⚠️ Missing semicolon
-- **Zeile 2383:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2435:** ⚠️ Missing semicolon
-- **Zeile 2439:** ⚠️ Missing semicolon
-- **Zeile 2452:** ⚠️ Missing semicolon
-- **Zeile 2461:** ⚠️ Missing semicolon
-- **Zeile 2470:** ⚠️ Missing semicolon
-- **Zeile 2479:** ⚠️ Missing semicolon
-- **Zeile 2500:** ⚠️ Missing semicolon
-- **Zeile 2513:** ⚠️ Missing semicolon
-- **Zeile 2526:** ⚠️ Missing semicolon
-- **Zeile 2539:** ⚠️ Missing semicolon
-- **Zeile 2566:** ⚠️ Missing semicolon
-- **Zeile 2575:** ⚠️ Missing semicolon
-- **Zeile 2584:** ⚠️ Missing semicolon
-- **Zeile 2593:** ⚠️ Missing semicolon
-- **Zeile 2602:** ⚠️ Missing semicolon
-- **Zeile 2695:** ⚠️ Missing semicolon
-- **Zeile 2699:** ⚠️ Missing semicolon
-- **Zeile 2709:** ⚠️ Missing semicolon
-- **Zeile 2719:** ⚠️ Missing semicolon
-- **Zeile 2738:** ⚠️ Missing semicolon
-- **Zeile 2763:** ⚠️ Missing semicolon
-- **Zeile 2772:** ⚠️ Missing semicolon
-- **Zeile 2781:** ⚠️ Missing semicolon
-- **Zeile 2790:** ⚠️ Missing semicolon
-- **Zeile 2799:** ⚠️ Missing semicolon
-- **Zeile 2808:** ⚠️ Missing semicolon
-- **Zeile 2831:** ⚠️ Missing semicolon
-- **Zeile 2844:** ⚠️ Missing semicolon
-- **Zeile 2857:** ⚠️ Missing semicolon
-- **Zeile 2866:** ⚠️ Missing semicolon
-- **Zeile 2875:** ⚠️ Missing semicolon
-- **Zeile 2884:** ⚠️ Missing semicolon
-- **Zeile 2914:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2941:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2943:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2945:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 2973:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3122:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3123:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3124:** ⚠️ Console.log statement found - consider removing in production
+#### scripts\build.js (332 Problem(e))
+- **Zeile 12:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 15:** ⚠️ Missing semicolon
+- **Zeile 16:** ⚠️ Missing semicolon
+- **Zeile 19:** ⚠️ Missing semicolon
+- **Zeile 29:** ⚠️ Missing semicolon
+- **Zeile 35:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 87:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 99:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 114:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 117:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 119:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 130:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 132:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 135:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 142:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 144:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 147:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 154:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 156:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 172:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 194:** ⚠️ Missing semicolon
+- **Zeile 212:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 220:** ⚠️ Missing semicolon
+- **Zeile 236:** ⚠️ Missing semicolon
+- **Zeile 251:** ⚠️ Missing semicolon
+- **Zeile 268:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 271:** ⚠️ Missing semicolon
+- **Zeile 276:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 279:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 281:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 285:** ⚠️ Missing semicolon
+- **Zeile 304:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 306:** ⚠️ Missing semicolon
+- **Zeile 325:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 337:** ⚠️ Missing semicolon
+- **Zeile 346:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 347:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 348:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 353:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 354:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 365:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 366:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 367:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 368:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 369:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 373:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 374:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 375:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 376:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 377:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 381:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 382:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 385:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 392:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 393:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 394:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 415:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 424:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 433:** ⚠️ Missing semicolon
+- **Zeile 460:** ⚠️ Missing semicolon
+- **Zeile 491:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 514:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 537:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 558:** ⚠️ Missing semicolon
+- **Zeile 570:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 685:** 🚨 Typo: "fucntion" should be "function"
+- **Zeile 686:** 🚨 Typo: "fucntion" should be "function"
+- **Zeile 733:** ⚠️ Missing semicolon
+- **Zeile 743:** ⚠️ Missing semicolon
+- **Zeile 829:** ⚠️ Missing semicolon
+- **Zeile 899:** ⚠️ Missing semicolon
+- **Zeile 939:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 1068:** ⚠️ Missing semicolon
+- **Zeile 1072:** ⚠️ Missing semicolon
+- **Zeile 1079:** ⚠️ Missing semicolon
+- **Zeile 1086:** ⚠️ Missing semicolon
+- **Zeile 1148:** ⚠️ Missing semicolon
+- **Zeile 1173:** ⚠️ Missing semicolon
+- **Zeile 1192:** ⚠️ Missing semicolon
+- **Zeile 1220:** ⚠️ Missing semicolon
+- **Zeile 1299:** ⚠️ Missing semicolon
+- **Zeile 1342:** ⚠️ Missing semicolon
+- **Zeile 1353:** ⚠️ Missing semicolon
+- **Zeile 1415:** ⚠️ Missing semicolon
+- **Zeile 1444:** ⚠️ Missing semicolon
+- **Zeile 1448:** ⚠️ Missing semicolon
+- **Zeile 1508:** ⚠️ Missing semicolon
+- **Zeile 1573:** ⚠️ Missing semicolon
+- **Zeile 1764:** ⚠️ Missing semicolon
+- **Zeile 1802:** ⚠️ Missing semicolon
+- **Zeile 1814:** ⚠️ Missing semicolon
+- **Zeile 1894:** ⚠️ Missing semicolon
+- **Zeile 1990:** ⚠️ Missing semicolon
+- **Zeile 1991:** ⚠️ Missing semicolon
+- **Zeile 2112:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2113:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2135:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2145:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2150:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2164:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2168:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2170:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2173:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2224:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2226:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2231:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2237:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2239:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2251:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2252:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2253:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2256:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2257:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2258:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2259:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2260:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2261:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2264:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2268:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2269:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2270:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2274:** ⚠️ Missing semicolon
+- **Zeile 2298:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2300:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2306:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2309:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2329:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2330:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2353:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2357:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2358:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2360:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2361:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2365:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2367:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2370:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2373:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2376:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2377:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2381:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2382:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2401:** ⚠️ Missing semicolon
+- **Zeile 2409:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2413:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2415:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2418:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2419:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2420:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2421:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2422:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2425:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2427:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2432:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2434:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2439:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2449:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2463:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2464:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2465:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2466:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2467:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2468:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2469:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2473:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2474:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2475:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2476:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2477:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2478:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2479:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2480:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2500:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2517:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2555:** ⚠️ Missing semicolon
+- **Zeile 2611:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2664:** ⚠️ Missing semicolon
+- **Zeile 2693:** ⚠️ Missing semicolon
+- **Zeile 2730:** ⚠️ Missing semicolon
+- **Zeile 2742:** ⚠️ Missing semicolon
+- **Zeile 2770:** ⚠️ Missing semicolon
+- **Zeile 2782:** ⚠️ Missing semicolon
+- **Zeile 2808:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 2860:** ⚠️ Missing semicolon
+- **Zeile 2864:** ⚠️ Missing semicolon
+- **Zeile 2877:** ⚠️ Missing semicolon
+- **Zeile 2886:** ⚠️ Missing semicolon
+- **Zeile 2895:** ⚠️ Missing semicolon
+- **Zeile 2904:** ⚠️ Missing semicolon
+- **Zeile 2925:** ⚠️ Missing semicolon
+- **Zeile 2938:** ⚠️ Missing semicolon
+- **Zeile 2951:** ⚠️ Missing semicolon
+- **Zeile 2964:** ⚠️ Missing semicolon
+- **Zeile 2991:** ⚠️ Missing semicolon
+- **Zeile 3000:** ⚠️ Missing semicolon
+- **Zeile 3009:** ⚠️ Missing semicolon
+- **Zeile 3018:** ⚠️ Missing semicolon
+- **Zeile 3027:** ⚠️ Missing semicolon
+- **Zeile 3120:** ⚠️ Missing semicolon
+- **Zeile 3124:** ⚠️ Missing semicolon
 - **Zeile 3134:** ⚠️ Missing semicolon
-- **Zeile 3139:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3143:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3150:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3156:** ⚠️ Missing semicolon
-- **Zeile 3157:** ⚠️ Missing semicolon
-- **Zeile 3160:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3172:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3175:** ⚠️ Missing semicolon
-- **Zeile 3178:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3181:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3185:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3186:** ⚠️ Missing semicolon
-- **Zeile 3192:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3194:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3198:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3202:** ⚠️ Missing semicolon
-- **Zeile 3210:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3214:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3220:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3225:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3228:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3230:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3234:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3235:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3236:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3238:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3247:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3252:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3253:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3254:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3255:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3269:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3271:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3281:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3284:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3287:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3288:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3289:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3290:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3291:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3296:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3297:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3326:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3329:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3330:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3331:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3332:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3333:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3334:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3337:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3338:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3144:** ⚠️ Missing semicolon
+- **Zeile 3163:** ⚠️ Missing semicolon
+- **Zeile 3188:** ⚠️ Missing semicolon
+- **Zeile 3197:** ⚠️ Missing semicolon
+- **Zeile 3206:** ⚠️ Missing semicolon
+- **Zeile 3215:** ⚠️ Missing semicolon
+- **Zeile 3224:** ⚠️ Missing semicolon
+- **Zeile 3233:** ⚠️ Missing semicolon
+- **Zeile 3256:** ⚠️ Missing semicolon
+- **Zeile 3269:** ⚠️ Missing semicolon
+- **Zeile 3282:** ⚠️ Missing semicolon
+- **Zeile 3291:** ⚠️ Missing semicolon
+- **Zeile 3300:** ⚠️ Missing semicolon
+- **Zeile 3309:** ⚠️ Missing semicolon
 - **Zeile 3339:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3340:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3341:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3342:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3343:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3345:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3347:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3350:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3351:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3352:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3353:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3355:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3356:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3357:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3358:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3360:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3361:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3362:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3363:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3364:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3365:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3367:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3366:** ⚠️ Console.log statement found - consider removing in production
 - **Zeile 3368:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3369:** ⚠️ Console.log statement found - consider removing in production
 - **Zeile 3370:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3373:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3374:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3375:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3395:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3431:** ⚠️ Missing semicolon
-- **Zeile 3451:** ⚠️ Missing semicolon
-- **Zeile 3479:** ⚠️ Missing semicolon
-- **Zeile 3521:** ⚠️ Missing semicolon
-- **Zeile 3564:** ⚠️ Missing semicolon
+- **Zeile 3398:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3547:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3548:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3549:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3559:** ⚠️ Missing semicolon
+- **Zeile 3564:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3568:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3575:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3581:** ⚠️ Missing semicolon
+- **Zeile 3582:** ⚠️ Missing semicolon
+- **Zeile 3585:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3597:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3600:** ⚠️ Missing semicolon
+- **Zeile 3603:** ⚠️ Console.log statement found - consider removing in production
 - **Zeile 3606:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3611:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3616:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3622:** ⚠️ Missing semicolon
-- **Zeile 3625:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3640:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3643:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3647:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3652:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3656:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3657:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3610:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3611:** ⚠️ Missing semicolon
+- **Zeile 3617:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3619:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3623:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3627:** ⚠️ Missing semicolon
+- **Zeile 3635:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3639:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3645:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3650:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3653:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3655:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3659:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3660:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3661:** ⚠️ Console.log statement found - consider removing in production
 - **Zeile 3663:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3664:** ⚠️ Console.log statement found - consider removing in production
 - **Zeile 3672:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3673:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3683:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3690:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3692:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3677:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3678:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3679:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3680:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3694:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3696:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3706:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3709:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3712:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3713:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3714:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3715:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3716:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3721:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3722:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3751:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3754:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3755:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3756:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3757:** ⚠️ Console.log statement found - consider removing in production
 - **Zeile 3758:** ⚠️ Console.log statement found - consider removing in production
 - **Zeile 3759:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3762:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3763:** ⚠️ Console.log statement found - consider removing in production
 - **Zeile 3764:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3765:** ⚠️ Console.log statement found - consider removing in production
 - **Zeile 3766:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3769:** ⚠️ Console.log statement found - consider removing in production
-- **Zeile 3773:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3767:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3768:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3770:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3772:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3775:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3776:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3777:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3778:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3780:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3781:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3782:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3783:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3785:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3786:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3787:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3788:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3789:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3790:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3792:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3793:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3794:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3795:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3798:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3799:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3800:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3820:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 3856:** ⚠️ Missing semicolon
+- **Zeile 3876:** ⚠️ Missing semicolon
+- **Zeile 3904:** ⚠️ Missing semicolon
+- **Zeile 3946:** ⚠️ Missing semicolon
+- **Zeile 3989:** ⚠️ Missing semicolon
+- **Zeile 4031:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4036:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4041:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4047:** ⚠️ Missing semicolon
+- **Zeile 4050:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4065:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4068:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4072:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4077:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4081:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4082:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4088:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4089:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4097:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4098:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4108:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4115:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4117:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4183:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4184:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4189:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4191:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4194:** ⚠️ Console.log statement found - consider removing in production
+- **Zeile 4198:** ⚠️ Console.log statement found - consider removing in production
 
 #### scripts\keyword-cleanup.js (8 Problem(e))
 - **Zeile 38:** ⚠️ Console.log statement found - consider removing in production
@@ -6681,7 +7377,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [35m▶️ Führe Check-Skript aus: comprehensiveCheck.js[39m
 [LOG] [32m✅ comprehensiveCheck.js erfolgreich ausgeführt[39m
 [LOG] [90m📋 comprehensiveCheck.js Output: 🔍 Starte umfassenden Build-Prozess Check...[39m
-[90m✅ Umfassender Check abgeschlossen. Logfile: C:\apps\website\einfach-passieren-lassen\scripts\build-checks\logfiles\comprehensiveCheck_2025-07-02_17-33-05-764.log[39m
+[90m✅ Umfassender Check abgeschlossen. Logfile: C:\apps\website\einfach-passieren-lassen\scripts\build-checks\logfiles\comprehensiveCheck_2025-07-02_17-43-40-438.log[39m
 [90m📊 Analysiert: 9 Blogs, Durchschnitt: 2256 Wörter[39m
 [90m⚠️ 9 kritische Issues gefunden[39m
 [LOG] [35m[39m
@@ -6692,7 +7388,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [32m✅ masterBuildChecker.js erfolgreich ausgeführt[39m
 [LOG] [90m📋 masterBuildChecker.js Output: 🔍 Starte MASTER BUILD CHECK - Alle Prüfungen in einer Logdatei...[39m
 [90m✅ MASTER BUILD CHECK abgeschlossen![39m
-[90m📊 Eine Logdatei: C:\apps\website\einfach-passieren-lassen\scripts\build-checks\logfiles\MASTER_BUILD_CHECK_2025-07-02_17-33-05-928.log[39m
+[90m📊 Eine Logdatei: C:\apps\website\einfach-passieren-lassen\scripts\build-checks\logfiles\MASTER_BUILD_CHECK_2025-07-02_17-43-40-595.log[39m
 [90m📈 Analysiert: 9 Blogs, ⌀ 2256 Wörter[39m
 [90m⚠️ 9 Errors, 24 Warnings[39m
 [90m✅ Build-Prozess: NIEMALS ABGEBROCHEN (wie gefordert)[39m
@@ -6716,7 +7412,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [INFO] Clean Build: 10 HTML-Dateien gelöscht
 [LOG] [36m[39m
 [36m🚀 STARTE INTELLIGENT BUILD PROCESS...[39m
-[LOG] [34m📋 Terminal-Ausgabe wird gespeichert in: docs\015_build_logs\BUILD_LOG_2025-07-02_173305.md[39m
+[LOG] [34m📋 Terminal-Ausgabe wird gespeichert in: docs\015_build_logs\BUILD_LOG_2025-07-02_174340.md[39m
 [LOG] [90mNeue Intention-Validation aktiv![39m
 [90m[39m
 [LOG] [34m[39m
@@ -6850,280 +7546,338 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [PROBLEM] [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:373 - Missing semicolon
 [PROBLEM] [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:421 - Missing semicolon
 [PROBLEM] [WARNING] scripts\build-checks\check_scripts\masterBuildChecker.js:470 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:14 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:41 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:72 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:95 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:118 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:139 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:151 - Console.log statement found - consider removing in production
-[PROBLEM] [ERROR] scripts\build.js:266 - Typo: "fucntion" should be "function"
-[PROBLEM] [ERROR] scripts\build.js:267 - Typo: "fucntion" should be "function"
-[PROBLEM] [WARNING] scripts\build.js:314 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:324 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:410 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:480 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:520 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:649 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:653 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:660 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:667 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:729 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:754 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:773 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:801 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:880 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:923 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:934 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:996 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1025 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1029 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1089 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1154 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1345 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1383 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1395 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1475 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1571 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1572 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1693 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1694 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1716 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1726 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1731 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1745 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1749 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1751 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1754 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1805 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1807 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1812 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1818 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1820 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1826 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1827 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1828 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1831 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1832 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1833 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1834 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1835 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1836 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1839 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1843 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1844 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1845 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1849 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1873 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1875 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1881 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1884 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1904 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1905 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1928 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1932 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1933 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1935 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1936 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1940 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1942 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1945 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1948 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1951 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1952 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1956 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1957 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1976 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:1984 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1988 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1990 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1993 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1994 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1995 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1996 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:1997 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2000 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2002 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2007 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2009 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2014 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2024 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2038 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2039 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2040 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2041 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2042 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2043 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2044 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2048 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2049 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2050 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2051 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2052 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2053 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2054 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2055 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2075 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2092 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2130 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2186 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2239 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2268 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2305 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2317 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2345 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2357 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2383 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2435 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2439 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2452 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2461 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2470 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2479 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2500 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2513 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2526 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2539 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2566 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2575 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2584 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2593 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2602 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2695 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2699 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2709 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2719 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2738 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2763 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2772 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2781 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2790 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2799 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2808 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2831 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2844 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2857 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2866 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2875 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2884 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:2914 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2941 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2943 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2945 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:2973 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3122 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3123 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3124 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:12 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:15 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:16 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:19 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:29 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:35 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:87 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:99 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:114 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:117 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:119 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:130 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:132 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:135 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:142 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:144 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:147 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:154 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:156 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:172 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:194 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:212 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:220 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:236 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:251 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:268 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:271 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:276 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:279 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:281 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:285 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:304 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:306 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:325 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:337 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:346 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:347 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:348 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:353 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:354 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:365 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:366 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:367 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:368 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:369 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:373 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:374 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:375 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:376 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:377 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:381 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:382 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:385 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:392 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:393 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:394 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:415 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:424 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:433 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:460 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:491 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:514 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:537 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:558 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:570 - Console.log statement found - consider removing in production
+[PROBLEM] [ERROR] scripts\build.js:685 - Typo: "fucntion" should be "function"
+[PROBLEM] [ERROR] scripts\build.js:686 - Typo: "fucntion" should be "function"
+[PROBLEM] [WARNING] scripts\build.js:733 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:743 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:829 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:899 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:939 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:1068 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1072 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1079 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1086 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1148 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1173 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1192 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1220 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1299 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1342 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1353 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1415 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1444 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1448 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1508 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1573 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1764 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1802 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1814 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1894 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1990 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:1991 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2112 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2113 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2135 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2145 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2150 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2164 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2168 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2170 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2173 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2224 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2226 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2231 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2237 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2239 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2251 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2252 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2253 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2256 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2257 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2258 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2259 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2260 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2261 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2264 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2268 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2269 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2270 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2274 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2298 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2300 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2306 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2309 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2329 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2330 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2353 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2357 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2358 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2360 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2361 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2365 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2367 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2370 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2373 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2376 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2377 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2381 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2382 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2401 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2409 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2413 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2415 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2418 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2419 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2420 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2421 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2422 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2425 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2427 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2432 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2434 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2439 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2449 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2463 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2464 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2465 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2466 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2467 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2468 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2469 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2473 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2474 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2475 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2476 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2477 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2478 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2479 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2480 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2500 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2517 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2555 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2611 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2664 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2693 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2730 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2742 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2770 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2782 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2808 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:2860 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2864 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2877 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2886 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2895 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2904 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2925 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2938 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2951 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2964 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:2991 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3000 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3009 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3018 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3027 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3120 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3124 - Missing semicolon
 [PROBLEM] [WARNING] scripts\build.js:3134 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3139 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3143 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3150 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3156 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3157 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3160 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3172 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3175 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3178 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3181 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3185 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3186 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3192 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3194 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3198 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3202 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3210 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3214 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3220 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3225 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3228 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3230 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3234 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3235 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3236 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3238 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3247 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3252 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3253 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3254 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3255 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3269 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3271 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3281 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3284 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3287 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3288 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3289 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3290 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3291 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3296 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3297 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3326 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3329 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3330 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3331 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3332 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3333 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3334 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3337 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3338 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3144 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3163 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3188 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3197 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3206 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3215 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3224 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3233 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3256 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3269 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3282 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3291 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3300 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3309 - Missing semicolon
 [PROBLEM] [WARNING] scripts\build.js:3339 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3340 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3341 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3342 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3343 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3345 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3347 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3350 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3351 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3352 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3353 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3355 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3356 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3357 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3358 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3360 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3361 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3362 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3363 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3364 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3365 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3367 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3366 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3368 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3369 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3370 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3373 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3374 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3375 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3395 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3431 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3451 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3479 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3521 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3564 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3398 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3547 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3548 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3549 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3559 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3564 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3568 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3575 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3581 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3582 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3585 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3597 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3600 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3603 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3606 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3611 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3616 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3622 - Missing semicolon
-[PROBLEM] [WARNING] scripts\build.js:3625 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3640 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3643 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3647 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3652 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3656 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3657 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3610 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3611 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3617 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3619 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3623 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3627 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3635 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3639 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3645 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3650 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3653 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3655 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3659 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3660 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3661 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3663 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3664 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3672 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3673 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3683 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3690 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3692 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3677 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3678 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3679 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3680 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3694 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3696 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3706 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3709 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3712 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3713 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3714 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3715 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3716 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3721 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3722 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3751 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3754 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3755 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3756 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3757 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3758 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3759 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3762 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3763 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3764 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3765 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3766 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3769 - Console.log statement found - consider removing in production
-[PROBLEM] [WARNING] scripts\build.js:3773 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3767 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3768 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3770 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3772 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3775 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3776 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3777 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3778 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3780 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3781 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3782 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3783 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3785 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3786 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3787 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3788 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3789 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3790 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3792 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3793 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3794 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3795 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3798 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3799 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3800 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3820 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:3856 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3876 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3904 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3946 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:3989 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:4031 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4036 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4041 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4047 - Missing semicolon
+[PROBLEM] [WARNING] scripts\build.js:4050 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4065 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4068 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4072 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4077 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4081 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4082 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4088 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4089 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4097 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4098 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4108 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4115 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4117 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4183 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4184 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4189 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4191 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4194 - Console.log statement found - consider removing in production
+[PROBLEM] [WARNING] scripts\build.js:4198 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\keyword-cleanup.js:38 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\keyword-cleanup.js:40 - Missing semicolon
 [PROBLEM] [WARNING] scripts\keyword-cleanup.js:58 - Console.log statement found - consider removing in production
@@ -7152,7 +7906,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [PROBLEM] [WARNING] scripts\log-manager.js:266 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\log-manager.js:267 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] style.css:170 - Missing semicolon in CSS property
-[INFO] ✅ Problems-Scan abgeschlossen. 428 Problem(e) gefunden.
+[INFO] ✅ Problems-Scan abgeschlossen. 486 Problem(e) gefunden.
 [LOG] [34m📄 Gefunden: 10 Markdown-Dateien[39m
 [34m[39m
 [LOG] [90m[39m
@@ -7538,7 +8292,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [33m� QUALITY-ALERT DETAILS:[39m
 [LOG] [33m   Type: CONTENT_OPTIMIZATION_NEEDED[39m
 [LOG] [33m   Message: Vollständige Content-Optimierung durch KI empfohlen[39m
-[LOG] [33m   Timestamp: 2025-07-02T17:33:06.135Z[39m
+[LOG] [33m   Timestamp: 2025-07-02T17:43:40.808Z[39m
 [LOG] [33m   Files affected: 9/10[39m
 [LOG] [33m   First problem: das-erste-mal.md (50%)[39m
 [LOG] [33m   Recommended action: CONTENT_OPTIMIZATION_RECOMMENDED[39m
@@ -7640,7 +8394,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 
 ## System-Information
 
-- **Datum:** 2.7.2025, 19:33:06
+- **Datum:** 2.7.2025, 19:43:40
 - **Timezone:** Europe/Zurich
 - **Platform:** win32
 - **Architecture:** x64

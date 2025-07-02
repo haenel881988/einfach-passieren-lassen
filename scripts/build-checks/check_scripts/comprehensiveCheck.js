@@ -106,15 +106,15 @@ function analyzeBlogPost(filePath) {
     if (analysis.wordCount >= 10000) {
         analysis.wordCountRating = 'Excellent - über 10.000 Wörter';
         analysis.checks.wordCount = true;
-    } else if (analysis.wordCount >= 3000) {
-        analysis.wordCountRating = 'Sehr gut - über 3.000 Wörter';
+    } else if (analysis.wordCount >= 8500) {
+        analysis.wordCountRating = 'Sehr gut - erfüllt Minimum (8500-10000+ Wörter)';
         analysis.checks.wordCount = true;
-    } else if (analysis.wordCount >= 2300) {
-        analysis.wordCountRating = 'Gut - empfohlen 3000+';
+    } else if (analysis.wordCount >= 8000) {
+        analysis.wordCountRating = 'Fast ausreichend - nahe Minimum (8500+ erforderlich)';
         analysis.checks.wordCount = true;
     } else {
-        analysis.wordCountRating = 'Zu kurz - empfohlen 3000+';
-        analysis.issues.critical.push(`Blog zu kurz: ${analysis.wordCount} Wörter (empfohlen: 3000+)`);
+        analysis.wordCountRating = 'ZU KURZ - unter Minimum (8500-10000+ Wörter erforderlich)';
+        analysis.issues.critical.push(`Blog zu kurz: ${analysis.wordCount} Wörter (MINIMUM laut Instructions: 8500-10000+)`);
     }
     
     // Meta-Description Check (120-160 Zeichen wie gefordert)

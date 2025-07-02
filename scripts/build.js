@@ -5,6 +5,425 @@ import matter from 'front-matter';
 import * as cheerio from 'cheerio';
 import chalk from 'chalk';
 
+// ==================== INTERNE VERLINKUNGSANALYSE ====================
+
+// Funktion zur Analyse interner Links
+async function analyzeInternalLinks(allIssues) {
+    console.log(chalk.blue('🔗 Analysiere interne Verlinkung...'));
+    
+    const linkIssues = [];
+    const allLinks = new Map(); // Link -> [verwendende Dateien]
+    const fileLinks = new Map(); // Datei -> [ihre Links]
+    
+    // Alle HTML-Dateien finden
+    const htmlFiles = [
+        'index.html',
+        'ueber-mich.html', 
+        'kontakt.html',
+        'blog/index.html'
+    ];
+    
+    // Blog-HTML-Dateien hinzufügen
+    const blogDir = 'blog';
+    if (fs.existsSync(blogDir)) {
+        const blogFiles = fs.readdirSync(blogDir)
+            .filter(file => file.endsWith('.html') && file !== 'index.html')
+            .map(file => `blog/${file}`);
+        htmlFiles.push(...blogFiles);
+    }
+    
+    console.log(chalk.cyan(`   📄 Gefunden: ${htmlFiles.length} HTML-Dateien`));
+    
+    // Jede HTML-Datei analysieren
+    for (const htmlFile of htmlFiles) {
+        try {
+            if (!fs.existsSync(htmlFile)) {
+                linkIssues.push({
+                    type: 'missing-file',
+                    file: htmlFile,
+                    severity: 'high',
+                    message: `HTML-Datei nicht gefunden: ${htmlFile}`
+                });
+                continue;
+            }
+            
+            const htmlContent = fs.readFileSync(htmlFile, 'utf-8');
+            const $ = cheerio.load(htmlContent);
+            const linksInFile = [];
+            
+            // Alle internen Links finden
+            $('a[href]').each((index, element) => {
+                const href = $(element).attr('href');
+                const linkText = $(element).text().trim();
+                
+                // Nur interne Links (keine externen URLs, mailto, tel)
+                if (href && 
+                    !href.startsWith('http') && 
+                    !href.startsWith('mailto:') && 
+                    !href.startsWith('tel:') &&
+                    !href.startsWith('#') // Skip anchor links for now
+                ) {
+                    const linkInfo = {
+                        href,
+                        text: linkText,
+                        line: index + 1 // Approximation
+                    };
+                    
+                    linksInFile.push(linkInfo);
+                    
+                    // In globaler Map speichern
+                    if (!allLinks.has(href)) {
+                        allLinks.set(href, []);
+                    }
+                    allLinks.get(href).push({
+                        sourceFile: htmlFile,
+                        linkText,
+                        line: index + 1
+                    });
+                }
+            });
+            
+            fileLinks.set(htmlFile, linksInFile);
+            console.log(chalk.white(`   📄 ${htmlFile}: ${linksInFile.length} interne Links`));
+            
+        } catch (error) {
+            linkIssues.push({
+                type: 'parsing-error',
+                file: htmlFile,
+                severity: 'medium',
+                message: `Fehler beim Parsen von ${htmlFile}: ${error.message}`
+            });
+        }
+    }
+    
+    console.log(chalk.cyan(`\n   🔍 Validiere ${allLinks.size} eindeutige Links...`));
+    
+    // Links validieren
+    for (const [href, usages] of allLinks.entries()) {
+        const issues = validateLink(href, usages);
+        linkIssues.push(...issues);
+    }
+    
+    // Spezielle Blog-Verlinkungsanalyse
+    analyzeBlogLinking(allLinks, linkIssues);
+    
+    // README-Verlinkungsprobleme finden
+    analyzeReadmeLinking(allLinks, linkIssues);
+    
+    // Ergebnisse ausgeben
+    console.log(chalk.cyan(`\n   📊 Verlinkungsanalyse abgeschlossen:`));
+    
+    if (linkIssues.length === 0) {
+        console.log(chalk.green(`   ✅ Keine Verlinkungsprobleme gefunden`));
+    } else {
+        console.log(chalk.yellow(`   ⚠️ ${linkIssues.length} Verlinkungsprobleme gefunden:`));
+        
+        // Nach Schweregrad gruppieren
+        const grouped = linkIssues.reduce((acc, issue) => {
+            if (!acc[issue.severity]) acc[issue.severity] = [];
+            acc[issue.severity].push(issue);
+            return acc;
+        }, {});
+        
+        // Ausgabe der Probleme
+        if (grouped.high) {
+            console.log(chalk.red(`   🚨 KRITISCHE Probleme (${grouped.high.length}):`));
+            grouped.high.forEach((issue, i) => {
+                console.log(chalk.red(`      ${i+1}. ${issue.message}`));
+                if (issue.details) {
+                    issue.details.forEach(detail => {
+                        console.log(chalk.white(`         → ${detail}`));
+                    });
+                }
+            });
+        }
+        
+        if (grouped.medium) {
+            console.log(chalk.yellow(`   ⚠️ MITTLERE Probleme (${grouped.medium.length}):`));
+            grouped.medium.forEach((issue, i) => {
+                console.log(chalk.yellow(`      ${i+1}. ${issue.message}`));
+                if (issue.details) {
+                    issue.details.forEach(detail => {
+                        console.log(chalk.white(`         → ${detail}`));
+                    });
+                }
+            });
+        }
+        
+        if (grouped.low) {
+            console.log(chalk.gray(`   💡 HINWEISE (${grouped.low.length}):`));
+            grouped.low.forEach((issue, i) => {
+                console.log(chalk.gray(`      ${i+1}. ${issue.message}`));
+            });
+        }
+    }
+    
+    // Issues zu globalem Report hinzufügen
+    linkIssues.forEach(issue => {
+        if (allIssues[issue.severity]) {
+            allIssues[issue.severity].push(issue);
+        } else if (issue.severity === 'high' && allIssues.critical) {
+            allIssues.critical.push(issue);
+        } else if (allIssues.warnings) {
+            allIssues.warnings.push(issue);
+        }
+    });
+    
+    console.log('');
+}
+
+// Einzelnen Link validieren
+function validateLink(href, usages) {
+    const issues = [];
+    
+    // Ziel-Datei bestimmen
+    let targetFile = href;
+    
+    // Anker entfernen falls vorhanden
+    if (targetFile.includes('#')) {
+        targetFile = targetFile.split('#')[0];
+    }
+    
+    // Relative Pfade auflösen
+    if (targetFile.startsWith('./')) {
+        targetFile = targetFile.substring(2);
+    }
+    
+    // Prüfen ob Ziel-Datei existiert
+    if (targetFile && !fs.existsSync(targetFile)) {
+        const details = usages.map(usage => 
+            `${usage.sourceFile}: "${usage.linkText}" (Zeile ~${usage.line})`
+        );
+        
+        issues.push({
+            type: 'broken-link',
+            href,
+            severity: 'high',
+            message: `Defekter Link: ${href} (Ziel nicht gefunden)`,
+            details
+        });
+    }
+    
+    return issues;
+}
+
+// Blog-spezifische Verlinkungsanalyse
+function analyzeBlogLinking(allLinks, linkIssues) {
+    console.log(chalk.blue(`   🔍 Spezielle Blog-Verlinkungsanalyse...`));
+    
+    for (const [href, usages] of allLinks.entries()) {
+        // README-Links in Blogs finden
+        if (href.includes('README') || href.includes('readme')) {
+            const blogUsages = usages.filter(usage => usage.sourceFile.startsWith('blog/'));
+            
+            if (blogUsages.length > 0) {
+                const details = blogUsages.map(usage => 
+                    `${usage.sourceFile}: "${usage.linkText}" → sollte zu echtem Blog-Post zeigen`
+                );
+                
+                linkIssues.push({
+                    type: 'blog-readme-link',
+                    href,
+                    severity: 'medium',
+                    message: `Blog verlinkt auf README statt auf echten Artikel: ${href}`,
+                    details
+                });
+            }
+        }
+        
+        // Prüfe auf .md Links in HTML (sollten .html sein)
+        if (href.endsWith('.md')) {
+            const details = usages.map(usage => 
+                `${usage.sourceFile}: "${usage.linkText}" → sollte .html Extension haben`
+            );
+            
+            linkIssues.push({
+                type: 'wrong-extension',
+                href,
+                severity: 'medium', 
+                message: `Link zeigt auf .md statt .html: ${href}`,
+                details
+            });
+        }
+        
+        // Prüfe auf Entwurf-Links
+        if (href.includes('entwurf/') || href.includes('/entwurf')) {
+            const details = usages.map(usage => 
+                `${usage.sourceFile}: "${usage.linkText}" → sollte zu fertigem Blog-Post zeigen`
+            );
+            
+            linkIssues.push({
+                type: 'draft-link',
+                href,
+                severity: 'medium',
+                message: `Link zeigt auf Entwurf statt fertigen Artikel: ${href}`,
+                details
+            });
+        }
+    }
+}
+
+// README-spezifische Verlinkungsanalyse  
+function analyzeReadmeLinking(allLinks, linkIssues) {
+    console.log(chalk.blue(`   🔍 README-Verlinkungsanalyse...`));
+    
+    // Alle README-bezogenen Links sammeln
+    const readmeLinks = Array.from(allLinks.entries()).filter(([href]) => 
+        href.toLowerCase().includes('readme')
+    );
+    
+    if (readmeLinks.length > 0) {
+        console.log(chalk.yellow(`   📋 ${readmeLinks.length} README-Links gefunden:`));
+        
+        readmeLinks.forEach(([href, usages]) => {
+            console.log(chalk.white(`      📄 ${href}:`));
+            usages.forEach(usage => {
+                console.log(chalk.gray(`         → ${usage.sourceFile}: "${usage.linkText}"`));
+            });
+            
+            // Empfehlung für README-Links
+            const details = usages.map(usage => 
+                `${usage.sourceFile}: "${usage.linkText}" → Erwäge einen spezifischeren Link`
+            );
+            
+            linkIssues.push({
+                type: 'readme-link',
+                href,
+                severity: 'low',
+                message: `README-Link gefunden - prüfe ob spezifischerer Link möglich: ${href}`,
+                details
+            });
+        });
+    }
+}
+
+// ==================== LANDINGPAGE & ÜBER MICH ANALYSE ====================
+
+// Funktion zur Analyse der Hauptseiten (Landingpage, Über mich)
+async function analyzeMainPages(allIssues) {
+    console.log(chalk.blue('📊 Analysiere Landingpage und "Über mich"-Seite...'));
+    
+    const mainPages = [
+        { 
+            file: 'index.html', 
+            name: 'Landingpage',
+            minWords: 4000,  // Empfehlung für Landingpage
+            maxWords: 6000   // Obergrenze für gute Lesbarkeit
+        },
+        { 
+            file: 'ueber-mich.html', 
+            name: 'Über mich',
+            minWords: 2000,  // Mindestens für Vertrauen aufbauen
+            maxWords: 4000   // Nicht zu lang für persönliche Seite
+        }
+    ];
+    
+    for (const page of mainPages) {
+        try {
+            const filePath = path.join('.', page.file);
+            if (!fs.existsSync(filePath)) {
+                console.log(chalk.yellow(`⚠️ ${page.name} nicht gefunden: ${page.file}`));
+                continue;
+            }
+            
+            const htmlContent = fs.readFileSync(filePath, 'utf-8');
+            const $ = cheerio.load(htmlContent);
+            
+            // Text aus HTML extrahieren (ohne Scripts, Styles, Navigation)
+            $('script, style, nav, footer, .nav-logo, .menu-toggle').remove();
+            const textContent = $('body').text();
+            
+            // Wörter zählen (deutsche Methode)
+            const words = textContent
+                .replace(/\s+/g, ' ')
+                .trim()
+                .split(' ')
+                .filter(word => word.length > 0);
+            
+            const wordCount = words.length;
+            
+            // Detaillierte Analyse
+            console.log(chalk.cyan(`📄 ${page.name} (${page.file}):`));
+            console.log(chalk.white(`   Aktuelle Wörter: ${wordCount}`));
+            console.log(chalk.white(`   Empfohlener Bereich: ${page.minWords}-${page.maxWords}+ Wörter`));
+            
+            // Bewertung und Empfehlung
+            if (wordCount < page.minWords) {
+                const deficit = page.minWords - wordCount;
+                console.log(chalk.red(`   ❌ Zu wenig Wörter: ${wordCount} (min. ${page.minWords} für SEO)`));
+                console.log(chalk.yellow(`   📈 Erweitere um ${deficit} Wörter für bessere SEO-Performance`));
+                
+                allIssues.seo.push({
+                    file: page.file,
+                    type: 'word-count-low',
+                    severity: 'high',
+                    message: `${page.name}: Nur ${wordCount} Wörter (min. ${page.minWords} empfohlen)`
+                });
+                
+                // Konkrete Empfehlungen
+                if (page.file === 'index.html') {
+                    console.log(chalk.blue(`   💡 Empfehlung für Landingpage:`));
+                    console.log(chalk.white(`      • Mehr emotionale Trigger und persönliche Stories`));
+                    console.log(chalk.white(`      • FAQ-Sektion mit häufigen Sorgen/Ängsten`));
+                    console.log(chalk.white(`      • Testimonials oder Erfolgserlebnisse`));
+                    console.log(chalk.white(`      • Tiefere Erklärung der emotionalen Verbindung`));
+                }
+                
+                if (page.file === 'ueber-mich.html') {
+                    console.log(chalk.blue(`   💡 Empfehlung für "Über mich":`));
+                    console.log(chalk.white(`      • Mehr persönliche Geschichte und Background`));
+                    console.log(chalk.white(`      • Konkrete Erfahrungen und Lebensereignisse`));
+                    console.log(chalk.white(`      • Was dich von anderen unterscheidet`));
+                    console.log(chalk.white(`      • Deine Vision und Werte erklären`));
+                }
+                
+            } else if (wordCount > page.maxWords) {
+                console.log(chalk.yellow(`   ⚠️ Sehr umfangreich: ${wordCount} Wörter (über ${page.maxWords})`));
+                console.log(chalk.white(`   📝 Prüfe, ob Content-Aufteilung sinnvoll ist`));
+                
+            } else {
+                console.log(chalk.green(`   ✅ Optimale Wortanzahl: ${wordCount} Wörter`));
+            }
+            
+            // SEO und Content-Qualität prüfen
+            const title = $('title').text();
+            const description = $('meta[name="description"]').attr('content');
+            
+            console.log(chalk.white(`   📋 SEO-Check:`));
+            console.log(chalk.white(`      Title: ${title ? title.length + ' Zeichen' : 'FEHLT'}`));
+            console.log(chalk.white(`      Description: ${description ? description.length + ' Zeichen' : 'FEHLT'}`));
+            
+            if (!title || title.length < 30) {
+                allIssues.seo.push({
+                    file: page.file,
+                    type: 'title-missing-short',
+                    severity: 'high',
+                    message: `${page.name}: Title fehlt oder zu kurz`
+                });
+            }
+            
+            if (!description || description.length < 120) {
+                allIssues.seo.push({
+                    file: page.file,
+                    type: 'description-missing-short',
+                    severity: 'medium',
+                    message: `${page.name}: Meta-Description fehlt oder zu kurz`
+                });
+            }
+            
+        } catch (error) {
+            console.log(chalk.red(`❌ Fehler bei Analyse von ${page.name}: ${error.message}`));
+            allIssues.errors.push({
+                file: page.file,
+                message: error.message,
+                type: 'main-page-analysis'
+            });
+        }
+    }
+    
+    console.log('');
+}
+
 // ==================== INTELLIGENT LOG MANAGEMENT ====================
 class LogManager {
     static async performLogCleanup() {
@@ -725,9 +1144,9 @@ function detectContentIssues(content, frontmatter, context) {
 async function generateBlogIndex() {
     const blogPosts = [];
     
-    // Alle HTML-Dateien im Blog-Verzeichnis sammeln
+    // Alle HTML-Dateien im Blog-Verzeichnis sammeln (README ausschließen)
     const htmlFiles = fs.readdirSync(OUTPUT_DIR)
-        .filter(file => file.endsWith('.html') && file !== 'index.html');
+        .filter(file => file.endsWith('.html') && file !== 'index.html' && !file.toLowerCase().includes('readme'));
     
     for (const htmlFile of htmlFiles) {
         const htmlPath = path.join(OUTPUT_DIR, htmlFile);
@@ -1350,19 +1769,19 @@ function generateHTML(content, frontmatter) {
     <title>${frontmatter.title}</title>
     <meta name="description" content="${frontmatter.description}">
     <meta name="keywords" content="${frontmatter.keywords}">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body>
     <nav class="main-nav">
         <div class="nav-logo">
-            <a href="../index.html">Ein offener Brief</a>
+            <a href="/index.html">Ein offener Brief</a>
         </div>
         <ul class="nav-links">
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="../ueber-mich.html">Über Mich</a></li>
+            <li><a href="/index.html">Start</a></li>
+            <li><a href="/ueber-mich.html">Über Mich</a></li>
             <li><a href="index.html">Blog</a></li>
-            <li><a href="../kontakt.html">Kontakt</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
         </ul>
     </nav>
     <div class="container">
@@ -1372,7 +1791,7 @@ function generateHTML(content, frontmatter) {
             </article>
         </main>
         <footer>
-            <p>&copy; 2025 Einfach passieren lassen. <a href="../kontakt.html">Kontakt</a></p>
+            <p>&copy; 2025 Einfach passieren lassen. <a href="/kontakt.html">Kontakt</a></p>
         </footer>
     </div>
 </body>
@@ -1820,6 +2239,12 @@ async function build() {
             console.log(chalk.green('✅ Sitemap updated'));
         }
 
+        // NEUE FUNKTION: Landingpage und "Über mich" analysieren
+        await analyzeMainPages(allIssues);
+
+        // NEUE FUNKTION: Interne Verlinkung analysieren
+        await analyzeInternalLinks(allIssues);
+
         const buildTime = Date.now() - buildStart;
 
         // UMFASSENDER BUILD-REPORT
@@ -1938,7 +2363,7 @@ async function build() {
 
         // Recommendations
         console.log(chalk.cyan('\n💡 RECOMMENDATIONS:'));
-        if (totalWordCount / files.length < 2300) {
+        if (totalWordCount / files.length < 8500) {
             console.log(chalk.cyan('   • Increase average word count per article for better SEO'));
         }
         if (fileAnalytics.filter(f => f.hasSwissGerman).length < files.length) {
@@ -2166,8 +2591,8 @@ function analyzeRootCause(issueType, files) {
             break;
 
         case 'content_length':
-            analysis.files = files.filter(f => f.wordCount < 2300).map(f => f.path);
-            analysis.instructionIssue = 'Instructions definieren 2300 Wörter, aber ohne Enforcement-Strategie';
+            analysis.files = files.filter(f => f.wordCount < 8500).map(f => f.path);
+            analysis.instructionIssue = 'Instructions definieren 8500-10000+ Wörter, aber ohne Enforcement-Strategie';
             analysis.recommendedSolution = 'Ergänze Content-Expansion-Prompts und konkrete Längen-Enforcement';
             break;
 
@@ -3130,9 +3555,9 @@ async function buildBlogPosts() {
         // VS Code Problems sammeln (zu Beginn)
         await terminalLogger.collectVSCodeProblems();
         
-        // Markdown-Dateien aus Entwurf-Ordner lesen
+        // Markdown-Dateien aus Entwurf-Ordner lesen (README ausschließen)
         const files = fs.readdirSync(INPUT_DIR)
-            .filter(file => file.endsWith('.md'))
+            .filter(file => file.endsWith('.md') && !file.toLowerCase().includes('readme'))
             .map(file => path.join(INPUT_DIR, file));
 
         if (files.length === 0) {
@@ -3374,6 +3799,13 @@ async function buildBlogPosts() {
             console.log(chalk.green(`   Verarbeitete Dateien: ${totalProcessed}/${files.length}`));
             console.log(chalk.yellow(`   Content-Optimierungspotential: ${intentionIssues.length} Dateien`));
         }
+
+        // NEUE FUNKTION: Landingpage und "Über mich" analysieren
+        const allIssues = { critical: [], errors: [], warnings: [], performance: [], seo: [], accessibility: [], security: [], codeQuality: [], contentQuality: [] };
+        await analyzeMainPages(allIssues);
+
+        // NEUE FUNKTION: Interne Verlinkung analysieren
+        await analyzeInternalLinks(allIssues);
 
     } catch (error) {
         // QUALITY-ALERT: Sammle Build-Fehler aber stoppe nicht den Prozess

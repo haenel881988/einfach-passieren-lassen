@@ -250,7 +250,7 @@ function performBlogAnalysis() {
                 totalWords += blogAnalysis.wordCount;
                 
                 // Zähle Probleme für Summary
-                if (blogAnalysis.wordCount < 2300) summary.blogsBelowThreshold++;
+                if (blogAnalysis.wordCount < 8500) summary.blogsBelowThreshold++;
                 if (!blogAnalysis.checks.focusKeywordInMeta || !blogAnalysis.checks.focusKeywordInContent) {
                     summary.blogsNeedingKeywordOptimization++;
                 }
@@ -272,7 +272,7 @@ function performBlogAnalysis() {
         
         // Globale Empfehlungen generieren
         if (summary.blogsBelowThreshold > 0) {
-            summary.globalRecommendations.push(`${summary.blogsBelowThreshold} Blog(s) unter 2300 Wörtern - MINIMUM nicht erfüllt`);
+            summary.globalRecommendations.push(`${summary.blogsBelowThreshold} Blog(s) unter 8500-10000+ Wörtern - MINIMUM nicht erfüllt`);
         }
         if (summary.blogsNeedingKeywordOptimization > 0) {
             summary.globalRecommendations.push(`${summary.blogsNeedingKeywordOptimization} Blog(s) benötigen Keyword-Optimierung`);
@@ -327,13 +327,13 @@ function analyzeSingleBlogPost(filePath) {
         anchortextQuality: 'Unbekannt'
     };
     
-    // === WÖRTER-ZÄHLUNG & BEWERTUNG (EXAKT nach GEMINI.md: mind. 2300 Wörter) ===
-    if (analysis.wordCount >= 2300) {
-        analysis.wordCountRating = 'Ausreichend - erfüllt Minimum (2300+ Wörter)';
+    // === WÖRTER-ZÄHLUNG & BEWERTUNG (EXAKT nach Instructions: mind. 8500-10000+ Wörter) ===
+    if (analysis.wordCount >= 8500) {
+        analysis.wordCountRating = 'Ausreichend - erfüllt Minimum (8500-10000+ Wörter)';
         analysis.checks.wordCount = true;
     } else {
-        analysis.wordCountRating = 'ZU KURZ - unter Minimum (2300 Wörter erforderlich)';
-        analysis.issues.critical.push(`Blog zu kurz: ${analysis.wordCount} Wörter (MINIMUM laut GEMINI.md: 2300)`);
+        analysis.wordCountRating = 'ZU KURZ - unter Minimum (8500-10000+ Wörter erforderlich)';
+        analysis.issues.critical.push(`Blog zu kurz: ${analysis.wordCount} Wörter (MINIMUM laut Instructions: 8500-10000+)`);
     }
     
     // === META-DESCRIPTION 120-160 ZEICHEN CHECK ===
