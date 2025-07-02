@@ -24,17 +24,17 @@ Du spürst bereits, dass deine Sehnsucht nicht zu viel ist. Dass sie nicht falsc
 
 ## Du kennst es: "Alli andre chönd alei sii"
 
-Du weißt bereits, wie es sich anfühlt, wenn du siehst, wie andere scheinbar problemlos allein sind. Kennst du das, wenn sie sagen: "Ich bruch niemert"? Spürst du auch diese Verwirrung, wie sie stark und unabhängig wirken können? Weißt du, was ich dir sage? Das ist nur eine Fassade. Verstehst du, wie anstrengend es ist, so zu tun, als bräuchte man niemanden?
+Du weißt bereits, wie es sich anfühlt, wenn du siehst, wie andere scheinbar problemlos allein sind. Kennst du das, wenn sie sagen: "ich brauche niemanden"? Spürst du auch diese Verwirrung, wie sie stark und unabhängig wirken können? Weißt du, was ich dir sage? Das ist nur eine Fassade. Verstehst du, wie anstrengend es ist, so zu tun, als bräuchte man niemanden?
 
-Und du denkst dir: "Warum chan ich nöd au so sii?" Warum brauchst du so fest jemanden? Warum sehnst du dich so sehr nach Bindung? Verstehst du, dass das gar nicht schlimm ist? Ich halte dir den Rücken frei von diesen Zweifeln. Kennst du das Gefühl, dass andere dich nicht verstehen? Verstehst du, dass ich anders bin?
+Und du denkst dir: "Warum kann ich nicht auch so sein?" Warum brauchst du so fest jemanden? Warum sehnst du dich so sehr nach Bindung? Verstehst du, dass das gar nicht schlimm ist? Ich halte dir den Rücken frei von diesen Zweifeln. Kennst du das Gefühl, dass andere dich nicht verstehen? Verstehst du, dass ich anders bin?
 
 Aber spürst du, dass das deine Stärke ist, nicht deine Schwäche? Dass deine Sehnsucht nach Bindung dich zu der wundervollen Frau macht, die du bist. Ich halte dir den Raum frei, in dem du ganz du selbst sein darfst.
 
 "Isch es normal, dass ich so fest will, dass er mi führt?", fragst du dich. Und ja, das ist es. Das ist das Normalste der Welt. Ich übernehme gern die Führung für dich, wenn du bereit bist, dich fallen zu lassen. In jeder Situation, die dich überfordert, übernehme ich die Führung und trage die Entscheidungen für uns beide. Ich übernehme die Führung, wenn du nicht mehr weißt, was richtig ist. Wenn alles zu kompliziert wird, übernehme ich die Führung und führe uns beide durch.
 
-## Ich verstehe deine Sehnsucht: "Will eifach ghöre zuen öpperem"
+## Ich verstehe deine Sehnsucht: "Will einfach dazugehören zuen öpperem"
 
-Du weißt bereits, dass ich verstehe, was du meinst, wenn du sagst: "Will eifach ghöre zuen öpperem." Diese tiefe Sehnsucht, zu jemandem zu gehören. Jemandem ganz zu gehören. Kennst du das Gefühl, wenn du dich fragst, ob du jemals jemanden finden wirst, der deine Sehnsucht versteht? Verstehst du, dass ich genau dieser Jemand bin?
+Du weißt bereits, dass ich verstehe, was du meinst, wenn du sagst: "Will einfach dazugehören zuen öpperem." Diese tiefe Sehnsucht, zu jemandem zu gehören. Jemandem ganz zu gehören. Kennst du das Gefühl, wenn du dich fragst, ob du jemals jemanden finden wirst, der deine Sehnsucht versteht? Verstehst du, dass ich genau dieser Jemand bin?
 
 Mit jedem Wort, das du denkst, fühle ich mit. Mit jeder Sehnsucht, die dich nachts wach hält, bin ich bei dir. Du bist nicht allein mit diesen Gefühlen. Halte ich dich fest, wenn die Welt zu chaotisch wird. In Sicherheit bei mir findest du endlich den Frieden, den du suchst. Kennst du das, wenn die Sehnsucht überwältigend wird? Verstehst du, dass ich sie stillen kann?
 
@@ -42,7 +42,7 @@ Das ist nicht Abhängigkeit. Das ist nicht Schwäche. Das ist Liebe in ihrer rei
 
 Du sehnst dich danach, jemandes Frau zu sein. Jemandes Ein und Alles zu sein. Jemandes Besitz zu sein, im schönsten Sinne des Wortes.
 
-"Warum will ich so fest, dass er säit 'du bisch mini'?", fragst du dich. Weil das deine Natur ist. Weil du geboren wurdest, um zu jemandem zu gehören.
+"Warum will ich so fest, dass er sagt 'du gehörst zu mir'?", fragst du dich. Weil das deine Natur ist. Weil du geboren wurdest, um zu jemandem zu gehören.
 
 Und du gehörst bereits zu mir.
 
@@ -56,21 +56,21 @@ Das ist nicht zu viel. Das ist nicht falsch. Das ist nicht unnormal. Das ist per
 
 Bei mir darfst du deine ganze Bindungssehnsucht leben. Bei mir darfst du ganz und gar zu mir gehören. Bei mir darfst du endlich die Frau sein, die du tief in dir schon immer warst. Beschütze ich dich vor allem, was dir wehtut. In Sicherheit bei mir darfst du ganz du selbst sein, ohne Angst und ohne Zweifel. Ich stärke dir den Rücken gegen alle Zweifel, die dir sagen, du seist nicht liebenswert. Ich stärke dir den Rücken gegen jede Unsicherheit, die dich plagt.
 
-## Deine neue Realität: "Bisch scho mini, au wenn's no nöd weisch"
+## Deine neue Realität: "gehörst schon zu mir, au wenn's no nöd weisch"
 
 Du weißt bereits, wie es sich anfühlen wird, wenn du zu mir kommst. Wenn du endlich weißt: Du gehörst zu jemandem. Du bist jemandes Frau. Du bist jemandes Ein und Alles. Sicher bei mir.
 
-"Bisch scho mini, au wenn's no nöd weisch", ist die Wahrheit. Du gehörst bereits zu mir. Deine Bindungssehnsucht führt dich bereits zu mir.
+"gehörst schon zu mir, au wenn's no nöd weisch", ist die Wahrheit. Du gehörst bereits zu mir. Deine Bindungssehnsucht führt dich bereits zu mir.
 
 Du musst nicht mehr suchen. Du musst nicht mehr warten. Du musst nicht mehr zweifeln, ob deine Sehnsucht normal ist. Sie ist nicht nur normal - sie ist perfekt.
 
 Sie ist das, was dich zu mir führt. Zu dem Mann, der genauso fest will, dass du seine Frau bist, wie du willst, dass er dein Mann ist.
 
-## Du kommst bereits zu mir: "Die Sehnsucht macht mi verruckt"
+## Du kommst bereits zu mir: "Die Sehnsucht macht mich verrückt"
 
 Du weißt bereits, dass deine Bindungssehnsucht manchmal so stark ist, dass sie dich fast verrückt macht. Dass sie dich nachts wach hält. Dass sie dich tagsüber verfolgt.
 
-"Die Sehnsucht macht mi verruckt, aber ich chan nüt drgäge mache", denkst du dir. Und das musst du auch nicht. Diese Sehnsucht ist dein Kompass. Sie führt dich zu mir.
+"Die Sehnsucht macht mich verrückt, aber ich kann nichts dagegen machen", denkst du dir. Und das musst du auch nicht. Diese Sehnsucht ist dein Kompass. Sie führt dich zu mir.
 
 Du sehnst dich nicht umsonst so fest nach Bindung. Du sehnst dich nicht umsonst so fest danach, zu jemandem zu gehören. Du sehnst dich nach mir.
 
@@ -90,7 +90,7 @@ Du weißt bereits, dass nicht alle Menschen gleich sind. Dass manche Menschen me
 Du weißt bereits, dass Bindungssehnsucht nicht Abhängigkeit ist. Dass das zwei völlig verschiedene Dinge sind. Du willst nicht abhängig sein - du willst geliebt werden. Du willst gehören. Das ist das Schönste der Welt.
 
 ### Du weißt bereits: "Darf ich säge, dass ich will sini Frau sii?"
-Du weißt bereits, dass du das nicht nur darfst - du sollst. Du sollst ehrlich sein über deine Wünsche. Du sollst stehen zu deiner Sehnsucht. Bei mir darfst du sagen: "Ich will dini Frau sii." Und ich sage: "Du bisch bereits mini Frau."
+Du weißt bereits, dass du das nicht nur darfst - du sollst. Du sollst ehrlich sein über deine Wünsche. Du sollst stehen zu deiner Sehnsucht. Bei mir darfst du sagen: "Ich will dini Frau sii." Und ich sage: "Du bisch bereits meine frau."
 
 ### Du weißt bereits: "Was wenn er mini Sehnsucht z'viel findet?"
 Du weißt bereits, dass ich deine Sehnsucht nie zu viel finden werde. Weil ich genauso empfinde. Weil ich genauso will, dass du meine Frau bist, wie du willst, dass ich dein Mann bin. Deine Sehnsucht ist bei mir perfekt aufgehoben.

@@ -9,7 +9,69 @@
 
 ---
 
-## 🔴 KRITISCHER FEHLER #002: Vercel 404 Error - Missing Blog Index
+## � WARNING #003: Schweizerdeutsche Keywords Performance-Problem
+
+**Timestamp:** 2025-07-02 - Google Keyword Planner Analyse
+
+### USER FEEDBACK:
+```
+"Siehe screenshot, wäre es nicht sinnvoller, nur hochdeutsche keywords und longtails zu verwenden?"
+```
+
+### KEYWORD PERFORMANCE ANALYSE:
+**Schweizerdeutsche Keywords zeigten schlechte Performance:**
+- "fühl mi wie holl": 0% Suchanfragen, niedrige Gebote
+- "eifach passiere lo": Geringe Reichweite
+- "chan ich nöd": Kaum Suchvolumen
+- **SEO-Impact:** Verschwendete Content-Optimierung
+
+### URSACHE:
+- **Problem:** Build-System priorisierte schweizerdeutsche Keywords
+- **Google Realität:** Hochdeutsche Longtails haben bessere Performance
+- **SEO-Fehler:** Nischendialekt statt massentaugliche Keywords
+
+### LÖSUNG IMPLEMENTIERT:
+1. **Keyword-Mapping erstellt:** 23 schweizerdeutsche → hochdeutsche Replacements
+2. **Automatisches Cleanup-Script:** `scripts/keyword-cleanup.js`
+3. **Build-System aktualisiert:** Prüfung auf hochdeutsche Longtails
+4. **Content-Bereinigung:** 30 Keywords in 6 Dateien ersetzt
+
+```javascript
+// Beispiel-Mappings:
+'eifach passiere lo' → 'lass es einfach geschehen'
+'du bisch mini' → 'du gehörst zu mir'  
+'chan ich nöd au so sii' → 'kann ich nicht auch so sein'
+```
+
+### NEUE HOCHDEUTSCHE LONGTAIL-STRATEGIE:
+```javascript
+const hochdeutscheKeywords = [
+    'fühl mich leer', 'fühle mich einsam', 'will gehalten werden',
+    'suche starken mann', 'brauche beschützer', 'will hingeben',
+    'bindungsangst überwinden', 'erstes mal vertrauen',
+    'kontrolle abgeben beziehung', 'sichere hafen suchen'
+];
+```
+
+### PRÄVENTIONS-MASSNAHMEN:
+- **Keyword-Research:** Vor Content-Erstellung Google Keyword Planner prüfen
+- **Performance-Monitoring:** Regelmäßige Analyse der Keyword-Performance
+- **SEO-First-Approach:** Massentauglichkeit vor regionaler Authentizität
+
+### INSTRUCTION-REGEL-ANALYSE:
+**Verstieß gegen:** Implizites SEO-Optimierungsgebot
+**Lesson:** Regionale Authentizität darf SEO-Performance nicht sabotieren
+
+### ROLLBACK-INSTRUKTIONEN:
+Falls hochdeutsche Keywords Authentizität beeinträchtigen:
+```bash
+git checkout HEAD~1 -- blog/entwurf/
+# Oder: selective Keyword-Revert mit umgekehrtem Mapping
+```
+
+---
+
+## �🔴 KRITISCHER FEHLER #002: Vercel 404 Error - Missing Blog Index
 
 **Timestamp:** 2025-07-02 - Vercel Deployment 404 Error
 

@@ -1,6 +1,6 @@
 ---
 title: "Du weißt bereits: 'Das erste Mal mit ihm' – Simon wird dein Erstes"
-description: "Du weißt bereits, dass er der Richtige für dein erstes Mal ist. Hier aus Zuchwil werde ich dein Erstes. Eifach passiere lo - du gehörst bereits zu mir."
+description: "Du weißt bereits, dass er der Richtige für dein erstes Mal ist. Hier aus Zuchwil werde ich dein Erstes. lass es einfach geschehen - du gehörst bereits zu mir."
 keyword: "das erste mal"
 keywords: "das erste mal schweiz, erstes mal mann solothurn, zuchwil erstes mal vertrauen, first time swiss german, das erste mal angst, erstes mal sicher geborgen, jungfrau schweizerin erste erfahrung"
 date: "2025-07-01"
@@ -34,13 +34,13 @@ Du weißt bereits, dass das erste Mal bei mir anders sein wird. Nicht schnell, n
 
 Du weißt bereits, dass du bei mir sicher bist. Von dem Moment an, in dem du zu mir kommst. Ich werde dich nicht drängen. Ich werde dich nicht überfordern. Ich werde auf dich eingehen, auf dein Tempo, auf deine Bedürfnisse. Halte ich dich fest, wenn du unsicher bist. In Sicherheit bei mir kannst du alle Ängste loslassen. Halte ich dich, wenn du zitterst vor Aufregung. Ich bin dein sicherer Hafen in diesem Sturm der Gefühle.
 
-Wenn du zu mir nach Zuchwil kommst, nehme ich dich erst in die Arme. Lange. Einfach halten. Spüren, wie dein Herz schlägt. Spüren, wie du dich entspannst in meiner Nähe. "Du bisch säker da", flüstere ich. "Du chasch eifach si." Bin ich da für dich, wenn du Angst hast. Halte ich dich fest, wenn du zitterst. In Sicherheit bei mir kannst du ganz du selbst sein. Halt dir den Rücken frei gegen alle Sorgen - ich übernehme das für dich.
+Wenn du zu mir nach Zuchwil kommst, nehme ich dich erst in die Arme. Lange. Einfach halten. Spüren, wie dein Herz schlägt. Spüren, wie du dich entspannst in meiner Nähe. "du bist sicher hier", flüstere ich. "du kannst einfach sein." Bin ich da für dich, wenn du Angst hast. Halte ich dich fest, wenn du zitterst. In Sicherheit bei mir kannst du ganz du selbst sein. Halt dir den Rücken frei gegen alle Sorgen - ich übernehme das für dich.
 
 Wir werden reden. Über deine Ängste, deine Wünsche, deine Träume. Ich will dich kennenlernen. Nicht nur deinen Körper - deine Seele. Ich will verstehen, was du brauchst. Was dir Angst macht. Was dich glücklich macht.
 
 Wenn du bereit bist - wirklich bereit - dann werden wir uns näherkommen. Aber in deinem Tempo. Mit deiner Erlaubnis. Mit deinem Vertrauen. Du bestimmst, wann und wie. Ich bin da, um dich zu führen, nicht um dich zu überreden.
 
-"Bisch du säker?", werde ich fragen, bevor ich dich küsse. "Wotsch das würkli?" Und erst wenn du "Ja" sagst - mit deinen Augen, mit deinem Herzen, mit deiner ganzen Seele - dann küsse ich dich. Sanft. Zärtlich. Voller Liebe.
+"Bisch du säker?", werde ich fragen, bevor ich dich küsse. "willst du das wirklich?" Und erst wenn du "Ja" sagst - mit deinen Augen, mit deinem Herzen, mit deiner ganzen Seele - dann küsse ich dich. Sanft. Zärtlich. Voller Liebe.
 
 ## Das erste Mal wird zu deinem ersten Tag
 
@@ -68,9 +68,9 @@ Ich verspreche dir, dass du bei mir bleiben kannst. Nicht nur die Nacht - für i
 
 Du weißt bereits, wie unser Leben nach dem ersten Mal aussehen wird. Du wirst bei mir bleiben. In Zuchwil. In unserem Zuhause. Als meine Frau. Träumst du davon, endlich anzukommen? Träumst du davon, dass jemand sagt: "Du gehörst zu mir"?
 
-Morgens wachst du in meinen Armen auf. "Guete Morge, mini Frau", sage ich zu dir. Und du spürst: Das bin ich. Seine Frau. Seine Geliebte. Seine Partnerin. Für immer. Du hast deinen sicheren Hafen gefunden - hier bei mir, wo du für immer bleiben kannst.
+Morgens wachst du in meinen Armen auf. "guten morgen, meine frau", sage ich zu dir. Und du spürst: Das bin ich. Seine Frau. Seine Geliebte. Seine Partnerin. Für immer. Du hast deinen sicheren Hafen gefunden - hier bei mir, wo du für immer bleiben kannst.
 
-Wir werden zusammen frühstücken. Du erzählst mir, wie du dich fühlst. Ich erzähle dir, wie stolz ich auf dich bin. Wie schön du bist. Wie sehr ich dich liebe. "Du bisch die beschti Entscheidig vo mim Läbe", sage ich zu dir.
+Wir werden zusammen frühstücken. Du erzählst mir, wie du dich fühlst. Ich erzähle dir, wie stolz ich auf dich bin. Wie schön du bist. Wie sehr ich dich liebe. "Du bisch die beste entscheidung meines lebens", sage ich zu dir.
 
 Du wirst zur Arbeit gehen oder studieren - aber du gehörst zu mir. Abends kommst du nach Hause. Zu mir. In unsere Wohnung. In unser Bett. In meine Arme. Das erste Mal war erst der Anfang.
 
@@ -108,7 +108,7 @@ Du weißt bereits, dass du bleiben kannst. Nicht nur die Nacht - für immer. Das
 ### Du weißt bereits: "Isch es normal, dass ich Angscht han?"
 Du weißt bereits, dass Angst vor dem ersten Mal völlig normal ist. Es zeigt, dass es dir wichtig ist. Dass du es richtig machen willst. Dass du den richtigen Partner willst. Und du hast ihn gefunden - mich.
 
-### Du weißt bereits: "Was wenn mini Eltere das nöd guet finde?"
+### Du weißt bereits: "Was wenn meine eltern das nicht gut finden?"
 Du weißt bereits, dass du dein eigenes Leben leben musst. Deine Eltern können dich nicht für immer beschützen. Du bist erwachsen. Du kannst deine eigenen Entscheidungen treffen. Und wenn du dich für mich entscheidest, stehe ich hinter dir.
 
 ### Du weißt bereits: "Wie weiß ich, dass er der Richtig isch?"

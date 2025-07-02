@@ -1,6 +1,6 @@
 ---
 title: "'Fühl mi wie holl' – Simon füllt deine emotionale Leere"
-description: "Du weißt bereits: Diese Leere quält dich. Hier aus Zuchwil fülle ich deine emotionale Leere. Eifach passiere lo - du gehörst zu mir."
+description: "Du weißt bereits: Diese Leere quält dich. Hier aus Zuchwil fülle ich deine emotionale Leere. lass es einfach geschehen - du gehörst zu mir."
 keyword: "emotionale leere"
 keywords: "emotionale leere schweiz, fühl mi wie holl, da lüüri i mir inne, leere in mir solothurn, zuchwil mann emotionale unterstützung, chume nöd use vo dere lääri, emotionale leere füllen schweizerin, verschmelzung emotionale nähe"
 date: "2025-07-01"
@@ -66,7 +66,7 @@ Wenn deine Hand in meiner liegt, wirst du spüren: Diese Verbindung war schon im
 
 ## Die Verwandlung: Wenn Leere zu Fülle wird
 
-Du weißt bereits, wie es sich anfühlen wird, wenn du bei mir bist. Die Morgen werden anders sein. Statt aufzuwachen und sofort diese schwere Leere zu spüren, wirst du aufwachen und meine Arme um dich spüren. Meine Stimme, die dir "Guete Morge, mis Schätzli" ins Ohr flüstert. 
+Du weißt bereits, wie es sich anfühlen wird, wenn du bei mir bist. Die Morgen werden anders sein. Statt aufzuwachen und sofort diese schwere Leere zu spüren, wirst du aufwachen und meine Arme um dich spüren. Meine Stimme, die dir "guten morgen, mis Schätzli" ins Ohr flüstert. 
 
 Du wirst nicht mehr allein essen müssen. Ich werde für uns kochen. Du sitzt am Tisch, schaust mir zu, und fühlst: Das ist Zuhause. Das ist Familie. Das ist das Leben, nach dem du dich gesehnt hast. Ohne Leere. Ohne das Gefühl, im eigenen Leben nur Gast zu sein.
 

@@ -1,6 +1,6 @@
 ---
 title: "Du weißt bereits: 'Der sichere Hafen' – Simon ist dein Zuhause"
-description: "Du weißt bereits, dass du einen sicheren Hafen suchst. Hier aus Zuchwil bin ich dein Hafen. Eifach passiere lo - du gehörst bereits zu mir."
+description: "Du weißt bereits, dass du einen sicheren Hafen suchst. Hier aus Zuchwil bin ich dein Hafen. lass es einfach geschehen - du gehörst bereits zu mir."
 keyword: "der sichere hafen"
 keywords: "der sichere hafen schweiz, sicherer hafen mann solothurn, zuchwil schutz geborgenheit, sicherer ort schweizerin, hafen der ruhe mann schweiz, ankommen zuhause gefühl"
 date: "2025-07-01"
@@ -28,7 +28,7 @@ Du weißt bereits, dass ich der Mann bin, der dich beschützen will. Nicht nur k
 
 Wenn du zu mir kommst nach Zuchwil, wirst du spüren: Hier bin ich sicher. Die Welt draußen kann laut und chaotisch sein - hier drinnen herrscht Ruhe. Hier herrscht Frieden. Hier herrscht Liebe.
 
-"Du bisch säker da", werde ich zu dir sagen, wenn du zum ersten Mal durch unsere Tür gehst. Und du wirst es spüren. In deinen Knochen. In deinem Herzen. In deiner Seele. Sicherheit. Endlich.
+"du bist sicher hier", werde ich zu dir sagen, wenn du zum ersten Mal durch unsere Tür gehst. Und du wirst es spüren. In deinen Knochen. In deinem Herzen. In deiner Seele. Sicherheit. Endlich.
 
 Meine Arme um dich sind nicht nur eine Umarmung - sie sind ein Schutzwall. Gegen alles, was dir wehtut. Gegen alle, die dich nicht verstehen. Gegen alles, was dich müde macht. In meinen Armen bist du unantastbar.
 
@@ -74,7 +74,7 @@ Der Weg zu mir ist nicht kompliziert. Du musst nur kommen. Du musst nur den erst
 
 Du weißt bereits, wie unser Leben aussehen wird. Unser sicherer Hafen ist nicht nur für den Moment - er ist für immer. Du kommst nicht zu Besuch. Du kommst nach Hause. Du bleibst. Als meine Frau. Als meine Partnerin. Als meine Geliebte.
 
-Morgens wachst du in unserem Bett auf. In meinen Armen. "Guete Morge, mis Schätzli", hörest du als erstes. Nicht den Lärm der Straße. Nicht die Sorgen des Tages. Nur meine Stimme. Nur meine Liebe. Nur unser gemeinsames Leben. Du bist sicher bei mir, jeden neuen Tag.
+Morgens wachst du in unserem Bett auf. In meinen Armen. "guten morgen, mis Schätzli", hörest du als erstes. Nicht den Lärm der Straße. Nicht die Sorgen des Tages. Nur meine Stimme. Nur meine Liebe. Nur unser gemeinsames Leben. Du bist sicher bei mir, jeden neuen Tag.
 
 Du stehst auf und gehst ins Badezimmer. Dein Badezimmer. In deinem Zuhause. Du siehst deine Sachen neben meinen. Du siehst unser Leben, das sich vermischt hat. Du siehst die Zukunft, die begonnen hat. Ich stärke dir den Rücken für alles was kommt.
 

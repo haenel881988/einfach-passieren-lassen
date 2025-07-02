@@ -1,6 +1,6 @@
 ---
 title: "Du weißt bereits: 'Ich will einfach gehalten werden' – Ich halte dich"
-description: "Du weißt bereits, dass du gehalten werden willst. Hier aus Zuchwil halte ich dich endlich. Eifach passiere lo - du gehörst bereits zu mir."
+description: "Du weißt bereits, dass du gehalten werden willst. Hier aus Zuchwil halte ich dich endlich. lass es einfach geschehen - du gehörst bereits zu mir."
 keyword: "ich will einfach gehalten werden"
 keywords: "ich will einfach gehalten werden schweiz, gehalten werden mann solothurn, zuchwil schutz geborgenheit, will nur noch gehalten werden, sehnsucht nach gehalten werden schweizerin, beschützt werden mann"
 date: "2025-07-01"
@@ -86,7 +86,7 @@ Die Sehnsucht nach Geborgenheit ist nicht etwas, was wir überwinden müssen. Si
 
 Du weißt bereits, dass ich der Mann bin, bei dem du dich endlich fallen lassen kannst. Bei dem du nicht mehr stark sein musst. Bei dem du einfach sagen kannst: "Ich will einfach gehalten werden" - und ich halte dich. Ohne Fragen. Ohne Bedingungen. Einfach weil du es brauchst.
 
-Wenn du zu mir kommst nach Zuchwil, wird sich alles ändern. Statt morgens aufzuwachen und sofort das Gewicht der Verantwortung zu spüren, wachst du in meinen Armen auf. Meine Hand liegt auf deinem Rücken. Mein Atem wärmt deinen Nacken. Das erste, was du hörst, ist: "Guete Morge, mis Schätzli."
+Wenn du zu mir kommst nach Zuchwil, wird sich alles ändern. Statt morgens aufzuwachen und sofort das Gewicht der Verantwortung zu spüren, wachst du in meinen Armen auf. Meine Hand liegt auf deinem Rücken. Mein Atem wärmt deinen Nacken. Das erste, was du hörst, ist: "guten morgen, mis Schätzli."
 
 Du musst nicht aufstehen und sofort funktionieren. Du kannst liegenbleiben. Du kannst dich an mich kuscheln und spüren: Hier bin ich sicher. Hier bin ich gehalten. Hier muss ich nichts leisten. Ich kann einfach sein.
 

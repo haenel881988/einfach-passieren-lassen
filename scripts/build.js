@@ -1085,11 +1085,17 @@ function validateCodeQuality(content, frontmatter, filename, htmlContent) {
         issues.performance.push(`Sehr viele Wörter: ${wordCount} (kann Performance beeinträchtigen)`);
     }
 
-    // SWISS GERMAN INTEGRATION PRÜFUNG
-    const swissGermanKeywords = ['eifach', 'passiere', 'lo', 'ghöre', 'häre', 'bisch', 'mini', 'chan', 'wott', 'müed', 'säge', 'chume', 'nöd', 'öppe'];
-    const foundSwissGerman = swissGermanKeywords.filter(keyword => content.toLowerCase().includes(keyword));
-    if (foundSwissGerman.length < 3) {
-        issues.contentQuality.push(`Zu wenig Swiss German Keywords gefunden: ${foundSwissGerman.length} (empfohlen: min. 3)`);
+    // HOCHDEUTSCHE LONGTAIL-KEYWORDS PRÜFUNG (Swiss German entfernt wegen schlechter Performance)
+    const hochdeutscheKeywords = [
+        'fühl mich leer', 'fühle mich einsam', 'will gehalten werden', 'suche starken mann',
+        'brauche beschützer', 'will hingeben', 'suche sicherheit', 'emotionale leere',
+        'bindungsangst überwinden', 'erstes mal vertrauen', 'kontrolle abgeben beziehung',
+        'sichere hafen suchen', 'starke schulter finden', 'führung übernehmen lassen',
+        'rücken stärken lassen', 'emotionale unterstützung', 'halt im leben finden'
+    ];
+    const foundHochdeutsch = hochdeutscheKeywords.filter(keyword => content.toLowerCase().includes(keyword));
+    if (foundHochdeutsch.length < 3) {
+        issues.contentQuality.push(`Zu wenig hochdeutsche Longtail-Keywords gefunden: ${foundHochdeutsch.length} (empfohlen: min. 3)`);
     }
 
     // "DU WEISST BEREITS" FORMAT PRÜFUNG
