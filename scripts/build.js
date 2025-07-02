@@ -1078,10 +1078,10 @@ function validateCodeQuality(content, frontmatter, filename, htmlContent) {
 
     // CONTENT QUALITÄTS-ANALYSE
     const wordCount = content.split(/\s+/).length;
-    if (wordCount < 5000) {
-        issues.contentQuality.push(`Zu wenig Wörter: ${wordCount} (min. 5000 für SEO)`);
+    if (wordCount < 8500) {
+        issues.contentQuality.push(`Zu wenig Wörter: ${wordCount} (min. 8500-10000+ für SEO)`);
     }
-    if (wordCount > 10000) {
+    if (wordCount > 12000) {
         issues.performance.push(`Sehr viele Wörter: ${wordCount} (kann Performance beeinträchtigen)`);
     }
 
@@ -1139,7 +1139,7 @@ function validateCodeQuality(content, frontmatter, filename, htmlContent) {
         // FAQ-Sektion prüfen
         const faqPattern = /faq|häufig|frage|antwort/gi;
         const hasFAQ = faqPattern.test(content);
-        if (!hasFAQ && wordCount > 3000) {
+        if (!hasFAQ && wordCount > 5000) {
             issues.contentQuality.push('Keine FAQ-Sektion gefunden (empfohlen für längere Artikel)');
         }
     }
@@ -1568,15 +1568,16 @@ function checkInternalLinking(file) {
 function checkContentLength(file) {
     const issues = [];
     const wordCount = file.wordCount || 0;
-    const targetLength = 5000; // Aus Instructions: Min 5000 Wörter (5000-10000+)
+    const targetLength = 8500; // Aus Instructions: Min 8500-10000+ Wörter
+    const targetMax = 10000; // Optimaler Bereich bis 10000+
     
     if (wordCount < targetLength) {
         const deficit = targetLength - wordCount;
         issues.push({
             type: 'content_length_insufficient',
             file: file.path,
-            message: `Content zu kurz: ${wordCount} Wörter (Ziel: ${targetLength}+)`,
-            suggestion: `Erweitere um ${deficit} Wörter für optimale SEO-Performance`
+            message: `Content zu kurz: ${wordCount} Wörter (Ziel: ${targetLength}-${targetMax}+ Wörter)`,
+            suggestion: `Erweitere um ${deficit} Wörter für optimale SEO-Performance (Zielbereich: 8500-10000+)`
         });
     }
 
