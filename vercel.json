@@ -4,7 +4,6 @@
   "outputDirectory": ".",
   "installCommand": "npm install",
   "devCommand": null,
-  "functions": {},
   "rewrites": [
     {
       "source": "/(.*)",
