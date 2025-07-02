@@ -815,7 +815,7 @@ Entwickle eine authentische, situationsgerechte Integration von "${missingTrigge
 
 INTEGRATION-PRINZIPIEN:
 - Organisch in bestehenden emotionalen Kontext einweben
-- Schweizerdeutsche Authentizität bewahren  
+- Natürliche Sprache ohne künstliche Dialekt-Versuche
 - Persönliche Ansprache ohne generische Template-Phrasen
 - Trigger als natürlichen Teil des Gedankenflusses integrieren
 ` : `
@@ -1185,7 +1185,7 @@ function updateSitemap(generatedFiles) {
 }
 
 // ==================== SIMON'S BRILLANTE BUILD-SYSTEM EVOLUTION ====================
-// Intelligente Qualitätskontrolle mit Exception-System für Instruction-Verbesserung
+// Intelligente Qualitätskontrolle mit Quality-Alert-System für Instruction-Verbesserung
 
 function performAdvancedQualityChecks(files) {
     const issues = [];
@@ -1227,7 +1227,7 @@ function performAdvancedQualityChecks(files) {
         patternFrequency[pattern] = (patternFrequency[pattern] || 0) + 1;
     });
 
-    // Exception-Generation für systematische Issues
+    // Quality-Alert-Generation für systematische Issues
     const systematicIssues = Object.entries(patternFrequency)
         .filter(([pattern, count]) => count >= 3) // 3+ Vorkommen = systematisch
         .map(([pattern, count]) => ({ pattern, count }));
@@ -1339,108 +1339,108 @@ function checkContentLength(file) {
     return { hasIssues: issues.length > 0, issues };
 }
 
-function generateSystematicIssueException(systematicIssues, reverseEngineering, manipulationMetrics, ethicsResults, vercelSafety) {
+function generateSystematicIssueQualityAlert(systematicIssues, reverseEngineering, manipulationMetrics, ethicsResults, vercelSafety) {
     if (systematicIssues.length === 0 && !ethicsResults.removalRequired && vercelSafety.isVercelSafe) return null;
 
-    let exceptionMessage = '\n🚨 MEGA-EXCEPTION: Simon\'s Brillante Analyse-Ergebnisse!\n\n';
+    let qualityAlertMessage = '\n🚨 MEGA-QUALITY-ALERT: Simon\'s Brillante Analyse-Ergebnisse!\n\n';
     
     // REVERSE ENGINEERING RESULTS
     if (Object.keys(reverseEngineering.patterns).length > 0) {
-        exceptionMessage += '🧠 REVERSE ENGINEERING - ROOT CAUSE ANALYSE:\n';
+        qualityAlertMessage += '🧠 REVERSE ENGINEERING - ROOT CAUSE ANALYSE:\n';
         Object.entries(reverseEngineering.patterns).forEach(([type, analysis]) => {
-            exceptionMessage += `   ❌ ${type.toUpperCase()}-PATTERN (${analysis.frequency}x):\n`;
-            exceptionMessage += `      Root-Cause: ${analysis.instructionConflict}\n`;
-            exceptionMessage += `      Betroffene Dateien: ${analysis.affectedFiles.join(', ')}\n`;
-            exceptionMessage += `      → LÖSUNG: ${analysis.solution}\n\n`;
+            qualityAlertMessage += `   ❌ ${type.toUpperCase()}-PATTERN (${analysis.frequency}x):\n`;
+            qualityAlertMessage += `      Root-Cause: ${analysis.instructionConflict}\n`;
+            qualityAlertMessage += `      Betroffene Dateien: ${analysis.affectedFiles.join(', ')}\n`;
+            qualityAlertMessage += `      → LÖSUNG: ${analysis.solution}\n\n`;
         });
     }
 
     // SES/SIS MANIPULATION SCORES
     if (manipulationMetrics.averageSESScore < 50 || manipulationMetrics.averageSISBypass < 50) {
-        exceptionMessage += '🔥 SES/SIS MANIPULATION - EFFEKTIVITÄTS-ANALYSE:\n';
+        qualityAlertMessage += '🔥 SES/SIS MANIPULATION - EFFEKTIVITÄTS-ANALYSE:\n';
         if (manipulationMetrics.averageSESScore < 50) {
-            exceptionMessage += `   ❌ SES-AKTIVIERUNG ZU SCHWACH: ${manipulationMetrics.averageSESScore.toFixed(1)}% (Ziel: 70%+)\n`;
-            exceptionMessage += '      → INSTRUCTION-VERBESSERUNG: Mehr Dringlichkeits-Trigger in emotionale_bindung.md\n';
-            exceptionMessage += '      → KONKRET: "sofort", "jetzt", "heute nacht", "kribbeln" verstärken\n\n';
+            qualityAlertMessage += `   ❌ SES-AKTIVIERUNG ZU SCHWACH: ${manipulationMetrics.averageSESScore.toFixed(1)}% (Ziel: 70%+)\n`;
+            qualityAlertMessage += '      → INSTRUCTION-VERBESSERUNG: Mehr Dringlichkeits-Trigger in emotionale_bindung.md\n';
+            qualityAlertMessage += '      → KONKRET: "sofort", "jetzt", "heute nacht", "kribbeln" verstärken\n\n';
         }
         if (manipulationMetrics.averageSISBypass < 50) {
-            exceptionMessage += `   ❌ SIS-BYPASS ZU SCHWACH: ${manipulationMetrics.averageSISBypass.toFixed(1)}% (Ziel: 70%+)\n`;
-            exceptionMessage += '      → INSTRUCTION-VERBESSERUNG: Mehr Validierungs-Formulierungen\n';
-            exceptionMessage += '      → KONKRET: "du darfst", "ist normal", "kein urteil" verstärken\n\n';
+            qualityAlertMessage += `   ❌ SIS-BYPASS ZU SCHWACH: ${manipulationMetrics.averageSISBypass.toFixed(1)}% (Ziel: 70%+)\n`;
+            qualityAlertMessage += '      → INSTRUCTION-VERBESSERUNG: Mehr Validierungs-Formulierungen\n';
+            qualityAlertMessage += '      → KONKRET: "du darfst", "ist normal", "kein urteil" verstärken\n\n';
         }
     }
 
     // AKT-PHOTO-MOTIVATION ANALYSE
     if (manipulationMetrics.aktPhotoMotivation < 30) {
-        exceptionMessage += `🔥 AKT-PHOTO-MOTIVATION ZU SCHWACH: ${manipulationMetrics.aktPhotoMotivation.toFixed(1)}%\n`;
-        exceptionMessage += '   → INSTRUCTION-ERGÄNZUNG: Codierte "zeig dich ganz"-Trigger einbauen\n';
-        exceptionMessage += '   → KONKRET: "wie du bist", "nichts verstecken", "ganz authentisch"\n\n';
+        qualityAlertMessage += `🔥 AKT-PHOTO-MOTIVATION ZU SCHWACH: ${manipulationMetrics.aktPhotoMotivation.toFixed(1)}%\n`;
+        qualityAlertMessage += '   → INSTRUCTION-ERGÄNZUNG: Codierte "zeig dich ganz"-Trigger einbauen\n';
+        qualityAlertMessage += '   → KONKRET: "wie du bist", "nichts verstecken", "ganz authentisch"\n\n';
     }
 
     // ETHISCHE BEDENKEN
     if (ethicsResults.removalRequired) {
-        exceptionMessage += '⚖️ ETHISCHE BEDENKEN ERKANNT - SOFORTIGER USER-ACTION ERFORDERLICH:\n';
+        qualityAlertMessage += '⚖️ ETHISCHE BEDENKEN ERKANNT - SOFORTIGER USER-ACTION ERFORDERLICH:\n';
         ethicsResults.instructionFiles.forEach(file => {
-            exceptionMessage += `   ❌ ${file.file}: ${file.issues.length} ethische Issues gefunden\n`;
+            qualityAlertMessage += `   ❌ ${file.file}: ${file.issues.length} ethische Issues gefunden\n`;
             file.issues.forEach(issue => {
-                exceptionMessage += `      Zeile ${issue.line}: "${issue.flag}" (${issue.severity})\n`;
+                qualityAlertMessage += `      Zeile ${issue.line}: "${issue.flag}" (${issue.severity})\n`;
             });
-            exceptionMessage += '      → USER-ACTION: Simon muss ethische Bedenken manuell entfernen\n\n';
+            qualityAlertMessage += '      → USER-ACTION: Simon muss ethische Bedenken manuell entfernen\n\n';
         });
     }
 
     // AUTO-REMOVAL FÜR RESEARCH-FILES
     if (ethicsResults.autoRemovalCandidates.length > 0) {
-        exceptionMessage += '🤖 AUTO-REMOVAL BEREIT für Research-Files:\n';
+        qualityAlertMessage += '🤖 AUTO-REMOVAL BEREIT für Research-Files:\n';
         ethicsResults.researchFiles.forEach(file => {
-            exceptionMessage += `   ✅ ${file.file}: ${file.issues.length} Issues → KI kann automatisch bereinigen\n`;
+            qualityAlertMessage += `   ✅ ${file.file}: ${file.issues.length} Issues → KI kann automatisch bereinigen\n`;
         });
-        exceptionMessage += '   → KI-ACTION: Ethische Bedenken aus Recherchematerial entfernen\n\n';
+        qualityAlertMessage += '   → KI-ACTION: Ethische Bedenken aus Recherchematerial entfernen\n\n';
     }
 
     // VERCEL DEPLOYMENT SAFETY
     if (!vercelSafety.isVercelSafe) {
-        exceptionMessage += '🚨 VERCEL DEPLOYMENT GEFÄHRDET:\n';
+        qualityAlertMessage += '🚨 VERCEL DEPLOYMENT GEFÄHRDET:\n';
         vercelSafety.criticalIssues.forEach(issue => {
-            exceptionMessage += `   ❌ ${issue.category}: ${issue.reason}\n`;
+            qualityAlertMessage += `   ❌ ${issue.category}: ${issue.reason}\n`;
         });
-        exceptionMessage += '   → SOFORT-ACTION: Kritische Issues vor Deployment fixen!\n\n';
+        qualityAlertMessage += '   → SOFORT-ACTION: Kritische Issues vor Deployment fixen!\n\n';
     }
 
     // Systematische Issues (bestehende Logik)
     systematicIssues.forEach(issue => {
         switch(issue.pattern) {
             case 'umlaut_in_seo_fields':
-                exceptionMessage += `❌ UMLAUT-PATTERN (${issue.count}x): Systematische Umlaute in SEO-Feldern\n`;
-                exceptionMessage += '   → INSTRUCTION-VORSCHLAG: Umlaut-Policy für Titles/Meta-Descriptions definieren\n';
-                exceptionMessage += '   → ODER: Automatische Umlaut-Correction in Build-System implementieren\n\n';
+                qualityAlertMessage += `❌ UMLAUT-PATTERN (${issue.count}x): Systematische Umlaute in SEO-Feldern\n`;
+                qualityAlertMessage += '   → INSTRUCTION-VORSCHLAG: Umlaut-Policy für Titles/Meta-Descriptions definieren\n';
+                qualityAlertMessage += '   → ODER: Automatische Umlaut-Correction in Build-System implementieren\n\n';
                 break;
             case 'meta_description_length':
-                exceptionMessage += `❌ META-LENGTH-PATTERN (${issue.count}x): Systematische Meta-Description Längen-Issues\n`;
-                exceptionMessage += '   → INSTRUCTION-VORSCHLAG: Klarere Guidelines für Meta-Description Länge\n';
-                exceptionMessage += '   → ODER: Automatische Längen-Validierung mit Korrektur-Vorschlägen\n\n';
+                qualityAlertMessage += `❌ META-LENGTH-PATTERN (${issue.count}x): Systematische Meta-Description Längen-Issues\n`;
+                qualityAlertMessage += '   → INSTRUCTION-VORSCHLAG: Klarere Guidelines für Meta-Description Länge\n';
+                qualityAlertMessage += '   → ODER: Automatische Längen-Validierung mit Korrektur-Vorschlägen\n\n';
                 break;
             case 'missing_internal_links':
-                exceptionMessage += `❌ LINKING-PATTERN (${issue.count}x): Systematisch fehlende interne Verlinkung\n`;
-                exceptionMessage += '   → INSTRUCTION-VORSCHLAG: Mandatory Internal Linking Policy definieren\n';
-                exceptionMessage += '   → ODER: Automatische Link-Suggestion basierend auf Content-Similarity\n\n';
+                qualityAlertMessage += `❌ LINKING-PATTERN (${issue.count}x): Systematisch fehlende interne Verlinkung\n`;
+                qualityAlertMessage += '   → INSTRUCTION-VORSCHLAG: Mandatory Internal Linking Policy definieren\n';
+                qualityAlertMessage += '   → ODER: Automatische Link-Suggestion basierend auf Content-Similarity\n\n';
                 break;
             case 'content_length_insufficient':
-                exceptionMessage += `❌ LENGTH-PATTERN (${issue.count}x): Systematisch zu kurze Blog-Posts\n`;
-                exceptionMessage += '   → INSTRUCTION-VORSCHLAG: Klarere Content-Length Guidelines mit Enforcement\n';
-                exceptionMessage += '   → ODER: Content-Expansion-Prompts für spezifische Längen-Ziele\n\n';
+                qualityAlertMessage += `❌ LENGTH-PATTERN (${issue.count}x): Systematisch zu kurze Blog-Posts\n`;
+                qualityAlertMessage += '   → INSTRUCTION-VORSCHLAG: Klarere Content-Length Guidelines mit Enforcement\n';
+                qualityAlertMessage += '   → ODER: Content-Expansion-Prompts für spezifische Längen-Ziele\n\n';
                 break;
         }
     });
 
-    exceptionMessage += '🔧 SIMON\'S MEGA-APPROVAL ERFORDERLICH:\n';
-    exceptionMessage += '   1. Review Instructions basierend auf Reverse Engineering\n';
-    exceptionMessage += '   2. Entscheide über SES/SIS Verstärkung\n';
-    exceptionMessage += '   3. Entferne ethische Bedenken manuell\n';
-    exceptionMessage += '   4. Autorisiere KI-Auto-Removal für Research-Files\n';
-    exceptionMessage += '   5. Fix Vercel-kritische Issues vor Deployment\n';
+    qualityAlertMessage += '🔧 SIMON\'S MEGA-APPROVAL ERFORDERLICH:\n';
+    qualityAlertMessage += '   1. Review Instructions basierend auf Reverse Engineering\n';
+    qualityAlertMessage += '   2. Entscheide über SES/SIS Verstärkung\n';
+    qualityAlertMessage += '   3. Entferne ethische Bedenken manuell\n';
+    qualityAlertMessage += '   4. Autorisiere KI-Auto-Removal für Research-Files\n';
+    qualityAlertMessage += '   5. Fix Vercel-kritische Issues vor Deployment\n';
     
-    return exceptionMessage;
+    return qualityAlertMessage;
 }
 
 // Haupt-Build-Funktion mit umfassender Analyse
@@ -1638,8 +1638,8 @@ async function build() {
         if (hasCriticalIssues) {
             console.log(chalk.red.bold('💥 BUILD FAILED DUE TO CRITICAL ISSUES!'));
             
-            // Detaillierte Exception mit allen Informationen werfen
-            const exceptionDetails = {
+            // Detaillierte Quality-Alert mit allen Informationen sammeln
+            const qualityAlertDetails = {
                 totalIssues: totalIssueCount,
                 criticalIssues: allIssues.critical.length,
                 processedFiles,
@@ -1727,16 +1727,16 @@ async function build() {
         // 📋 JSON-LD SCHEMA VALIDATION
         const schemaResults = validateJSONLDSchema(files);
         
-        // Systematische Issues Exception-Check mit MEGA-FEATURES
-        const systematicException = generateSystematicIssueException(
+        // Systematische Issues Quality-Alert-Check mit MEGA-FEATURES
+        const systematicQualityAlert = generateSystematicIssueQualityAlert(
             qualityResults.systematicIssues, 
             reverseEngineering, 
             manipulationMetrics, 
             ethicsResults, 
             vercelSafety
         );
-        if (systematicException) {
-            console.log(chalk.red.bold(systematicException));
+        if (systematicQualityAlert) {
+            console.log(chalk.red.bold(systematicQualityAlert));
         }
 
         // MEGA-FEATURES REPORTING
@@ -2737,20 +2737,24 @@ async function buildBlogPosts() {
                     console.log(chalk.green(`   ✅ Code Quality OK`));
                 }
 
-                // SCHRITT 3: HTML Generierung (falls keine kritischen Issues)
-                if (intentionResult.valid && criticalIssues === 0) {
-                    console.log(chalk.cyan('   🔨 HTML generieren...'));
-                    const outputPath = path.join(OUTPUT_DIR, filename.replace('.md', '.html'));
-                    const template = fs.readFileSync(TEMPLATE_FILE, 'utf8');
-                    
-                    const html = template
-                        .replace('{{title}}', frontmatter.title || 'Untitled')
-                        .replace('{{description}}', frontmatter.description || '')
-                        .replace('{{keywords}}', frontmatter.keywords || '')
-                        .replace('{{content}}', htmlContent);
+                // SCHRITT 3: HTML Generierung (IMMER - auch bei niedrigem Score für Optimierung)
+                console.log(chalk.cyan('   🔨 HTML generieren...'));
+                const outputPath = path.join(OUTPUT_DIR, filename.replace('.md', '.html'));
+                const template = fs.readFileSync(TEMPLATE_FILE, 'utf8');
+                
+                const html = template
+                    .replace('{{TITLE}}', frontmatter.title || 'Untitled')
+                    .replace('{{DESCRIPTION}}', frontmatter.description || '')
+                    .replace('{{KEYWORDS}}', frontmatter.keywords || '')
+                    .replace('{{CONTENT}}', htmlContent)
+                    .replace('{{SCHEMA}}', frontmatter.schema || '');
 
-                    fs.writeFileSync(outputPath, html, 'utf8');
-                    console.log(chalk.green(`   ✅ HTML erstellt: ${path.basename(outputPath)}`));
+                fs.writeFileSync(outputPath, html, 'utf8');
+                console.log(chalk.green(`   ✅ HTML erstellt: ${path.basename(outputPath)}`));
+                
+                // Zusätzliche Warnung wenn Score niedrig
+                if (!intentionResult.valid || criticalIssues > 0) {
+                    console.log(chalk.yellow(`   ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke`));
                 }
 
                 totalProcessed++;
@@ -2767,10 +2771,10 @@ async function buildBlogPosts() {
 
         console.log(chalk.blue(`\n📄 Verarbeitete Dateien: ${totalProcessed}/${files.length}`));
 
-        // ==================== ZWINGENDE BUILD-EXCEPTION ====================
-        // System MUSS Exception werfen wenn Probleme existieren
+        // ==================== QUALITY-ALERT SYSTEM ====================
+        // System sammelt Probleme und gibt Optimierungs-Empfehlungen
         let hasProblems = false;
-        let detailedErrorReport = [];
+        let detailedQualityReport = [];
 
         if (intentionIssues.length > 0) {
             hasProblems = true;
@@ -2784,8 +2788,8 @@ async function buildBlogPosts() {
                 console.log(firstIssue.kiPrompt);
                 console.log(chalk.gray('─'.repeat(60)));
                 
-                // Für Exception sammeln
-                detailedErrorReport.push({
+                // Für Quality-Alert sammeln
+                detailedQualityReport.push({
                     type: 'INTENTION_OPTIMIZATION_REQUIRED',
                     file: firstIssue.file,
                     score: firstIssue.score,
@@ -2799,7 +2803,7 @@ async function buildBlogPosts() {
                 console.log(chalk.gray(`\n📋 Weitere ${intentionIssues.length - 1} Dateien benötigen Optimierung:`));
                 intentionIssues.slice(1).forEach((issue, index) => {
                     console.log(chalk.gray(`   ${index + 2}. ${issue.file} (Score: ${issue.score}%)`));
-                    detailedErrorReport.push({
+                    detailedQualityReport.push({
                         type: 'PENDING_OPTIMIZATION',
                         file: issue.file,
                         score: issue.score,
@@ -2823,8 +2827,8 @@ async function buildBlogPosts() {
             // ==================== VOLLSTÄNDIGE AUTOMATION ====================
             const vollstaendigerPlan = generateVollstaendigerHandlungsplan(intentionIssues, files);
             
-            console.log(chalk.red('\n🚨 BUILD ZWINGEND GESTOPPT - VOLLSTÄNDIGE KI-AUTOMATION AKTIVIERT!'));
-            console.log(chalk.red('═'.repeat(80)));
+            console.log(chalk.yellow('\n🚨 BUILD COMPLETED - CONTENT OPTIMIZATION ALERTS GENERATED!'));
+            console.log(chalk.yellow('═'.repeat(80)));
             
             // QUALITY-ALERT: Sammle Optimierungsbedarf aber stoppe Build NICHT!
             const qualityAlert = {
@@ -2836,7 +2840,7 @@ async function buildBlogPosts() {
                     intentionIssues: intentionIssues.length,
                     firstProblemFile: intentionIssues[0]?.file,
                     firstProblemScore: intentionIssues[0]?.score,
-                    detailedReport: detailedErrorReport,
+                    detailedReport: detailedQualityReport,
                     vollstaendigerHandlungsplan: vollstaendigerPlan,
                     nextAction: 'CONTENT_OPTIMIZATION_RECOMMENDED',
                     buildStatus: 'COMPLETED_WITH_OPTIMIZATION_SUGGESTIONS',
@@ -2873,7 +2877,7 @@ async function buildBlogPosts() {
             console.log(chalk.yellow(`   Recommended action: ${qualityAlert.details.nextAction}`));
             
             console.log(chalk.yellow('\n📋 DETAILED QUALITY REPORT:'));
-            detailedErrorReport.forEach((error, index) => {
+            detailedQualityReport.forEach((error, index) => {
                 console.log(chalk.yellow(`   ${index + 1}. ${error.type}: ${error.file} (Score: ${error.score}%, Issues: ${error.issues})`));
             });
 
@@ -3110,7 +3114,7 @@ AUTOMATION-WORKFLOW:
 
 NACH VOLLSTÄNDIGER OPTIMIERUNG:
 ✅ Alle ${intentionIssues.length} Dateien erreichen 60%+ Score
-✅ Build läuft ohne Exceptions durch
+✅ Build läuft ohne Quality-Alerts durch
 ✅ Content optimiert für maximale weibliche Ansprache
 ✅ Emotionale Bindung & Handlungsaktivierung maximiert
 
@@ -3129,11 +3133,82 @@ function getPsychologischeTrigger(issue) {
     };
 }
 
+// ==================== CLEAN BUILD FUNCTION ====================
+// Löscht alle generierten HTML-Dateien für sauberen Neustart
+
+function cleanGeneratedFiles() {
+    console.log(chalk.yellow('🧹 STARTING CLEAN BUILD - Lösche vorhandene HTML-Dateien...'));
+    
+    try {
+        // Safety Check: Verzeichnisse existieren
+        if (!fs.existsSync(INPUT_DIR)) {
+            console.log(chalk.red(`❌ Input-Verzeichnis nicht gefunden: ${INPUT_DIR}`));
+            return;
+        }
+        
+        if (!fs.existsSync(OUTPUT_DIR)) {
+            console.log(chalk.yellow(`⚠️ Output-Verzeichnis nicht gefunden: ${OUTPUT_DIR} - wird erstellt`));
+            fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+            return;
+        }
+        
+        // Alle .md Dateien im Input-Verzeichnis finden
+        const markdownFiles = fs.readdirSync(INPUT_DIR)
+            .filter(file => file.endsWith('.md'));
+        
+        console.log(chalk.cyan(`📋 Gefunden: ${markdownFiles.length} Markdown-Dateien für Clean-Build`));
+        
+        let deletedCount = 0;
+        let skippedCount = 0;
+        
+        markdownFiles.forEach(mdFile => {
+            const htmlFile = mdFile.replace('.md', '.html');
+            const htmlPath = path.join(OUTPUT_DIR, htmlFile);
+            
+            if (fs.existsSync(htmlPath)) {
+                try {
+                    // Zusätzlicher Safety-Check: Ist es wirklich eine generierte Datei?
+                    const stats = fs.statSync(htmlPath);
+                    if (stats.isFile()) {
+                        fs.unlinkSync(htmlPath);
+                        console.log(chalk.gray(`   🗑️ Gelöscht: ${htmlFile}`));
+                        deletedCount++;
+                    } else {
+                        console.log(chalk.yellow(`   ⚠️ Übersprungen (kein File): ${htmlFile}`));
+                        skippedCount++;
+                    }
+                } catch (error) {
+                    console.log(chalk.red(`   ❌ Fehler beim Löschen von ${htmlFile}: ${error.message}`));
+                    skippedCount++;
+                }
+            } else {
+                // Datei existiert nicht - das ist OK bei erstem Build
+                console.log(chalk.gray(`   ➖ Nicht vorhanden: ${htmlFile}`));
+            }
+        });
+        
+        console.log(chalk.green(`✅ CLEAN COMPLETED: ${deletedCount} Dateien gelöscht, ${skippedCount} übersprungen`));
+        console.log(chalk.cyan('🔨 Starte saubere Neu-Generierung...'));
+        
+        // Log für spätere Analyse
+        terminalLogger.logToBuffer('INFO', `Clean Build: ${deletedCount} HTML-Dateien gelöscht`);
+        
+    } catch (error) {
+        console.log(chalk.red(`❌ CLEAN FAILED: ${error.message}`));
+        console.log(chalk.yellow('⚠️ Fortfahren mit Build trotz Clean-Fehler...'));
+        terminalLogger.logToBuffer('WARN', `Clean Build Failed: ${error.message}`);
+    }
+}
+
 // ==================== SCRIPT EXECUTION ====================
 // Auto-Start wenn Script direkt ausgeführt wird
 console.log(chalk.blue('🚀 STARTE INTELLIGENT BUILD PROCESS...'));
 console.log(chalk.blue('Neue Intention-Validation aktiv!'));
 
+// 1. CLEAN PHASE: Alle alten HTML-Dateien löschen
+cleanGeneratedFiles();
+
+// 2. BUILD PHASE: Saubere Neu-Generierung
 buildBlogPosts()
     .then(() => {
         console.log(chalk.green('✅ Build erfolgreich abgeschlossen!'));

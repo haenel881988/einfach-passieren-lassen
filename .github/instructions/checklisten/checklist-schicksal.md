@@ -3,6 +3,10 @@
 **Kontext & Anwendung:**  
 Diese Checkliste ist für Content konzipiert, der gezielt das Motiv von Schicksal, Risiko und (gewolltem) Kontrollverlust bedient.  
 Sie sollte bei Texten, Landingpages oder Blogbeiträgen genutzt werden, wenn du Frauen ansprechen möchtest, die sich nach schicksalhaften Begegnungen, dem Gefühl des „Einfach-Passierens“ oder nach dem Loslassen aller Kontrolle sehnen – und dabei Sicherheit und Magie zugleich erleben wollen.  
+
+
+
+
 **Dateiname:** `checklist-schicksal.md`  
 Weitere thematische Checklisten findest du im Hauptverzeichnis oder im README.
 

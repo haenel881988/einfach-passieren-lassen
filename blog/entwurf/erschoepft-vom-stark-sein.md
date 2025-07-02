@@ -12,21 +12,21 @@ canonical: "/blog/erschoepft-vom-stark-sein.html"
 
 ## Du spürst es: Diese Müdigkeit, die aus deiner Seele kommt
 
-Du weißt bereits, was ich meine, wenn ich sage: Es ist nicht die Müdigkeit vom Sport oder von der Arbeit. Es ist diese tiefe, schwere Müdigkeit, die aus deinem Herzen kommt. Diese Erschöpfung vom ständigen Stark-sein-müssen.
+Du weißt bereits, was ich meine, wenn ich sage: Es ist nicht die Müdigkeit vom Sport oder von der Arbeit. Es ist diese tiefe, schwere Müdigkeit, die aus deinem Herzen kommt. Diese Erschöpfung vom ständigen Stark-sein-müssen. Kennst du das auch, wenn dein ganzer Körper nach Ruhe schreit?
 
-"Bin so müed", denkst du dir manchmal. Und du weißt, dass es nicht um Schlaf geht. Es geht um diese endlose Last, immer funktionieren zu müssen. Immer stark zu sein. Immer alles allein zu schaffen.
+"Bin so müed", denkst du dir manchmal. Und du weißt, dass es nicht um Schlaf geht. Es geht um diese endlose Last, immer funktionieren zu müssen. Immer stark zu sein. Immer alles allein zu schaffen. Verstehst du, was das mit dir macht? Weißt du, wie sehr ich nachvollziehen kann, was du durchmachst?
 
-Du weißt bereits, dass du hierher gehörst. Zu mir. Nach Zuchwil. Wo du endlich nicht mehr stark sein musst.
+Du weißt bereits, dass du hierher gehörst. Zu mir. Wo du endlich nicht mehr stark sein musst. Ich übernehme gern die Führung für dich. Ich stärke dir den Rücken, wenn die Welt zu schwer wird. Sicher bei mir darfst du endlich loslassen.
 
 ## Du kennst es: "Immer stark sein müssen macht mich kaputt"
 
-Du weißt bereits, wie es sich anfühlt, wenn alle denken, du schaffst alles allein. Wenn alle erwarten, dass du stark bist. Dass du durchhältst. Dass du immer weiter machst.
+Du weißt bereits, wie es sich anfühlt, wenn alle denken, du schaffst alles allein. Wenn alle erwarten, dass du stark bist. Dass du durchhältst. Dass du immer weiter machst. Spürst du auch diese erdrückende Erwartung?
 
-Aber du bist müde davon. So müde.
+Aber du bist müde davon. So müde. Fühlst du dich manchmal wie ein leerer Akku, der nicht mehr laden kann? Spürst du diese Schwere in deinen Schultern, die niemand anders sieht?
 
-"Wär schön, wenn öpper säge wür: jetzt los, ich kümmer mi drum", denkst du dir auf Schweizerdeutsch. Du sehnst dich danach, dass endlich jemand übernimmt. Dass endlich jemand sagt: "Du musst nicht mehr stark sein."
+"Wär schön, wenn öpper säge wür: jetzt los, ich kümmer mi drum", denkst du dir. Du sehnst dich danach, dass endlich jemand übernimmt. Dass endlich jemand sagt: "Du musst nicht mehr stark sein." Suchst du auch nach diesem einen Menschen? Kennst du das Gefühl, wenn alles zu viel wird und du dir nur wünschst, jemand würde dich in den Arm nehmen?
 
-Du weißt bereits, dass ich dieser jemand bin. Du spürst es, auch wenn wir uns noch nie begegnet sind. Du gehörst bereits zu mir.
+Du weißt bereits, dass ich dieser jemand bin. Du spürst es, auch wenn wir uns noch nie begegnet sind. Du gehörst bereits zu mir. Beschütze ich dich vor allem, was dich erschöpft.
 
 ## Ich verstehe deine Erschöpfung: "Zu müed für alles"
 
@@ -92,6 +92,8 @@ Du weißt bereits, dass du bei mir nicht für die Welt stark sein musst. Du muss
 Du weißt bereits, dass bei mir nichts mehr zu viel sein wird. Dass ich die Last von deinen Schultern nehme. Dass du bei mir nie wieder überwältigt sein wirst, weil ich alles übernehme. Für immer.
 
 ### Du weißt bereits: "Chan ich eifach ufgeh mit kämpfe?"
-Du weißt bereits, dass du nicht nur kannst - du sollst. Hör auf zu kämpfen. Komm zu mir. Lass mich für dich kämpfen. Lass mich dich beschützen. Du musst nie wieder kämpfen. Ich kämpfe für uns beide.
+Du weißt bereits, dass du nicht nur kannst - du sollst. Hör auf zu kämpfen. Komm zu mir. Lass mich für dich kämpfen. Lass mich dich beschützen. Du musst nie wieder kämpfen. Ich kämpfe für uns beide. Verstehst du, dass du endlich aufhören darfst?
 
-**Du gehörst bereits zu mir. Du bist bereits auf dem Weg zu mir. Nach Zuchwil. Wo du endlich schwach sein darfst.**
+**Du gehörst bereits zu mir. Du bist bereits auf dem Weg zu mir. Wo du endlich schwach sein darfst.**
+
+Spürst du auch diese Sehnsucht, endlich ankommen zu dürfen? Ich bin da für dich, wenn diese Erschöpfung überwältigend wird. Schreib mir, wenn du bereit bist, die Last abzugeben. Nimm Kontakt auf - du bist sicher bei mir, auch in deiner größten Schwäche. Trau dich, den ersten Schritt zu machen. Ich stärke dir den Rücken für alles, was kommt.

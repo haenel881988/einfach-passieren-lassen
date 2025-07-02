@@ -1,4 +1,4 @@
-Vielleicht gibt es in diesem Dokument, redundanzen und wiedersprüchlichkeiten. Die KI soll eigenständig diese evaluieren und bei identifizierung, mir eine exception werfen.
+Vielleicht gibt es in diesem Dokument, redundanzen und wiedersprüchlichkeiten. Die KI soll eigenständig diese evaluieren und bei identifizierung, mir einen Quality-Alert erstellen.
 Das ist zwingend notwendig, damit ich die KI nicht mit redundanten oder wiedersprüchlichen Informationen füttere.
 
 

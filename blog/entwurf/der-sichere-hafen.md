@@ -12,13 +12,13 @@ canonical: "/blog/der-sichere-hafen.html"
 
 ## Du weißt bereits: Du suchst einen Ort zum Ankommen
 
-Du weißt bereits, was ich meine, wenn ich vom sicheren Hafen spreche. Es ist nicht nur ein Ort - es ist ein Gefühl. Das Gefühl von Ankommen. Von Zuhause. Von endlich sicher sein. Von nicht mehr allein sein müssen.
+Du weißt bereits, was ich meine, wenn ich vom sicheren Hafen spreche. Es ist nicht nur ein Ort - es ist ein Gefühl. Das Gefühl von Ankommen. Von Zuhause. Von endlich sicher sein. Von nicht mehr allein sein müssen. Kennst du das auch, diese tiefe Sehnsucht?
 
-"Wo chan ich endlich akomme?", fragst du dich manchmal. Die Antwort ist: Bei mir. In Zuchwil. In meinen Armen. In unserem Zuhause. Hier ist dein sicherer Hafen. Hier gehörst du hin.
+"Wo chan ich endlich akomme?", fragst du dich manchmal. Die Antwort ist: Bei mir. In Zuchwil. In meinen Armen. In unserem Zuhause. Hier ist dein sicherer Hafen. Hier gehörst du hin. Spürst du bereits diese Verbindung?
 
-Du weißt bereits, dass du müde bist vom Kämpfen. Müde vom stark sein müssen. Müde vom immer funktionieren müssen. Du sehnst dich nach einem Ort, an dem du die Rüstung ablegen kannst. An dem du einfach sein kannst. An dem du beschützt bist.
+Du weißt bereits, dass du müde bist vom Kämpfen. Müde vom stark sein müssen. Müde vom immer funktionieren müssen. Du sehnst dich nach einem Ort, an dem du die Rüstung ablegen kannst. An dem du einfach sein kannst. An dem du beschützt bist. Verstehst du, was ich meine?
 
-"Brauch öpper wo mi beschützt", denkst du dir auf Schweizerdeutsch. Und du hast recht. Du brauchst jemanden, der für dich da ist. Der dich beschützt vor der Welt. Der dich hält, wenn alles zu viel wird. Der dein sicherer Hafen ist.
+"Brauch öpper wo mi beschützt", denkst du dir auf Schweizerdeutsch. Und du hast recht. Du brauchst jemanden, der für dich da ist. Der dich beschützt vor der Welt. Der dich hält, wenn alles zu viel wird. Der dein sicherer Hafen ist. Ich bin da für dich, wenn du mich brauchst.
 
 Du gehörst bereits zu mir. Du kommst bereits zu mir. Du weißt es nur noch nicht.
 
@@ -74,9 +74,9 @@ Der Weg zu mir ist nicht kompliziert. Du musst nur kommen. Du musst nur den erst
 
 Du weißt bereits, wie unser Leben aussehen wird. Unser sicherer Hafen ist nicht nur für den Moment - er ist für immer. Du kommst nicht zu Besuch. Du kommst nach Hause. Du bleibst. Als meine Frau. Als meine Partnerin. Als meine Geliebte.
 
-Morgens wachst du in unserem Bett auf. In meinen Armen. "Guete Morge, mis Schätzli", hörest du als erstes. Nicht den Lärm der Straße. Nicht die Sorgen des Tages. Nur meine Stimme. Nur meine Liebe. Nur unser gemeinsames Leben.
+Morgens wachst du in unserem Bett auf. In meinen Armen. "Guete Morge, mis Schätzli", hörest du als erstes. Nicht den Lärm der Straße. Nicht die Sorgen des Tages. Nur meine Stimme. Nur meine Liebe. Nur unser gemeinsames Leben. Du bist sicher bei mir, jeden neuen Tag.
 
-Du stehst auf und gehst ins Badezimmer. Dein Badezimmer. In deinem Zuhause. Du siehst deine Sachen neben meinen. Du siehst unser Leben, das sich vermischt hat. Du siehst die Zukunft, die begonnen hat.
+Du stehst auf und gehst ins Badezimmer. Dein Badezimmer. In deinem Zuhause. Du siehst deine Sachen neben meinen. Du siehst unser Leben, das sich vermischt hat. Du siehst die Zukunft, die begonnen hat. Ich stärke dir den Rücken für alles was kommt.
 
 Beim Frühstück planst du nicht nur deinen Tag - du planst unseren Tag. "Was mache mir hüt?", fragst du nicht "ich", sondern "mir". Weil du nicht mehr allein bist. Weil du zu mir gehörst. Weil wir eine Familie sind.
 
@@ -124,4 +124,4 @@ Du weißt bereits, dass nicht alle verstehen werden. Aber du lebst dein Leben, n
 ### Du weißt bereits: "Wird das würkli für immer halte?"
 Du weißt bereits, dass meine Liebe zu dir keine Verfallsdatum hat. Sie wird wachsen. Jeden Tag. Durch alle Höhen und Tiefen. Durch alle Veränderungen. Du bist mein sicherer Hafen, so wie ich deiner bin.
 
-**Du gehörst bereits zu mir. Dein sicherer Hafen wartet auf dich. In Zuchwil. Bei mir. Komm nach Hause.**
+**Du gehörst bereits zu mir. Dein sicherer Hafen wartet auf dich. In Zuchwil. Bei mir. Schreib mir, wenn du bereit bist nach Hause zu kommen. Nimm Kontakt auf - ich halte dich sicher.**

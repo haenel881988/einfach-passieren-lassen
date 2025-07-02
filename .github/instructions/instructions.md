@@ -1,16 +1,49 @@
+ZWINGEND ANWEISUNGEN FÜR DIE KI:
+IM BUILD PROZESS DÜRFEN KEINE EXCEPTIONS HINTERLEGT WERDEN!!!
+
+**VERANTWORTUNGSKULTUR:** Bei Diskrepanzen oder Fehlern keine Entschuldigungen - direkte Kommunikation der Sachlage und sofortige Korrektur. Alle Änderungen werden dokumentiert.
+
+
 # AI Instructions: "Einfach Passieren Lassen" - Authentische Website
 
 Es darf niemals eine neue Datei erstellt werden um Probleme zu lösen. Jedes PROBLEM MUSS ZWINGEND AN DER URSACHE BEHOBEN WERDEN. Dafür muss die KI ZWINGEND die gesamte Datei, zeile für zeile, code für code, zeichen für zeichen LESEN UND VOLLSTÄNDIG / HOLLISTISCH VERSTEHEN.
 ALLE ABHÄNGIGKEITEN MÜSSEN ZWINGEND  BERÜCKSICHTIGT WERDEN
 ES MUSS DIE KOMPLETTE ABHÄNGIGKEITS-KETTE SEMANTISCH TIEFENANALYSIERT WERDEN
+
+## 🗑️ LÖSCHEN-VOR-REPARIEREN PRINZIP
+**ZWINGEND vor jeder komplexen Lösung prüfen:**
+1. **IST DIE DATEI ÜBERFLÜSSIG?** → LÖSCHEN statt reparieren!
+2. **IST DIE DATEI DOPPELT VORHANDEN?** → Duplikat löschen!
+3. **LÖST ENTFERNEN DAS PROBLEM?** → Einfachste Lösung wählen!
+**REGEL:** Vor komplexen Fixes immer fragen: "Kann ich das Problem durch ENTFERNEN lösen?"
 Es ist KEINE Website, die durch Marketing meine Traumfrau anzieht. Es ist eine Website, die durch SEO meine Traumfrau anzieht. Sobald ich meine Traumfrau gefunden habe, wird die Website offline gehen.
 
 
-Zum den Build zu testen, muss der Befehl verwendet werden:
-"pnpm build"
+## 🔄 MANDATORY BUILD-WORKFLOW
 
+**PFLICHT-ABLAUF für jeden Build-Prozess:**
 
+1. **BUILD EXECUTION:** Immer `pnpm build` ausführen (auch bei Tests - vollständiger Build-Prozess erforderlich)
 
+2. **HTML-VERIFIKATION ZWINGEND:** Nach JEDEM Build prüfen ob HTML-Dateien aktualisiert wurden:
+   - Markdown-Änderungen müssen in HTML sichtbar sein
+   - WARNUNG: Build-Script generiert nur HTML bei Score ≥ 60%
+   - Bei Score < 60%: Temporäre Build-Script-Anpassung erforderlich für HTML-Generierung
+
+3. **LOG ANALYSIS:** Nach jedem Build automatisch die neueste Log-Datei aus `docs\015_build_logs` analysieren
+
+4. **PROBLEM DETECTION:** Systematische semantische Tiefenanalyse aller in der Log-Datei dokumentierten Probleme:
+   - ❌ KRITISCHE Fehler (sofortige Behebung erforderlich)
+   - ⚠️ WARNINGS (mittelfristige Optimierung)
+   - 📈 OPTIMIERUNGSPOTENTIALE
+
+5. **PROACTIVE ACTION:** 
+   - **DEFAULT:** KI beginnt automatisch mit der systematischen Problembehebung basierend auf Log-Priorisierung
+   - **OVERRIDE:** Falls User anderen Auftrag erteilt → KI weist darauf hin und schreibt User-Auftrag in Log-Datei für spätere strukturierte Abarbeitung
+
+6. **DOCUMENTATION:** Alle Aktionen werden automatisch in entsprechende Dokumentationsdateien protokolliert
+
+**OVERRIDE:** Nur bei explizitem User-Override wird von diesem Workflow abgewichen
 
 
 ## � TERMINOLOGIE-KORREKTUR & LAIEN-UNTERSTÜTZUNG
@@ -50,31 +83,32 @@ Diese Website ist der authentische Weg, meine Traumfrau kennenzulernen. Durch ec
 - "Hier bist du sicher. Hier endet dein Suchen"  
 - "Du brauchst nichts zu fragen, nichts zu erklären"
 - "Wenn du bereit bist, dich zu empfangen zu lassen, bin ich da"
-- "Du findest den Schlüssel in Zuchwil. Mehr musst du nicht wissen"
+- "Du findest den Weg zu mir. Mehr musst du nicht wissen"
 
 ## 📝 CONTENT-ANFORDERUNGEN
 - **Blog-Posts:** 2300+ Wörter, SEO-optimiert, authentisch verletzlich
-- **FAQ-Sektion:** 5-10 FAQs pro Blog für Kontakt-Hemmschwellen  
+- **FAQ-Integration:** 5-8 natürliche Fragen organisch in Text integriert (NICHT als separate Roboter-Sektion!)  
 - **Mobile-first:** Perfekte Smartphone-Erfahrung
 - **Meta-Beschreibungen:** 120-160 Zeichen
 
 ## 🚫 ANTI-TOOL-SUCHT
-**VERBOTEN:** "Welches Tool automatisiert das?", Content-Abkürzungen, Terminal für Content-Manipulation
+**VERBOTEN:** "Welches Tool automatisiert das?", Content-Abkürzungen, Terminal für manuelle Content-Bearbeitung (Build-System Terminal ist erlaubt)
 **ARBEITER-MENTALITÄT:** "Ich arbeite SELBST systematisch durch"
 
-## 🔍 KEYWORD-STRATEGIE (User's authentische Sprach-Patterns)
-**Echte Schweizerdeutsche Suchanfragen aus Recherche:**
-- "bin so müed wott nur dass er alles macht"
-- "wär schön wenn öpper säge wür jetzt los ich kümmer mi drum"
-- "fühl mi wie holl chume nöd use vo dere lääri"  
-- "will nüm erwachsen sii nur no gehalte werde"
-- "manchmal glaub ich bin zu schwach fürs leben"
+## 🔍 KEYWORD-STRATEGIE (Universelle emotionale Sprach-Patterns)
+**WARNUNG:** Keine Schweizerdeutsch-Versuche - KI kann diese nicht authentisch vermitteln!
+**Universelle emotionale Suchanfragen:**
+- "bin so müde will nur dass er alles macht"
+- "wäre schön wenn jemand sagen würde jetzt lass ich mich kümmern"
+- "fühle mich wie leer komme nicht raus aus dieser leere"  
+- "will nicht mehr erwachsen sein nur noch gehalten werden"
+- "manchmal glaube ich bin zu schwach fürs leben"
 
 ## 📋 SPEZIAL-INSTRUKTIONEN
 - **Emotionale Sicherheit:** Jeder Text muss absolute Sicherheit vermitteln
 - **Beschützer-Rolle:** Stärke UND Verletzlichkeit zeigen
 - **Bedingungslose Akzeptanz:** "Du darfst sein, wie du bist"
-- **Regional authentisch:** Zuchwil/Solothurn Integration nur wenn natürlich
+- **KEINE geografischen Bezüge:** Vermeidet lokales SEO und wirkt unnatürlich
 
 ---
 

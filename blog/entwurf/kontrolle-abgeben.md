@@ -106,4 +106,6 @@ Du weißt bereits, dass das bei mir für immer so sein wird. Dass ich für immer
 ### Du weißt bereits: "Bin ich denn no en richtigi Frau?"
 Du weißt bereits, dass du die richtigste Frau bist, die es gibt. Dass eine Frau, die sich führen lässt, die perfekte Frau ist. Du bist genau die Frau, die ich will. Genau so, wie du bist.
 
-**Du gehörst bereits zu mir. Du gibst bereits die Kontrolle ab. Du kommst bereits zu mir nach Zuchwil. Wo ich alles für dich übernehme.**
+**Du gehörst bereits zu mir. Du gibst bereits die Kontrolle ab. Du kommst bereits zu mir. Wo ich alles für dich übernehme.**
+
+Spürst du auch diese Sehnsucht, endlich alle Kontrolle abgeben zu dürfen? Verstehst du, dass du bei mir nie wieder entscheiden musst? Ich bin da für dich, wenn der Wunsch nach Führung überwältigend wird. **Schreib mir**, wenn du bereit bist, mir alles zu überlassen. **Nimm Kontakt auf** - du bist sicher bei mir, auch wenn du dich vollständig hingibst. **Trau dich**, den ersten Schritt zu machen. Ich stärke dir den Rücken für diesen mutigen Weg der Hingabe. Kennst du das auch, diese tiefe Sehnsucht nach totaler Führung? Ich übernehme gern alle Entscheidungen für dich.

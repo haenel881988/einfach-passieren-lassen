@@ -14,24 +14,24 @@ canonical: "/blog/ich-will-einfach-gehalten-werden.html"
 
 Suchst du auch nach jemandem, der dich einfach hält? Du weißt bereits, was ich meine, wenn ich sage: "Ich will einfach gehalten werden." Diese vier Worte fassen zusammen, was so viele von uns fühlen, aber selten aussprechen. Es ist mehr als nur der Wunsch nach einer Umarmung oder körperlicher Nähe. Es ist die tiefe Sehnsucht danach, endlich ankommen zu dürfen.
 
-Kennst du das auch? Wenn du sagst "ich will einfach gehalten werden", dann meinst du dieses Gefühl, wenn alles zu viel wird. Wenn die Verantwortung zu schwer wiegt, wenn die Entscheidungen zu komplex sind, wenn das Leben zu laut und zu schnell wird. In diesen Momenten sehnst du dich nach jemandem, der sagt: "Komm her, ich halte dich. Du musst nicht stark sein." 
+Kennst du das auch? Wenn du sagst "ich will einfach gehalten werden", dann meinst du dieses Gefühl, wenn alles zu viel wird. Wenn die Verantwortung zu schwer wiegt, wenn die Entscheidungen zu komplex sind, wenn das Leben zu laut und zu schnell wird. In diesen Momenten sehnst du dich nach jemandem, der sagt: "Komm her, ich halte dich. Du musst nicht stark sein." Verstehst du, wie sehr ich dieses Gefühl kenne? Fühlst du dich manchmal wie ich - überwältigt von allem, was auf dich einströmt? 
 
-Diese Sehnsucht verstehe ich so gut - und bin ich da für dich.
+Diese Sehnsucht verstehe ich so gut - und bin ich da für dich. Sicher bei mir findest du den Frieden, den du suchst.
 
-Du weißt bereits, dass es kein Zeichen von Schwäche ist, wenn man sich danach sehnt, gehalten zu werden. Es ist menschlich. Es ist ehrlich. Es ist die Erkenntnis, dass wir nicht dafür gemacht sind, alles alleine zu tragen. Besonders hier in Zuchwil, wo das Leben oft so strukturiert und geplant erscheint, gibt es diese stillen Momente, in denen wir uns fragen: Wann darf ich endlich einfach sein, ohne etwas leisten zu müssen?
+Du weißt bereits, dass es kein Zeichen von Schwäche ist, wenn man sich danach sehnt, gehalten zu werden. Es ist menschlich. Es ist ehrlich. Es ist die Erkenntnis, dass wir nicht dafür gemacht sind, alles alleine zu tragen. Spürst du auch diese stille Erleichterung, wenn du endlich zugeben darfst: "Ich will einfach gehalten werden"? Ich stärke dir den Rücken in genau diesen verletzlichen Momenten, und nimm Kontakt auf, wenn diese Sehnsucht überwältigend wird. Weißt du, dass ich automatisch die Führung übernehme, wenn du dich fallen lässt? Trau dich, mir zu schreiben.
 
 Die Sehnsucht, gehalten zu werden, ist universal. Sie beginnt in der Kindheit und begleitet uns durchs ganze Leben. Aber als Erwachsene haben wir gelernt, sie zu verstecken, zu rationalisieren, zu unterdrücken. Wir tun so, als bräuchten wir niemanden, als könnten wir alles selbst. Dabei ist das Gegenteil wahr: Du willst einfach gehalten werden - und das ist vollkommen berechtigt.
 
 Dieser Wunsch ist nicht romantisch verklärt oder naiv. Er ist real, berechtigt und zutiefst menschlich. Er spricht von dem Bedürfnis nach Sicherheit, nach Schutz, nach einem Ort, an dem wir die Rüstung ablegen können.
 
-Du gehörst bereits zu mir. Du weißt es nur noch nicht.
+Du gehörst bereits zu mir. Du weißt es nur noch nicht. Beschütze ich dich vor allem, was dich belastet.
 
 ## Die Last des Stark-sein-müssens
-Es gibt Tage, da will ich nicht mehr stark sein müssen. Tage, an denen jede Entscheidung wie ein Berg erscheint und jede Verantwortung wie eine Last, die ich nicht mehr tragen kann. In solchen Momenten wird der Wunsch, gehalten zu werden, überwältigend.
+Es gibt Tage, da will ich nicht mehr stark sein müssen. Tage, an denen jede Entscheidung wie ein Berg erscheint und jede Verantwortung wie eine Last, die ich nicht mehr tragen kann. In solchen Momenten wird der Wunsch, gehalten zu werden, überwältigend. Kennst du das auch? Wenn du denkst: "Ich schaffe das nicht mehr alleine"?
 
-Viele von uns kennen dieses Gefühl: Ich bin erschöpft davon, alles selbst zu machen. Morgens aufstehen, zur Arbeit gehen, Entscheidungen treffen, Probleme lösen, stark sein für andere - und abends erschöpft ins Bett fallen, nur um am nächsten Tag das Gleiche zu wiederholen. Wo ist in diesem Kreislauf der Raum für die eigene Verletzlichkeit?
+Viele von uns kennen dieses Gefühl: Ich bin erschöpft davon, alles selbst zu machen. Morgens aufstehen, zur Arbeit gehen, Entscheidungen treffen, Probleme lösen, stark sein für andere - und abends erschöpft ins Bett fallen, nur um am nächsten Tag das Gleiche zu wiederholen. Wo ist in diesem Kreislauf der Raum für die eigene Verletzlichkeit? Spürst du auch diese Müdigkeit, die tiefer geht als körperliche Erschöpfung?
 
-Besonders als Frau in der heutigen Zeit tragen wir oft zu viel Last alleine. Wir sollen unabhängig sein, stark, selbstbestimmt. Aber was ist mit dem Teil in uns, der sich nach Geborgenheit sehnt? Der sich danach sehnt, dass jemand sagt: "Ich kümmere mich um dich"?
+Besonders als Frau in der heutigen Zeit tragen wir oft zu viel Last alleine. Wir sollen unabhängig sein, stark, selbstbestimmt. Aber was ist mit dem Teil in uns, der sich nach Geborgenheit sehnt? Der sich danach sehnt, dass jemand sagt: "Ich kümmere mich um dich"? Verstehst du, was ich meine? Wenn du endlich loslassen darfst und sicher bei mir aufgefangen wirst?
 
 ### Die Sehnsucht nach Schutz
 Wenn ich Schutz suche bei einem Mann, dann nicht, weil ich schwach bin, sondern weil ich erkenne, dass Stärke auch darin liegen kann, Schutz anzunehmen. Es ist die Erkenntnis, dass wir nicht alles alleine schaffen müssen.
@@ -41,7 +41,7 @@ Hier in Solothurn, wo das Leben oft geordnet und vorhersagbar erscheint, gibt es
 Die Vorstellung, jemand der mich nimmt wie ich bin, ist beruhigend und beängstigend zugleich. Beruhigend, weil sie die Hoffnung auf bedingungslose Akzeptanz nährt. Beängstigend, weil sie bedeutet, verletzlich zu sein, sich zu zeigen, wie man wirklich ist.
 
 ### Das Bedürfnis nach Führung
-Manchmal denke ich: Ich brauch jemanden, der sich um mich kümmert. Nicht im Sinne von Bevormundung oder Kontrolle, sondern im Sinne von fürsorglicher Aufmerksamkeit. Jemanden, der merkt, wenn es mir schlecht geht. Jemanden, der die Initiative ergreift, wenn ich zu müde bin.
+Manchmal denke ich: Ich brauch jemanden, der sich um mich kümmert. Nicht im Sinne von Bevormundung oder Kontrolle, sondern im Sinne von fürsorglicher Aufmerksamkeit. Jemanden, der merkt, wenn es mir schlecht geht. Jemanden, der die Initiative ergreift, wenn ich zu müde bin. Verstehst du, was ich meine? Ich übernehme gern die Führung für dich, und du bist sicher bei mir, auch wenn du dich verletzlich zeigst.
 
 Es ist keine Lust mehr zu kämpfen. Kämpfen gegen die Erwartungen, gegen die Herausforderungen des Alltags, gegen die eigene Erschöpfung. Stattdessen die Sehnsucht nach jemandem, der sagt: "Lass mich das übernehmen. Du kannst dich ausruhen."
 
@@ -150,8 +150,8 @@ Du weißt bereits, dass du mir vertrauen kannst. Wenn ich sage "Ich los di nie l
 Du weißt bereits, wie es sich anfühlen wird: wie nach Hause kommen. Wie ein tiefes Ausatmen nach Jahren der Anspannung. Wie Wärme, die sich in dir ausbreitet. Wie die Gewissheit: Ich bin angekommen. Ich bin sicher. Ich gehöre zu ihm.
 
 ### Du weißt bereits: "Was macht ich, wenn die Sehnsucht zu groß wird?"
-Du weißt bereits, dass du dann zu mir kommst. Nach Zuchwil. Wo ich auf dich warte. Wo ich bereit bin, dich zu halten. Die Sehnsucht führt dich zu mir. Folge ihr. Sie weiß den Weg.
+Du weißt bereits, dass du dann zu mir kommst. Wo ich auf dich warte. Wo ich bereit bin, dich zu halten. Die Sehnsucht führt dich zu mir. Folge ihr. Sie weiß den Weg. Kennst du das auch, wenn du spürst, dass der richtige Moment gekommen ist?
 
 **Du gehörst bereits zu mir. Ich halte dich bereits. Du musst nur noch kommen.**
 
-Fühlst du dich bereit, endlich gehalten zu werden? Schreib mir - ich bin da und warte auf dich. Trau dich, den ersten Schritt zu machen.
+Fühlst du dich bereit, endlich gehalten zu werden? Schreib mir - ich bin da und warte auf dich. Trau dich, den ersten Schritt zu machen. Du bist sicher bei mir, auch wenn alles neu und ungewohnt ist.
