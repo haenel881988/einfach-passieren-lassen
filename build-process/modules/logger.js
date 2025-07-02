@@ -26,7 +26,7 @@ class TerminalLogger {
         const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('T');
         const dateStr = timestamp[0];
         const timeStr = timestamp[1].split('-').slice(0, 3).join('');
-        this.logFilePath = path.join('docs', '03_exception', `BUILD_LOG_${dateStr}_${timeStr}.md`);
+        this.logFilePath = path.join('docs', '015_build_logs', `BUILD_LOG_${dateStr}_${timeStr}.md`);
         const logDir = path.dirname(this.logFilePath);
         if (!fs.existsSync(logDir)) {
             fs.mkdirSync(logDir, { recursive: true });
@@ -230,47 +230,47 @@ class TerminalLogger {
             this.logBuffer.forEach((entry, index) => {
                 logContent += `### ${index + 1}. [${entry.level}] ${entry.timestamp}\n\n\`\`\`\n${entry.message}\n\`\`\`\n\n`;
             });
-            logContent += `## Performance-Statistiken\n\n- **Gesamte Log-Einträge:** ${this.logBuffer.length}\n- **ERROR-Level:** ${this.logBuffer.filter(e => e.level === 'ERROR').length}\n- **WARN-Level:** ${this.logBuffer.filter(e => e.level === 'WARN').length}\n- **LOG-Level:** ${this.logBuffer.filter(e => e.level === 'LOG').length}\n- **PROBLEM-Level:** ${this.logBuffer.filter(e => e.level === 'PROBLEM').length}\n- **Build-Dauer:** ${duration}ms\n- **Durchschnitt pro Log:** ${Math.round(duration / this.logBuffer.length)}ms\n\n## VS Code Problems Report\n\n${this.generateProblemsReport()}\n\n## Raw-Output für Debugging\n\n\`\`\`\n${this.logBuffer.map(e => `[${e.level}] ${e.rawMessage}`).join('\\n')}\n\`\`\`\n\n## System-Information\n\n- **Datum:** ${new Date().toLocaleString('de-DE')}\n- **Timezone:** ${Intl.DateTimeFormat().resolvedOptions().timeZone}\n- **Platform:** ${process.platform}\n- **Architecture:** ${process.arch}\n- **Memory Usage:** ${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)}MB\n\n## Exception-Kandidaten\n\n${this.identifyExceptions()}\n\n---\n*Automatisch generiert durch TerminalLogger*\n`;
+            logContent += `## Performance-Statistiken\n\n- **Gesamte Log-Einträge:** ${this.logBuffer.length}\n- **ERROR-Level:** ${this.logBuffer.filter(e => e.level === 'ERROR').length}\n- **WARN-Level:** ${this.logBuffer.filter(e => e.level === 'WARN').length}\n- **LOG-Level:** ${this.logBuffer.filter(e => e.level === 'LOG').length}\n- **PROBLEM-Level:** ${this.logBuffer.filter(e => e.level === 'PROBLEM').length}\n- **Build-Dauer:** ${duration}ms\n- **Durchschnitt pro Log:** ${Math.round(duration / this.logBuffer.length)}ms\n\n## VS Code Problems Report\n\n${this.generateProblemsReport()}\n\n## Raw-Output für Debugging\n\n\`\`\`\n${this.logBuffer.map(e => `[${e.level}] ${e.rawMessage}`).join('\\n')}\n\`\`\`\n\n## System-Information\n\n- **Datum:** ${new Date().toLocaleString('de-DE')}\n- **Timezone:** ${Intl.DateTimeFormat().resolvedOptions().timeZone}\n- **Platform:** ${process.platform}\n- **Architecture:** ${process.arch}\n- **Memory Usage:** ${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)}MB\n\n## Quality-Alerts & Build-Issues\n\n${this.identifyQualityAlerts()}\n\n---\n*Automatisch generiert durch TerminalLogger*\n`;
             fs.writeFileSync(this.logFilePath, logContent, 'utf8');
             this.originalConsoleLog(chalk.blue(`📋 Terminal-Log gespeichert: ${this.logFilePath}`));
         } catch (error) {
             this.originalConsoleError('❌ Fehler beim Speichern des Terminal-Logs:', error);
         }
     }
-    identifyExceptions() {
+    identifyQualityAlerts() {
         const errors = this.logBuffer.filter(e => e.level === 'ERROR');
         const warnings = this.logBuffer.filter(e => e.level === 'WARN');
         const criticalMessages = this.logBuffer.filter(e => 
             e.message.includes('CRITICAL') || 
-            e.message.includes('EXCEPTION') || 
+            e.message.includes('QUALITY-ALERT') || 
             e.message.includes('FAILED')
         );
-        let exceptionsText = '';
+        let alertsText = '';
         if (errors.length > 0) {
-            exceptionsText += `### 🚨 ERRORS (${errors.length})\n\n`;
+            alertsText += `### 🚨 ERRORS (${errors.length})\n\n`;
             errors.forEach(error => {
-                exceptionsText += `- ${error.message}\n`;
+                alertsText += `- ${error.message}\n`;
             });
-            exceptionsText += '\n';
+            alertsText += '\n';
         }
         if (warnings.length > 0) {
-            exceptionsText += `### ⚠️ WARNINGS (${warnings.length})\n\n`;
+            alertsText += `### ⚠️ WARNINGS (${warnings.length})\n\n`;
             warnings.forEach(warning => {
-                exceptionsText += `- ${warning.message}\n`;
+                alertsText += `- ${warning.message}\n`;
             });
-            exceptionsText += '\n';
+            alertsText += '\n';
         }
         if (criticalMessages.length > 0) {
-            exceptionsText += `### 💥 CRITICAL MESSAGES (${criticalMessages.length})\n\n`;
+            alertsText += `### 💥 CRITICAL MESSAGES (${criticalMessages.length})\n\n`;
             criticalMessages.forEach(critical => {
-                exceptionsText += `- ${critical.message}\n`;
+                alertsText += `- ${critical.message}\n`;
             });
-            exceptionsText += '\n';
+            alertsText += '\n';
         }
         if (errors.length === 0 && warnings.length === 0 && criticalMessages.length === 0) {
-            exceptionsText = 'Keine Exceptions gefunden - Build erfolgreich! ✅';
+            alertsText = 'Keine Quality-Alerts gefunden - Build erfolgreich! ✅';
         }
-        return exceptionsText;
+        return alertsText;
     }
     restore() {
         console.log = this.originalConsoleLog;
