@@ -6,8 +6,7 @@
   "scripts": {
     "build": "node scripts/build.js",
     "watch": "chokidar \"blog/entwurf/*.md\" -c \"npm run build\"",
-    "validate": "node scripts/quality-check.js",
-    "vercel-build": "node scripts/build.js"
+    "validate": "node scripts/quality-check.js"
   },
   "keywords": ["blog", "markdown", "seo", "switzerland"],
   "author": "Simon Haenel",

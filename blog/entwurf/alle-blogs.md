@@ -18,7 +18,7 @@ Suchst du auch nach jemandem, der dich wirklich versteht? Hier findest du alle A
 Du kennst diese Leere in dir, die dich nachts wach hält. Träumst du davon, dass endlich jemand sie füllt? Willst du endlich nicht mehr allein damit sein? Diese Sehnsucht verstehe ich so gut - fühle ich mit dir. Für dich bin ich da. Den Rücken stärken dir, wenn die Welt zu schwer wird. Halt dir wenn alles zusammenbricht. Halte ich dich. Trau dich und nimm Kontakt auf.
 
 ### [Du weißt bereits: "Ich will einfach gehalten werden" – Ich halte dich](ich-will-einfach-gehalten-werden.html)
-Die Sehnsucht nach Geborgenheit und Schutz. Du weißt genau, was du brauchst - jemand, der dich einfach mal hält, ohne dass du stark sein musst. Kennst du das Gefühl, wenn alles zu viel wird? Meine starke Schulter ist bereit für dich.
+Die Sehnsucht nach Geborgenheit und Schutz. Hier erfährst du, wie es sich anfühlt, endlich gehalten zu werden. Kennst du das Gefühl, wenn alles zu viel wird? Meine starke Schulter ist bereit für dich.
 
 ## Bindung und Verschmelzung
 
