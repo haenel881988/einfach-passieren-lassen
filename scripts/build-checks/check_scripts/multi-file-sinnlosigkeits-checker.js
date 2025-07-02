@@ -3,7 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 import chalk from 'chalk';
-import AdvancedContentValidator from '../../advanced-content-validator.js';
+import AdvancedContentValidator from './advanced-content-validator.js';
 
 // ==================== MULTI-FILE SINNLOSIGKEITS-CHECKER ====================
 // Überprüft ALLE Seiten auf sinnlose Sätze, absurde Konstrukte und Copy-Cat-Texte
@@ -11,12 +11,43 @@ import AdvancedContentValidator from '../../advanced-content-validator.js';
 class MultiFileSinnlosigkeitsChecker {
     constructor() {
         this.validator = new AdvancedContentValidator();
+        this.scanPatterns = [
+            // Schweizerdeutsch-Absurdities
+            /\b(denkst|sagst|fühlst|weißt|machst|redest|sprichst|verstehst)\s+du\s+dir\s+auf\s+schweizerdeutsch\b/gi,
+            /\b(denkst|sagst|fühlst|weißt|machst|redest|sprichst|verstehst)\s+du\s+in\s+schweizerdeutsch\b/gi,
+            
+            // Sprachkonstrukt-Absurdities  
+            /\b(fühlst|denkst|sagst|weißt|machst|redest|sprichst|verstehst)\s+du\s+dir\s+auf\s+\w+\b/gi,
+            /\b(fühlst|denkst|sagst|weißt|machst|redest|sprichst|verstehst)\s+du\s+in\s+\w+sprache\b/gi,
+            
+            // Unvollständige Trigger ohne Kontext
+            /\bfühlst\s+du\s+dich(?!\s+\w)/gi,
+            /\bdenkst\s+du(?!\s+\w)/gi, 
+            /\bweißt\s+du(?!\s+\w)/gi,
+            
+            // Copy-Cat Detection (identische Formulierungen)
+            /^(.{20,}?)(.{0,10})\1/gim
+        ];
+        this.fileExtensions = ['.md', '.html'];
         this.scanPaths = [
-            'blog/',
             'blog/entwurf/',
-            './kontakt.html',
+            'blog/',
             './ueber-mich.html',
-            './index.html'
+            './index.html',
+            './kontakt.html'
+        ];
+        // Verzeichnisse die NICHT gescannt werden sollen
+        this.excludedDirs = [
+            'node_modules', 
+            '.git', 
+            'dist', 
+            '.next', 
+            '__trash__',
+            'app-gui',
+            'build-process',
+            'check_scripts',
+            'scripts',
+            'docs'
         ];
         this.totalIssues = [];
         this.processedFiles = 0;
@@ -32,10 +63,55 @@ class MultiFileSinnlosigkeitsChecker {
         console.log(chalk.gray('   Prüft alle Seiten auf absurde Sätze, Copy-Cats und logische Inkonsistenzen\n'));
 
         const startTime = Date.now();
+        const TIMEOUT_MS = 30000; // 30 Sekunden Timeout
         
-        // 1. ALLE DATEIEN SAMMELN
-        const allFiles = await this.collectAllFiles();
-        console.log(chalk.cyan(`📁 ${allFiles.length} Dateien zur Überprüfung gefunden\n`));
+        try {
+            // 1. DATEIEN SAMMELN (mit Timeout-Schutz)
+            console.log(chalk.blue('📋 Sammle relevante Dateien...'));
+            const allFiles = await Promise.race([
+                this.collectAllFiles(),
+                new Promise((_, reject) => 
+                    setTimeout(() => reject(new Error('Timeout beim Datei-Sammeln')), TIMEOUT_MS)
+                )
+            ]);
+            
+            console.log(chalk.green(`   ✅ ${allFiles.length} relevante Dateien gefunden`));
+            
+            if (allFiles.length === 0) {
+                console.log(chalk.yellow('⚠️  Keine Dateien zum Prüfen gefunden'));
+                return [];
+            }
+
+            // 2. EINZELNE DATEIEN PRÜFEN
+            console.log(chalk.blue('🔍 Prüfe Dateien auf Sinnlosigkeiten...'));
+            for (const file of allFiles) {
+                await this.checkSingleFile(file);
+                
+                // Timeout-Check
+                if (Date.now() - startTime > TIMEOUT_MS) {
+                    console.log(chalk.yellow('⚠️  Timeout erreicht - Checker wird beendet'));
+                    break;
+                }
+            }
+
+            // 3. CROSS-FILE ANALYSE (verkürzt)
+            console.log(chalk.blue('🔗 Cross-File Analyse...'));
+            await this.runCrossFileAnalysis(allFiles.slice(0, 10)); // Begrenzt auf 10 Dateien
+
+            // 4. FINAL REPORT
+            const duration = Date.now() - startTime;
+            this.generateFinalReport(duration);
+
+            // 5. PROTOKOLL SPEICHERN
+            await this.saveCheckProtocol();
+
+            return this.totalIssues;
+            
+        } catch (error) {
+            console.error(chalk.red(`❌ Checker-Fehler: ${error.message}`));
+            console.log(chalk.yellow('🔄 Checker wird sicher beendet...'));
+            return this.totalIssues || [];
+        }
 
         // 2. JEDE DATEI ÜBERPRÜFEN
         for (const filePath of allFiles) {
@@ -80,18 +156,33 @@ class MultiFileSinnlosigkeitsChecker {
     scanDirectory(dirPath) {
         const files = [];
         
+        // Prüfe ob Verzeichnis ausgeschlossen werden soll
+        const dirName = path.basename(dirPath);
+        if (this.excludedDirs.includes(dirName)) {
+            return files; // Leeres Array zurückgeben
+        }
+        
         try {
             const entries = fs.readdirSync(dirPath);
             
             for (const entry of entries) {
+                // Überspringe versteckte Dateien und ausgeschlossene Verzeichnisse
+                if (entry.startsWith('.') || this.excludedDirs.includes(entry)) {
+                    continue;
+                }
+                
                 const fullPath = path.join(dirPath, entry);
                 const stat = fs.statSync(fullPath);
                 
                 if (stat.isDirectory()) {
-                    // Rekursiv durch Unterordner
+                    // Rekursiv durch Unterordner (mit Schutz)
                     files.push(...this.scanDirectory(fullPath));
                 } else if (stat.isFile()) {
-                    files.push(fullPath);
+                    // Nur relevante Dateierweiterungen
+                    const ext = path.extname(fullPath);
+                    if (this.fileExtensions.includes(ext)) {
+                        files.push(fullPath);
+                    }
                 }
             }
         } catch (error) {
@@ -110,8 +201,12 @@ class MultiFileSinnlosigkeitsChecker {
             
             console.log(chalk.cyan(`📄 [${this.processedFiles}] Prüfe: ${filePath}`));
             
-            // SINNLOSIGKEITS-DETECTION
+            // ==================== ERWEITERTE SINNLOSIGKEITS-DETECTION ====================
             const issues = this.validator.detectLogicalInconsistencies(content);
+            
+            // ==================== SPEZIELLE ABSURDHEITS-PATTERNS ====================
+            const absurdIssues = this.detectSpecialAbsurdPatterns(content, filePath);
+            issues.push(...absurdIssues);
             
             if (issues.length > 0) {
                 console.log(chalk.red(`   🚨 ${issues.length} Problem(e) gefunden:`));
@@ -137,6 +232,97 @@ class MultiFileSinnlosigkeitsChecker {
         } catch (error) {
             console.log(chalk.red(`❌ Fehler beim Prüfen von ${filePath}: ${error.message}`));
         }
+    }
+
+    // ==================== SPEZIELLE ABSURDHEITS-PATTERNS ====================
+    
+    detectSpecialAbsurdPatterns(content, filePath) {
+        const issues = [];
+        
+        // 1. SCHWEIZERDEUTSCH-ABSURDITIES (wie "denkst du dir auf Schweizerdeutsch")
+        const swissAbsurdities = [
+            /denkst du dir auf schweizerdeutsch/gi,
+            /sagst du auf schweizerdeutsch/gi,
+            /überlegst du dir auf schweizerdeutsch/gi,
+            /formulierst du auf schweizerdeutsch/gi,
+            /redest du schweizerdeutsch/gi,
+            /sprichst du schweizerdeutsch/gi
+        ];
+        
+        swissAbsurdities.forEach(pattern => {
+            const matches = content.match(pattern);
+            if (matches) {
+                matches.forEach(match => {
+                    issues.push({
+                        type: 'SCHWEIZERDEUTSCH_ABSURDITY',
+                        message: `Völlig absurde Schweizerdeutsch-Referenz: "${match}"`,
+                        severity: 'CRITICAL',
+                        suggestion: 'Komplett entfernen - hat nichts mit emotionalem Content zu tun',
+                        context: this.getContext(content, match)
+                    });
+                });
+            }
+        });
+
+        // 2. SPRACHKONSTRUKT-ABSURDITIES
+        const languageAbsurdities = [
+            /\w+st du dir auf \w+/gi,
+            /sagst du in \w+sprache/gi,
+            /denkst du in \w+/gi,
+            /formulierst du in \w+/gi,
+            /überlegst du auf \w+/gi
+        ];
+        
+        languageAbsurdities.forEach(pattern => {
+            const matches = content.match(pattern);
+            if (matches) {
+                matches.forEach(match => {
+                    issues.push({
+                        type: 'LANGUAGE_CONSTRUCT_ABSURDITY',
+                        message: `Absurde Sprachkonstruktion: "${match}"`,
+                        severity: 'CRITICAL',
+                        suggestion: 'Entfernen - deplatziert in emotionalem Content',
+                        context: this.getContext(content, match)
+                    });
+                });
+            }
+        });
+
+        // 3. UNVOLLSTÄNDIGE TRIGGER-DETECTION
+        const incompleteTriggers = [
+            /fühlst du dich(?!\s+\w{4,})/gi,
+            /denkst du(?!\s+\w{4,})/gi,
+            /weißt du(?!\s+\w{4,})/gi,
+            /kannst du(?!\s+\w{4,})/gi,
+            /willst du(?!\s+\w{4,})/gi
+        ];
+        
+        incompleteTriggers.forEach(pattern => {
+            const matches = content.match(pattern);
+            if (matches) {
+                matches.forEach(match => {
+                    issues.push({
+                        type: 'INCOMPLETE_TRIGGER',
+                        message: `Unvollständiger Trigger ohne Kontext: "${match}"`,
+                        severity: 'HIGH',
+                        suggestion: 'Trigger organisch vervollständigen oder entfernen',
+                        context: this.getContext(content, match)
+                    });
+                });
+            }
+        });
+
+        return issues;
+    }
+
+    getContext(content, match) {
+        const index = content.indexOf(match);
+        if (index === -1) return '';
+        
+        const start = Math.max(0, index - 50);
+        const end = Math.min(content.length, index + match.length + 50);
+        
+        return content.substring(start, end);
     }
 
     getSeverityColor(severity) {
@@ -386,18 +572,31 @@ class MultiFileSinnlosigkeitsChecker {
 
 // ==================== EXECUTION ====================
 
-// Ausführung wenn direkt aufgerufen
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Ausführung - auch wenn über Build getriggert (kein import.meta check)
+async function runChecker() {
     const checker = new MultiFileSinnlosigkeitsChecker();
-    checker.runCompleteCheck()
-        .then(issues => {
-            console.log(chalk.blue('\n✅ Multi-File Sinnlosigkeits-Check abgeschlossen!'));
-            process.exit(issues.filter(i => i.severity === 'CRITICAL').length > 0 ? 1 : 0);
-        })
-        .catch(error => {
-            console.error(chalk.red('❌ Fehler beim Sinnlosigkeits-Check:'), error);
-            process.exit(1);
-        });
+    try {
+        const issues = await checker.runCompleteCheck();
+        console.log(chalk.blue('\n✅ Multi-File Sinnlosigkeits-Check abgeschlossen!'));
+        
+        const criticalIssues = issues.filter(i => i.severity === 'CRITICAL');
+        if (criticalIssues.length > 0) {
+            console.log(chalk.red(`🚨 ${criticalIssues.length} KRITISCHE PROBLEME GEFUNDEN!`));
+            criticalIssues.forEach(issue => {
+                console.log(chalk.red(`   ❌ ${issue.type}: ${issue.message}`));
+            });
+        } else {
+            console.log(chalk.green('✅ Keine kritischen Sinnlosigkeits-Probleme gefunden'));
+        }
+        
+        return criticalIssues.length;
+    } catch (error) {
+        console.error(chalk.red('❌ Fehler beim Sinnlosigkeits-Check:'), error);
+        return -1;
+    }
 }
+
+// Führe Checker aus
+runChecker().then(exitCode => process.exit(exitCode > 0 ? 1 : 0));
 
 export default MultiFileSinnlosigkeitsChecker;

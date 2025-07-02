@@ -3,9 +3,13 @@
 // Erstellt: 2025-07-02
 // Führt alle BUILD-CHECKS aus und loggt detailliert in logfiles/
 
-const fs = require('fs');
-const path = require('path');
-const matter = require('front-matter');
+import fs from 'fs';
+import path from 'path';
+import matter from 'front-matter';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 function runComprehensiveCheck() {
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('T').join('_').replace(/Z$/, '');
@@ -441,8 +445,9 @@ function generateLogContent(results) {
     return lines.join('\n');
 }
 
-if (require.main === module) {
+// ES-Module Ausführung prüfen
+if (import.meta.url === `file://${process.argv[1]}`) {
     runComprehensiveCheck();
 }
 
-module.exports = { runComprehensiveCheck };
+export { runComprehensiveCheck };

@@ -1,3 +1,24 @@
+UNIVERSELL GILT:
+CONTENT FIRST!!!
+
+NEBENHER KANN DIE KI PROBLEME LÖSEN, ABER IMMER NACH DEM CONTENT FIRST PRINZIP ARBEITEN!!!
+
+ES IST VERBOTEN, KOMPLIZIERTE SKRIPTE ODER LÖSUNGEN ZU ERSTELLEN!!!
+AUCH IST IST VERBOTEN, MEHRERE GLEICHNAMIGEN DATEIEN MANUELL VON DER KI ZU ERSTELLEN!
+ES DÜRFEN KEINE NEUEN DATEIEN ERSTELLT WERDEN WENN BEREITS EINE GLEICHNAMEIGE DATEI VORHANDEN IST!
+DIE KI IST GEZWUNGEN ALLE PROBLEME AN DER URSACHE ZU BEHEBEN!!!
+DAFÜR MUSS DIE KI ALS ERSTES DEN BUILD-PROZESS `pnpm build` AUSFÜHREN UND DIE LOGDATEIEN AUSWERTEN!:
+C:\apps\website\einfach-passieren-lassen\scripts\build-checks\logfiles
+
+NACH JEDER EINZELNEN ÄNDERUNG FÜHR DIE KI DEN BUILD PROZESS AUS UM ZU PRÜFEN, OB DIE KI NICHT DEN FADEN VERLIERT!
+DIE KI DARF SICH NICHT VERZETTELN!!!
+
+C:\apps\website\einfach-passieren-lassen\scripts\build-checks\check_scripts\masterBuildChecker.js
+DER CHECKER MUSS ZWINGEND ERWEITERT WERDEN, WENN DER KI WICHTIGE LOGDATEIEN FEHLEN!
+
+DIE KI IST ANGEHALTEN, DIESES VERZEICHNIS EIGENSTÄNDIG ZU MANAGEN UND ZU VERWALTEN:
+C:\apps\website\einfach-passieren-lassen\scripts\build-checks
+
 
 Die KI muss zwingend bei jedem einzelnen Fehler, dies zu den lesson-learned hinzufügen:
 C:\apps\website\einfach-passieren-lassen\.github\lesson-learned
@@ -7,6 +28,22 @@ Die KI managed  diesen ordner eigenständig und ist verantwortlich, dass dieser 
 Dabei spielt es keine Rolle, ob die KI eine Ordnerstruktur anlegt oder nicht. Wichtig ist, dass die KI die Fehler in diesem Ordner dokumentiert.
 Es dürfen auch positive Lesson Learned hinzugefügt werden. 
 
+Sämtliche Probleme müssen zwingend durch den Build-Checker Prozess der durch den npm build Prozess getriggert wird, gelogt werden.
+Hier sind die Skripte vom Checker Prozess:
+C:\apps\website\einfach-passieren-lassen\scripts\build-checks
+
+Dabei darf bei einer Problemlösung NIEMALS EINE NEUE DATEI ERSTELLT WERDEN!
+WENN DIE KI EINE SOLCHE AUSSAGE MACHT:
+"Die Datei ist beschädigt. Lass mich sie komplett neu erstellen:"
+MUSS DIE KI ZWINGEND DIE ERSTELLE DATEI KOMPLETT LÖSCHEN UND DIE ORIGINALDATEI REPARIEREN!
+FÜR DIE REPARATUR EINER DATEI DARF NIEMALS EINE WIEDERHERSTELLUNG DURCHGEFÜHRT WERDEN!!!!!
+DIE KI MUSS ZWINGEND ALLE PROBLEME DIE VS CODE ANZEIGT - REGISTRIEREN UND LÖSEN!!!
+DIESE SIND IM REGISTER "PROBLEMS" ZU FINDEN!!!
+
+WENN KEINE FEHLER VORHANDEN SIND, DIE KI UNSICHER IST, MUSS DIE KI ZUERST EINEN BUILD PROZESS DURCHFÜHREN, WENN DIE KI DANN IMMER NOCH UNSICHER IST, SOLL DIE KI MICH, DEN USER FRAGEN!
+
+SOLANGE PROBLEME BESTEHEN DIE NICHT GELÖST SIND, DARF AUCH KEINE DOKUMENTATION DER REPARATUR ERSTELLT WERDEN!
+FEHLERHAFTE DOKUMENTATION IST ZWINGEND ZU VERMEIDEN!
 
 
 ZWINGEND ANWEISUNGEN FÜR DIE KI:

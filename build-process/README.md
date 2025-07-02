@@ -1,3 +1,11 @@
+UNIVERSELL GILT:
+CONTENT FIRST!!!
+
+NEBENHER KANN DIE KI PROBLEME LÖSEN, ABER IMMER NACH DEM CONTENT FIRST PRINZIP ARBEITEN!!!
+
+
+Für den Build Prozess muss zwingend `pnpm build` verwendet werden.
+
 # Build-Prozess Modularisierung
 
 **Erstellt:** 02.07.2025

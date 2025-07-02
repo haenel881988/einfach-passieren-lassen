@@ -66,7 +66,15 @@ class AdvancedContentValidator {
             }
         });
 
-        // 2. KEYWORD-STUFFING ohne logische Verbindung
+        // 2. ABSURDE SPRACHKONSTRUKTE (wie "denkst du dir auf Schweizerdeutsch")
+        const absurdPhrases = this.detectAbsurdPhrases(content);
+        issues.push(...absurdPhrases);
+
+        // 3. COPY-CAT DETECTION (wiederkehrende Textblöcke)
+        const copyCatIssues = this.detectCopyCatText(content);
+        issues.push(...copyCatIssues);
+
+        // 4. KEYWORD-STUFFING ohne logische Verbindung
         const suspiciousRepeats = this.detectKeywordStuffing(content);
         if (suspiciousRepeats.length > 0) {
             issues.push({
@@ -101,6 +109,117 @@ class AdvancedContentValidator {
         });
         
         return stuffed;
+    }
+
+    detectAbsurdPhrases(content) {
+        const issues = [];
+        
+        // ABSURDE SPRACHKONSTRUKTE - völlig deplatzierte Sätze
+        const absurdPatterns = [
+            /denkst du dir auf Schweizerdeutsch/gi,
+            /sagst du auf [A-Za-z]+/gi,
+            /\w+st du dir auf \w+deutsch/gi,
+            /denkst du dir in \w+/gi,
+            /sagst du in \w+sprache/gi,
+            /überlegst du dir auf \w+/gi,
+            /formulierst du auf \w+/gi
+        ];
+
+        absurdPatterns.forEach(pattern => {
+            const matches = content.match(pattern);
+            if (matches) {
+                matches.forEach(match => {
+                    issues.push({
+                        type: 'ABSURD_LANGUAGE_CONSTRUCT',
+                        message: `Völlig deplatzierte Sprachkonstruktion gefunden: "${match}"`,
+                        severity: 'CRITICAL',
+                        suggestion: 'Absurde Sprachkonstrukte entfernen - passen nicht zum Thema'
+                    });
+                });
+            }
+        });
+
+        // DEPLATZIERTE SPRACHREFERENZEN
+        const languageReferences = [
+            /auf deutsch/gi,
+            /auf englisch/gi,
+            /auf französisch/gi,
+            /in deutscher sprache/gi,
+            /in \w+sprache/gi
+        ];
+
+        languageReferences.forEach(pattern => {
+            const matches = content.match(pattern);
+            if (matches) {
+                matches.forEach(match => {
+                    issues.push({
+                        type: 'MISPLACED_LANGUAGE_REFERENCE',
+                        message: `Deplatzierte Sprachreferenz: "${match}"`,
+                        severity: 'HIGH',
+                        suggestion: 'Sprachreferenzen in emotionalem Content vermeiden'
+                    });
+                });
+            }
+        });
+
+        return issues;
+    }
+
+    detectCopyCatText(content) {
+        const issues = [];
+        
+        // Teile Content in Sätze auf
+        const sentences = content.split(/[.!?]+/).filter(s => s.trim().length > 20);
+        const duplicates = new Map();
+        
+        // Ähnliche Sätze finden (mehr als 70% Übereinstimmung)
+        sentences.forEach((sentence, index) => {
+            const normalizedSentence = sentence.trim().toLowerCase();
+            sentences.slice(index + 1).forEach((otherSentence, otherIndex) => {
+                const normalizedOther = otherSentence.trim().toLowerCase();
+                const similarity = this.calculateSimilarity(normalizedSentence, normalizedOther);
+                
+                if (similarity > 0.7) {
+                    const key = `${normalizedSentence.substring(0, 50)}...`;
+                    if (!duplicates.has(key)) {
+                        duplicates.set(key, []);
+                    }
+                    duplicates.get(key).push({
+                        original: sentence.trim(),
+                        duplicate: otherSentence.trim(),
+                        similarity: Math.round(similarity * 100)
+                    });
+                }
+            });
+        });
+
+        // COPY-CAT ISSUES erstellen
+        duplicates.forEach((matches, key) => {
+            if (matches.length > 0) {
+                issues.push({
+                    type: 'COPY_CAT_TEXT',
+                    message: `Copy-Cat Text gefunden (${matches[0].similarity}% ähnlich): "${key}"`,
+                    severity: 'HIGH',
+                    suggestion: 'Wiederholende Textpassagen umformulieren oder entfernen',
+                    details: matches
+                });
+            }
+        });
+
+        return issues;
+    }
+
+    calculateSimilarity(str1, str2) {
+        // Levenshtein-ähnlicher Algorithmus für Textähnlichkeit
+        const words1 = str1.split(/\s+/);
+        const words2 = str2.split(/\s+/);
+        
+        const commonWords = words1.filter(word => 
+            words2.includes(word) && word.length > 3
+        );
+        
+        const totalWords = Math.max(words1.length, words2.length);
+        return commonWords.length / totalWords;
     }
 
     detectGrammarInconsistencies(content) {

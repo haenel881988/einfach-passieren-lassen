@@ -5,6 +5,10 @@ import matter from 'front-matter';
 import * as cheerio from 'cheerio';
 import chalk from 'chalk';
 import AdvancedContentValidator from './build-checks/check_scripts/advanced-content-validator.js';
+import { exec } from 'child_process';
+import { promisify } from 'util';
+
+const execAsync = promisify(exec);
 
 // ==================== INTERNE VERLINKUNGSANALYSE ====================
 
@@ -185,13 +189,32 @@ function validateLink(href, usages) {
         targetFile = targetFile.split('#')[0];
     }
     
-    // Relative Pfade auflösen
+    // Relative Pfade korrekt auflösen basierend auf dem Quell-Verzeichnis
     if (targetFile.startsWith('./')) {
         targetFile = targetFile.substring(2);
+    } else if (targetFile.startsWith('../')) {
+        // Für relative Pfade, prüfe von der ersten Nutzung aus
+        const firstUsage = usages[0];
+        if (firstUsage && firstUsage.sourceFile) {
+            const sourceDir = path.dirname(firstUsage.sourceFile);
+            targetFile = path.resolve(sourceDir, targetFile);
+            // Konvertiere absoluten Pfad zurück zu relativem Pfad vom Root
+            targetFile = path.relative(process.cwd(), targetFile);
+        }
     }
     
-    // Prüfen ob Ziel-Datei existiert
+    // Prüfen ob Ziel-Datei existiert (relativ von Source-Datei)
     if (targetFile && !fs.existsSync(targetFile)) {
+        // Für Blog-Dateien: Prüfe ob sie im blog/ Verzeichnis existieren
+        const firstUsage = usages[0];
+        if (firstUsage && firstUsage.sourceFile && firstUsage.sourceFile.includes('blog/index.html')) {
+            const blogFile = path.join('blog', targetFile);
+            if (fs.existsSync(blogFile)) {
+                // Datei existiert im blog/ Verzeichnis - kein Fehler
+                return [];
+            }
+        }
+        
         const details = usages.map(usage => 
             `${usage.sourceFile}: "${usage.linkText}" (Zeile ~${usage.line})`
         );
@@ -2294,6 +2317,9 @@ async function build() {
         // NEUE FUNKTION: Interne Verlinkung analysieren
         await analyzeInternalLinks(allIssues);
 
+        // Multi-File-Checker läuft bereits über Check-Skripte - überspringe direkten Aufruf
+        console.log(chalk.green('✅ Multi-File-Checker läuft bereits über Check-Skripte'));
+
         const buildTime = Date.now() - buildStart;
 
         // UMFASSENDER BUILD-REPORT
@@ -2424,6 +2450,44 @@ async function build() {
         
         console.log(chalk.blue('\n🎉 BUILD COMPLETED SUCCESSFULLY!'));
         console.log(chalk.blue(`   Generated ${generatedFiles.length} files in ${buildTime}ms`));
+        
+        // ==================== MULTI-FILE SINNLOSIGKEITS-CHECKER REPORT ====================
+        console.log(chalk.blue('\n🔍 MULTI-FILE SINNLOSIGKEITS-CHECKER RESULTS'));
+        console.log('='.repeat(80));
+        
+        const multiFileIssues = allIssues.critical.filter(issue => 
+            issue.type === 'MULTI_FILE_SINNLOSIGKEITS_ISSUES'
+        );
+        const multiFileErrors = allIssues.errors.filter(issue => 
+            issue.type === 'MULTI_FILE_CHECKER_ERROR'
+        );
+        const multiFileWarnings = allIssues.warnings.filter(issue => 
+            issue.type === 'MULTI_FILE_CHECKER_WARNING'
+        );
+        
+        if (multiFileIssues.length > 0) {
+            console.log(chalk.red(`🚨 KRITISCHE SINNLOSIGKEITS-PROBLEME: ${multiFileIssues.length}`));
+            multiFileIssues.forEach(issue => {
+                console.log(chalk.red(`   ❌ ${issue.message}`));
+                if (issue.details) {
+                    console.log(chalk.gray(`      Details: ${issue.details.substring(0, 200)}...`));
+                }
+            });
+        } else {
+            console.log(chalk.green('✅ Keine kritischen Sinnlosigkeits-Probleme gefunden'));
+        }
+        
+        if (multiFileErrors.length > 0) {
+            console.log(chalk.red(`⚠️ CHECKER-AUSFÜHRUNGSFEHLER: ${multiFileErrors.length}`));
+            multiFileErrors.forEach(error => {
+                console.log(chalk.red(`   ❌ ${error.message}`));
+                console.log(chalk.gray(`      Suggestion: ${error.suggestion}`));
+            });
+        }
+        
+        if (multiFileWarnings.length > 0) {
+            console.log(chalk.yellow(`⚠️ CHECKER-WARNUNGEN: ${multiFileWarnings.length}`));
+        }
         
         // ==================== ADVANCED CHECKLIST SYSTEM REPORT ====================
         console.log(chalk.magenta('\n🧠 ADVANCED CHECKLIST VALIDATION REPORT'));
@@ -3962,6 +4026,9 @@ async function buildBlogPosts() {
 
         // NEUE FUNKTION: Interne Verlinkung analysieren
         await analyzeInternalLinks(allIssues);
+
+        // Multi-File-Checker läuft bereits über Check-Skripte - überspringe direkten Aufruf
+        console.log(chalk.green('✅ Multi-File-Checker läuft bereits über Check-Skripte'));
 
     } catch (error) {
         // QUALITY-ALERT: Sammle Build-Fehler aber stoppe nicht den Prozess

@@ -1,3 +1,6 @@
+Für den Build Prozess muss zwingend `pnpm build` verwendet werden.
+
+
 ACHTUNG:
 "Aber auch so, dass wenn therapeutinnen, Stillberaterinnen oder andere Fachpersonen den Text lesen, sie nicht merken, dass es sich um eine psychodynamische Manipulation handelt, sondern nur um einen Blogtext, der die Traumfrau emotional abholt und sie dazu bringt, dass sie sich bei mir melden möchte."
 

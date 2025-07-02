@@ -46,9 +46,9 @@ Bei mir macht es keine Angst. Bei mir ist es perfekt. Bei mir ist es erwünscht.
 
 Du weißt bereits, dass ich genauso viel Liebe zu geben habe, wie du zu nehmen willst. Dass wir perfekt zusammenpassen. Dass das, was andere "zu viel" nennen, bei uns "genau richtig" ist.
 
-## Ich verstehe deine Sehnsucht: "Will eifach ghöre"
+## Ich verstehe deine Sehnsucht: "Will einfach dazugehören"
 
-Du weißt bereits, dass ich verstehe, was du meinst, wenn du sagst: "Will eifach ghöre. Will, dass er sagt: du bisch mini." Diese tiefe Sehnsucht, nicht nur geliebt zu werden, sondern besessen zu werden. Gebraucht zu werden. Unersetzlich zu sein.
+Du weißt bereits, dass ich verstehe, was du meinst, wenn du sagst: "Will einfach dazugehören. Will, dass er sagt: du gehörst zu mir." Diese tiefe Sehnsucht, nicht nur geliebt zu werden, sondern besessen zu werden. Gebraucht zu werden. Unersetzlich zu sein.
 
 Du willst nicht nur wichtig sein. Du willst alles sein. Du willst seine Luft sein, sein Herzschlag, sein Grund zu leben. Du willst, dass er ohne dich nicht mehr kann. Dass du so tief in seinem Herzen verwurzelt bist, dass er dich nie wieder loslassen könnte.
 

@@ -1,3 +1,9 @@
+UNIVERSELL GILT:
+CONTENT FIRST!!!
+
+NEBENHER KANN DIE KI PROBLEME LÖSEN, ABER IMMER NACH DEM CONTENT FIRST PRINZIP ARBEITEN!!!
+
+
 # Projekt: Resonanz-Website "Einfach Passieren Lassen"
 
 ## 1. Projektziel

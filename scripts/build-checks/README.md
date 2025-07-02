@@ -1,3 +1,41 @@
+UNIVERSELL GILT:
+CONTENT FIRST!!!
+
+NEBENHER KANN DIE KI PROBLEME LÖSEN, ABER IMMER NACH DEM CONTENT FIRST PRINZIP ARBEITEN!!!
+
+
+Für den Build Prozess muss zwingend `pnpm build` verwendet werden.
+Ideen / Brainstorming für den Checker:
+Folgende cecks sollen in den checker integriert werden:
+
+Best Practices für Inhalte
+Links enthalten keinen beschreibenden Text 1 Link gefunden
+Wenn du beschreibenden Linktext verwendest, können Suchmaschinen deine Inhalte besser verstehen. Informationen zu barrierefreien Links.
+Link destination
+Link Text
+einfach-passieren-lassen.ch Eigene
+/index.html(www.einfach-passieren-lassen.ch)
+Start
+
+Kontrast
+Das Kontrastverhältnis von Hintergrund- und Vordergrundfarben ist nicht ausreichend.
+Text mit geringem Kontrast ist für viele Nutzer schlecht oder gar nicht lesbar. Informationen zu einem ausreichenden Farbkontrast.
+Fehlerhafte Elemente
+Du weißt bereits, dass dies kein Spiel ist. Du weißt bereits, dass dies dein ne…
+<p class="subtle">
+Einsamkeit was tun? Du weißt bereits, dass du hier richtig bist. Einsamkeit was…
+<div class="container">
+
+
+Insights
+Latenz der Dokumentanfrage
+Deine erste Netzwerkanfrage ist die wichtigste. Verringere die Latenz, indem du Weiterleitungen vermeidest, eine schnelle Serverantwort sicherstellst und die Textkomprimierung aktivierst.LCPFCP
+Enthielt Weiterleitungen (1 Weiterleitungen, +284 ms)
+Server antwortet schnell (227 ms gemessen)
+Textkomprimierung wird angewendet
+
+Ideen / Brainstorming: Ende
+
 Der checker darf nur eine einzige Datei generieren mit ALLEN Checks!!!
 
 

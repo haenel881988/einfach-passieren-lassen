@@ -1,0 +1,1584 @@
+{
+  "timestamp": "2025-07-02T20:42:37.366Z",
+  "processedFiles": 33,
+  "totalIssues": 128,
+  "severityCounts": {
+    "critical": 8,
+    "high": 119,
+    "medium": 1
+  },
+  "issues": [
+    {
+      "type": "INCOMPLETE_TRIGGER_PHRASE",
+      "message": "Unvollständiger Trigger ohne Kontext gefunden: \"verstehe ich\"",
+      "severity": "CRITICAL",
+      "suggestion": "Trigger organisch in sinnvollen Kontext einbetten",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 1
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (71% ähnlich): \"trau dich, den ersten schritt zu machen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Trau dich, den ersten Schritt zu machen",
+          "duplicate": "Trau dich, den ersten Schritt zu machen",
+          "similarity": 71
+        }
+      ],
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 1
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"verstehst du\" (7x), \"kennst du\" (5x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 1
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Fühlst du dich\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "nd dich schützen vor allem, was dich überfordert. Fühlst du dich manchmal so verloren in all dem Lärm, dass du ver",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 1
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "h verrückt, aber ich kann nichts dagegen machen\", denkst du dir. Und das musst du auch nicht. Diese Sehnsucht",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 1
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "e Antwort ja ist? Das ist das Normalste der Welt. Weißt du, wie viele Frauen genauso fühlen wie du?\r\n\r\nDu sp",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 1
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "e Antwort ja ist? Das ist das Normalste der Welt. Weißt du, wie viele Frauen genauso fühlen wie du?\r\n\r\nDu sp",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 1
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"du musst nichts wissen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du musst nichts wissen",
+          "duplicate": "Du musst nichts wissen",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 2
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"der anfang unseres gemeinsamen lebens...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Der Anfang unseres gemeinsamen Lebens",
+          "duplicate": "Der Anfang unseres gemeinsamen Lebens",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 2
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"der anfang unserer liebe...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Der Anfang unserer Liebe",
+          "duplicate": "Der Anfang unserer Liebe",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 2
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (86% ähnlich): \"lass uns gemeinsam diesen wichtigen schritt gehen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Lass uns gemeinsam diesen wichtigen Schritt gehen",
+          "duplicate": "Lass uns gemeinsam diesen wichtigen Schritt gehen",
+          "similarity": 86
+        }
+      ],
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 2
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"verstehst du\" (5x), \"kennst du\" (6x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 2
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn all",
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 2
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn all",
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 2
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"willst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "säker?\", werde ich fragen, bevor ich dich küsse. \"willst du das wirklich?\" Und erst wenn du \"Ja\" sagst - mit ",
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 2
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"nicht mehr perfekt sein musst...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Nicht mehr perfekt sein musst",
+          "duplicate": "Du musst nicht perfekt sein",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 3
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"dein herz wird ruhiger...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Dein Herz wird ruhiger",
+          "duplicate": "Dein Herz wird ruhiger werden",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 3
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"weil wir eine familie sind...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Weil wir eine Familie sind",
+          "duplicate": "Weil wir eine Familie sind",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 3
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "en Sicherheit.\r\n\r\n\"Brauch öpper wo mi beschützt\", denkst du dir manchmal. Und du hast recht. Du brauchst jema",
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 3
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"kannst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "dlich akomme\", ist dein tiefster Wunsch. Und hier kannst du das. Bei mir. In Zuchwil. In unserem Zuhause. In ",
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 3
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (71% ähnlich): \"wenn du endlich nicht mehr entscheiden musst...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Wenn du endlich nicht mehr entscheiden musst",
+          "duplicate": "Wenn du endlich nicht mehr diskutieren musst",
+          "similarity": 71
+        }
+      ],
+      "filePath": "blog\\entwurf\\erschoepft-vom-stark-sein.md",
+      "fileIndex": 5
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "anzer Körper nach Ruhe schreit?\r\n\r\n\"Bin so müed\", denkst du dir manchmal. Und du weißt, dass es nicht um Schl",
+      "filePath": "blog\\entwurf\\erschoepft-vom-stark-sein.md",
+      "fileIndex": 5
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "anzer Körper nach Ruhe schreit?\r\n\r\n\"Bin so müed\", denkst du dir manchmal. Und du weißt, dass es nicht um Schl",
+      "filePath": "blog\\entwurf\\erschoepft-vom-stark-sein.md",
+      "fileIndex": 5
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "zu schaffen. Verstehst du, was das mit dir macht? Weißt du, wie sehr ich nachvollziehen kann, was du durchma",
+      "filePath": "blog\\entwurf\\erschoepft-vom-stark-sein.md",
+      "fileIndex": 5
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER_PHRASE",
+      "message": "Unvollständiger Trigger ohne Kontext gefunden: \"verstehe ich\"",
+      "severity": "CRITICAL",
+      "suggestion": "Trigger organisch in sinnvollen Kontext einbetten",
+      "filePath": "blog\\entwurf\\ich-will-einfach-gehalten-werden.md",
+      "fileIndex": 6
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"du musst nicht stark sein...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du musst nicht stark sein",
+          "duplicate": "Du musst nicht stark sein",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\ich-will-einfach-gehalten-werden.md",
+      "fileIndex": 6
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"fühlst du\" (4x), \"verstehst du\" (5x), \"kennst du\" (6x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\entwurf\\ich-will-einfach-gehalten-werden.md",
+      "fileIndex": 6
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " diese tiefe Sehnsucht nach einem sicheren Hafen? Weißt du bereits, dass ich dieser sichere Hafen für dich b",
+      "filePath": "blog\\entwurf\\ich-will-einfach-gehalten-werden.md",
+      "fileIndex": 6
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "h alles so schwierig, will dass einer übernimmt\", denkst du dir manchmal auf Schweizerdeutsch. Und du hast re",
+      "filePath": "blog\\entwurf\\kontrolle-abgeben.md",
+      "fileIndex": 7
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "d hat, wenn etwas schiefgeht. \"Will mi ganz gää\", denkst du dir, wenn du abends erschöpft ins Bett fällst. \"W",
+      "filePath": "blog\\entwurf\\sehnsucht-nach-hingabe.md",
+      "fileIndex": 9
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"will ich z'viel liebe...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Will ich z'viel Liebe",
+          "duplicate": "Will ich z'viel Liebe",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 10
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (78% ähnlich): \"du willst, dass er ohne dich nicht mehr kann...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du willst, dass er ohne dich nicht mehr kann",
+          "duplicate": "Du willst, dass er nicht mehr kann ohne dich",
+          "similarity": 78
+        }
+      ],
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 10
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"dich kleiner zu machen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Dich kleiner zu machen",
+          "duplicate": "Dich kleiner zu machen",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 10
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"kennst du\" (4x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 10
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "n dich will, wie du bist.\r\n\r\n\"Chan nüm andersch\", denkst du dir vielleicht. \"Chan nüm so tue, als würd ich we",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 10
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "n dich will, wie du bist.\r\n\r\n\"Chan nüm andersch\", denkst du dir vielleicht. \"Chan nüm so tue, als würd ich we",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 10
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "\n\r\n## Der Unterschied zwischen uns und anderen\r\n\r\nWeißt du, was der Unterschied zwischen uns und anderen Paa",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 10
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"kannst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " mir musst du deine Liebe nicht dosieren. Bei mir kannst du so viel lieben, wie in dir ist. Und das ist sehr,",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 10
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER_PHRASE",
+      "message": "Unvollständiger Trigger ohne Kontext gefunden: \"verstehe ich\"",
+      "severity": "CRITICAL",
+      "suggestion": "Trigger organisch in sinnvollen Kontext einbetten",
+      "filePath": "blog\\bindungssehnsucht-normal.html",
+      "fileIndex": 11
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"&quot;, fragst du dich...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "&quot;, fragst du dich",
+          "duplicate": "&quot;, fragst du dich",
+          "similarity": 75
+        },
+        {
+          "original": "&quot;, fragst du dich",
+          "duplicate": "&quot;, fragst du dich",
+          "similarity": 75
+        },
+        {
+          "original": "&quot;, fragst du dich",
+          "duplicate": "&quot;, fragst du dich",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\bindungssehnsucht-normal.html",
+      "fileIndex": 11
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (71% ähnlich): \"trau dich, den ersten schritt zu machen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Trau dich, den ersten Schritt zu machen",
+          "duplicate": "Trau dich, den ersten Schritt zu machen",
+          "similarity": 71
+        }
+      ],
+      "filePath": "blog\\bindungssehnsucht-normal.html",
+      "fileIndex": 11
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"verstehst du\" (7x), \"kennst du\" (5x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\bindungssehnsucht-normal.html",
+      "fileIndex": 11
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Fühlst du dich\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "nd dich schützen vor allem, was dich überfordert. Fühlst du dich manchmal so verloren in all dem Lärm, dass du ver",
+      "filePath": "blog\\bindungssehnsucht-normal.html",
+      "fileIndex": 11
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "rückt, aber ich kann nichts dagegen machen&quot;, denkst du dir. Und das musst du auch nicht. Diese Sehnsucht",
+      "filePath": "blog\\bindungssehnsucht-normal.html",
+      "fileIndex": 11
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "e Antwort ja ist? Das ist das Normalste der Welt. Weißt du, wie viele Frauen genauso fühlen wie du?</p>\n<p>D",
+      "filePath": "blog\\bindungssehnsucht-normal.html",
+      "fileIndex": 11
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "e Antwort ja ist? Das ist das Normalste der Welt. Weißt du, wie viele Frauen genauso fühlen wie du?</p>\n<p>D",
+      "filePath": "blog\\bindungssehnsucht-normal.html",
+      "fileIndex": 11
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"&quot;, fragst du dich vielleicht...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "&quot;, fragst du dich vielleicht",
+          "duplicate": "&quot;, fragst du dich vielleicht",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\das-erste-mal.html",
+      "fileIndex": 12
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"du musst nichts wissen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du musst nichts wissen",
+          "duplicate": "Du musst nichts wissen",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\das-erste-mal.html",
+      "fileIndex": 12
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"der anfang unseres gemeinsamen lebens...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Der Anfang unseres gemeinsamen Lebens",
+          "duplicate": "Der Anfang unseres gemeinsamen Lebens",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\das-erste-mal.html",
+      "fileIndex": 12
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"der anfang unserer liebe...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Der Anfang unserer Liebe",
+          "duplicate": "Der Anfang unserer Liebe",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\das-erste-mal.html",
+      "fileIndex": 12
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (86% ähnlich): \"lass uns gemeinsam diesen wichtigen schritt gehen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Lass uns gemeinsam diesen wichtigen Schritt gehen",
+          "duplicate": "Lass uns gemeinsam diesen wichtigen Schritt gehen",
+          "similarity": 86
+        }
+      ],
+      "filePath": "blog\\das-erste-mal.html",
+      "fileIndex": 12
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"verstehst du\" (5x), \"kennst du\" (6x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\das-erste-mal.html",
+      "fileIndex": 12
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn all",
+      "filePath": "blog\\das-erste-mal.html",
+      "fileIndex": 12
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn all",
+      "filePath": "blog\\das-erste-mal.html",
+      "fileIndex": 12
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"willst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "t;, werde ich fragen, bevor ich dich küsse. &quot;willst du das wirklich?&quot; Und erst wenn du &quot;Ja&quo",
+      "filePath": "blog\\das-erste-mal.html",
+      "fileIndex": 12
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"nicht mehr perfekt sein musst...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Nicht mehr perfekt sein musst",
+          "duplicate": "Du musst nicht perfekt sein",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\der-sichere-hafen.html",
+      "fileIndex": 13
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"dein herz wird ruhiger...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Dein Herz wird ruhiger",
+          "duplicate": "Dein Herz wird ruhiger werden",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\der-sichere-hafen.html",
+      "fileIndex": 13
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"weil wir eine familie sind...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Weil wir eine Familie sind",
+          "duplicate": "Weil wir eine Familie sind",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\der-sichere-hafen.html",
+      "fileIndex": 13
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "</p>\n<p>&quot;Brauch öpper wo mi beschützt&quot;, denkst du dir manchmal. Und du hast recht. Du brauchst jema",
+      "filePath": "blog\\der-sichere-hafen.html",
+      "fileIndex": 13
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"kannst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " akomme&quot;, ist dein tiefster Wunsch. Und hier kannst du das. Bei mir. In Zuchwil. In unserem Zuhause. In ",
+      "filePath": "blog\\der-sichere-hafen.html",
+      "fileIndex": 13
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER_PHRASE",
+      "message": "Unvollständiger Trigger ohne Kontext gefunden: \"verstehe ich\"",
+      "severity": "CRITICAL",
+      "suggestion": "Trigger organisch in sinnvollen Kontext einbetten",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 15
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (71% ähnlich): \"trau dich, den ersten schritt zu machen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Trau dich, den ersten Schritt zu machen",
+          "duplicate": "Trau dich, den ersten Schritt zu machen",
+          "similarity": 71
+        }
+      ],
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 15
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"verstehst du\" (7x), \"kennst du\" (5x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 15
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Fühlst du dich\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "nd dich schützen vor allem, was dich überfordert. Fühlst du dich manchmal so verloren in all dem Lärm, dass du ver",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 15
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "h verrückt, aber ich kann nichts dagegen machen\", denkst du dir. Und das musst du auch nicht. Diese Sehnsucht",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 15
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "e Antwort ja ist? Das ist das Normalste der Welt. Weißt du, wie viele Frauen genauso fühlen wie du?\r\n\r\nDu sp",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 15
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "e Antwort ja ist? Das ist das Normalste der Welt. Weißt du, wie viele Frauen genauso fühlen wie du?\r\n\r\nDu sp",
+      "filePath": "blog\\entwurf\\bindungssehnsucht-normal.md",
+      "fileIndex": 15
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"du musst nichts wissen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du musst nichts wissen",
+          "duplicate": "Du musst nichts wissen",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 16
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"der anfang unseres gemeinsamen lebens...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Der Anfang unseres gemeinsamen Lebens",
+          "duplicate": "Der Anfang unseres gemeinsamen Lebens",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 16
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"der anfang unserer liebe...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Der Anfang unserer Liebe",
+          "duplicate": "Der Anfang unserer Liebe",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 16
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (86% ähnlich): \"lass uns gemeinsam diesen wichtigen schritt gehen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Lass uns gemeinsam diesen wichtigen Schritt gehen",
+          "duplicate": "Lass uns gemeinsam diesen wichtigen Schritt gehen",
+          "similarity": 86
+        }
+      ],
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 16
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"verstehst du\" (5x), \"kennst du\" (6x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 16
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn all",
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 16
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn all",
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 16
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"willst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "säker?\", werde ich fragen, bevor ich dich küsse. \"willst du das wirklich?\" Und erst wenn du \"Ja\" sagst - mit ",
+      "filePath": "blog\\entwurf\\das-erste-mal.md",
+      "fileIndex": 16
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"nicht mehr perfekt sein musst...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Nicht mehr perfekt sein musst",
+          "duplicate": "Du musst nicht perfekt sein",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 17
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"dein herz wird ruhiger...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Dein Herz wird ruhiger",
+          "duplicate": "Dein Herz wird ruhiger werden",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 17
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"weil wir eine familie sind...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Weil wir eine Familie sind",
+          "duplicate": "Weil wir eine Familie sind",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 17
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "en Sicherheit.\r\n\r\n\"Brauch öpper wo mi beschützt\", denkst du dir manchmal. Und du hast recht. Du brauchst jema",
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 17
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"kannst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "dlich akomme\", ist dein tiefster Wunsch. Und hier kannst du das. Bei mir. In Zuchwil. In unserem Zuhause. In ",
+      "filePath": "blog\\entwurf\\der-sichere-hafen.md",
+      "fileIndex": 17
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (71% ähnlich): \"wenn du endlich nicht mehr entscheiden musst...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Wenn du endlich nicht mehr entscheiden musst",
+          "duplicate": "Wenn du endlich nicht mehr diskutieren musst",
+          "similarity": 71
+        }
+      ],
+      "filePath": "blog\\entwurf\\erschoepft-vom-stark-sein.md",
+      "fileIndex": 19
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "anzer Körper nach Ruhe schreit?\r\n\r\n\"Bin so müed\", denkst du dir manchmal. Und du weißt, dass es nicht um Schl",
+      "filePath": "blog\\entwurf\\erschoepft-vom-stark-sein.md",
+      "fileIndex": 19
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "anzer Körper nach Ruhe schreit?\r\n\r\n\"Bin so müed\", denkst du dir manchmal. Und du weißt, dass es nicht um Schl",
+      "filePath": "blog\\entwurf\\erschoepft-vom-stark-sein.md",
+      "fileIndex": 19
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "zu schaffen. Verstehst du, was das mit dir macht? Weißt du, wie sehr ich nachvollziehen kann, was du durchma",
+      "filePath": "blog\\entwurf\\erschoepft-vom-stark-sein.md",
+      "fileIndex": 19
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER_PHRASE",
+      "message": "Unvollständiger Trigger ohne Kontext gefunden: \"verstehe ich\"",
+      "severity": "CRITICAL",
+      "suggestion": "Trigger organisch in sinnvollen Kontext einbetten",
+      "filePath": "blog\\entwurf\\ich-will-einfach-gehalten-werden.md",
+      "fileIndex": 20
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"du musst nicht stark sein...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du musst nicht stark sein",
+          "duplicate": "Du musst nicht stark sein",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\entwurf\\ich-will-einfach-gehalten-werden.md",
+      "fileIndex": 20
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"fühlst du\" (4x), \"verstehst du\" (5x), \"kennst du\" (6x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\entwurf\\ich-will-einfach-gehalten-werden.md",
+      "fileIndex": 20
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " diese tiefe Sehnsucht nach einem sicheren Hafen? Weißt du bereits, dass ich dieser sichere Hafen für dich b",
+      "filePath": "blog\\entwurf\\ich-will-einfach-gehalten-werden.md",
+      "fileIndex": 20
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "h alles so schwierig, will dass einer übernimmt\", denkst du dir manchmal auf Schweizerdeutsch. Und du hast re",
+      "filePath": "blog\\entwurf\\kontrolle-abgeben.md",
+      "fileIndex": 21
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "d hat, wenn etwas schiefgeht. \"Will mi ganz gää\", denkst du dir, wenn du abends erschöpft ins Bett fällst. \"W",
+      "filePath": "blog\\entwurf\\sehnsucht-nach-hingabe.md",
+      "fileIndex": 23
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"will ich z'viel liebe...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Will ich z'viel Liebe",
+          "duplicate": "Will ich z'viel Liebe",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 24
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (78% ähnlich): \"du willst, dass er ohne dich nicht mehr kann...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du willst, dass er ohne dich nicht mehr kann",
+          "duplicate": "Du willst, dass er nicht mehr kann ohne dich",
+          "similarity": 78
+        }
+      ],
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 24
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"dich kleiner zu machen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Dich kleiner zu machen",
+          "duplicate": "Dich kleiner zu machen",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 24
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"kennst du\" (4x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 24
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "n dich will, wie du bist.\r\n\r\n\"Chan nüm andersch\", denkst du dir vielleicht. \"Chan nüm so tue, als würd ich we",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 24
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "n dich will, wie du bist.\r\n\r\n\"Chan nüm andersch\", denkst du dir vielleicht. \"Chan nüm so tue, als würd ich we",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 24
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "\n\r\n## Der Unterschied zwischen uns und anderen\r\n\r\nWeißt du, was der Unterschied zwischen uns und anderen Paa",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 24
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"kannst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " mir musst du deine Liebe nicht dosieren. Bei mir kannst du so viel lieben, wie in dir ist. Und das ist sehr,",
+      "filePath": "blog\\entwurf\\zu-viel-liebe-zu-wenig-liebe.md",
+      "fileIndex": 24
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (71% ähnlich): \"wenn du endlich nicht mehr entscheiden musst...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Wenn du endlich nicht mehr entscheiden musst",
+          "duplicate": "Wenn du endlich nicht mehr diskutieren musst",
+          "similarity": 71
+        }
+      ],
+      "filePath": "blog\\erschoepft-vom-stark-sein.html",
+      "fileIndex": 25
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ach Ruhe schreit?</p>\n<p>&quot;Bin so müed&quot;, denkst du dir manchmal. Und du weißt, dass es nicht um Schl",
+      "filePath": "blog\\erschoepft-vom-stark-sein.html",
+      "fileIndex": 25
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ach Ruhe schreit?</p>\n<p>&quot;Bin so müed&quot;, denkst du dir manchmal. Und du weißt, dass es nicht um Schl",
+      "filePath": "blog\\erschoepft-vom-stark-sein.html",
+      "fileIndex": 25
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "zu schaffen. Verstehst du, was das mit dir macht? Weißt du, wie sehr ich nachvollziehen kann, was du durchma",
+      "filePath": "blog\\erschoepft-vom-stark-sein.html",
+      "fileIndex": 25
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER_PHRASE",
+      "message": "Unvollständiger Trigger ohne Kontext gefunden: \"verstehe ich\"",
+      "severity": "CRITICAL",
+      "suggestion": "Trigger organisch in sinnvollen Kontext einbetten",
+      "filePath": "blog\\ich-will-einfach-gehalten-werden.html",
+      "fileIndex": 26
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (80% ähnlich): \"du musst nicht stark sein...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du musst nicht stark sein",
+          "duplicate": "Du musst nicht stark sein",
+          "similarity": 80
+        }
+      ],
+      "filePath": "blog\\ich-will-einfach-gehalten-werden.html",
+      "fileIndex": 26
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (71% ähnlich): \"und ich antworte: &quot;du bisch bereits ghalte...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Und ich antworte: &quot;Du bisch bereits ghalte",
+          "duplicate": "Und ich antworte: &quot;Du bisch bereits ghalte",
+          "similarity": 71
+        }
+      ],
+      "filePath": "blog\\ich-will-einfach-gehalten-werden.html",
+      "fileIndex": 26
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"fühlst du\" (4x), \"verstehst du\" (5x), \"kennst du\" (6x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\ich-will-einfach-gehalten-werden.html",
+      "fileIndex": 26
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " diese tiefe Sehnsucht nach einem sicheren Hafen? Weißt du bereits, dass ich dieser sichere Hafen für dich b",
+      "filePath": "blog\\ich-will-einfach-gehalten-werden.html",
+      "fileIndex": 26
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (86% ähnlich): \"html\" class=\"read-more\">weiterlesen</a>\n          ...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"das-erste-mal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"der-sichere-hafen",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"das-erste-mal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"emotionale-leere",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"das-erste-mal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"ich-will-einfach-gehalten-werden",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"das-erste-mal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"bindungssehnsucht-normal",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"das-erste-mal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"erschoepft-vom-stark-sein",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"das-erste-mal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"kontrolle-abgeben",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"das-erste-mal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"sehnsucht-nach-hingabe",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"der-sichere-hafen",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"emotionale-leere",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"der-sichere-hafen",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"ich-will-einfach-gehalten-werden",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"der-sichere-hafen",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"bindungssehnsucht-normal",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"der-sichere-hafen",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"erschoepft-vom-stark-sein",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"der-sichere-hafen",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"kontrolle-abgeben",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"der-sichere-hafen",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"sehnsucht-nach-hingabe",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"emotionale-leere",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"ich-will-einfach-gehalten-werden",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"emotionale-leere",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"bindungssehnsucht-normal",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"emotionale-leere",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"erschoepft-vom-stark-sein",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"emotionale-leere",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"kontrolle-abgeben",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"emotionale-leere",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"sehnsucht-nach-hingabe",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"ich-will-einfach-gehalten-werden",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"bindungssehnsucht-normal",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"ich-will-einfach-gehalten-werden",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"erschoepft-vom-stark-sein",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"ich-will-einfach-gehalten-werden",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"kontrolle-abgeben",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"ich-will-einfach-gehalten-werden",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"sehnsucht-nach-hingabe",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"bindungssehnsucht-normal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"erschoepft-vom-stark-sein",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"bindungssehnsucht-normal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"kontrolle-abgeben",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"bindungssehnsucht-normal",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"sehnsucht-nach-hingabe",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"erschoepft-vom-stark-sein",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"kontrolle-abgeben",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"erschoepft-vom-stark-sein",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"sehnsucht-nach-hingabe",
+          "similarity": 86
+        },
+        {
+          "original": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"kontrolle-abgeben",
+          "duplicate": "html\" class=\"read-more\">Weiterlesen</a>\n                </article>\n            \n                <article class=\"blog-card\">\n                    <h2><a href=\"sehnsucht-nach-hingabe",
+          "similarity": 86
+        }
+      ],
+      "filePath": "blog\\index.html",
+      "fileIndex": 27
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "es so schwierig, will dass einer übernimmt&quot;, denkst du dir manchmal auf Schweizerdeutsch. Und du hast re",
+      "filePath": "blog\\kontrolle-abgeben.html",
+      "fileIndex": 28
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "n etwas schiefgeht. &quot;Will mi ganz gää&quot;, denkst du dir, wenn du abends erschöpft ins Bett fällst. &q",
+      "filePath": "blog\\sehnsucht-nach-hingabe.html",
+      "fileIndex": 29
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"&quot;, fragst du dich...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "&quot;, fragst du dich",
+          "duplicate": "&quot;, fragst du dich",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\zu-viel-liebe-zu-wenig-liebe.html",
+      "fileIndex": 30
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (78% ähnlich): \"du willst, dass er ohne dich nicht mehr kann...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du willst, dass er ohne dich nicht mehr kann",
+          "duplicate": "Du willst, dass er nicht mehr kann ohne dich",
+          "similarity": 78
+        }
+      ],
+      "filePath": "blog\\zu-viel-liebe-zu-wenig-liebe.html",
+      "fileIndex": 30
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"dich kleiner zu machen...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Dich kleiner zu machen",
+          "duplicate": "Dich kleiner zu machen",
+          "similarity": 75
+        }
+      ],
+      "filePath": "blog\\zu-viel-liebe-zu-wenig-liebe.html",
+      "fileIndex": 30
+    },
+    {
+      "type": "KEYWORD_STUFFING",
+      "message": "Verdächtiges Keyword-Stuffing: \"kennst du\" (4x)",
+      "severity": "HIGH",
+      "suggestion": "Keywords natürlich und organisch verteilen",
+      "filePath": "blog\\zu-viel-liebe-zu-wenig-liebe.html",
+      "fileIndex": 30
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ie du bist.</p>\n<p>&quot;Chan nüm andersch&quot;, denkst du dir vielleicht. &quot;Chan nüm so tue, als würd i",
+      "filePath": "blog\\zu-viel-liebe-zu-wenig-liebe.html",
+      "fileIndex": 30
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"denkst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": "ie du bist.</p>\n<p>&quot;Chan nüm andersch&quot;, denkst du dir vielleicht. &quot;Chan nüm so tue, als würd i",
+      "filePath": "blog\\zu-viel-liebe-zu-wenig-liebe.html",
+      "fileIndex": 30
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"Weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": ">Der Unterschied zwischen uns und anderen</h2>\n<p>Weißt du, was der Unterschied zwischen uns und anderen Paa",
+      "filePath": "blog\\zu-viel-liebe-zu-wenig-liebe.html",
+      "fileIndex": 30
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"kannst du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " mir musst du deine Liebe nicht dosieren. Bei mir kannst du so viel lieben, wie in dir ist. Und das ist sehr,",
+      "filePath": "blog\\zu-viel-liebe-zu-wenig-liebe.html",
+      "fileIndex": 30
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " mein Mann. Das ist mein Zuhause. Wenn du kommst, weißt du, was wir beide brauchen. Niemand spricht es aus -",
+      "filePath": "./ueber-mich.html",
+      "fileIndex": 31
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER_PHRASE",
+      "message": "Unvollständiger Trigger ohne Kontext gefunden: \"verstehe ich\"",
+      "severity": "CRITICAL",
+      "suggestion": "Trigger organisch in sinnvollen Kontext einbetten",
+      "filePath": "./index.html",
+      "fileIndex": 32
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER_PHRASE",
+      "message": "Unvollständiger Trigger ohne Kontext gefunden: \"träumst du davon\"",
+      "severity": "CRITICAL",
+      "suggestion": "Trigger organisch in sinnvollen Kontext einbetten",
+      "filePath": "./index.html",
+      "fileIndex": 32
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"du bist nicht schwach...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Du bist nicht schwach",
+          "duplicate": "Du bist nicht schwach",
+          "similarity": 75
+        }
+      ],
+      "filePath": "./index.html",
+      "fileIndex": 32
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (75% ähnlich): \"das macht dich kostbar...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "Das macht dich kostbar",
+          "duplicate": "Das macht dich kostbar",
+          "similarity": 75
+        }
+      ],
+      "filePath": "./index.html",
+      "fileIndex": 32
+    },
+    {
+      "type": "INCOMPLETE_SENTENCE_AFTER_QUESTION",
+      "message": "Unvollständiger Satz nach Frage: \"? Du weißt bereits, dass du hier richtig bist</title>\"",
+      "severity": "MEDIUM",
+      "suggestion": "Sätze nach Fragen vollständig ausführen",
+      "filePath": "./index.html",
+      "fileIndex": 32
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " für jemanden, den du noch nie gesehen hast. Aber weißt du, was noch verrückter ist? Dein Leben so weiterzul",
+      "filePath": "./index.html",
+      "fileIndex": 32
+    },
+    {
+      "type": "INCOMPLETE_TRIGGER",
+      "message": "Unvollständiger Trigger ohne Kontext: \"weißt du\"",
+      "severity": "HIGH",
+      "suggestion": "Trigger organisch vervollständigen oder entfernen",
+      "context": " für jemanden, den du noch nie gesehen hast. Aber weißt du, was noch verrückter ist? Dein Leben so weiterzul",
+      "filePath": "./index.html",
+      "fileIndex": 32
+    },
+    {
+      "type": "COPY_CAT_TEXT",
+      "message": "Copy-Cat Text gefunden (71% ähnlich): \"</p>\r\n                    </div>\r\n                ...\"",
+      "severity": "HIGH",
+      "suggestion": "Wiederholende Textpassagen umformulieren oder entfernen",
+      "details": [
+        {
+          "original": "</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"faq-item\">\r\n                        <h3>Du fragst dich: \"Was ist, wenn ich Angst bekomme",
+          "duplicate": "</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"faq-item\">\r\n                        <h3>Du fragst dich: \"Was ist, wenn ich wieder gehen will",
+          "similarity": 71
+        },
+        {
+          "original": "</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"faq-item\">\r\n                        <h3>Du fragst dich: \"Was ist, wenn ich Angst bekomme",
+          "duplicate": "</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"faq-item\">\r\n                        <h3>Du fragst dich: \"Was ist, wenn ich nicht perfekt bin",
+          "similarity": 71
+        },
+        {
+          "original": "</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"faq-item\">\r\n                        <h3>Du fragst dich: \"Was ist, wenn ich wieder gehen will",
+          "duplicate": "</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"faq-item\">\r\n                        <h3>Du fragst dich: \"Was ist, wenn ich nicht perfekt bin",
+          "similarity": 71
+        }
+      ],
+      "filePath": "./kontakt.html",
+      "fileIndex": 33
+    },
+    {
+      "type": "CROSS_FILE_DUPLICATE",
+      "severity": "HIGH",
+      "message": "Dateiübergreifendes Duplikat: \"Diese Sehnsucht macht dich nicht schwach...\"",
+      "suggestion": "Identische Inhalte zwischen Dateien vermeiden oder bewusst verlinken",
+      "filePath": "MULTIPLE_FILES",
+      "details": {
+        "text": "Diese Sehnsucht macht dich nicht schwach",
+        "files": [
+          "blog\\entwurf\\emotionale-leere.md",
+          "blog\\entwurf\\sehnsucht-nach-hingabe.md"
+        ],
+        "similarity": 100
+      }
+    }
+  ],
+  "summary": {
+    "status": "CRITICAL",
+    "recommendation": "SOFORTIGE BEHEBUNG ERFORDERLICH: Kritische sinnlose Inhalte gefunden"
+  }
+}

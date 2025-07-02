@@ -3,11 +3,15 @@
 // Erstellt: 2025-07-02
 // Ersetzt alle anderen Check-Skripte - Generiert NUR EINE umfassende Logdatei
 
-const fs = require('fs');
-const path = require('path');
-const matter = require('front-matter');
+import fs from 'fs';
+import path from 'path';
+import matter from 'front-matter';
+import { fileURLToPath } from 'url';
 
-function runMasterBuildCheck() {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+async function runMasterBuildCheck() {
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('T').join('_').replace(/Z$/, '');
     const logName = `MASTER_BUILD_CHECK_${timestamp}.log`;
     const logPath = path.join(__dirname, '../logfiles', logName);
@@ -37,6 +41,15 @@ function runMasterBuildCheck() {
         // BLOG-POSTS COMPLETE ANALYSIS
         blogs: [],
         
+        // VS CODE PROBLEME
+        vscodeProblems: {
+            errors: [],
+            warnings: [],
+            infos: [],
+            totalCount: 0,
+            criticalFiles: []
+        },
+        
         // ZUSAMMENFASSUNG
         summary: {
             totalBlogs: 0,
@@ -59,14 +72,17 @@ function runMasterBuildCheck() {
         // === 3. ROBOTS.TXT STATUS CHECK ===
         results.infrastructure.robots = checkRobotsStatus();
         
-        // === 4. BLOG-POSTS COMPREHENSIVE ANALYSIS ===
+        // === 4. VS CODE PROBLEME SCANNEN ===
+        results.vscodeProblems = await scanVSCodeProblems();
+        
+        // === 5. BLOG-POSTS COMPREHENSIVE ANALYSIS ===
         const blogAnalysis = performBlogAnalysis();
         results.blogs = blogAnalysis.blogs;
         results.summary = blogAnalysis.summary;
         
-        // === 5. GLOBAL ERROR COUNTING ===
-        results.globalStatus.totalErrors = results.blogs.reduce((sum, blog) => sum + blog.issues.critical.length, 0);
-        results.globalStatus.totalWarnings = results.blogs.reduce((sum, blog) => sum + blog.issues.warnings.length, 0);
+        // === 6. GLOBAL ERROR COUNTING ===
+        results.globalStatus.totalErrors = results.blogs.reduce((sum, blog) => sum + blog.issues.critical.length, 0) + results.vscodeProblems.errors.length;
+        results.globalStatus.totalWarnings = results.blogs.reduce((sum, blog) => sum + blog.issues.warnings.length, 0) + results.vscodeProblems.warnings.length;
         
         // === 6. GENERATE MASTER LOGFILE ===
         const logContent = generateMasterLogContent(results);
@@ -479,6 +495,202 @@ function evaluateAnchortextQuality(links) {
     return 'Schlecht';
 }
 
+// === VS CODE PROBLEME SCANNER ===
+async function scanVSCodeProblems() {
+    const problems = {
+        errors: [],
+        warnings: [],
+        infos: [],
+        totalCount: 0,
+        criticalFiles: []
+    };
+    
+    try {
+        // Scanne alle JavaScript/TypeScript Dateien im Projekt
+        const projectRoot = path.resolve(__dirname, '../../..');
+        const filesToCheck = [];
+        
+        // Sammle alle relevanten Dateien
+        const extensions = ['.js', '.ts', '.jsx', '.tsx', '.html', '.css'];
+        const scanDirectories = [
+            path.join(projectRoot, 'scripts'),
+            path.join(projectRoot, 'check_scripts'),
+            path.join(projectRoot, 'build-process'),
+            projectRoot // Root-Verzeichnis für HTML/CSS
+        ];
+        
+        for (const dir of scanDirectories) {
+            if (fs.existsSync(dir)) {
+                const files = getAllFilesRecursively(dir, extensions);
+                filesToCheck.push(...files);
+            }
+        }
+        
+        // Prüfe jede Datei auf Syntax-Errors
+        for (const filePath of filesToCheck) {
+            try {
+                const relativePath = path.relative(projectRoot, filePath);
+                const content = fs.readFileSync(filePath, 'utf8');
+                
+                // Basis-Syntax-Checks
+                const fileProblems = await analyzeFileForProblems(filePath, content);
+                
+                if (fileProblems.errors.length > 0) {
+                    problems.errors.push(...fileProblems.errors.map(err => ({
+                        file: relativePath,
+                        line: err.line || 'unknown',
+                        message: err.message,
+                        severity: 'error'
+                    })));
+                }
+                
+                if (fileProblems.warnings.length > 0) {
+                    problems.warnings.push(...fileProblems.warnings.map(warn => ({
+                        file: relativePath,
+                        line: warn.line || 'unknown', 
+                        message: warn.message,
+                        severity: 'warning'
+                    })));
+                }
+                
+                // Kritische Dateien mit Problemen sammeln
+                if (fileProblems.errors.length > 0 || fileProblems.warnings.length > 2) {
+                    problems.criticalFiles.push({
+                        file: relativePath,
+                        errorCount: fileProblems.errors.length,
+                        warningCount: fileProblems.warnings.length
+                    });
+                }
+                
+            } catch (fileError) {
+                problems.errors.push({
+                    file: path.relative(projectRoot, filePath),
+                    line: 'unknown',
+                    message: `Datei konnte nicht analysiert werden: ${fileError.message}`,
+                    severity: 'error'
+                });
+            }
+        }
+        
+        problems.totalCount = problems.errors.length + problems.warnings.length + problems.infos.length;
+        
+        console.log(`📊 VS Code Probleme gescannt: ${problems.totalCount} Probleme in ${filesToCheck.length} Dateien`);
+        
+    } catch (error) {
+        problems.errors.push({
+            file: 'VS Code Scanner',
+            line: 'unknown', 
+            message: `Scanner-Fehler: ${error.message}`,
+            severity: 'error'
+        });
+        console.error(`❌ VS Code Problem Scanner Fehler: ${error.message}`);
+    }
+    
+    return problems;
+}
+
+// Hilfsfunktion: Alle Dateien rekursiv sammeln
+function getAllFilesRecursively(dir, extensions) {
+    const files = [];
+    
+    try {
+        const items = fs.readdirSync(dir);
+        
+        for (const item of items) {
+            const fullPath = path.join(dir, item);
+            const stat = fs.statSync(fullPath);
+            
+            if (stat.isDirectory()) {
+                // Vermeide node_modules, .git etc.
+                if (!['node_modules', '.git', 'dist', '.next', '__trash__'].includes(item)) {
+                    files.push(...getAllFilesRecursively(fullPath, extensions));
+                }
+            } else if (stat.isFile()) {
+                const ext = path.extname(fullPath);
+                if (extensions.includes(ext)) {
+                    files.push(fullPath);
+                }
+            }
+        }
+    } catch (error) {
+        console.warn(`⚠️ Verzeichnis nicht lesbar: ${dir}`);
+    }
+    
+    return files;
+}
+
+// Hilfsfunktion: Datei auf Probleme analysieren
+async function analyzeFileForProblems(filePath, content) {
+    const problems = {
+        errors: [],
+        warnings: []
+    };
+    
+    const ext = path.extname(filePath);
+    
+    try {
+        // JavaScript/TypeScript spezifische Checks
+        if (['.js', '.ts', '.jsx', '.tsx'].includes(ext)) {
+            // Check für Mixed Module Syntax
+            if (content.includes('require(') && content.includes('import ')) {
+                problems.warnings.push({
+                    line: 'unknown',
+                    message: 'Mixed ES Module and CommonJS syntax detected'
+                });
+            }
+            
+            // Check für Syntax-Errors (basis)
+            const lines = content.split('\n');
+            lines.forEach((line, index) => {
+                const lineNum = index + 1;
+                
+                // Häufige Syntax-Probleme
+                if (line.includes('module.exports') && content.includes('export ')) {
+                    problems.errors.push({
+                        line: lineNum,
+                        message: 'Cannot use CommonJS module.exports with ES modules'
+                    });
+                }
+                
+                if (line.includes('require(') && content.includes('"type": "module"')) {
+                    problems.errors.push({
+                        line: lineNum,
+                        message: 'require() not allowed in ES modules'
+                    });
+                }
+                
+                // Unbalanced brackets (basic check)
+                const openBraces = (line.match(/\{/g) || []).length;
+                const closeBraces = (line.match(/\}/g) || []).length;
+                if (Math.abs(openBraces - closeBraces) > 2) {
+                    problems.warnings.push({
+                        line: lineNum,
+                        message: 'Potential unbalanced braces detected'
+                    });
+                }
+            });
+        }
+        
+        // HTML spezifische Checks  
+        if (ext === '.html') {
+            if (!content.includes('<!DOCTYPE html>')) {
+                problems.warnings.push({
+                    line: 1,
+                    message: 'Missing DOCTYPE declaration'
+                });
+            }
+        }
+        
+    } catch (error) {
+        problems.errors.push({
+            line: 'unknown',
+            message: `Analysis error: ${error.message}`
+        });
+    }
+    
+    return problems;
+}
+
 function generateMasterLogContent(results) {
     const lines = [];
     
@@ -497,6 +709,8 @@ function generateMasterLogContent(results) {
     lines.push(`**Durchschnittliche Wortanzahl:** ${results.summary.avgWordCount}`);
     lines.push(`**Kritische Issues gesamt:** ${results.globalStatus.totalErrors}`);
     lines.push(`**Warnungen gesamt:** ${results.globalStatus.totalWarnings}`);
+    lines.push(`**VS Code Probleme:** ${results.vscodeProblems.totalCount} (${results.vscodeProblems.errors.length} Errors, ${results.vscodeProblems.warnings.length} Warnings)`);
+    lines.push('');
     lines.push('');
     
     lines.push('═'.repeat(80));
@@ -522,6 +736,45 @@ function generateMasterLogContent(results) {
     lines.push(`**Sitemap-Verweis in robots.txt:** ${results.infrastructure.robots.hasSitemap}`);
     lines.push(`**User-Agent in robots.txt:** ${results.infrastructure.robots.hasUserAgent}`);
     lines.push('');
+    
+    // === VS CODE PROBLEME SECTION ===
+    lines.push('═'.repeat(80));
+    lines.push('## 🔍 VS CODE PROBLEME & SYNTAX-CHECKS');
+    lines.push('═'.repeat(80));
+    lines.push(`**Gesamt Probleme:** ${results.vscodeProblems.totalCount}`);
+    lines.push(`**Errors:** ${results.vscodeProblems.errors.length}`);
+    lines.push(`**Warnings:** ${results.vscodeProblems.warnings.length}`);
+    lines.push(`**Kritische Dateien:** ${results.vscodeProblems.criticalFiles.length}`);
+    lines.push('');
+    
+    if (results.vscodeProblems.errors.length > 0) {
+        lines.push('### 🚨 SYNTAX ERRORS:');
+        results.vscodeProblems.errors.forEach(error => {
+            lines.push(`- **${error.file}:${error.line}** - ${error.message}`);
+        });
+        lines.push('');
+    }
+    
+    if (results.vscodeProblems.warnings.length > 0) {
+        lines.push('### ⚠️ WARNINGS:');
+        results.vscodeProblems.warnings.forEach(warning => {
+            lines.push(`- **${warning.file}:${warning.line}** - ${warning.message}`);
+        });
+        lines.push('');
+    }
+    
+    if (results.vscodeProblems.criticalFiles.length > 0) {
+        lines.push('### 📁 KRITISCHE DATEIEN:');
+        results.vscodeProblems.criticalFiles.forEach(file => {
+            lines.push(`- **${file.file}** - ${file.errorCount} Errors, ${file.warningCount} Warnings`);
+        });
+        lines.push('');
+    }
+    
+    if (results.vscodeProblems.totalCount === 0) {
+        lines.push('✅ **KEINE VS CODE PROBLEME GEFUNDEN!**');
+        lines.push('');
+    }
     
     lines.push('═'.repeat(80));
     lines.push('## 📝 DETAILLIERTE BLOG-ANALYSE');
@@ -610,8 +863,8 @@ function generateMasterLogContent(results) {
 }
 
 // EXPORT für Integration
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
     runMasterBuildCheck();
 }
 
-module.exports = { runMasterBuildCheck };
+export { runMasterBuildCheck };

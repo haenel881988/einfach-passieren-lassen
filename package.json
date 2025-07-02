@@ -1,6 +1,7 @@
 {
   "name": "einfach-passieren-lassen-build",
   "version": "1.0.0",
+  "type": "module",
   "description": "Build system for markdown to HTML conversion with SEO validation",
   "main": "scripts/build.js",
   "scripts": {
