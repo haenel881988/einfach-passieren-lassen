@@ -30,6 +30,30 @@ Die Website richtet sich an eine Frau, die möglicherweise aktiv oder passiv nac
 
 ## 5. Dokumentation & Recherche
 
+### Terminal Output Logging & VS Code Problems Integration (NEU)
+- **Datum:** 02.07.2025
+- **Status:** ✅ VOLLSTÄNDIG IMPLEMENTIERT
+- **Verzeichnis:** `docs/03_exception/`
+- **Features:**
+  - **Automatische Terminal-Ausgabe-Erfassung** aller Build-Prozesse
+  - **VS Code Problems-Erkennung** (Compiler-Fehler, Lint-Warnings, Syntax-Errors)
+  - **Intelligente Problem-Kategorisierung** (Errors, Warnings, Infos)
+  - **Datei-spezifische Validierung** (JSON, JavaScript, CSS, HTML)
+  - **Vollständige Build-Reports** mit Performance-Statistiken
+
+**Beispiel automatisch erkannter Problems:**
+```
+❌ package.json:21 - Invalid "type" value: "modul"
+⚠️  Missing semicolons in JavaScript files
+🔍 JSON Syntax-Validierung
+📊 297 Problems automatisch gefunden (4 Errors, 293 Warnings)
+```
+
+**Build-Prozess:**
+```bash
+npm run build  # Automatisches Logging in docs/03_exception/
+```
+
 ### PDF-zu-Markdown Konvertierung
 - **Datum:** 30.06.2025
 - **Verzeichnis:** `docs/02_markdown_recherche/`
