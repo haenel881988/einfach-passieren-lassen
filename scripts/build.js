@@ -4,7 +4,7 @@ import { marked } from 'marked';
 import matter from 'front-matter';
 import * as cheerio from 'cheerio';
 import chalk from 'chalk';
-import AdvancedContentValidator from './advanced-content-validator.js';
+import AdvancedContentValidator from './build-checks/check_scripts/advanced-content-validator.js';
 
 // ==================== INTERNE VERLINKUNGSANALYSE ====================
 
@@ -2175,6 +2175,25 @@ async function build() {
                 console.log(chalk.magenta(`   🧠 Running advanced checklist validation for ${file}...`));
                 const checklistEvaluation = advancedValidator.evaluateContentWithChecklists(file, parsed.body);
                 checklistResults.push(checklistEvaluation);
+                
+                // ==================== LOGISCHE INKONSISTENZEN BERICHTEN ====================
+                if (checklistEvaluation.logicalIssues && checklistEvaluation.logicalIssues.length > 0) {
+                    console.log(chalk.red(`   🚨 SINNLOSIGKEITS-PROBLEME in ${file}:`));
+                    checklistEvaluation.logicalIssues.forEach(issue => {
+                        const color = issue.severity === 'CRITICAL' ? 'red' : 
+                                     issue.severity === 'HIGH' ? 'yellow' : 'gray';
+                        console.log(chalk[color](`      ❌ ${issue.type}: ${issue.message}`));
+                        console.log(chalk[color](`         → ${issue.suggestion}`));
+                    });
+                    
+                    // Add to critical issues for build report
+                    allIssues.checklistValidation.push({
+                        file: file,
+                        type: 'LOGICAL_INCONSISTENCIES',
+                        logicalIssues: checklistEvaluation.logicalIssues,
+                        severity: 'CRITICAL'
+                    });
+                }
                 
                 console.log(chalk.cyan(`   📊 Checklist Score: ${checklistEvaluation.totalScore}%`));
                 checklistEvaluation.checklistResults.forEach(result => {

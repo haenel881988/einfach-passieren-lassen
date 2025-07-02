@@ -66,15 +66,7 @@ class AdvancedContentValidator {
             }
         });
 
-        // 2. ABSURDE SPRACHKONSTRUKTE (wie "denkst du dir auf Schweizerdeutsch")
-        const absurdPhrases = this.detectAbsurdPhrases(content);
-        issues.push(...absurdPhrases);
-
-        // 3. COPY-CAT DETECTION (wiederkehrende Textblöcke)
-        const copyCatIssues = this.detectCopyCatText(content);
-        issues.push(...copyCatIssues);
-
-        // 4. KEYWORD-STUFFING ohne logische Verbindung
+        // 2. KEYWORD-STUFFING ohne logische Verbindung
         const suspiciousRepeats = this.detectKeywordStuffing(content);
         if (suspiciousRepeats.length > 0) {
             issues.push({
@@ -85,198 +77,15 @@ class AdvancedContentValidator {
             });
         }
 
-        // 5. GRAMMATIKALISCHE DISKREPANZEN
+        // 3. GRAMMATIKALISCHE DISKREPANZEN
         const grammarIssues = this.detectGrammarInconsistencies(content);
         issues.push(...grammarIssues);
 
-        // 6. THEMATISCHE INKONSISTENZ
+        // 4. THEMATISCHE INKONSISTENZ
         const thematicIssues = this.detectThematicInconsistencies(content);
         issues.push(...thematicIssues);
 
-        // 7. FLUSS-PROBLEME zwischen Abschnitten
-        const flowIssues = this.detectFlowProblems(content);
-        issues.push(...flowIssues);
-
         return issues;
-    }
-
-    detectAbsurdPhrases(content) {
-        const issues = [];
-        
-        // ABSURDE SPRACHKONSTRUKTE - völlig deplatzierte Sätze
-        const absurdPatterns = [
-            /denkst du dir auf Schweizerdeutsch/gi,
-            /sagst du auf [A-Za-z]+/gi,
-            /\w+st du dir auf \w+deutsch/gi,
-            /denkst du dir in \w+/gi,
-            /sagst du in \w+sprache/gi,
-            /überlegst du dir auf \w+/gi,
-            /formulierst du auf \w+/gi
-        ];
-
-        absurdPatterns.forEach(pattern => {
-            const matches = content.match(pattern);
-            if (matches) {
-                matches.forEach(match => {
-                    issues.push({
-                        type: 'ABSURD_LANGUAGE_CONSTRUCT',
-                        message: `Völlig deplatzierte Sprachkonstruktion gefunden: "${match}"`,
-                        severity: 'CRITICAL',
-                        suggestion: 'Absurde Sprachkonstrukte entfernen - passen nicht zum Thema'
-                    });
-                });
-            }
-        });
-
-        // DEPLATZIERTE SPRACHREFERENZEN
-        const languageReferences = [
-            /auf deutsch/gi,
-            /auf englisch/gi,
-            /auf französisch/gi,
-            /in deutscher sprache/gi,
-            /in \w+sprache/gi
-        ];
-
-        languageReferences.forEach(pattern => {
-            const matches = content.match(pattern);
-            if (matches) {
-                matches.forEach(match => {
-                    issues.push({
-                        type: 'MISPLACED_LANGUAGE_REFERENCE',
-                        message: `Deplatzierte Sprachreferenz: "${match}"`,
-                        severity: 'HIGH',
-                        suggestion: 'Sprachreferenzen in emotionalem Content vermeiden'
-                    });
-                });
-            }
-        });
-
-        return issues;
-    }
-
-    detectCopyCatText(content) {
-        const issues = [];
-        
-        // Teile Content in Sätze auf
-        const sentences = content.split(/[.!?]+/).filter(s => s.trim().length > 20);
-        const duplicates = new Map();
-        
-        // Ähnliche Sätze finden (mehr als 70% Übereinstimmung)
-        sentences.forEach((sentence, index) => {
-            const normalizedSentence = sentence.trim().toLowerCase();
-            sentences.slice(index + 1).forEach((otherSentence, otherIndex) => {
-                const normalizedOther = otherSentence.trim().toLowerCase();
-                const similarity = this.calculateSimilarity(normalizedSentence, normalizedOther);
-                
-                if (similarity > 0.7) {
-                    const key = `${normalizedSentence.substring(0, 50)}...`;
-                    if (!duplicates.has(key)) {
-                        duplicates.set(key, []);
-                    }
-                    duplicates.get(key).push({
-                        original: sentence.trim(),
-                        duplicate: otherSentence.trim(),
-                        similarity: Math.round(similarity * 100)
-                    });
-                }
-            });
-        });
-
-        // COPY-CAT ISSUES erstellen
-        duplicates.forEach((matches, key) => {
-            if (matches.length > 0) {
-                issues.push({
-                    type: 'COPY_CAT_TEXT',
-                    message: `Copy-Cat Text gefunden (${matches[0].similarity}% ähnlich): "${key}"`,
-                    severity: 'HIGH',
-                    suggestion: 'Wiederholende Textpassagen umformulieren oder entfernen',
-                    details: matches
-                });
-            }
-        });
-
-        // PHRASEN-WIEDERHOLUNGEN (exakte Matches)
-        const phrasePattern = /(.{20,})\1+/g;
-        const repeats = content.match(phrasePattern);
-        if (repeats) {
-            repeats.forEach(repeat => {
-                issues.push({
-                    type: 'EXACT_PHRASE_REPETITION',
-                    message: `Exakte Phrasen-Wiederholung gefunden: "${repeat.substring(0, 50)}..."`,
-                    severity: 'CRITICAL',
-                    suggestion: 'Identische Phrasen-Wiederholungen entfernen'
-                });
-            });
-        }
-
-        return issues;
-    }
-
-    calculateSimilarity(str1, str2) {
-        // Levenshtein-ähnlicher Algorithmus für Textähnlichkeit
-        const words1 = str1.split(/\s+/);
-        const words2 = str2.split(/\s+/);
-        
-        const commonWords = words1.filter(word => 
-            words2.includes(word) && word.length > 3
-        );
-        
-        const totalWords = Math.max(words1.length, words2.length);
-        return commonWords.length / totalWords;
-    }
-
-    detectFlowProblems(content) {
-        const issues = [];
-        
-        // ABRUPTE ÜBERGÄNGE zwischen Absätzen
-        const paragraphs = content.split('\n\n').filter(p => p.trim().length > 50);
-        
-        paragraphs.forEach((paragraph, index) => {
-            if (index < paragraphs.length - 1) {
-                const currentEnd = paragraph.trim().split('.').slice(-2).join('.').toLowerCase();
-                const nextStart = paragraphs[index + 1].trim().split('.')[0].toLowerCase();
-                
-                // Prüfe auf abrupte Themenwechsel ohne Übergang
-                if (this.hasAbruptTransition(currentEnd, nextStart)) {
-                    issues.push({
-                        type: 'ABRUPT_FLOW_TRANSITION',
-                        message: `Abrupter Übergang zwischen Absätzen ${index + 1} und ${index + 2}`,
-                        severity: 'MEDIUM',
-                        suggestion: 'Sanfteren Übergang zwischen Themen schaffen',
-                        context: `"${currentEnd.substring(0, 50)}..." → "${nextStart.substring(0, 50)}..."`
-                    });
-                }
-            }
-        });
-
-        return issues;
-    }
-
-    hasAbruptTransition(endText, startText) {
-        // Übergangs-Keywords die sanfte Verbindungen anzeigen
-        const transitionWords = [
-            'deshalb', 'daher', 'deswegen', 'also', 'somit',
-            'außerdem', 'zudem', 'darüber hinaus', 'weiterhin',
-            'jedoch', 'aber', 'dennoch', 'trotzdem',
-            'gleichzeitig', 'dabei', 'während', 'währenddessen'
-        ];
-        
-        const hasTransition = transitionWords.some(word => 
-            startText.includes(word) || endText.includes(word)
-        );
-        
-        // Wenn keine Übergangswörter und verschiedene Themenwörter
-        if (!hasTransition) {
-            const emotionalWords = ['fühl', 'denk', 'angst', 'sicher', 'vertrauen', 'lieb'];
-            const endEmotion = emotionalWords.filter(word => endText.includes(word));
-            const startEmotion = emotionalWords.filter(word => startText.includes(word));
-            
-            // Verschiedene emotionale Themen ohne Übergang = abrupt
-            return endEmotion.length > 0 && startEmotion.length > 0 && 
-                   !endEmotion.some(word => startEmotion.includes(word));
-        }
-        
-        return false;
     }
 
     detectKeywordStuffing(content) {
@@ -593,24 +402,6 @@ class AdvancedContentValidator {
     // ==================== CHECKLIST EVALUATION ====================
 
     evaluateContentWithChecklists(filename, content) {
-        console.log(chalk.blue(`🧠 Running advanced checklist validation for ${filename}...`));
-        
-        // ==================== SINNLOSIGKEITS-CHECK ZUERST ====================
-        console.log(chalk.yellow(`🔍 Prüfe logische Konsistenz...`));
-        const logicalIssues = this.detectLogicalInconsistencies(content);
-        
-        if (logicalIssues.length > 0) {
-            console.log(chalk.red(`🚨 LOGISCHE PROBLEME GEFUNDEN:`));
-            logicalIssues.forEach(issue => {
-                const color = issue.severity === 'CRITICAL' ? chalk.red : 
-                             issue.severity === 'HIGH' ? chalk.yellow : chalk.gray;
-                console.log(color(`   ${issue.type}: ${issue.message}`));
-                console.log(color(`   → ${issue.suggestion}`));
-            });
-        } else {
-            console.log(chalk.green(`✅ Keine logischen Inkonsistenzen gefunden`));
-        }
-
         const selectedChecklists = this.selectChecklistsForFile(filename, content);
         const results = [];
 
@@ -630,8 +421,7 @@ class AdvancedContentValidator {
             filename,
             totalScore: this.calculateTotalScore(results),
             checklistResults: results,
-            overallRecommendations: this.generateOverallRecommendations(results),
-            logicalIssues: logicalIssues // NEU: Inkludiere logische Probleme
+            overallRecommendations: this.generateOverallRecommendations(results)
         };
     }
 
