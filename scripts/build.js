@@ -2867,7 +2867,7 @@ async function buildBlogPosts() {
         }
         throw error;
     } finally {
-        // Speichere Terminal-Log unabhängig vom Build-Ergebnis
+        // Speichere Terminal-Log unabhängig vom Build-Ergebnisweite
         try {
             terminalLogger.saveToFile();
             terminalLogger.restore();
@@ -2953,7 +2953,8 @@ FORMULIERUNGS-PRINZIPIEN für maximale Wirkung:
 ✅ SIE fühlt sich DIREKT angesprochen (Du-Form, ihre Probleme)
 ✅ SIE kommt in HANDLUNG (sanfte Handlungsaufforderungen)
 ✅ EMOTIONALE Bindung vor rationaler Argumentation
-✅ REGIONALE Verbindung (Zuchwil, Mittelland, Schweizer Dialekt)
+✅ REGIONALE Verbindung muss entfernt werden (lokales SEO impliziert Dienstleistung)
+✅ KEINE Listen/Aufzählungen - organische Integration
 ✅ SICHERHEIT & HALT als Kern-Versprechen
 
 TRIGGER-KATEGORIEN (nach emotionale_bindung.md):
@@ -2974,9 +2975,7 @@ TRIGGER-KATEGORIEN (nach emotionale_bindung.md):
    ▫ "nimm kontakt auf", "melde dich", "schreib mir"
    ▫ "trau dich", "lass uns", "komm zu mir"
 
-🏠 RegionalVerankerung (15%):
-   ▫ "hier in zuchwil", "mittelland", "schweizer verständnis"
-   ▫ "regional verbunden", "hier zuhause", "lokale nähe"
+🏠 RegionalVerankerung muss entfernt werden da eine regionalverankerung --> lokales SEO implizuert was wiederum eine Dienstleistung impliziert.
 
 INTEGRATION-STRATEGIE:
 ▫ Organisch in bestehende Sätze einfügen

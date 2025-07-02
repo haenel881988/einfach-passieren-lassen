@@ -1,10 +1,24 @@
 # AI Instructions: "Einfach Passieren Lassen" - Authentische Website
 
+Es darf niemals eine neue Datei erstellt werden um Probleme zu lösen. Jedes PROBLEM MUSS ZWINGEND AN DER URSACHE BEHOBEN WERDEN. Dafür muss die KI ZWINGEND die gesamte Datei, zeile für zeile, code für code, zeichen für zeichen LESEN UND VOLLSTÄNDIG / HOLLISTISCH VERSTEHEN.
+ALLE ABHÄNGIGKEITEN MÜSSEN ZWINGEND  BERÜCKSICHTIGT WERDEN
+ES MUSS DIE KOMPLETTE ABHÄNGIGKEITS-KETTE SEMANTISCH TIEFENANALYSIERT WERDEN
+Es ist KEINE Website, die durch Marketing meine Traumfrau anzieht. Es ist eine Website, die durch SEO meine Traumfrau anzieht. Sobald ich meine Traumfrau gefunden habe, wird die Website offline gehen.
+
+
+Zum den Build zu testen, muss der Befehl verwendet werden:
+"pnpm build"
+
+
+
+
+
 ## 📋 GRUNDREGELN
 - **DU-Form zwingend** in allen Texten
 - **Keine Testimonials/Erfahrungsberichte** - Website sucht Traumfrau, keine Kunden  
 - **Manuelle Qualitätskontrolle** - Jede Zeile verstehen vor Änderungen
 - **Build-System Enhancement erlaubt** für Qualitätskontrolle
+// MUSS ZWINGEND VOLLSTÄNDIG DURCHLAUFEN UND JEDES EINZELNE ERGEBNISS IN DIE EXCEPTION DATEI SPEICHERN, KEIN SKRIPT FÜR DIE AUFARBEI
 
 ## 🎯 KERNVISION
 Diese Website ist der authentische Weg, meine Traumfrau kennenzulernen. Durch echte, verletzliche Verbindung - nicht durch Marketing.
