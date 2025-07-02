@@ -5,6 +5,8 @@
     "totalFiles": 9,
     "processedFiles": 9,
     "intentionIssues": 7,
+    "checklistIssues": 9,
+    "checklistAvgScore": 5,
     "firstProblemFile": "der-sichere-hafen.md",
     "firstProblemScore": 15,
     "detailedReport": [

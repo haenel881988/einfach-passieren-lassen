@@ -4,6 +4,7 @@ import { marked } from 'marked';
 import matter from 'front-matter';
 import * as cheerio from 'cheerio';
 import chalk from 'chalk';
+import AdvancedContentValidator from './advanced-content-validator.js';
 
 // ==================== INTERNE VERLINKUNGSANALYSE ====================
 
@@ -2112,6 +2113,14 @@ async function build() {
     console.log(chalk.blue('🚀 Starting comprehensive blog build analysis...'));
     console.log(chalk.blue(`📋 Terminal-Ausgabe wird gespeichert in: ${terminalLogger.logFilePath}`));
     
+    // Initialize Advanced Content Validator with Checklist Rotation
+    const advancedValidator = new AdvancedContentValidator();
+    advancedValidator.loadRotationState();
+    
+    console.log(chalk.magenta('🧠 ADVANCED CHECKLIST SYSTEM ACTIVATED'));
+    console.log(chalk.gray('   → Intelligent rotation algorithm loaded'));
+    console.log(chalk.gray('   → 12 psychological validation modules ready'));
+    
     try {
         const buildStart = Date.now();
         const allIssues = {
@@ -2123,12 +2132,14 @@ async function build() {
             accessibility: [],
             security: [],
             codeQuality: [],
-            contentQuality: []
+            contentQuality: [],
+            checklistValidation: [] // NEW: Checklist results
         };
 
         let totalWordCount = 0;
         let processedFiles = 0;
         const fileAnalytics = [];
+        const checklistResults = []; // NEW: Store checklist evaluations
         
         if (!fs.existsSync(INPUT_DIR)) {
             // QUALITY-ALERT: Sammle Problem aber stoppe Build NICHT!
@@ -2159,6 +2170,25 @@ async function build() {
 
             try {
                 const parsed = matter(content);
+                
+                // ==================== ADVANCED CHECKLIST VALIDATION ====================
+                console.log(chalk.magenta(`   🧠 Running advanced checklist validation for ${file}...`));
+                const checklistEvaluation = advancedValidator.evaluateContentWithChecklists(file, parsed.body);
+                checklistResults.push(checklistEvaluation);
+                
+                console.log(chalk.cyan(`   📊 Checklist Score: ${checklistEvaluation.totalScore}%`));
+                checklistEvaluation.checklistResults.forEach(result => {
+                    const scoreColor = result.score >= 80 ? 'green' : result.score >= 60 ? 'yellow' : 'red';
+                    console.log(chalk[scoreColor](`      • ${result.theme}: ${result.score}%`));
+                });
+                
+                if (checklistEvaluation.totalScore < 70) {
+                    allIssues.checklistValidation.push({
+                        file: file,
+                        score: checklistEvaluation.totalScore,
+                        recommendations: checklistEvaluation.overallRecommendations
+                    });
+                }
                 
                 // ==================== AUTOMATISCHE CONTENT-KORREKTUR ====================
                 console.log(chalk.magenta(`   🔧 Performing automatic content corrections for ${file}...`));
@@ -2375,6 +2405,43 @@ async function build() {
         
         console.log(chalk.blue('\n🎉 BUILD COMPLETED SUCCESSFULLY!'));
         console.log(chalk.blue(`   Generated ${generatedFiles.length} files in ${buildTime}ms`));
+        
+        // ==================== ADVANCED CHECKLIST SYSTEM REPORT ====================
+        console.log(chalk.magenta('\n🧠 ADVANCED CHECKLIST VALIDATION REPORT'));
+        console.log('='.repeat(80));
+        
+        // Save rotation state for next build
+        advancedValidator.saveRotationState();
+        
+        if (checklistResults.length > 0) {
+            const avgScore = Math.round(checklistResults.reduce((sum, r) => sum + r.totalScore, 0) / checklistResults.length);
+            console.log(chalk.cyan(`📊 Overall Checklist Performance: ${avgScore}%`));
+            
+            const excellentFiles = checklistResults.filter(r => r.totalScore >= 80);
+            const goodFiles = checklistResults.filter(r => r.totalScore >= 60 && r.totalScore < 80);
+            const needsWork = checklistResults.filter(r => r.totalScore < 60);
+            
+            console.log(chalk.green(`✅ Excellent (80%+): ${excellentFiles.length} files`));
+            console.log(chalk.yellow(`⚠️  Good (60-79%): ${goodFiles.length} files`));
+            console.log(chalk.red(`❌ Needs Work (<60%): ${needsWork.length} files`));
+            
+            if (needsWork.length > 0) {
+                console.log(chalk.red('\n🎯 FILES REQUIRING IMMEDIATE ATTENTION:'));
+                needsWork.forEach(result => {
+                    console.log(chalk.red(`   • ${result.filename}: ${result.totalScore}%`));
+                    result.overallRecommendations.slice(0, 2).forEach(rec => {
+                        console.log(chalk.gray(`     → ${rec}`));
+                    });
+                });
+            }
+            
+            // Show rotation status
+            const rotationStatus = advancedValidator.getRotationStatus();
+            console.log(chalk.blue('\n🔄 CHECKLIST ROTATION STATUS:'));
+            Object.entries(rotationStatus).forEach(([file, status]) => {
+                console.log(chalk.gray(`   ${file}: ${status.usedChecklists.join(', ')} (${status.availableChecklists} unused)`));
+            });
+        }
 
         // Weitere Analysen (der Rest des ursprünglichen Codes bleibt unverändert...)
         // SIMON'S BRILLANTE IDEE: Intelligente Qualitätskontrolle
@@ -3548,6 +3615,16 @@ async function buildBlogPosts() {
     console.log(chalk.blue(`📋 Terminal-Ausgabe wird gespeichert in: ${terminalLogger.logFilePath}`));
     console.log(chalk.gray('Neue Intention-Validation aktiv!\n'));
 
+    // ==================== ADVANCED CHECKLIST SYSTEM INITIALIZATION ====================
+    const advancedValidator = new AdvancedContentValidator();
+    advancedValidator.loadRotationState();
+    
+    console.log(chalk.magenta('🧠 ADVANCED CHECKLIST SYSTEM ACTIVATED'));
+    console.log(chalk.gray('   → Intelligent rotation algorithm loaded'));
+    console.log(chalk.gray('   → 12 psychological validation modules ready'));
+    
+    const checklistResults = []; // Store checklist evaluations
+
     try {
         // NEU: Globale SEO-Validierung für Sitemap, Robots.txt und URL-Konsistenz
         validateGlobalSEO();
@@ -3569,6 +3646,7 @@ async function buildBlogPosts() {
 
         let totalProcessed = 0;
         let intentionIssues = [];
+        const contentQualityIssues = []; // NEW: Store checklist validation issues
 
         for (const filePath of files) {
             const filename = path.basename(filePath);
@@ -3580,6 +3658,26 @@ async function buildBlogPosts() {
                 const parsed = matter(rawContent);
                 const content = parsed.body || ''; // body statt content
                 const frontmatter = parsed.attributes || {}; // attributes statt frontmatter
+
+                // ==================== ADVANCED CHECKLIST VALIDATION ====================
+                console.log(chalk.magenta(`   🧠 Running advanced checklist validation for ${filename}...`));
+                const checklistEvaluation = advancedValidator.evaluateContentWithChecklists(filename, content);
+                checklistResults.push(checklistEvaluation);
+                
+                console.log(chalk.cyan(`   📊 Checklist Score: ${checklistEvaluation.totalScore}%`));
+                checklistEvaluation.checklistResults.forEach(result => {
+                    const scoreColor = result.score >= 80 ? 'green' : result.score >= 60 ? 'yellow' : 'red';
+                    console.log(chalk[scoreColor](`      • ${result.theme}: ${result.score}%`));
+                });
+                
+                if (checklistEvaluation.totalScore < 70) {
+                    contentQualityIssues.push({
+                        file: filename,
+                        score: checklistEvaluation.totalScore,
+                        recommendations: checklistEvaluation.overallRecommendations,
+                        checklistResults: checklistEvaluation.checklistResults
+                    });
+                }
 
                 // SCHRITT 1: Intention Validation (neue intelligente Analyse)
                 console.log(chalk.cyan('   🎯 Intentionen-Analyse...'));
@@ -3708,6 +3806,43 @@ async function buildBlogPosts() {
 
         console.log(chalk.cyan('\n' + '═'.repeat(80)));
         
+        // ==================== ADVANCED CHECKLIST SYSTEM REPORT ====================
+        console.log(chalk.magenta('\n🧠 ADVANCED CHECKLIST VALIDATION REPORT'));
+        console.log('='.repeat(80));
+        
+        // Save rotation state for next build
+        advancedValidator.saveRotationState();
+        
+        if (checklistResults.length > 0) {
+            const avgScore = Math.round(checklistResults.reduce((sum, r) => sum + r.totalScore, 0) / checklistResults.length);
+            console.log(chalk.cyan(`📊 Overall Checklist Performance: ${avgScore}%`));
+            
+            const excellentFiles = checklistResults.filter(r => r.totalScore >= 80);
+            const goodFiles = checklistResults.filter(r => r.totalScore >= 60 && r.totalScore < 80);
+            const needsWork = checklistResults.filter(r => r.totalScore < 60);
+            
+            console.log(chalk.green(`✅ Excellent (80%+): ${excellentFiles.length} files`));
+            console.log(chalk.yellow(`⚠️  Good (60-79%): ${goodFiles.length} files`));
+            console.log(chalk.red(`❌ Needs Work (<60%): ${needsWork.length} files`));
+            
+            if (needsWork.length > 0) {
+                console.log(chalk.red('\n🎯 FILES REQUIRING PSYCHOLOGICAL DEPTH ENHANCEMENT:'));
+                needsWork.forEach(result => {
+                    console.log(chalk.red(`   • ${result.filename}: ${result.totalScore}%`));
+                    result.overallRecommendations.slice(0, 2).forEach(rec => {
+                        console.log(chalk.gray(`     → ${rec}`));
+                    });
+                });
+            }
+            
+            // Show rotation status
+            const rotationStatus = advancedValidator.getRotationStatus();
+            console.log(chalk.blue('\n🔄 CHECKLIST ROTATION STATUS:'));
+            Object.entries(rotationStatus).forEach(([file, status]) => {
+                console.log(chalk.gray(`   ${file}: ${status.usedChecklists.join(', ')} (${status.availableChecklists} unused)`));
+            });
+        }
+        
         if (hasProblems) {
             console.log(chalk.yellow('\n💡 NÄCHSTE SCHRITTE:'));
             console.log(chalk.gray('1. Kopiere den generierten KI-Prompt'));
@@ -3729,6 +3864,8 @@ async function buildBlogPosts() {
                     totalFiles: files.length,
                     processedFiles: totalProcessed,
                     intentionIssues: intentionIssues.length,
+                    checklistIssues: contentQualityIssues.length, // NEW: Add checklist data
+                    checklistAvgScore: checklistResults.length > 0 ? Math.round(checklistResults.reduce((sum, r) => sum + r.totalScore, 0) / checklistResults.length) : 0,
                     firstProblemFile: intentionIssues[0]?.file,
                     firstProblemScore: intentionIssues[0]?.score,
                     detailedReport: detailedQualityReport,
