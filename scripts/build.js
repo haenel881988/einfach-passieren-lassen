@@ -1078,10 +1078,10 @@ function validateCodeQuality(content, frontmatter, filename, htmlContent) {
 
     // CONTENT QUALITÄTS-ANALYSE
     const wordCount = content.split(/\s+/).length;
-    if (wordCount < 2300) {
-        issues.contentQuality.push(`Zu wenig Wörter: ${wordCount} (min. 2300 für SEO)`);
+    if (wordCount < 5000) {
+        issues.contentQuality.push(`Zu wenig Wörter: ${wordCount} (min. 5000 für SEO)`);
     }
-    if (wordCount > 8000) {
+    if (wordCount > 10000) {
         issues.performance.push(`Sehr viele Wörter: ${wordCount} (kann Performance beeinträchtigen)`);
     }
 
@@ -1139,7 +1139,7 @@ function validateCodeQuality(content, frontmatter, filename, htmlContent) {
         // FAQ-Sektion prüfen
         const faqPattern = /faq|häufig|frage|antwort/gi;
         const hasFAQ = faqPattern.test(content);
-        if (!hasFAQ && wordCount > 2000) {
+        if (!hasFAQ && wordCount > 3000) {
             issues.contentQuality.push('Keine FAQ-Sektion gefunden (empfohlen für längere Artikel)');
         }
     }
@@ -1568,7 +1568,7 @@ function checkInternalLinking(file) {
 function checkContentLength(file) {
     const issues = [];
     const wordCount = file.wordCount || 0;
-    const targetLength = 2300; // Aus Instructions: Min 2300 Wörter
+    const targetLength = 5000; // Aus Instructions: Min 5000 Wörter (5000-10000+)
     
     if (wordCount < targetLength) {
         const deficit = targetLength - wordCount;
@@ -3670,6 +3670,77 @@ function cleanGeneratedFiles() {
 async function startBuild() {
     console.log(chalk.blue('🚀 STARTE INTELLIGENT BUILD PROCESS...'));
     console.log(chalk.blue('Neue Intention-Validation aktiv!'));
+
+    // === NEU: Check-Skripte automatisch ausführen ===
+    try {
+        const { execFileSync } = await import('child_process');
+        const checkDir = path.resolve(process.cwd(), 'scripts/build-checks/check_scripts');
+        if (fs.existsSync(checkDir)) {
+            const checkFiles = fs.readdirSync(checkDir).filter(f => f.endsWith('.js'));
+            for (const file of checkFiles) {
+                const absPath = path.join(checkDir, file);
+                console.log(chalk.magenta(`\n▶️ Führe Check-Skript aus: ${file}`));
+                try {
+                    const result = execFileSync('node', [absPath], { 
+                        encoding: 'utf8',
+                        timeout: 30000,
+                        cwd: process.cwd()
+                    });
+                    console.log(chalk.green(`✅ ${file} erfolgreich ausgeführt`));
+                    if (result.trim()) {
+                        console.log(chalk.gray(`📋 ${file} Output: ${result.trim()}`));
+                    }
+                } catch (error) {
+                    const errorDetails = {
+                        script: file,
+                        exitCode: error.status,
+                        stderr: error.stderr?.toString() || '',
+                        stdout: error.stdout?.toString() || '',
+                        message: error.message,
+                        timestamp: new Date().toISOString()
+                    };
+                    
+                    // ENHANCED ERROR DETECTION für verschiedene Fehlertypen
+                    const isSyntaxError = error.stderr?.includes('SyntaxError') || error.stderr?.includes('ReferenceError');
+                    const isModuleError = error.stderr?.includes('Cannot find module') || error.stderr?.includes('MODULE_NOT_FOUND');
+                    const isTypeError = error.stderr?.includes('TypeError') || error.stderr?.includes('is not defined');
+                    const isImportError = error.stderr?.includes('reque') || error.stderr?.includes('requir');
+                    
+                    if (isSyntaxError || isModuleError || isTypeError || isImportError) {
+                        console.error(chalk.red.bold(`🚨🚨🚨 CRITICAL ERROR IN ${file} 🚨🚨🚨`));
+                        console.error(chalk.red(`📍 Error Type: ${isSyntaxError ? 'SYNTAX ERROR' : isModuleError ? 'MODULE ERROR' : isTypeError ? 'TYPE ERROR' : 'IMPORT ERROR'}`));
+                        
+                        // Spezielle Detection für häufige Tippfehler
+                        if (isImportError) {
+                            console.error(chalk.red.bold(`💡 DETECTED TYPO: Möglicherweise "reque" statt "require" oder ähnlicher Tippfehler!`));
+                        }
+                        
+                        // Extrahiere spezifische Fehlerzeile
+                        const errorMatch = error.stderr?.match(/(\w+\.js):(\d+)/);
+                        if (errorMatch) {
+                            console.error(chalk.red(`📍 Fehler in Datei ${errorMatch[1]}, Zeile: ${errorMatch[2]}`));
+                        }
+                        
+                        console.error(chalk.red(`📋 Stderr: ${error.stderr}`));
+                        console.error(chalk.red(`📋 Stdout: ${error.stdout}`));
+                        
+                        terminalLogger.logToBuffer('ERROR', `🚨 CRITICAL BUILD-BREAKING ERROR: ${file} contains errors that prevent execution`);
+                        terminalLogger.logToBuffer('ERROR', `Full Error Details: ${JSON.stringify(errorDetails, null, 2)}`);
+                        
+                        // Für kritische Fehler: Warnung aber Build fortsetzten
+                        console.error(chalk.yellow(`⚠️ Build continues but ${file} functionality is disabled!`));
+                    } else {
+                        console.error(chalk.red(`❌ Fehler beim Ausführen von ${file}: ${error.message}`));
+                        terminalLogger.logToBuffer('ERROR', `${file} execution failed: ${JSON.stringify(errorDetails)}`);
+                    }
+                }
+            }
+        } else {
+            console.warn(chalk.yellow('Kein Check-Skript-Verzeichnis gefunden.'));
+        }
+    } catch (e) {
+        console.warn(chalk.yellow(`Check-Skripte konnten nicht ausgeführt werden: ${e.message}`));
+    }
 
     // 0. LOG CLEANUP: Automatische Bereinigung alter Logs
     await LogManager.performLogCleanup();

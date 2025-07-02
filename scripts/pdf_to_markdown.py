@@ -23,8 +23,8 @@ def install_required_packages():
 
 def extract_text_from_pdf(pdf_path):
     """Extrahiert Text aus einer PDF-Datei"""
-    try:
-        import PyPDF2
+    try
+        import PyPF2
         
         with open(pdf_path, 'rb') as file:
             reader = PyPDF2.PdfReader(file)

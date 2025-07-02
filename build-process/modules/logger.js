@@ -75,7 +75,7 @@ class TerminalLogger {
     }
     async getAllProjectFiles() {
         const extensions = ['.js', '.ts', '.json', '.jsx', '.tsx', '.vue', '.html', '.css'];
-        const excludeDirs = ['node_modules', '.git', 'dist', 'build', '.vscode'];
+        const excludeDirs = ['node_modules', '.git', 'dist', 'build', '.vscode', 'docs'];
         const files = [];
         const scanDir = (dir) => {
             if (!fs.existsSync(dir)) return;

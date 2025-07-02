@@ -12,6 +12,10 @@ Es dürfen auch positive Lesson Learned hinzugefügt werden.
 ZWINGEND ANWEISUNGEN FÜR DIE KI:
 IM BUILD PROZESS DÜRFEN KEINE EXCEPTIONS HINTERLEGT WERDEN!!!
 
+Es muss immer und zwingend und ausschliesslich die Powershell-Syntax verwendet werden!!!
+Für den Build Prozess muss zwingend `pnpm build` verwendet werden.
+Die Checker Funktion muss zwingend durch den Build Prozess `pnpm build` angetriggert werden.
+
 **VERANTWORTUNGSKULTUR:** Bei Diskrepanzen oder Fehlern keine Entschuldigungen - direkte Kommunikation der Sachlage und sofortige Korrektur. Alle Änderungen werden dokumentiert.
 
 ## 📚 LESSON-LEARNED DOKUMENTATIONSPFLICHT

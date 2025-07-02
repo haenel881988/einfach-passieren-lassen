@@ -10,7 +10,19 @@
 // Modulare Build-System Imports
 const fs = require('fs');
 const path = require('path');
-const chalk = require('chalk');
+// const chalk = require('chalk'); // Temporär deaktiviert
+const { execFileSync } = require('child_process');
+
+// Einfacher Chalk-Ersatz
+const chalk = {
+    blue: (text) => text,
+    magenta: (text) => text,
+    red: (text) => text,
+    yellow: (text) => text,
+    green: (text) => text,
+    gray: (text) => text,
+    cyan: (text) => text
+};
 
 // Module importieren
 const TerminalLogger = require('./modules/logger');
@@ -35,19 +47,39 @@ const CONFIG = {
 /**
  * Haupteinstiegspunkt für den Build-Prozess
  */
+
 async function startBuild() {
     console.log(chalk.blue('🚀 Starte modularen Build-Prozess... (03.07.2025)'));
-    
+
     // Logger initialisieren für Terminal-Output Erfassung
     const terminalLogger = new TerminalLogger();
-    
+
+    // === NEU: Alle Check-Skripte automatisch ausführen ===
     try {
+        const checkDir = path.resolve(__dirname, '../scripts/build-checks/check_scripts');
+        if (fs.existsSync(checkDir)) {
+            const checkFiles = fs.readdirSync(checkDir).filter(f => f.endsWith('.js'));
+            for (const file of checkFiles) {
+                const absPath = path.join(checkDir, file);
+                console.log(chalk.magenta(`\n▶️ Führe Check-Skript aus: ${file}`));
+                try {
+                    execFileSync('node', [absPath], { stdio: 'inherit' });
+                } catch (e) {
+                    console.error(chalk.red(`Fehler beim Ausführen von ${file}: ${e.message}`));
+                    // Build nicht abbrechen, aber Fehler anzeigen
+                }
+            }
+        } else {
+            console.warn(chalk.yellow('Kein Check-Skript-Verzeichnis gefunden.'));
+        }
+
+        // ...existierender Build-Prozess...
         // Log-Management (alte Logs bereinigen)
         await performLogCleanup();
-        
+
         // HTML-Dateien für SEO-Validierung sammeln
         const htmlFiles = findHtmlFiles();
-        
+
         // SEO-Validierung durchführen
         if (CONFIG.seoValidation.enabled) {
             const seoResults = seoCheck.validateGlobalSEO({
@@ -57,14 +89,14 @@ async function startBuild() {
                 maxLastmodAgeDays: CONFIG.seoValidation.maxLastmodAgeDays,
                 htmlFiles: htmlFiles
             });
-            
+
             // Ergebnisse zusammenfassen
             const totalErrors = seoResults.errors.length;
             const totalWarnings = seoResults.warnings.length;
-            
+
             if (totalErrors > 0 || totalWarnings > 0) {
                 console.log(chalk.yellow(`\n⚠️ SEO-Validierung: ${totalErrors} Fehler, ${totalWarnings} Warnungen gefunden.`));
-                
+
                 // Fehler detailliert ausgeben
                 if (totalErrors > 0) {
                     console.log(chalk.red('\n🚨 SEO-FEHLER:'));
@@ -72,7 +104,7 @@ async function startBuild() {
                         console.log(chalk.red(`  • ${error.message}`));
                     });
                 }
-                
+
                 // Warnungen detailliert ausgeben
                 if (totalWarnings > 0) {
                     console.log(chalk.yellow('\n⚠️ SEO-WARNUNGEN:'));
@@ -84,12 +116,12 @@ async function startBuild() {
                 console.log(chalk.green('\n✅ SEO-Validierung erfolgreich abgeschlossen - keine Probleme gefunden!'));
             }
         }
-        
+
         // TODO: Weitere Module integrieren (fileUtils, etc.)
-        
+
         // Build erfolgreich abgeschlossen
         console.log(chalk.green('\n✅ Modularer Build-Prozess erfolgreich abgeschlossen!'));
-        
+
     } catch (error) {
         // Fehlerbehandlung
         console.error(chalk.red(`\n❌ Build-Fehler: ${error.message}`));

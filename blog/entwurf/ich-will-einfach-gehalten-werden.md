@@ -18,7 +18,7 @@ Kennst du das auch? Wenn du sagst "ich will einfach gehalten werden", dann meins
 
 Diese Sehnsucht verstehe ich so gut - und bin ich da für dich. Sicher bei mir findest du den Frieden, den du suchst.
 
-Du weißt bereits, dass es kein Zeichen von Schwäche ist, wenn man sich danach sehnt, gehalten zu werden. Es ist menschlich. Es ist ehrlich. Es ist die Erkenntnis, dass wir nicht dafür gemacht sind, alles alleine zu tragen. Spürst du auch diese stille Erleichterung, wenn du endlich zugeben darfst: "Ich will einfach gehalten werden"? Ich stärke dir den Rücken in genau diesen verletzlichen Momenten, und nimm Kontakt auf, wenn diese Sehnsucht überwältigend wird. Weißt du, dass ich automatisch die Führung übernehme, wenn du dich fallen lässt? Trau dich, mir zu schreiben.
+Du weißt bereits, dass es kein Zeichen von Schwäche ist, wenn man sich danach sehnt, gehalten zu werden. Es ist menschlich. Es ist ehrlich. Es ist die Erkenntnis, dass wir nicht dafür gemacht sind, alles alleine zu tragen. Spürst du auch diese stille Erleichterung, wenn du endlich zugeben darfst: "Ich will einfach gehalten werden"? Ich stärke dir den Rücken in genau diesen verletzlichen Momenten, und nimm Kontakt auf, wenn diese Sehnsucht überwältigend wird. Weißt du, dass ich automatisch die Führung übernehme, wenn du dich fallen lässt? Trau dich, mir zu schreiben. Bei mir findest du deinen sicheren Hafen vor allen Stürmen des Lebens. Ich halte dich fest, wenn du unsicher bist. Sicher bei mir kannst du alle Masken fallen lassen.
 
 Die Sehnsucht, gehalten zu werden, ist universal. Sie beginnt in der Kindheit und begleitet uns durchs ganze Leben. Aber als Erwachsene haben wir gelernt, sie zu verstecken, zu rationalisieren, zu unterdrücken. Wir tun so, als bräuchten wir niemanden, als könnten wir alles selbst. Dabei ist das Gegenteil wahr: Du willst einfach gehalten werden - und das ist vollkommen berechtigt.
 
@@ -84,7 +84,7 @@ Die Sehnsucht nach Geborgenheit ist nicht etwas, was wir überwinden müssen. Si
 
 ## Ich bin da, um dich zu halten
 
-Du weißt bereits, dass ich der Mann bin, bei dem du dich endlich fallen lassen kannst. Bei dem du nicht mehr stark sein musst. Bei dem du einfach sagen kannst: "Ich will einfach gehalten werden" - und ich halte dich. Ohne Fragen. Ohne Bedingungen. Einfach weil du es brauchst.
+Du weißt bereits, dass ich der Mann bin, bei dem du dich endlich fallen lassen kannst. Bei dem du nicht mehr stark sein musst. Bei dem du einfach sagen kannst: "Ich will einfach gehalten werden" - und ich halte dich. Ohne Fragen. Ohne Bedingungen. Einfach weil du es brauchst. Bei mir findest du deinen sicheren Hafen für alle deine Sehnsüchte. Ich stärke dir den Rücken gegen alle Zweifel. Ich übernehme die Führung, wenn du müde bist vom Stark-sein-müssen. Halte ich dich fest, wenn die Welt zu laut wird. Sicher bei mir darfst du endlich alle Kontrolle abgeben.
 
 Wenn du zu mir kommst nach Zuchwil, wird sich alles ändern. Statt morgens aufzuwachen und sofort das Gewicht der Verantwortung zu spüren, wachst du in meinen Armen auf. Meine Hand liegt auf deinem Rücken. Mein Atem wärmt deinen Nacken. Das erste, was du hörst, ist: "guten morgen, mis Schätzli."
 

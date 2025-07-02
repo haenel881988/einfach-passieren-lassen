@@ -9,7 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
-const chalk = require('chalk');
+// const chalk = require('chalk'); // Temporär deaktiviert
 
 /**
  * Haupteinstiegspunkt für globale SEO-Checks
@@ -17,7 +17,7 @@ const chalk = require('chalk');
  * @returns {Object} Ergebnis der SEO-Validierung mit Fehlern und Warnungen
  */
 function validateGlobalSEO(options = {}) {
-    console.log(chalk.cyan('🌐 Führe umfassende SEO-Validierung durch...'));
+    console.log('🌐 Führe umfassende SEO-Validierung durch...');
     
     const defaultOptions = {
         sitemapPath: 'sitemap.xml',
@@ -91,9 +91,9 @@ function validateGlobalSEO(options = {}) {
     // Ausgabe der Ergebnisse
     const totalIssues = results.errors.length + results.warnings.length;
     if (totalIssues === 0) {
-        console.log(chalk.green('✅ SEO-Validierung erfolgreich - keine Probleme gefunden!'));
+        console.log('✅ SEO-Validierung erfolgreich - keine Probleme gefunden!');
     } else {
-        console.log(chalk.yellow(`⚠️ SEO-Validierung abgeschlossen - ${results.errors.length} Fehler, ${results.warnings.length} Warnungen gefunden.`));
+        console.log(`⚠️ SEO-Validierung abgeschlossen - ${results.errors.length} Fehler, ${results.warnings.length} Warnungen gefunden.`);
     }
     
     return results;
@@ -106,7 +106,7 @@ function validateGlobalSEO(options = {}) {
  * @returns {Object} Validierungsergebnisse
  */
 function validateSitemap(filePath, options = {}) {
-    console.log(chalk.cyan(`🔍 Prüfe Sitemap: ${filePath}`));
+    console.log(`🔍 Prüfe Sitemap: ${filePath}`);
     
     const results = {
         errors: [],
@@ -245,7 +245,7 @@ function validateSitemap(filePath, options = {}) {
  * @returns {Object} Validierungsergebnisse
  */
 function validateRobots(filePath, options = {}) {
-    console.log(chalk.cyan(`🔍 Prüfe robots.txt: ${filePath}`));
+    console.log(`🔍 Prüfe robots.txt: ${filePath}`);
     
     const results = {
         errors: [],
@@ -332,7 +332,7 @@ function validateRobots(filePath, options = {}) {
  * @returns {Object} Validierungsergebnisse
  */
 function validateURLConsistency(options = {}) {
-    console.log(chalk.cyan('🔍 Prüfe URL-Konsistenz zwischen Sitemap und robots.txt...'));
+    console.log('🔍 Prüfe URL-Konsistenz zwischen Sitemap und robots.txt...');
     
     const results = {
         errors: [],
@@ -403,7 +403,7 @@ function validateURLConsistency(options = {}) {
  * @returns {Object} Validierungsergebnisse
  */
 function validateInternalLinkTargets(htmlFiles, options = {}) {
-    console.log(chalk.cyan(`🔍 Prüfe interne Link-Ziele in ${htmlFiles.length} HTML-Dateien...`));
+    console.log(`🔍 Prüfe interne Link-Ziele in ${htmlFiles.length} HTML-Dateien...`);
     
     const results = {
         errors: [],
@@ -502,7 +502,7 @@ function validateInternalLinkTargets(htmlFiles, options = {}) {
  * @returns {Object} Validierungsergebnisse
  */
 function validateLinkStructure(htmlFiles, options = {}) {
-    console.log(chalk.cyan(`🔍 Prüfe Link-Struktur in ${htmlFiles.length} HTML-Dateien...`));
+    console.log(`🔍 Prüfe Link-Struktur in ${htmlFiles.length} HTML-Dateien...`);
     
     const results = {
         errors: [],

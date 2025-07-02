@@ -49,10 +49,18 @@ Die Website richtet sich an eine Frau, die möglicherweise aktiv oder passiv nac
 📊 297 Problems automatisch gefunden (4 Errors, 293 Warnings)
 ```
 
+
 **Build-Prozess:**
 ```bash
 npm run build  # Automatisches Logging in docs/03_exception/
+# NEU: Alle Check-Skripte (SEO, Log-Cleanup etc.) werden jetzt automatisch beim Build ausgeführt (ab 02.07.2025, 16:00)
+# Logfiles werden automatisch in scripts/build-checks/logfiles/ erzeugt
 ```
+
+**Hinweis:**
+- Die Checks werden vor dem eigentlichen Build-Prozess automatisch ausgeführt, Fehler/Warnungen erscheinen direkt im Terminal.
+- Performance-Impact minimal, Build bleibt robust.
+- Rollback jederzeit möglich (siehe docs/aenderungsprotokoll.md)
 
 ### PDF-zu-Markdown Konvertierung
 - **Datum:** 30.06.2025

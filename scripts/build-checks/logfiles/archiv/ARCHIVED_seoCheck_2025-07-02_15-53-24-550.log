@@ -1,0 +1,21 @@
+# SEO-Check Report (2.7.2025, 17:53:24)
+Fehler: 1
+Warnungen: 11
+---
+## Fehler:
+- Toter Link: index.html verweist auf nicht existierende Datei endlich-zuhause-angekommen.html
+## Warnungen:
+- Keine Links gefunden in app-gui\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "zu-viel-liebe-zu-wenig-liebe.html" in blog\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "das-erste-mal.html" in blog\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "der-sichere-hafen.html" in blog\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "emotionale-leere.html" in blog\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "ich-will-einfach-gehalten-werden.html" in blog\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "bindungssehnsucht-normal.html" in blog\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "erschoepft-vom-stark-sein.html" in blog\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "kontrolle-abgeben.html" in blog\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "sehnsucht-nach-hingabe.html" in blog\index.html
+- Generischer Ankertext "Weiterlesen" für Link zu "README.html" in blog\index.html
+## Hinweise:
+- Sitemap enthält 14 URLs
+- Domain-Konsistenz: Sitemap und robots.txt verwenden beide "https://www.einfach-passieren-lassen.ch"
