@@ -1222,11 +1222,28 @@ function findDuplicateLines(content) {
 function validateAdvancedSEO(content, frontmatter, filename) {
     const issues = [];
 
-    // Internal Linking prüfen
+    // Internal Linking prüfen - ERWEITERT
     const internalLinkPattern = /\[.*?\]\((?!http).*?\.html\)/g;
     const internalLinks = content.match(internalLinkPattern) || [];
+    
     if (internalLinks.length < 2) {
         issues.push(`Zu wenig interne Links: ${internalLinks.length} (empfohlen: min. 2 für SEO-Silo)`);
+    }
+    
+    // NEU: Prüfe auf tote interne Links
+    if (internalLinks.length > 0) {
+        const deadLinks = validateInternalLinkTargets(internalLinks, filename);
+        if (deadLinks.length > 0) {
+            deadLinks.forEach(link => {
+                issues.push(`Toter interner Link gefunden: ${link}`);
+            });
+        }
+    }
+
+    // NEU: Prüfe auf korrekte Link-Struktur
+    const linkStructureIssues = validateLinkStructure(content);
+    if (linkStructureIssues.length > 0) {
+        issues.push(...linkStructureIssues);
     }
 
     // Canonical URL prüfen
@@ -1239,6 +1256,85 @@ function validateAdvancedSEO(content, frontmatter, filename) {
         issues.push('Schema.org Markup empfohlen für längere Artikel');
     }
 
+    return issues;
+}
+
+// NEU: Validiere ob interne Link-Ziele existieren
+function validateInternalLinkTargets(internalLinks, sourceFile) {
+    const deadLinks = [];
+    const sourceDir = path.dirname(sourceFile);
+    
+    internalLinks.forEach(linkMatch => {
+        try {
+            // Link-Ziel extrahieren
+            const hrefMatch = linkMatch.match(/\[.*?\]\((.*?)(?:\s+".*?")?\)/);
+            if (hrefMatch && hrefMatch[1]) {
+                const href = hrefMatch[1].trim();
+                
+                // Bestimme vollständigen Pfad
+                let targetPath;
+                if (href.startsWith('/')) {
+                    // Absoluter Pfad von Projektroot
+                    targetPath = path.join(process.cwd(), href.substring(1));
+                } else if (href.startsWith('../')) {
+                    // Relativer Pfad nach oben
+                    targetPath = path.join(sourceDir, href);
+                } else {
+                    // Relativer Pfad im selben Verzeichnis
+                    targetPath = path.join(sourceDir, href);
+                }
+                
+                // Für HTML-Links: Prüfe ob entsprechende MD-Datei existiert
+                if (href.endsWith('.html')) {
+                    const potentialMdPath = targetPath.replace(/\.html$/, '.md');
+                    if (!fs.existsSync(potentialMdPath) && !fs.existsSync(targetPath)) {
+                        deadLinks.push(href);
+                    }
+                }
+                // Für MD-Links: Direkte Prüfung
+                else {
+                    if (!fs.existsSync(targetPath)) {
+                        deadLinks.push(href);
+                    }
+                }
+            }
+        } catch (e) {
+            // Fehlerhafte Link-Syntax - als tot markieren
+            deadLinks.push(linkMatch);
+        }
+    });
+    
+    return deadLinks;
+}
+
+// NEU: Validiere die Link-Struktur
+function validateLinkStructure(content) {
+    const issues = [];
+    
+    // Prüfe auf korrekte Link-Struktur mit aussagekräftigen Ankertexten
+    const markdownLinkPattern = /\[(.*?)\]\((.*?)\)/g;
+    let match;
+    
+    while ((match = markdownLinkPattern.exec(content)) !== null) {
+        const [fullMatch, linkText, linkTarget] = match;
+        
+        // Prüfe Ankertext
+        if (!linkText || linkText.trim().length < 3) {
+            issues.push(`Link mit zu kurzem Ankertext gefunden: "${linkText || ''}"`);
+        }
+        
+        // Prüfe auf generische Ankertexte
+        const genericTexts = ['hier', 'klick', 'link', 'more', 'click', 'klicke', 'hier klicken'];
+        if (genericTexts.some(text => linkText.toLowerCase().trim() === text)) {
+            issues.push(`Generischer Ankertext verwendet: "${linkText}" - SEO-unfreundlich`);
+        }
+        
+        // Prüfe Link-Ziel auf Vollständigkeit
+        if (!linkTarget || linkTarget.trim().length === 0) {
+            issues.push(`Leeres Link-Ziel gefunden im Link: "${fullMatch}"`);
+        }
+    }
+    
     return issues;
 }
 
@@ -2812,12 +2908,224 @@ function countKeywords(content, keywords) {
 
 // ==================== MAIN BUILD PROCESS ====================
 
+// NEU: Erweiterte SEO Validierung für Sitemap und Robots.txt
+function validateGlobalSEO() {
+    console.log(chalk.blue('\n🔍 FÜHRE ERWEITERTE SEO-VALIDIERUNG DURCH...'));
+    
+    const issues = [];
+    
+    // Sitemap.xml prüfen
+    if (fs.existsSync('./sitemap.xml')) {
+        const sitemapContent = fs.readFileSync('./sitemap.xml', 'utf8');
+        issues.push(...validateSitemap(sitemapContent));
+    } else {
+        issues.push('❌ Keine sitemap.xml gefunden - kritisches SEO-Problem');
+    }
+    
+    // Robots.txt prüfen
+    if (fs.existsSync('./robots.txt')) {
+        const robotsContent = fs.readFileSync('./robots.txt', 'utf8');
+        issues.push(...validateRobots(robotsContent));
+    } else {
+        issues.push('❌ Keine robots.txt gefunden - kritisches SEO-Problem');
+    }
+    
+    // URL-Konsistenz zwischen Sitemap und Robots prüfen
+    if (fs.existsSync('./sitemap.xml') && fs.existsSync('./robots.txt')) {
+        issues.push(...validateURLConsistency());
+    }
+    
+    // Ausgabe der SEO-Issues
+    if (issues.length === 0) {
+        console.log(chalk.green('✅ Globale SEO-Validierung erfolgreich - Keine Issues gefunden'));
+    } else {
+        console.log(chalk.yellow(`⚠️ ${issues.length} Globale SEO-Issues gefunden:`));
+        issues.forEach(issue => {
+            console.log(chalk.yellow(`   - ${issue}`));
+        });
+    }
+    
+    return issues;
+}
+
+// NEU: Validiere Sitemap.xml
+function validateSitemap(content) {
+    const issues = [];
+    
+    try {
+        // Prüfe auf XML-Syntax
+        if (!content.includes('<?xml') || !content.includes('<urlset')) {
+            issues.push('❌ Sitemap.xml hat ungültiges XML-Format');
+            return issues;
+        }
+        
+        // Prüfe auf Namespace
+        if (!content.includes('xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"')) {
+            issues.push('⚠️ Sitemap.xml hat keinen korrekten XML-Namespace');
+        }
+        
+        // Prüfe auf URL-Einträge
+        const urlTagCount = (content.match(/<url>/g) || []).length;
+        if (urlTagCount === 0) {
+            issues.push('❌ Sitemap.xml enthält keine <url>-Einträge');
+        } else {
+            console.log(chalk.gray(`   ℹ️ Sitemap enthält ${urlTagCount} URLs`));
+        }
+        
+        // Prüfe ob alle URLs vollständige Einträge haben
+        const urls = content.match(/<loc>(.*?)<\/loc>/g) || [];
+        
+        if (urls.length > 0) {
+            // Prüfe auf konsistentes URL-Format (www vs non-www)
+            let hasWWW = 0;
+            let hasNonWWW = 0;
+            
+            urls.forEach(urlMatch => {
+                const url = urlMatch.replace(/<\/?loc>/g, '');
+                if (url.includes('://www.')) {
+                    hasWWW++;
+                } else if (url.includes('://')) {
+                    hasNonWWW++;
+                }
+            });
+            
+            if (hasWWW > 0 && hasNonWWW > 0) {
+                issues.push(`⚠️ Inkonsistentes URL-Format in Sitemap: ${hasWWW} URLs mit www, ${hasNonWWW} ohne www`);
+            }
+            
+            // Prüfe auf korrekte Schema (https)
+            const httpUrls = urls.filter(url => url.includes('http://'));
+            if (httpUrls.length > 0) {
+                issues.push(`⚠️ Unsichere HTTP-URLs in Sitemap gefunden: ${httpUrls.length} URLs`);
+            }
+            
+            // Prüfe auf Lastmod-Einträge
+            const lastmodTags = content.match(/<lastmod>(.*?)<\/lastmod>/g) || [];
+            if (lastmodTags.length < urls.length) {
+                issues.push(`⚠️ Nicht alle URLs haben <lastmod>-Einträge: ${lastmodTags.length}/${urls.length}`);
+            }
+            
+            // Prüfe ob Lastmod-Daten aktuell sind
+            const currentDate = new Date();
+            const outdatedDates = [];
+            
+            lastmodTags.forEach(tag => {
+                const dateStr = tag.replace(/<\/?lastmod>/g, '');
+                const date = new Date(dateStr);
+                
+                // Prüfe ob Datum älter als 30 Tage
+                const daysDiff = Math.floor((currentDate - date) / (1000 * 60 * 60 * 24));
+                if (daysDiff > 30) {
+                    outdatedDates.push(dateStr);
+                }
+            });
+            
+            if (outdatedDates.length > 0) {
+                issues.push(`⚠️ ${outdatedDates.length} URLs mit veralteten Lastmod-Daten (älter als 30 Tage)`);
+            }
+        }
+        
+    } catch (e) {
+        issues.push(`❌ Fehler beim Analysieren der Sitemap: ${e.message}`);
+    }
+    
+    return issues;
+}
+
+// NEU: Validiere Robots.txt
+function validateRobots(content) {
+    const issues = [];
+    
+    try {
+        // Prüfe auf User-agent
+        if (!content.includes('User-agent:')) {
+            issues.push('❌ Robots.txt hat keine User-agent Direktive');
+        }
+        
+        // Prüfe auf Sitemap-Eintrag
+        if (!content.includes('Sitemap:')) {
+            issues.push('⚠️ Robots.txt enthält keinen Sitemap-Verweis');
+        } else {
+            // Prüfe ob Sitemap-URL korrekt ist
+            const sitemapMatches = content.match(/Sitemap: (.*)/g) || [];
+            sitemapMatches.forEach(match => {
+                const sitemapUrl = match.replace('Sitemap:', '').trim();
+                
+                if (!sitemapUrl.endsWith('/sitemap.xml')) {
+                    issues.push(`⚠️ Ungewöhnlicher Sitemap-Pfad: ${sitemapUrl}`);
+                }
+                
+                if (sitemapUrl.includes('http://')) {
+                    issues.push(`⚠️ Unsichere HTTP-URL für Sitemap: ${sitemapUrl}`);
+                }
+                
+                // Prüfe ob Sitemap existiert
+                if (sitemapUrl.startsWith('https://')) {
+                    const localPath = './sitemap.xml';
+                    if (!fs.existsSync(localPath)) {
+                        issues.push(`❌ Sitemap-URL in robots.txt (${sitemapUrl}), aber keine lokale sitemap.xml vorhanden`);
+                    }
+                }
+            });
+        }
+        
+        // Prüfe kritische Disallows
+        if (content.includes('Disallow: /') && !content.includes('Disallow: /admin') && !content.includes('Disallow: /wp-admin')) {
+            issues.push('⚠️ Robots.txt enthält potentiell zu restriktive Disallow-Anweisung');
+        }
+        
+    } catch (e) {
+        issues.push(`❌ Fehler beim Analysieren der robots.txt: ${e.message}`);
+    }
+    
+    return issues;
+}
+
+// NEU: Validiere URL-Konsistenz zwischen Sitemap und Robots
+function validateURLConsistency() {
+    const issues = [];
+    
+    try {
+        const sitemapContent = fs.readFileSync('./sitemap.xml', 'utf8');
+        const robotsContent = fs.readFileSync('./robots.txt', 'utf8');
+        
+        // Extrahiere Domain aus Sitemap
+        const sitemapDomainMatch = sitemapContent.match(/<loc>(https?:\/\/[^\/]+)/);
+        if (!sitemapDomainMatch) {
+            issues.push('❌ Konnte keine gültige Domain in Sitemap finden');
+            return issues;
+        }
+        const sitemapDomain = sitemapDomainMatch[1];
+        
+        // Extrahiere Sitemap-URL aus robots.txt
+        const robotsSitemapMatch = robotsContent.match(/Sitemap: (https?:\/\/[^\/]+)/);
+        if (!robotsSitemapMatch) {
+            issues.push('❌ Konnte keine gültige Sitemap-URL in robots.txt finden');
+            return issues;
+        }
+        const robotsDomain = robotsSitemapMatch[1];
+        
+        // Vergleiche Domains
+        if (sitemapDomain !== robotsDomain) {
+            issues.push(`❌ Inkonsistente Domains: Sitemap verwendet ${sitemapDomain}, robots.txt verwendet ${robotsDomain}`);
+        }
+        
+    } catch (e) {
+        issues.push(`❌ Fehler beim Prüfen der URL-Konsistenz: ${e.message}`);
+    }
+    
+    return issues;
+}
+
 async function buildBlogPosts() {
     console.log(chalk.cyan('\n🚀 STARTE INTELLIGENT BUILD PROCESS...'));
     console.log(chalk.blue(`📋 Terminal-Ausgabe wird gespeichert in: ${terminalLogger.logFilePath}`));
     console.log(chalk.gray('Neue Intention-Validation aktiv!\n'));
 
     try {
+        // NEU: Globale SEO-Validierung für Sitemap, Robots.txt und URL-Konsistenz
+        validateGlobalSEO();
+        
         // VS Code Problems sammeln (zu Beginn)
         await terminalLogger.collectVSCodeProblems();
         
