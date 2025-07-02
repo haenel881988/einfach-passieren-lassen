@@ -1,3 +1,14 @@
+
+Die KI muss zwingend bei jedem einzelnen Fehler, dies zu den lesson-learned hinzufügen:
+C:\apps\website\einfach-passieren-lassen\.github\lesson-learned
+
+Die KI managed  diesen ordner eigenständig und ist verantwortlich, dass dieser Ordner / Ort der Erinnerungen von Fehlern, immer und stetig aktuell ist.
+
+Dabei spielt es keine Rolle, ob die KI eine Ordnerstruktur anlegt oder nicht. Wichtig ist, dass die KI die Fehler in diesem Ordner dokumentiert.
+Es dürfen auch positive Lesson Learned hinzugefügt werden. 
+
+
+
 ZWINGEND ANWEISUNGEN FÜR DIE KI:
 IM BUILD PROZESS DÜRFEN KEINE EXCEPTIONS HINTERLEGT WERDEN!!!
 

@@ -6,6 +6,14 @@
   "devCommand": null,
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/$1.html"
     }

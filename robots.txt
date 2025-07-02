@@ -3,4 +3,4 @@ User-agent: *
 Disallow:
 
 # Point to the sitemap file
-Sitemap: https://einfach-passieren-lassen.ch/sitemap.xml
+Sitemap: https://www.einfach-passieren-lassen.ch/sitemap.xml
