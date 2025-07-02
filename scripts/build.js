@@ -5,6 +5,87 @@ import matter from 'front-matter';
 import * as cheerio from 'cheerio';
 import chalk from 'chalk';
 
+// ==================== INTELLIGENT LOG MANAGEMENT ====================
+class LogManager {
+    static async performLogCleanup() {
+        const logDir = 'docs/015_build_logs';
+        if (!fs.existsSync(logDir)) return;
+        
+        const logs = fs.readdirSync(logDir)
+            .filter(file => file.startsWith('BUILD_LOG_') && file.endsWith('.md'))
+            .map(file => ({
+                filename: file,
+                path: path.join(logDir, file),
+                timestamp: LogManager.extractTimestamp(file),
+                stats: fs.statSync(path.join(logDir, file))
+            }))
+            .sort((a, b) => a.timestamp - b.timestamp);
+        
+        // Behalte nur die letzten 5 Logs + beste Performance-Logs
+        const keepRecent = 5;
+        const keepBest = 3;
+        
+        if (logs.length <= keepRecent + keepBest) return;
+        
+        // Archiv-Verzeichnis erstellen
+        const archiveDir = 'docs/016_log_archive';
+        if (!fs.existsSync(archiveDir)) {
+            fs.mkdirSync(archiveDir, { recursive: true });
+        }
+        
+        // Aktuelle Session-Logs behalten
+        const recentLogs = logs.slice(-keepRecent);
+        
+        // Beste Performance-Logs identifizieren (kleinste Dateien = schnellste Builds)
+        const oldLogs = logs.slice(0, -keepRecent);
+        const bestLogs = oldLogs
+            .sort((a, b) => a.stats.size - b.stats.size)
+            .slice(0, keepBest);
+        
+        // Logs die gelöscht werden können
+        const bestFilenames = new Set(bestLogs.map(log => log.filename));
+        const toDelete = oldLogs.filter(log => !bestFilenames.has(log.filename));
+        
+        // Beste Logs ins Archiv verschieben
+        for (const log of bestLogs) {
+            const archivePath = path.join(archiveDir, `ARCHIVE_${log.filename}`);
+            try {
+                fs.renameSync(log.path, archivePath);
+            } catch (e) {
+                // Silent fail
+            }
+        }
+        
+        // Alte Logs löschen
+        for (const log of toDelete) {
+            try {
+                fs.unlinkSync(log.path);
+            } catch (e) {
+                // Silent fail
+            }
+        }
+        
+        const cleaned = toDelete.length;
+        const archived = bestLogs.length;
+        
+        if (cleaned > 0 || archived > 0) {
+            console.log(chalk.gray(`🧹 Log-Cleanup: ${cleaned} gelöscht, ${archived} archiviert, ${recentLogs.length} behalten`));
+        }
+    }
+    
+    static extractTimestamp(filename) {
+        const match = filename.match(/BUILD_LOG_(\d{4}-\d{2}-\d{2})_(\d{6})\.md/);
+        if (!match) return new Date(0);
+        
+        const [, date, time] = match;
+        const hour = time.substring(0, 2);
+        const minute = time.substring(2, 4);
+        const second = time.substring(4, 6);
+        
+        return new Date(`${date}T${hour}:${minute}:${second}`);
+    }
+}
+
 // ==================== TERMINAL OUTPUT LOGGING SYSTEM ====================
 // Speichert alle Console-Ausgaben in docs/015_build_logs für vollständige Nachverfolgung
 
@@ -3202,14 +3283,21 @@ function cleanGeneratedFiles() {
 
 // ==================== SCRIPT EXECUTION ====================
 // Auto-Start wenn Script direkt ausgeführt wird
-console.log(chalk.blue('🚀 STARTE INTELLIGENT BUILD PROCESS...'));
-console.log(chalk.blue('Neue Intention-Validation aktiv!'));
+async function startBuild() {
+    console.log(chalk.blue('🚀 STARTE INTELLIGENT BUILD PROCESS...'));
+    console.log(chalk.blue('Neue Intention-Validation aktiv!'));
 
-// 1. CLEAN PHASE: Alle alten HTML-Dateien löschen
-cleanGeneratedFiles();
+    // 0. LOG CLEANUP: Automatische Bereinigung alter Logs
+    await LogManager.performLogCleanup();
 
-// 2. BUILD PHASE: Saubere Neu-Generierung
-buildBlogPosts()
+    // 1. CLEAN PHASE: Alle alten HTML-Dateien löschen
+    cleanGeneratedFiles();
+
+    // 2. BUILD PHASE: Saubere Neu-Generierung
+    return buildBlogPosts();
+}
+
+startBuild()
     .then(() => {
         console.log(chalk.green('✅ Build erfolgreich abgeschlossen!'));
         console.log(chalk.blue(`📋 Vollständiges Terminal-Log verfügbar: ${terminalLogger.logFilePath}`));

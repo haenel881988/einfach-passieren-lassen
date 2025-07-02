@@ -1,0 +1,25 @@
+{
+  "buildCommand": "npm run build",
+  "framework": null,
+  "outputDirectory": ".",
+  "installCommand": "npm install",
+  "devCommand": null,
+  "functions": {},
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}

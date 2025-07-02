@@ -1,2665 +1,2617 @@
 # Build Process Log
             
-**Timestamp:** 2025-07-02T10:37:37.403Z
-**Dauer:** 297ms
-**Log-Datei:** docs\015_build_logs\BUILD_LOG_2025-07-02_103737.md
+**Timestamp:** 2025-07-02T12:12:29.794Z
+**Dauer:** 118ms
+**Log-Datei:** docs\015_build_logs\BUILD_LOG_2025-07-02_121229.md
 **Node-Version:** v22.14.0
 **Arbeitsverzeichnis:** C:\apps\website\einfach-passieren-lassen
 
 ## Vollständige Terminal-Ausgabe
 
-### 1. [LOG] 2025-07-02T10:37:37.405Z
+### 1. [LOG] 2025-07-02T12:12:29.796Z
 
 ```
 🚀 STARTE INTELLIGENT BUILD PROCESS...
 ```
 
-### 2. [LOG] 2025-07-02T10:37:37.406Z
+### 2. [LOG] 2025-07-02T12:12:29.797Z
 
 ```
 Neue Intention-Validation aktiv!
 ```
 
-### 3. [LOG] 2025-07-02T10:37:37.407Z
+### 3. [LOG] 2025-07-02T12:12:29.798Z
 
 ```
 🧹 STARTING CLEAN BUILD - Lösche vorhandene HTML-Dateien...
 ```
 
-### 4. [LOG] 2025-07-02T10:37:37.407Z
+### 4. [LOG] 2025-07-02T12:12:29.798Z
 
 ```
 📋 Gefunden: 9 Markdown-Dateien für Clean-Build
 ```
 
-### 5. [LOG] 2025-07-02T10:37:37.408Z
+### 5. [LOG] 2025-07-02T12:12:29.799Z
 
 ```
    🗑️ Gelöscht: bindungssehnsucht-normal.html
 ```
 
-### 6. [LOG] 2025-07-02T10:37:37.409Z
+### 6. [LOG] 2025-07-02T12:12:29.799Z
 
 ```
    🗑️ Gelöscht: das-erste-mal.html
 ```
 
-### 7. [LOG] 2025-07-02T10:37:37.409Z
+### 7. [LOG] 2025-07-02T12:12:29.800Z
 
 ```
    🗑️ Gelöscht: der-sichere-hafen.html
 ```
 
-### 8. [LOG] 2025-07-02T10:37:37.410Z
+### 8. [LOG] 2025-07-02T12:12:29.800Z
 
 ```
    🗑️ Gelöscht: emotionale-leere.html
 ```
 
-### 9. [LOG] 2025-07-02T10:37:37.465Z
+### 9. [LOG] 2025-07-02T12:12:29.801Z
 
 ```
    🗑️ Gelöscht: erschoepft-vom-stark-sein.html
 ```
 
-### 10. [LOG] 2025-07-02T10:37:37.510Z
+### 10. [LOG] 2025-07-02T12:12:29.801Z
 
 ```
    🗑️ Gelöscht: ich-will-einfach-gehalten-werden.html
 ```
 
-### 11. [LOG] 2025-07-02T10:37:37.522Z
+### 11. [LOG] 2025-07-02T12:12:29.802Z
 
 ```
    🗑️ Gelöscht: kontrolle-abgeben.html
 ```
 
-### 12. [LOG] 2025-07-02T10:37:37.537Z
+### 12. [LOG] 2025-07-02T12:12:29.802Z
 
 ```
    🗑️ Gelöscht: README.html
 ```
 
-### 13. [LOG] 2025-07-02T10:37:37.564Z
+### 13. [LOG] 2025-07-02T12:12:29.803Z
 
 ```
    🗑️ Gelöscht: sehnsucht-nach-hingabe.html
 ```
 
-### 14. [LOG] 2025-07-02T10:37:37.571Z
+### 14. [LOG] 2025-07-02T12:12:29.803Z
 
 ```
 ✅ CLEAN COMPLETED: 9 Dateien gelöscht, 0 übersprungen
 ```
 
-### 15. [LOG] 2025-07-02T10:37:37.571Z
+### 15. [LOG] 2025-07-02T12:12:29.803Z
 
 ```
 🔨 Starte saubere Neu-Generierung...
 ```
 
-### 16. [INFO] 2025-07-02T10:37:37.572Z
+### 16. [INFO] 2025-07-02T12:12:29.803Z
 
 ```
 Clean Build: 9 HTML-Dateien gelöscht
 ```
 
-### 17. [LOG] 2025-07-02T10:37:37.572Z
+### 17. [LOG] 2025-07-02T12:12:29.804Z
 
 ```
 
 🚀 STARTE INTELLIGENT BUILD PROCESS...
 ```
 
-### 18. [LOG] 2025-07-02T10:37:37.572Z
+### 18. [LOG] 2025-07-02T12:12:29.804Z
 
 ```
-📋 Terminal-Ausgabe wird gespeichert in: docs\015_build_logs\BUILD_LOG_2025-07-02_103737.md
+📋 Terminal-Ausgabe wird gespeichert in: docs\015_build_logs\BUILD_LOG_2025-07-02_121229.md
 ```
 
-### 19. [LOG] 2025-07-02T10:37:37.572Z
+### 19. [LOG] 2025-07-02T12:12:29.804Z
 
 ```
 Neue Intention-Validation aktiv!
 
 ```
 
-### 20. [LOG] 2025-07-02T10:37:37.573Z
+### 20. [LOG] 2025-07-02T12:12:29.804Z
 
 ```
 🔍 Sammle VS Code Problems...
 ```
 
-### 21. [PROBLEM] 2025-07-02T10:37:37.580Z
+### 21. [PROBLEM] 2025-07-02T12:12:29.811Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:40 - Missing semicolon
 ```
 
-### 22. [PROBLEM] 2025-07-02T10:37:37.580Z
+### 22. [PROBLEM] 2025-07-02T12:12:29.812Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:1943 - Missing semicolon
 ```
 
-### 23. [PROBLEM] 2025-07-02T10:37:37.580Z
+### 23. [PROBLEM] 2025-07-02T12:12:29.812Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:2327 - Missing semicolon
 ```
 
-### 24. [PROBLEM] 2025-07-02T10:37:37.580Z
+### 24. [PROBLEM] 2025-07-02T12:12:29.812Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:2713 - Missing semicolon
 ```
 
-### 25. [PROBLEM] 2025-07-02T10:37:37.580Z
+### 25. [PROBLEM] 2025-07-02T12:12:29.812Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:2741 - Missing semicolon
 ```
 
-### 26. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 26. [PROBLEM] 2025-07-02T12:12:29.813Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:3562 - Missing semicolon
 ```
 
-### 27. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 27. [PROBLEM] 2025-07-02T12:12:29.813Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:3599 - Missing semicolon
 ```
 
-### 28. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 28. [PROBLEM] 2025-07-02T12:12:29.813Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:4316 - Missing semicolon
 ```
 
-### 29. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 29. [PROBLEM] 2025-07-02T12:12:29.813Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:5013 - Missing semicolon
 ```
 
-### 30. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 30. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:5406 - Missing semicolon
 ```
 
-### 31. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 31. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6202 - Missing semicolon
 ```
 
-### 32. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 32. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6587 - Missing semicolon
 ```
 
-### 33. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 33. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6720 - Missing semicolon
 ```
 
-### 34. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 34. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6743 - Missing semicolon
 ```
 
-### 35. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 35. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6803 - Missing semicolon
 ```
 
-### 36. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 36. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6895 - Missing semicolon
 ```
 
-### 37. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 37. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6923 - Missing semicolon
 ```
 
-### 38. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 38. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:6954 - Missing semicolon
 ```
 
-### 39. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 39. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7029 - Missing semicolon
 ```
 
-### 40. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 40. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7054 - Missing semicolon
 ```
 
-### 41. [PROBLEM] 2025-07-02T10:37:37.581Z
+### 41. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7099 - Missing semicolon
 ```
 
-### 42. [PROBLEM] 2025-07-02T10:37:37.582Z
+### 42. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7531 - Missing semicolon
 ```
 
-### 43. [PROBLEM] 2025-07-02T10:37:37.582Z
+### 43. [PROBLEM] 2025-07-02T12:12:29.814Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7585 - Missing semicolon
 ```
 
-### 44. [PROBLEM] 2025-07-02T10:37:37.582Z
+### 44. [PROBLEM] 2025-07-02T12:12:29.816Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:7983 - Missing semicolon
 ```
 
-### 45. [PROBLEM] 2025-07-02T10:37:37.582Z
+### 45. [PROBLEM] 2025-07-02T12:12:29.816Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:8071 - Missing semicolon
 ```
 
-### 46. [PROBLEM] 2025-07-02T10:37:37.582Z
+### 46. [PROBLEM] 2025-07-02T12:12:29.816Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:8075 - Missing semicolon
 ```
 
-### 47. [PROBLEM] 2025-07-02T10:37:37.582Z
+### 47. [PROBLEM] 2025-07-02T12:12:29.816Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:8112 - Missing semicolon
 ```
 
-### 48. [PROBLEM] 2025-07-02T10:37:37.582Z
+### 48. [PROBLEM] 2025-07-02T12:12:29.817Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:8493 - Missing semicolon
 ```
 
-### 49. [PROBLEM] 2025-07-02T10:37:37.582Z
+### 49. [PROBLEM] 2025-07-02T12:12:29.817Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:9746 - Missing semicolon
 ```
 
-### 50. [PROBLEM] 2025-07-02T10:37:37.582Z
+### 50. [PROBLEM] 2025-07-02T12:12:29.817Z
 
 ```
 [WARNING] app-gui\dist-electron\index-Ckhtba7t.js:9945 - Console.log statement found - consider removing in production
 ```
 
-### 51. [PROBLEM] 2025-07-02T10:37:37.584Z
+### 51. [PROBLEM] 2025-07-02T12:12:29.818Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:40 - Missing semicolon
 ```
 
-### 52. [PROBLEM] 2025-07-02T10:37:37.584Z
+### 52. [PROBLEM] 2025-07-02T12:12:29.819Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:1950 - Missing semicolon
 ```
 
-### 53. [PROBLEM] 2025-07-02T10:37:37.584Z
+### 53. [PROBLEM] 2025-07-02T12:12:29.819Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:2360 - Missing semicolon
 ```
 
-### 54. [PROBLEM] 2025-07-02T10:37:37.584Z
+### 54. [PROBLEM] 2025-07-02T12:12:29.819Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:2762 - Missing semicolon
 ```
 
-### 55. [PROBLEM] 2025-07-02T10:37:37.584Z
+### 55. [PROBLEM] 2025-07-02T12:12:29.819Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:2790 - Missing semicolon
 ```
 
-### 56. [PROBLEM] 2025-07-02T10:37:37.585Z
+### 56. [PROBLEM] 2025-07-02T12:12:29.819Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:3618 - Missing semicolon
 ```
 
-### 57. [PROBLEM] 2025-07-02T10:37:37.585Z
+### 57. [PROBLEM] 2025-07-02T12:12:29.819Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:3655 - Missing semicolon
 ```
 
-### 58. [PROBLEM] 2025-07-02T10:37:37.586Z
+### 58. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:4372 - Missing semicolon
 ```
 
-### 59. [PROBLEM] 2025-07-02T10:37:37.586Z
+### 59. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:5069 - Missing semicolon
 ```
 
-### 60. [PROBLEM] 2025-07-02T10:37:37.586Z
+### 60. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:5462 - Missing semicolon
 ```
 
-### 61. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 61. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6258 - Missing semicolon
 ```
 
-### 62. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 62. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6643 - Missing semicolon
 ```
 
-### 63. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 63. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6776 - Missing semicolon
 ```
 
-### 64. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 64. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6799 - Missing semicolon
 ```
 
-### 65. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 65. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6859 - Missing semicolon
 ```
 
-### 66. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 66. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6951 - Missing semicolon
 ```
 
-### 67. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 67. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:6979 - Missing semicolon
 ```
 
-### 68. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 68. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7010 - Missing semicolon
 ```
 
-### 69. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 69. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7085 - Missing semicolon
 ```
 
-### 70. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 70. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7110 - Missing semicolon
 ```
 
-### 71. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 71. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7155 - Missing semicolon
 ```
 
-### 72. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 72. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7587 - Missing semicolon
 ```
 
-### 73. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 73. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:7641 - Missing semicolon
 ```
 
-### 74. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 74. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8039 - Missing semicolon
 ```
 
-### 75. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 75. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8127 - Missing semicolon
 ```
 
-### 76. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 76. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8131 - Missing semicolon
 ```
 
-### 77. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 77. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8168 - Missing semicolon
 ```
 
-### 78. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 78. [PROBLEM] 2025-07-02T12:12:29.820Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:8549 - Missing semicolon
 ```
 
-### 79. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 79. [PROBLEM] 2025-07-02T12:12:29.821Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:9802 - Missing semicolon
 ```
 
-### 80. [PROBLEM] 2025-07-02T10:37:37.587Z
+### 80. [PROBLEM] 2025-07-02T12:12:29.821Z
 
 ```
 [WARNING] app-gui\dist-electron\index-DhEd7u67.js:10001 - Console.log statement found - consider removing in production
 ```
 
-### 81. [PROBLEM] 2025-07-02T10:37:37.590Z
+### 81. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [WARNING] app-gui\src\App.jsx:4 - Missing semicolon
 ```
 
-### 82. [PROBLEM] 2025-07-02T10:37:37.590Z
+### 82. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [WARNING] app-gui\src\App.jsx:72 - Missing semicolon
 ```
 
-### 83. [PROBLEM] 2025-07-02T10:37:37.590Z
+### 83. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [WARNING] app-gui\src\App.jsx:99 - Missing semicolon
 ```
 
-### 84. [PROBLEM] 2025-07-02T10:37:37.592Z
+### 84. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [WARNING] build-process\mainBuild.js:13 - Console.log statement found - consider removing in production
 ```
 
-### 85. [PROBLEM] 2025-07-02T10:37:37.592Z
+### 85. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [WARNING] build-process\modules\logger.js:17 - Console.log statement found - consider removing in production
 ```
 
-### 86. [PROBLEM] 2025-07-02T10:37:37.592Z
+### 86. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [WARNING] build-process\modules\logger.js:34 - Console.log statement found - consider removing in production
 ```
 
-### 87. [PROBLEM] 2025-07-02T10:37:37.592Z
+### 87. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [WARNING] build-process\modules\logger.js:62 - Console.log statement found - consider removing in production
 ```
 
-### 88. [PROBLEM] 2025-07-02T10:37:37.592Z
+### 88. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [ERROR] build-process\modules\logger.js:145 - Typo: "fucntion" should be "function"
 ```
 
-### 89. [PROBLEM] 2025-07-02T10:37:37.592Z
+### 89. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [ERROR] build-process\modules\logger.js:146 - Typo: "fucntion" should be "function"
 ```
 
-### 90. [PROBLEM] 2025-07-02T10:37:37.592Z
+### 90. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [WARNING] build-process\modules\logger.js:243 - Missing semicolon
 ```
 
-### 91. [PROBLEM] 2025-07-02T10:37:37.592Z
+### 91. [PROBLEM] 2025-07-02T12:12:29.824Z
 
 ```
 [WARNING] build-process\modules\logger.js:276 - Console.log statement found - consider removing in production
 ```
 
-### 92. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 92. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:14 - Console.log statement found - consider removing in production
 ```
 
-### 93. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 93. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:37 - Console.log statement found - consider removing in production
 ```
 
-### 94. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 94. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:58 - Missing semicolon
 ```
 
-### 95. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 95. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:70 - Console.log statement found - consider removing in production
 ```
 
-### 96. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 96. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [ERROR] scripts\build.js:185 - Typo: "fucntion" should be "function"
 ```
 
-### 97. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 97. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [ERROR] scripts\build.js:186 - Typo: "fucntion" should be "function"
 ```
 
-### 98. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 98. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:233 - Missing semicolon
 ```
 
-### 99. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 99. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:243 - Missing semicolon
 ```
 
-### 100. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 100. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:329 - Missing semicolon
 ```
 
-### 101. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 101. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:399 - Missing semicolon
 ```
 
-### 102. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 102. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:439 - Console.log statement found - consider removing in production
 ```
 
-### 103. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 103. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:568 - Missing semicolon
 ```
 
-### 104. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 104. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:572 - Missing semicolon
 ```
 
-### 105. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 105. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:579 - Missing semicolon
 ```
 
-### 106. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 106. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:586 - Missing semicolon
 ```
 
-### 107. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 107. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:659 - Missing semicolon
 ```
 
-### 108. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 108. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:738 - Missing semicolon
 ```
 
-### 109. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 109. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:781 - Missing semicolon
 ```
 
-### 110. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 110. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:792 - Missing semicolon
 ```
 
-### 111. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 111. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:854 - Missing semicolon
 ```
 
-### 112. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 112. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:883 - Missing semicolon
 ```
 
-### 113. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 113. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:887 - Missing semicolon
 ```
 
-### 114. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 114. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:1006 - Missing semicolon
 ```
 
-### 115. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 115. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:1101 - Missing semicolon
 ```
 
-### 116. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 116. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:1139 - Missing semicolon
 ```
 
-### 117. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 117. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:1151 - Missing semicolon
 ```
 
-### 118. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 118. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:1231 - Missing semicolon
 ```
 
-### 119. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 119. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:1327 - Missing semicolon
 ```
 
-### 120. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 120. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:1448 - Console.log statement found - consider removing in production
 ```
 
-### 121. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 121. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:1449 - Console.log statement found - consider removing in production
 ```
 
-### 122. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 122. [PROBLEM] 2025-07-02T12:12:29.826Z
 
 ```
 [WARNING] scripts\build.js:1471 - Console.log statement found - consider removing in production
 ```
 
-### 123. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 123. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1481 - Console.log statement found - consider removing in production
 ```
 
-### 124. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 124. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1486 - Console.log statement found - consider removing in production
 ```
 
-### 125. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 125. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1500 - Console.log statement found - consider removing in production
 ```
 
-### 126. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 126. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1504 - Console.log statement found - consider removing in production
 ```
 
-### 127. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 127. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1506 - Console.log statement found - consider removing in production
 ```
 
-### 128. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 128. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1509 - Console.log statement found - consider removing in production
 ```
 
-### 129. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 129. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1560 - Console.log statement found - consider removing in production
 ```
 
-### 130. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 130. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1562 - Console.log statement found - consider removing in production
 ```
 
-### 131. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 131. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1567 - Console.log statement found - consider removing in production
 ```
 
-### 132. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 132. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1573 - Console.log statement found - consider removing in production
 ```
 
-### 133. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 133. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1575 - Console.log statement found - consider removing in production
 ```
 
-### 134. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 134. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1581 - Console.log statement found - consider removing in production
 ```
 
-### 135. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 135. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1582 - Console.log statement found - consider removing in production
 ```
 
-### 136. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 136. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1583 - Console.log statement found - consider removing in production
 ```
 
-### 137. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 137. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1586 - Console.log statement found - consider removing in production
 ```
 
-### 138. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 138. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1587 - Console.log statement found - consider removing in production
 ```
 
-### 139. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 139. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1588 - Console.log statement found - consider removing in production
 ```
 
-### 140. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 140. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1589 - Console.log statement found - consider removing in production
 ```
 
-### 141. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 141. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1590 - Console.log statement found - consider removing in production
 ```
 
-### 142. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 142. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1591 - Console.log statement found - consider removing in production
 ```
 
-### 143. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 143. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1594 - Console.log statement found - consider removing in production
 ```
 
-### 144. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 144. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1598 - Console.log statement found - consider removing in production
 ```
 
-### 145. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 145. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1599 - Console.log statement found - consider removing in production
 ```
 
-### 146. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 146. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1600 - Console.log statement found - consider removing in production
 ```
 
-### 147. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 147. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1604 - Missing semicolon
 ```
 
-### 148. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 148. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1628 - Console.log statement found - consider removing in production
 ```
 
-### 149. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 149. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1630 - Console.log statement found - consider removing in production
 ```
 
-### 150. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 150. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1636 - Console.log statement found - consider removing in production
 ```
 
-### 151. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 151. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1639 - Console.log statement found - consider removing in production
 ```
 
-### 152. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 152. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1659 - Console.log statement found - consider removing in production
 ```
 
-### 153. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 153. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1660 - Console.log statement found - consider removing in production
 ```
 
-### 154. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 154. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1683 - Console.log statement found - consider removing in production
 ```
 
-### 155. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 155. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1687 - Console.log statement found - consider removing in production
 ```
 
-### 156. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 156. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1688 - Console.log statement found - consider removing in production
 ```
 
-### 157. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 157. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1690 - Console.log statement found - consider removing in production
 ```
 
-### 158. [PROBLEM] 2025-07-02T10:37:37.594Z
+### 158. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1691 - Console.log statement found - consider removing in production
 ```
 
-### 159. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 159. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1695 - Console.log statement found - consider removing in production
 ```
 
-### 160. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 160. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1697 - Console.log statement found - consider removing in production
 ```
 
-### 161. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 161. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1700 - Console.log statement found - consider removing in production
 ```
 
-### 162. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 162. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1703 - Console.log statement found - consider removing in production
 ```
 
-### 163. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 163. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1706 - Console.log statement found - consider removing in production
 ```
 
-### 164. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 164. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1707 - Console.log statement found - consider removing in production
 ```
 
-### 165. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 165. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1711 - Console.log statement found - consider removing in production
 ```
 
-### 166. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 166. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1712 - Console.log statement found - consider removing in production
 ```
 
-### 167. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 167. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1731 - Missing semicolon
 ```
 
-### 168. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 168. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1739 - Console.log statement found - consider removing in production
 ```
 
-### 169. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 169. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1743 - Console.log statement found - consider removing in production
 ```
 
-### 170. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 170. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1745 - Console.log statement found - consider removing in production
 ```
 
-### 171. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 171. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1748 - Console.log statement found - consider removing in production
 ```
 
-### 172. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 172. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1749 - Console.log statement found - consider removing in production
 ```
 
-### 173. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 173. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1750 - Console.log statement found - consider removing in production
 ```
 
-### 174. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 174. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1751 - Console.log statement found - consider removing in production
 ```
 
-### 175. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 175. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1752 - Console.log statement found - consider removing in production
 ```
 
-### 176. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 176. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1755 - Console.log statement found - consider removing in production
 ```
 
-### 177. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 177. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1757 - Console.log statement found - consider removing in production
 ```
 
-### 178. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 178. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1762 - Console.log statement found - consider removing in production
 ```
 
-### 179. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 179. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1764 - Console.log statement found - consider removing in production
 ```
 
-### 180. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 180. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1769 - Console.log statement found - consider removing in production
 ```
 
-### 181. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 181. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1779 - Console.log statement found - consider removing in production
 ```
 
-### 182. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 182. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1793 - Console.log statement found - consider removing in production
 ```
 
-### 183. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 183. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1794 - Console.log statement found - consider removing in production
 ```
 
-### 184. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 184. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1795 - Console.log statement found - consider removing in production
 ```
 
-### 185. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 185. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1796 - Console.log statement found - consider removing in production
 ```
 
-### 186. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 186. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1797 - Console.log statement found - consider removing in production
 ```
 
-### 187. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 187. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1798 - Console.log statement found - consider removing in production
 ```
 
-### 188. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 188. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1799 - Console.log statement found - consider removing in production
 ```
 
-### 189. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 189. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1803 - Console.log statement found - consider removing in production
 ```
 
-### 190. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 190. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1804 - Console.log statement found - consider removing in production
 ```
 
-### 191. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 191. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1805 - Console.log statement found - consider removing in production
 ```
 
-### 192. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 192. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1806 - Console.log statement found - consider removing in production
 ```
 
-### 193. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 193. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1807 - Console.log statement found - consider removing in production
 ```
 
-### 194. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 194. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1808 - Console.log statement found - consider removing in production
 ```
 
-### 195. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 195. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1809 - Console.log statement found - consider removing in production
 ```
 
-### 196. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 196. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1810 - Console.log statement found - consider removing in production
 ```
 
-### 197. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 197. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1830 - Console.log statement found - consider removing in production
 ```
 
-### 198. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 198. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1847 - Console.log statement found - consider removing in production
 ```
 
-### 199. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 199. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1885 - Missing semicolon
 ```
 
-### 200. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 200. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1941 - Console.log statement found - consider removing in production
 ```
 
-### 201. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 201. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:1994 - Missing semicolon
 ```
 
-### 202. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 202. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2023 - Missing semicolon
 ```
 
-### 203. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 203. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2060 - Missing semicolon
 ```
 
-### 204. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 204. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2072 - Missing semicolon
 ```
 
-### 205. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 205. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2100 - Missing semicolon
 ```
 
-### 206. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 206. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2112 - Missing semicolon
 ```
 
-### 207. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 207. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2138 - Console.log statement found - consider removing in production
 ```
 
-### 208. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 208. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2190 - Missing semicolon
 ```
 
-### 209. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 209. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2194 - Missing semicolon
 ```
 
-### 210. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 210. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2207 - Missing semicolon
 ```
 
-### 211. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 211. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2216 - Missing semicolon
 ```
 
-### 212. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 212. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2225 - Missing semicolon
 ```
 
-### 213. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 213. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2234 - Missing semicolon
 ```
 
-### 214. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 214. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2255 - Missing semicolon
 ```
 
-### 215. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 215. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2268 - Missing semicolon
 ```
 
-### 216. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 216. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2281 - Missing semicolon
 ```
 
-### 217. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 217. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2294 - Missing semicolon
 ```
 
-### 218. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 218. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2321 - Missing semicolon
 ```
 
-### 219. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 219. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2330 - Missing semicolon
 ```
 
-### 220. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 220. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2339 - Missing semicolon
 ```
 
-### 221. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 221. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2348 - Missing semicolon
 ```
 
-### 222. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 222. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2357 - Missing semicolon
 ```
 
-### 223. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 223. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2450 - Missing semicolon
 ```
 
-### 224. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 224. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2454 - Missing semicolon
 ```
 
-### 225. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 225. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2464 - Missing semicolon
 ```
 
-### 226. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 226. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2474 - Missing semicolon
 ```
 
-### 227. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 227. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2493 - Missing semicolon
 ```
 
-### 228. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 228. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2518 - Missing semicolon
 ```
 
-### 229. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 229. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2527 - Missing semicolon
 ```
 
-### 230. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 230. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2536 - Missing semicolon
 ```
 
-### 231. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 231. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2545 - Missing semicolon
 ```
 
-### 232. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 232. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2554 - Missing semicolon
 ```
 
-### 233. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 233. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2563 - Missing semicolon
 ```
 
-### 234. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 234. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2586 - Missing semicolon
 ```
 
-### 235. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 235. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2599 - Missing semicolon
 ```
 
-### 236. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 236. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2612 - Missing semicolon
 ```
 
-### 237. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 237. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2621 - Missing semicolon
 ```
 
-### 238. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 238. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2630 - Missing semicolon
 ```
 
-### 239. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 239. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2639 - Missing semicolon
 ```
 
-### 240. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 240. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2668 - Console.log statement found - consider removing in production
 ```
 
-### 241. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 241. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2669 - Console.log statement found - consider removing in production
 ```
 
-### 242. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 242. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2670 - Console.log statement found - consider removing in production
 ```
 
-### 243. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 243. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2677 - Missing semicolon
 ```
 
-### 244. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 244. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2682 - Console.log statement found - consider removing in production
 ```
 
-### 245. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 245. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2686 - Console.log statement found - consider removing in production
 ```
 
-### 246. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 246. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2693 - Console.log statement found - consider removing in production
 ```
 
-### 247. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 247. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2699 - Missing semicolon
 ```
 
-### 248. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 248. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2700 - Missing semicolon
 ```
 
-### 249. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 249. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2703 - Console.log statement found - consider removing in production
 ```
 
-### 250. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 250. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2715 - Console.log statement found - consider removing in production
 ```
 
-### 251. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 251. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2718 - Missing semicolon
 ```
 
-### 252. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 252. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2721 - Console.log statement found - consider removing in production
 ```
 
-### 253. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 253. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2724 - Console.log statement found - consider removing in production
 ```
 
-### 254. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 254. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2728 - Console.log statement found - consider removing in production
 ```
 
-### 255. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 255. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2729 - Missing semicolon
 ```
 
-### 256. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 256. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2735 - Console.log statement found - consider removing in production
 ```
 
-### 257. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 257. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2737 - Console.log statement found - consider removing in production
 ```
 
-### 258. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 258. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2741 - Console.log statement found - consider removing in production
 ```
 
-### 259. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 259. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2745 - Missing semicolon
 ```
 
-### 260. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 260. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2753 - Console.log statement found - consider removing in production
 ```
 
-### 261. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 261. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2757 - Console.log statement found - consider removing in production
 ```
 
-### 262. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 262. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2763 - Console.log statement found - consider removing in production
 ```
 
-### 263. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 263. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2768 - Console.log statement found - consider removing in production
 ```
 
-### 264. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 264. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2769 - Console.log statement found - consider removing in production
 ```
 
-### 265. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 265. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2770 - Console.log statement found - consider removing in production
 ```
 
-### 266. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 266. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2772 - Console.log statement found - consider removing in production
 ```
 
-### 267. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 267. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2781 - Console.log statement found - consider removing in production
 ```
 
-### 268. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 268. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2786 - Console.log statement found - consider removing in production
 ```
 
-### 269. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 269. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2787 - Console.log statement found - consider removing in production
 ```
 
-### 270. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 270. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2788 - Console.log statement found - consider removing in production
 ```
 
-### 271. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 271. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2789 - Console.log statement found - consider removing in production
 ```
 
-### 272. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 272. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2803 - Console.log statement found - consider removing in production
 ```
 
-### 273. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 273. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2805 - Console.log statement found - consider removing in production
 ```
 
-### 274. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 274. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2815 - Console.log statement found - consider removing in production
 ```
 
-### 275. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 275. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2818 - Console.log statement found - consider removing in production
 ```
 
-### 276. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 276. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2821 - Console.log statement found - consider removing in production
 ```
 
-### 277. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 277. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2822 - Console.log statement found - consider removing in production
 ```
 
-### 278. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 278. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2823 - Console.log statement found - consider removing in production
 ```
 
-### 279. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 279. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2824 - Console.log statement found - consider removing in production
 ```
 
-### 280. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 280. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2825 - Console.log statement found - consider removing in production
 ```
 
-### 281. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 281. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2830 - Console.log statement found - consider removing in production
 ```
 
-### 282. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 282. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2831 - Console.log statement found - consider removing in production
 ```
 
-### 283. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 283. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2860 - Console.log statement found - consider removing in production
 ```
 
-### 284. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 284. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2863 - Console.log statement found - consider removing in production
 ```
 
-### 285. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 285. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2864 - Console.log statement found - consider removing in production
 ```
 
-### 286. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 286. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2865 - Console.log statement found - consider removing in production
 ```
 
-### 287. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 287. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2866 - Console.log statement found - consider removing in production
 ```
 
-### 288. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 288. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2867 - Console.log statement found - consider removing in production
 ```
 
-### 289. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 289. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2868 - Console.log statement found - consider removing in production
 ```
 
-### 290. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 290. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2871 - Console.log statement found - consider removing in production
 ```
 
-### 291. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 291. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2872 - Console.log statement found - consider removing in production
 ```
 
-### 292. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 292. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2873 - Console.log statement found - consider removing in production
 ```
 
-### 293. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 293. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2874 - Console.log statement found - consider removing in production
 ```
 
-### 294. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 294. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2875 - Console.log statement found - consider removing in production
 ```
 
-### 295. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 295. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2876 - Console.log statement found - consider removing in production
 ```
 
-### 296. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 296. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2877 - Console.log statement found - consider removing in production
 ```
 
-### 297. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 297. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2879 - Console.log statement found - consider removing in production
 ```
 
-### 298. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 298. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2881 - Console.log statement found - consider removing in production
 ```
 
-### 299. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 299. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2884 - Console.log statement found - consider removing in production
 ```
 
-### 300. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 300. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2885 - Console.log statement found - consider removing in production
 ```
 
-### 301. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 301. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2886 - Console.log statement found - consider removing in production
 ```
 
-### 302. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 302. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2887 - Console.log statement found - consider removing in production
 ```
 
-### 303. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 303. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2889 - Console.log statement found - consider removing in production
 ```
 
-### 304. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 304. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2890 - Console.log statement found - consider removing in production
 ```
 
-### 305. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 305. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2891 - Console.log statement found - consider removing in production
 ```
 
-### 306. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 306. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2892 - Console.log statement found - consider removing in production
 ```
 
-### 307. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 307. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2894 - Console.log statement found - consider removing in production
 ```
 
-### 308. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 308. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2895 - Console.log statement found - consider removing in production
 ```
 
-### 309. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 309. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2896 - Console.log statement found - consider removing in production
 ```
 
-### 310. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 310. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2897 - Console.log statement found - consider removing in production
 ```
 
-### 311. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 311. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2898 - Console.log statement found - consider removing in production
 ```
 
-### 312. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 312. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2899 - Console.log statement found - consider removing in production
 ```
 
-### 313. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 313. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2901 - Console.log statement found - consider removing in production
 ```
 
-### 314. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 314. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2902 - Console.log statement found - consider removing in production
 ```
 
-### 315. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 315. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2903 - Console.log statement found - consider removing in production
 ```
 
-### 316. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 316. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2904 - Console.log statement found - consider removing in production
 ```
 
-### 317. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 317. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2907 - Console.log statement found - consider removing in production
 ```
 
-### 318. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 318. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2908 - Console.log statement found - consider removing in production
 ```
 
-### 319. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 319. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2909 - Console.log statement found - consider removing in production
 ```
 
-### 320. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 320. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2929 - Console.log statement found - consider removing in production
 ```
 
-### 321. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 321. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2965 - Missing semicolon
 ```
 
-### 322. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 322. [PROBLEM] 2025-07-02T12:12:29.827Z
 
 ```
 [WARNING] scripts\build.js:2985 - Missing semicolon
 ```
 
-### 323. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 323. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3013 - Missing semicolon
 ```
 
-### 324. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 324. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3055 - Missing semicolon
 ```
 
-### 325. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 325. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3098 - Missing semicolon
 ```
 
-### 326. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 326. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3140 - Console.log statement found - consider removing in production
 ```
 
-### 327. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 327. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3145 - Console.log statement found - consider removing in production
 ```
 
-### 328. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 328. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3150 - Console.log statement found - consider removing in production
 ```
 
-### 329. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 329. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3156 - Missing semicolon
 ```
 
-### 330. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 330. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3159 - Console.log statement found - consider removing in production
 ```
 
-### 331. [PROBLEM] 2025-07-02T10:37:37.595Z
+### 331. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3174 - Console.log statement found - consider removing in production
 ```
 
-### 332. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 332. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3177 - Console.log statement found - consider removing in production
 ```
 
-### 333. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 333. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3181 - Console.log statement found - consider removing in production
 ```
 
-### 334. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 334. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3186 - Console.log statement found - consider removing in production
 ```
 
-### 335. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 335. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3190 - Console.log statement found - consider removing in production
 ```
 
-### 336. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 336. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3191 - Console.log statement found - consider removing in production
 ```
 
-### 337. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 337. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3197 - Console.log statement found - consider removing in production
 ```
 
-### 338. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 338. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3198 - Console.log statement found - consider removing in production
 ```
 
-### 339. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 339. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3205 - Console.log statement found - consider removing in production
 ```
 
-### 340. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 340. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3206 - Console.log statement found - consider removing in production
 ```
 
-### 341. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 341. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3214 - Console.log statement found - consider removing in production
 ```
 
-### 342. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 342. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3215 - Console.log statement found - consider removing in production
 ```
 
-### 343. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 343. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3220 - Console.log statement found - consider removing in production
 ```
 
-### 344. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 344. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3222 - Console.log statement found - consider removing in production
 ```
 
-### 345. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 345. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3225 - Console.log statement found - consider removing in production
 ```
 
-### 346. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 346. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] scripts\build.js:3229 - Console.log statement found - consider removing in production
 ```
 
-### 347. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 347. [PROBLEM] 2025-07-02T12:12:29.828Z
 
 ```
 [WARNING] style.css:170 - Missing semicolon in CSS property
 ```
 
-### 348. [PROBLEM] 2025-07-02T10:37:37.596Z
+### 348. [INFO] 2025-07-02T12:12:29.828Z
 
 ```
-[ERROR] vercel.json:1 - JSON Syntax Error: Unexpected end of JSON input
+✅ Problems-Scan abgeschlossen. 327 Problem(e) gefunden.
 ```
 
-### 349. [INFO] 2025-07-02T10:37:37.596Z
-
-```
-✅ Problems-Scan abgeschlossen. 328 Problem(e) gefunden.
-```
-
-### 350. [LOG] 2025-07-02T10:37:37.596Z
+### 349. [LOG] 2025-07-02T12:12:29.829Z
 
 ```
 📄 Gefunden: 9 Markdown-Dateien
 
 ```
 
-### 351. [LOG] 2025-07-02T10:37:37.597Z
+### 350. [LOG] 2025-07-02T12:12:29.829Z
 
 ```
 
 📋 Verarbeite: bindungssehnsucht-normal.md
 ```
 
-### 352. [LOG] 2025-07-02T10:37:37.601Z
+### 351. [LOG] 2025-07-02T12:12:29.833Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 353. [LOG] 2025-07-02T10:37:37.604Z
+### 352. [LOG] 2025-07-02T12:12:29.835Z
 
 ```
-   ❌ Intention-Score: 35% (Min: 60%)
+   ✅ Intention-Score: 60% - EXCELLENT!
 ```
 
-### 354. [LOG] 2025-07-02T10:37:37.604Z
+### 353. [LOG] 2025-07-02T12:12:29.835Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 355. [LOG] 2025-07-02T10:37:37.625Z
+### 354. [LOG] 2025-07-02T12:12:29.850Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 356. [LOG] 2025-07-02T10:37:37.625Z
+### 355. [LOG] 2025-07-02T12:12:29.850Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 357. [LOG] 2025-07-02T10:37:37.626Z
+### 356. [LOG] 2025-07-02T12:12:29.851Z
 
 ```
    ✅ HTML erstellt: bindungssehnsucht-normal.html
 ```
 
-### 358. [LOG] 2025-07-02T10:37:37.626Z
-
-```
-   ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
-```
-
-### 359. [LOG] 2025-07-02T10:37:37.626Z
+### 357. [LOG] 2025-07-02T12:12:29.851Z
 
 ```
 
 📋 Verarbeite: das-erste-mal.md
 ```
 
-### 360. [LOG] 2025-07-02T10:37:37.627Z
+### 358. [LOG] 2025-07-02T12:12:29.852Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 361. [LOG] 2025-07-02T10:37:37.628Z
+### 359. [LOG] 2025-07-02T12:12:29.853Z
 
 ```
-   ❌ Intention-Score: 3% (Min: 60%)
+   ❌ Intention-Score: 30% (Min: 60%)
 ```
 
-### 362. [LOG] 2025-07-02T10:37:37.628Z
-
-```
-   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden
-```
-
-### 363. [LOG] 2025-07-02T10:37:37.629Z
+### 360. [LOG] 2025-07-02T12:12:29.853Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 364. [LOG] 2025-07-02T10:37:37.630Z
+### 361. [LOG] 2025-07-02T12:12:29.854Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 365. [LOG] 2025-07-02T10:37:37.630Z
+### 362. [LOG] 2025-07-02T12:12:29.855Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 366. [LOG] 2025-07-02T10:37:37.631Z
+### 363. [LOG] 2025-07-02T12:12:29.856Z
 
 ```
    ✅ HTML erstellt: das-erste-mal.html
 ```
 
-### 367. [LOG] 2025-07-02T10:37:37.631Z
+### 364. [LOG] 2025-07-02T12:12:29.856Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 368. [LOG] 2025-07-02T10:37:37.631Z
+### 365. [LOG] 2025-07-02T12:12:29.856Z
 
 ```
 
 📋 Verarbeite: der-sichere-hafen.md
 ```
 
-### 369. [LOG] 2025-07-02T10:37:37.632Z
+### 366. [LOG] 2025-07-02T12:12:29.857Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 370. [LOG] 2025-07-02T10:37:37.632Z
+### 367. [LOG] 2025-07-02T12:12:29.857Z
 
 ```
-   ❌ Intention-Score: 7% (Min: 60%)
+   ❌ Intention-Score: 15% (Min: 60%)
 ```
 
-### 371. [LOG] 2025-07-02T10:37:37.632Z
-
-```
-   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden
-```
-
-### 372. [LOG] 2025-07-02T10:37:37.632Z
+### 368. [LOG] 2025-07-02T12:12:29.857Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 373. [LOG] 2025-07-02T10:37:37.634Z
+### 369. [LOG] 2025-07-02T12:12:29.858Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 374. [LOG] 2025-07-02T10:37:37.634Z
+### 370. [LOG] 2025-07-02T12:12:29.858Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 375. [LOG] 2025-07-02T10:37:37.634Z
+### 371. [LOG] 2025-07-02T12:12:29.859Z
 
 ```
    ✅ HTML erstellt: der-sichere-hafen.html
 ```
 
-### 376. [LOG] 2025-07-02T10:37:37.635Z
+### 372. [LOG] 2025-07-02T12:12:29.859Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 377. [LOG] 2025-07-02T10:37:37.635Z
+### 373. [LOG] 2025-07-02T12:12:29.859Z
 
 ```
 
 📋 Verarbeite: emotionale-leere.md
 ```
 
-### 378. [LOG] 2025-07-02T10:37:37.636Z
+### 374. [LOG] 2025-07-02T12:12:29.860Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 379. [LOG] 2025-07-02T10:37:37.637Z
+### 375. [LOG] 2025-07-02T12:12:29.861Z
 
 ```
-   ❌ Intention-Score: 7% (Min: 60%)
+   ❌ Intention-Score: 13% (Min: 60%)
 ```
 
-### 380. [LOG] 2025-07-02T10:37:37.637Z
+### 376. [LOG] 2025-07-02T12:12:29.861Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 381. [LOG] 2025-07-02T10:37:37.639Z
+### 377. [LOG] 2025-07-02T12:12:29.864Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 382. [LOG] 2025-07-02T10:37:37.640Z
+### 378. [LOG] 2025-07-02T12:12:29.864Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 383. [LOG] 2025-07-02T10:37:37.641Z
+### 379. [LOG] 2025-07-02T12:12:29.865Z
 
 ```
    ✅ HTML erstellt: emotionale-leere.html
 ```
 
-### 384. [LOG] 2025-07-02T10:37:37.642Z
+### 380. [LOG] 2025-07-02T12:12:29.865Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 385. [LOG] 2025-07-02T10:37:37.642Z
+### 381. [LOG] 2025-07-02T12:12:29.865Z
 
 ```
 
 📋 Verarbeite: erschoepft-vom-stark-sein.md
 ```
 
-### 386. [LOG] 2025-07-02T10:37:37.643Z
+### 382. [LOG] 2025-07-02T12:12:29.866Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 387. [LOG] 2025-07-02T10:37:37.644Z
+### 383. [LOG] 2025-07-02T12:12:29.867Z
 
 ```
-   ❌ Intention-Score: 0% (Min: 60%)
+   ❌ Intention-Score: 22% (Min: 60%)
 ```
 
-### 388. [LOG] 2025-07-02T10:37:37.644Z
-
-```
-   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden
-```
-
-### 389. [LOG] 2025-07-02T10:37:37.644Z
+### 384. [LOG] 2025-07-02T12:12:29.867Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 390. [LOG] 2025-07-02T10:37:37.649Z
+### 385. [LOG] 2025-07-02T12:12:29.868Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 391. [LOG] 2025-07-02T10:37:37.650Z
+### 386. [LOG] 2025-07-02T12:12:29.868Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 392. [LOG] 2025-07-02T10:37:37.652Z
+### 387. [LOG] 2025-07-02T12:12:29.869Z
 
 ```
    ✅ HTML erstellt: erschoepft-vom-stark-sein.html
 ```
 
-### 393. [LOG] 2025-07-02T10:37:37.652Z
+### 388. [LOG] 2025-07-02T12:12:29.869Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 394. [LOG] 2025-07-02T10:37:37.652Z
+### 389. [LOG] 2025-07-02T12:12:29.869Z
 
 ```
 
 📋 Verarbeite: ich-will-einfach-gehalten-werden.md
 ```
 
-### 395. [LOG] 2025-07-02T10:37:37.653Z
+### 390. [LOG] 2025-07-02T12:12:29.870Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 396. [LOG] 2025-07-02T10:37:37.654Z
+### 391. [LOG] 2025-07-02T12:12:29.871Z
 
 ```
-   ❌ Intention-Score: 35% (Min: 60%)
+   ❌ Intention-Score: 41% (Min: 60%)
 ```
 
-### 397. [LOG] 2025-07-02T10:37:37.654Z
+### 392. [LOG] 2025-07-02T12:12:29.871Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 398. [LOG] 2025-07-02T10:37:37.655Z
+### 393. [LOG] 2025-07-02T12:12:29.872Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 399. [LOG] 2025-07-02T10:37:37.655Z
+### 394. [LOG] 2025-07-02T12:12:29.872Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 400. [LOG] 2025-07-02T10:37:37.658Z
+### 395. [LOG] 2025-07-02T12:12:29.873Z
 
 ```
    ✅ HTML erstellt: ich-will-einfach-gehalten-werden.html
 ```
 
-### 401. [LOG] 2025-07-02T10:37:37.658Z
+### 396. [LOG] 2025-07-02T12:12:29.873Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 402. [LOG] 2025-07-02T10:37:37.658Z
+### 397. [LOG] 2025-07-02T12:12:29.873Z
 
 ```
 
 📋 Verarbeite: kontrolle-abgeben.md
 ```
 
-### 403. [LOG] 2025-07-02T10:37:37.659Z
+### 398. [LOG] 2025-07-02T12:12:29.874Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 404. [LOG] 2025-07-02T10:37:37.659Z
+### 399. [LOG] 2025-07-02T12:12:29.874Z
 
 ```
-   ❌ Intention-Score: 6% (Min: 60%)
+   ❌ Intention-Score: 18% (Min: 60%)
 ```
 
-### 405. [LOG] 2025-07-02T10:37:37.659Z
-
-```
-   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden
-```
-
-### 406. [LOG] 2025-07-02T10:37:37.660Z
+### 400. [LOG] 2025-07-02T12:12:29.874Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 407. [LOG] 2025-07-02T10:37:37.661Z
+### 401. [LOG] 2025-07-02T12:12:29.875Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 408. [LOG] 2025-07-02T10:37:37.661Z
+### 402. [LOG] 2025-07-02T12:12:29.875Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 409. [LOG] 2025-07-02T10:37:37.662Z
+### 403. [LOG] 2025-07-02T12:12:29.876Z
 
 ```
    ✅ HTML erstellt: kontrolle-abgeben.html
 ```
 
-### 410. [LOG] 2025-07-02T10:37:37.662Z
+### 404. [LOG] 2025-07-02T12:12:29.876Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 411. [LOG] 2025-07-02T10:37:37.662Z
+### 405. [LOG] 2025-07-02T12:12:29.876Z
 
 ```
 
 📋 Verarbeite: README.md
 ```
 
-### 412. [LOG] 2025-07-02T10:37:37.663Z
+### 406. [LOG] 2025-07-02T12:12:29.877Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 413. [LOG] 2025-07-02T10:37:37.664Z
+### 407. [LOG] 2025-07-02T12:12:29.879Z
 
 ```
-   ❌ Intention-Score: 7% (Min: 60%)
+   ❌ Intention-Score: 18% (Min: 60%)
 ```
 
-### 414. [LOG] 2025-07-02T10:37:37.664Z
-
-```
-   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden
-```
-
-### 415. [LOG] 2025-07-02T10:37:37.664Z
+### 408. [LOG] 2025-07-02T12:12:29.879Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 416. [LOG] 2025-07-02T10:37:37.669Z
+### 409. [LOG] 2025-07-02T12:12:29.886Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 417. [LOG] 2025-07-02T10:37:37.669Z
+### 410. [LOG] 2025-07-02T12:12:29.886Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 418. [LOG] 2025-07-02T10:37:37.670Z
+### 411. [LOG] 2025-07-02T12:12:29.887Z
 
 ```
    ✅ HTML erstellt: README.html
 ```
 
-### 419. [LOG] 2025-07-02T10:37:37.670Z
+### 412. [LOG] 2025-07-02T12:12:29.887Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 420. [LOG] 2025-07-02T10:37:37.670Z
+### 413. [LOG] 2025-07-02T12:12:29.888Z
 
 ```
 
 📋 Verarbeite: sehnsucht-nach-hingabe.md
 ```
 
-### 421. [LOG] 2025-07-02T10:37:37.671Z
+### 414. [LOG] 2025-07-02T12:12:29.888Z
 
 ```
    🎯 Intentionen-Analyse...
 ```
 
-### 422. [LOG] 2025-07-02T10:37:37.672Z
+### 415. [LOG] 2025-07-02T12:12:29.889Z
 
 ```
-   ❌ Intention-Score: 0% (Min: 60%)
+   ❌ Intention-Score: 15% (Min: 60%)
 ```
 
-### 423. [LOG] 2025-07-02T10:37:37.672Z
-
-```
-   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden
-```
-
-### 424. [LOG] 2025-07-02T10:37:37.673Z
+### 416. [LOG] 2025-07-02T12:12:29.889Z
 
 ```
    📊 Code-Quality Check...
 ```
 
-### 425. [LOG] 2025-07-02T10:37:37.674Z
+### 417. [LOG] 2025-07-02T12:12:29.891Z
 
 ```
    ✅ Code Quality OK
 ```
 
-### 426. [LOG] 2025-07-02T10:37:37.674Z
+### 418. [LOG] 2025-07-02T12:12:29.891Z
 
 ```
    🔨 HTML generieren...
 ```
 
-### 427. [LOG] 2025-07-02T10:37:37.675Z
+### 419. [LOG] 2025-07-02T12:12:29.892Z
 
 ```
    ✅ HTML erstellt: sehnsucht-nach-hingabe.html
 ```
 
-### 428. [LOG] 2025-07-02T10:37:37.675Z
+### 420. [LOG] 2025-07-02T12:12:29.892Z
 
 ```
    ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke
 ```
 
-### 429. [LOG] 2025-07-02T10:37:37.675Z
+### 421. [LOG] 2025-07-02T12:12:29.892Z
 
 ```
 
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 430. [LOG] 2025-07-02T10:37:37.675Z
+### 422. [LOG] 2025-07-02T12:12:29.892Z
 
 ```
 📊 BUILD REPORT
 ```
 
-### 431. [LOG] 2025-07-02T10:37:37.675Z
+### 423. [LOG] 2025-07-02T12:12:29.893Z
 
 ```
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 432. [LOG] 2025-07-02T10:37:37.675Z
+### 424. [LOG] 2025-07-02T12:12:29.893Z
 
 ```
 
 📄 Verarbeitete Dateien: 9/9
 ```
 
-### 433. [LOG] 2025-07-02T10:37:37.676Z
+### 425. [LOG] 2025-07-02T12:12:29.893Z
 
 ```
 
-🎯 INTENTION-OPTIMIERUNG ERFORDERLICH: 9 Dateien
+🎯 INTENTION-OPTIMIERUNG ERFORDERLICH: 8 Dateien
 
 ```
 
-### 434. [LOG] 2025-07-02T10:37:37.676Z
+### 426. [LOG] 2025-07-02T12:12:29.893Z
 
 ```
 🤖 AUTOMATISCH GENERIERTER KI-PROMPT:
 ```
 
-### 435. [LOG] 2025-07-02T10:37:37.676Z
+### 427. [LOG] 2025-07-02T12:12:29.893Z
 
 ```
 ────────────────────────────────────────────────────────────
 ```
 
-### 436. [LOG] 2025-07-02T10:37:37.676Z
+### 428. [LOG] 2025-07-02T12:12:29.893Z
 
 ```
 
 🎯 INCREMENTAL BUILD-OPTIMIERUNG #1
 
-FILE: bindungssehnsucht-normal.md
-PROBLEM: BeschützerPositionierung schwächste Intention (25%)
+FILE: das-erste-mal.md
+PROBLEM: BeschützerPositionierung schwächste Intention (13%)
 PRIORITY: #1 von 0 Problemen
 
 ═══════════════════════════════════════
 
 EINE SPEZIFISCHE AUFGABE:
-Verstärke "sichere hafen" Trigger
+Verstärke "starke schulter" Trigger
 
 
 INTEGRATION-STELLE GEFUNDEN:
-ZEILE 5: "Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird."
+ZEILE 5: "Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage?"
 
 AKTUELLER CONTEXT:
-  ## Du spürst es: "Warum will ich das so fest?"
-> Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird. ← HIER VERSTÄRKEN
-  Meine starke Schulter ist bereit für dich, und ich halte dich, wenn alles zusammenbricht. Bin ich da, wenn du mich brauchst.
+  ## Du weißt bereits: Diese Unsicherheit ist normal
+> Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage? ← HIER VERSTÄRKEN
+  "Es isch das erschte Mal gsi", wirst du später sagen. Nicht nur körperlich. Emotional. Seelisch. Das erste Mal, dass du dich wirklich sicher gefühlt hast bei einem Mann. Das erste Mal, dass du alle Kontrolle abgeben konntest. Das erste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn alles richtig ist? Verstehst du, wie kostbar dieser Moment ist? Spürst du, dass ich der Richtige bin?
 
 OPTIMIERUNG:
-Entwickle eine authentische, situationsgerechte Integration von "sichere hafen" 
+Entwickle eine authentische, situationsgerechte Integration von "starke schulter" 
 
 INTEGRATION-PRINZIPIEN:
 - Organisch in bestehenden emotionalen Kontext einweben
@@ -2669,20 +2621,20 @@ INTEGRATION-PRINZIPIEN:
 
 
 WARUM DIESER TRIGGER:
-- "sichere hafen" = Core-Bedürfnis deiner Zielgruppe
+- "starke schulter" = Core-Bedürfnis deiner Zielgruppe
 - Verstärkt beschützerpositionierung Resonanz
 - Zieht bindungssuchende Frauen magnetisch an
 
-FEHLENDE TRIGGER (noch 6 verfügbar):
+FEHLENDE TRIGGER (noch 7 verfügbar):
+- "starke schulter"
+- "halt dir"
 - "sichere hafen"
-- "rücken stärken"
-- "führung übernehmen"
 
 ERWARTETER SCORE-ANSTIEG:
-BeschützerPositionierung: 25% → 38% (+13%)
+BeschützerPositionierung: 13% → 26% (+13%)
 
-AKTUELLER GESAMT-SCORE: 35%
-ZIEL-SCORE: 60%+ (noch 25% zu verbessern)
+AKTUELLER GESAMT-SCORE: 30%
+ZIEL-SCORE: 60%+ (noch 30% zu verbessern)
 
 NACH DEM FIX:
 1. Speichere Datei
@@ -2690,174 +2642,168 @@ NACH DEM FIX:
 3. System zeigt nächstes Problem
 
 NÄCHSTE OPTIMIERUNGEN (Preview):
-#2: HandlungsAufforderung (25% → 2/8 triggers)
-#3: TraumfrauMagnetismus (38% → 3/8 triggers)
+#2: TraumfrauMagnetismus (25% → 2/8 triggers)
+#3: SicherheitsVermittlung (25% → 2/8 triggers)
 
 FOKUS: NUR dieser eine Trigger - keine Überforderung!
 
 ```
 
-### 437. [LOG] 2025-07-02T10:37:37.677Z
+### 429. [LOG] 2025-07-02T12:12:29.895Z
 
 ```
 ────────────────────────────────────────────────────────────
 ```
 
-### 438. [LOG] 2025-07-02T10:37:37.677Z
+### 430. [LOG] 2025-07-02T12:12:29.895Z
 
 ```
 
-📋 Weitere 8 Dateien benötigen Optimierung:
+📋 Weitere 7 Dateien benötigen Optimierung:
 ```
 
-### 439. [LOG] 2025-07-02T10:37:37.678Z
+### 431. [LOG] 2025-07-02T12:12:29.896Z
 
 ```
-   2. das-erste-mal.md (Score: 3%)
+   2. der-sichere-hafen.md (Score: 15%)
 ```
 
-### 440. [LOG] 2025-07-02T10:37:37.678Z
+### 432. [LOG] 2025-07-02T12:12:29.896Z
 
 ```
-   3. der-sichere-hafen.md (Score: 7%)
+   3. emotionale-leere.md (Score: 13%)
 ```
 
-### 441. [LOG] 2025-07-02T10:37:37.678Z
+### 433. [LOG] 2025-07-02T12:12:29.896Z
 
 ```
-   4. emotionale-leere.md (Score: 7%)
+   4. erschoepft-vom-stark-sein.md (Score: 22%)
 ```
 
-### 442. [LOG] 2025-07-02T10:37:37.678Z
+### 434. [LOG] 2025-07-02T12:12:29.896Z
 
 ```
-   5. erschoepft-vom-stark-sein.md (Score: 0%)
+   5. ich-will-einfach-gehalten-werden.md (Score: 41%)
 ```
 
-### 443. [LOG] 2025-07-02T10:37:37.678Z
+### 435. [LOG] 2025-07-02T12:12:29.896Z
 
 ```
-   6. ich-will-einfach-gehalten-werden.md (Score: 35%)
+   6. kontrolle-abgeben.md (Score: 18%)
 ```
 
-### 444. [LOG] 2025-07-02T10:37:37.678Z
+### 436. [LOG] 2025-07-02T12:12:29.896Z
 
 ```
-   7. kontrolle-abgeben.md (Score: 6%)
+   7. README.md (Score: 18%)
 ```
 
-### 445. [LOG] 2025-07-02T10:37:37.678Z
+### 437. [LOG] 2025-07-02T12:12:29.896Z
 
 ```
-   8. README.md (Score: 7%)
+   8. sehnsucht-nach-hingabe.md (Score: 15%)
 ```
 
-### 446. [LOG] 2025-07-02T10:37:37.678Z
-
-```
-   9. sehnsucht-nach-hingabe.md (Score: 0%)
-```
-
-### 447. [LOG] 2025-07-02T10:37:37.679Z
+### 438. [LOG] 2025-07-02T12:12:29.897Z
 
 ```
 
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 448. [LOG] 2025-07-02T10:37:37.679Z
+### 439. [LOG] 2025-07-02T12:12:29.897Z
 
 ```
 
 💡 NÄCHSTE SCHRITTE:
 ```
 
-### 449. [LOG] 2025-07-02T10:37:37.679Z
+### 440. [LOG] 2025-07-02T12:12:29.897Z
 
 ```
 1. Kopiere den generierten KI-Prompt
 ```
 
-### 450. [LOG] 2025-07-02T10:37:37.679Z
+### 441. [LOG] 2025-07-02T12:12:29.897Z
 
 ```
 2. Füge ihn in Chat ein für spezifische Optimierung
 ```
 
-### 451. [LOG] 2025-07-02T10:37:37.679Z
+### 442. [LOG] 2025-07-02T12:12:29.897Z
 
 ```
 3. Führe nach Änderungen erneut "pnpm build" aus
 ```
 
-### 452. [LOG] 2025-07-02T10:37:37.680Z
+### 443. [LOG] 2025-07-02T12:12:29.897Z
 
 ```
 4. System zeigt automatisch nächstes Problem
 ```
 
-### 453. [LOG] 2025-07-02T10:37:37.685Z
+### 444. [LOG] 2025-07-02T12:12:29.898Z
 
 ```
 
 🚨 BUILD COMPLETED - CONTENT OPTIMIZATION ALERTS GENERATED!
 ```
 
-### 454. [LOG] 2025-07-02T10:37:37.685Z
+### 445. [LOG] 2025-07-02T12:12:29.901Z
 
 ```
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 455. [LOG] 2025-07-02T10:37:37.686Z
+### 446. [LOG] 2025-07-02T12:12:29.902Z
 
 ```
 📋 Content-Optimization-Alert gespeichert: docs\015_build_logs\CONTENT_OPTIMIZATION_ALERT_2025-07-02.json
 ```
 
-### 456. [LOG] 2025-07-02T10:37:37.687Z
+### 447. [LOG] 2025-07-02T12:12:29.902Z
 
 ```
 
 📋 VOLLSTÄNDIGER AUTOMATION-PLAN:
 ```
 
-### 457. [LOG] 2025-07-02T10:37:37.687Z
+### 448. [LOG] 2025-07-02T12:12:29.902Z
 
 ```
 
 📊 VOLLSTÄNDIGE PROJEKT-ÜBERSICHT
 ════════════════════════════════════════════════════════════════════════════════
 ✅ Verarbeitete Dateien: 9/9
-🎯 Optimierung erforderlich: 9 Dateien (100% verbleibend)
-🚀 Fortschritt: 0% abgeschlossen
+🎯 Optimierung erforderlich: 8 Dateien (89% verbleibend)
+🚀 Fortschritt: 11% abgeschlossen
 
 PRIORITÄTEN-RANKING:
-   1. bindungssehnsucht-normal.md (Score: 35% - Gap: 25%)
-   2. das-erste-mal.md (Score: 3% - Gap: 57%)
-   3. der-sichere-hafen.md (Score: 7% - Gap: 53%)
-   4. emotionale-leere.md (Score: 7% - Gap: 53%)
-   5. erschoepft-vom-stark-sein.md (Score: 0% - Gap: 60%)
+   1. das-erste-mal.md (Score: 30% - Gap: 30%)
+   2. der-sichere-hafen.md (Score: 15% - Gap: 45%)
+   3. emotionale-leere.md (Score: 13% - Gap: 47%)
+   4. erschoepft-vom-stark-sein.md (Score: 22% - Gap: 38%)
+   5. ich-will-einfach-gehalten-werden.md (Score: 41% - Gap: 19%)
 
-ERWARTETE ARBEITSZEIT: 18 Minuten für vollständige Optimierung
+ERWARTETE ARBEITSZEIT: 16 Minuten für vollständige Optimierung
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 458. [LOG] 2025-07-02T10:37:37.688Z
+### 449. [LOG] 2025-07-02T12:12:29.903Z
 
 ```
 
 🎯 VOLLSTÄNDIGER HANDLUNGSPLAN (AUTOMATION)
 ════════════════════════════════════════════════════════════════════════════════
 PHASE 1 - SOFORTIGE AKTION:
-   1️⃣ Optimiere: bindungssehnsucht-normal.md (aktuell 35%)
+   1️⃣ Optimiere: das-erste-mal.md (aktuell 30%)
    2️⃣ Führe aus: pnpm build (erwarte Score-Anstieg)
    3️⃣ System generiert automatisch nächsten Prompt
 
 PHASE 2 - FOLGE-OPTIMIERUNGEN:
-   2️⃣ Dann: das-erste-mal.md (Score: 3% → Ziel: 60%+)
-   3️⃣ Dann: der-sichere-hafen.md (Score: 7% → Ziel: 60%+)
-   4️⃣ Dann: emotionale-leere.md (Score: 7% → Ziel: 60%+)
+   2️⃣ Dann: der-sichere-hafen.md (Score: 15% → Ziel: 60%+)
+   3️⃣ Dann: emotionale-leere.md (Score: 13% → Ziel: 60%+)
+   4️⃣ Dann: erschoepft-vom-stark-sein.md (Score: 22% → Ziel: 60%+)
 
 AUTOMATION-ZYKLUS:
    🔄 1. KI optimiert Content nach System-Prompt
@@ -2865,11 +2811,11 @@ AUTOMATION-ZYKLUS:
    🔄 3. System erkennt Verbesserung + zeigt nächstes Ziel
    🔄 4. Wiederholen bis alle Dateien 60%+
 
-ENDERGEBNIS: Alle 9 Dateien automatisch optimiert!
+ENDERGEBNIS: Alle 8 Dateien automatisch optimiert!
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 459. [LOG] 2025-07-02T10:37:37.688Z
+### 450. [LOG] 2025-07-02T12:12:29.903Z
 
 ```
 
@@ -2913,7 +2859,7 @@ INTEGRATION-STRATEGIE:
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 460. [LOG] 2025-07-02T10:37:37.689Z
+### 451. [LOG] 2025-07-02T12:12:29.904Z
 
 ```
 
@@ -2953,7 +2899,7 @@ AUTOMATISCHE FEHLERERKENNUNG:
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 461. [LOG] 2025-07-02T10:37:37.690Z
+### 452. [LOG] 2025-07-02T12:12:29.905Z
 
 ```
 
@@ -2964,26 +2910,26 @@ CURRENT ACTION - KOPIERE & FÜHRE AUS:
 
 🎯 INCREMENTAL BUILD-OPTIMIERUNG #1
 
-FILE: bindungssehnsucht-normal.md
-PROBLEM: BeschützerPositionierung schwächste Intention (25%)
+FILE: das-erste-mal.md
+PROBLEM: BeschützerPositionierung schwächste Intention (13%)
 PRIORITY: #1 von 0 Problemen
 
 ═══════════════════════════════════════
 
 EINE SPEZIFISCHE AUFGABE:
-Verstärke "sichere hafen" Trigger
+Verstärke "starke schulter" Trigger
 
 
 INTEGRATION-STELLE GEFUNDEN:
-ZEILE 5: "Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird."
+ZEILE 5: "Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage?"
 
 AKTUELLER CONTEXT:
-  ## Du spürst es: "Warum will ich das so fest?"
-> Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird. ← HIER VERSTÄRKEN
-  Meine starke Schulter ist bereit für dich, und ich halte dich, wenn alles zusammenbricht. Bin ich da, wenn du mich brauchst.
+  ## Du weißt bereits: Diese Unsicherheit ist normal
+> Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage? ← HIER VERSTÄRKEN
+  "Es isch das erschte Mal gsi", wirst du später sagen. Nicht nur körperlich. Emotional. Seelisch. Das erste Mal, dass du dich wirklich sicher gefühlt hast bei einem Mann. Das erste Mal, dass du alle Kontrolle abgeben konntest. Das erste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn alles richtig ist? Verstehst du, wie kostbar dieser Moment ist? Spürst du, dass ich der Richtige bin?
 
 OPTIMIERUNG:
-Entwickle eine authentische, situationsgerechte Integration von "sichere hafen" 
+Entwickle eine authentische, situationsgerechte Integration von "starke schulter" 
 
 INTEGRATION-PRINZIPIEN:
 - Organisch in bestehenden emotionalen Kontext einweben
@@ -2993,20 +2939,20 @@ INTEGRATION-PRINZIPIEN:
 
 
 WARUM DIESER TRIGGER:
-- "sichere hafen" = Core-Bedürfnis deiner Zielgruppe
+- "starke schulter" = Core-Bedürfnis deiner Zielgruppe
 - Verstärkt beschützerpositionierung Resonanz
 - Zieht bindungssuchende Frauen magnetisch an
 
-FEHLENDE TRIGGER (noch 6 verfügbar):
+FEHLENDE TRIGGER (noch 7 verfügbar):
+- "starke schulter"
+- "halt dir"
 - "sichere hafen"
-- "rücken stärken"
-- "führung übernehmen"
 
 ERWARTETER SCORE-ANSTIEG:
-BeschützerPositionierung: 25% → 38% (+13%)
+BeschützerPositionierung: 13% → 26% (+13%)
 
-AKTUELLER GESAMT-SCORE: 35%
-ZIEL-SCORE: 60%+ (noch 25% zu verbessern)
+AKTUELLER GESAMT-SCORE: 30%
+ZIEL-SCORE: 60%+ (noch 30% zu verbessern)
 
 NACH DEM FIX:
 1. Speichere Datei
@@ -3014,8 +2960,8 @@ NACH DEM FIX:
 3. System zeigt nächstes Problem
 
 NÄCHSTE OPTIMIERUNGEN (Preview):
-#2: HandlungsAufforderung (25% → 2/8 triggers)
-#3: TraumfrauMagnetismus (38% → 3/8 triggers)
+#2: TraumfrauMagnetismus (25% → 2/8 triggers)
+#3: SicherheitsVermittlung (25% → 2/8 triggers)
 
 FOKUS: NUR dieser eine Trigger - keine Überforderung!
 
@@ -3031,7 +2977,7 @@ AUTOMATION-WORKFLOW:
 └─────────────────────────────────────────────────────────────────────────────┘
 
 NACH VOLLSTÄNDIGER OPTIMIERUNG:
-✅ Alle 9 Dateien erreichen 60%+ Score
+✅ Alle 8 Dateien erreichen 60%+ Score
 ✅ Build läuft ohne Quality-Alerts durch
 ✅ Content optimiert für maximale weibliche Ansprache
 ✅ Emotionale Bindung & Handlungsaktivierung maximiert
@@ -3040,149 +2986,143 @@ KEINE MANUELLEN EINGRIFFE NÖTIG - SYSTEM FÜHRT DURCH KOMPLETTEN PROZESS!
 ════════════════════════════════════════════════════════════════════════════════
 ```
 
-### 462. [LOG] 2025-07-02T10:37:37.692Z
+### 453. [LOG] 2025-07-02T12:12:29.906Z
 
 ```
 
 � QUALITY-ALERT DETAILS:
 ```
 
-### 463. [LOG] 2025-07-02T10:37:37.693Z
+### 454. [LOG] 2025-07-02T12:12:29.907Z
 
 ```
    Type: CONTENT_OPTIMIZATION_NEEDED
 ```
 
-### 464. [LOG] 2025-07-02T10:37:37.693Z
+### 455. [LOG] 2025-07-02T12:12:29.907Z
 
 ```
    Message: Vollständige Content-Optimierung durch KI empfohlen
 ```
 
-### 465. [LOG] 2025-07-02T10:37:37.694Z
+### 456. [LOG] 2025-07-02T12:12:29.907Z
 
 ```
-   Timestamp: 2025-07-02T10:37:37.694Z
+   Timestamp: 2025-07-02T12:12:29.907Z
 ```
 
-### 466. [LOG] 2025-07-02T10:37:37.694Z
+### 457. [LOG] 2025-07-02T12:12:29.907Z
 
 ```
-   Files affected: 9/9
+   Files affected: 8/9
 ```
 
-### 467. [LOG] 2025-07-02T10:37:37.694Z
+### 458. [LOG] 2025-07-02T12:12:29.907Z
 
 ```
-   First problem: bindungssehnsucht-normal.md (35%)
+   First problem: das-erste-mal.md (30%)
 ```
 
-### 468. [LOG] 2025-07-02T10:37:37.694Z
+### 459. [LOG] 2025-07-02T12:12:29.907Z
 
 ```
    Recommended action: CONTENT_OPTIMIZATION_RECOMMENDED
 ```
 
-### 469. [LOG] 2025-07-02T10:37:37.694Z
+### 460. [LOG] 2025-07-02T12:12:29.907Z
 
 ```
 
 📋 DETAILED QUALITY REPORT:
 ```
 
-### 470. [LOG] 2025-07-02T10:37:37.694Z
+### 461. [LOG] 2025-07-02T12:12:29.907Z
 
 ```
-   1. INTENTION_OPTIMIZATION_REQUIRED: bindungssehnsucht-normal.md (Score: 35%, Issues: 0)
+   1. INTENTION_OPTIMIZATION_REQUIRED: das-erste-mal.md (Score: 30%, Issues: 0)
 ```
 
-### 471. [LOG] 2025-07-02T10:37:37.694Z
+### 462. [LOG] 2025-07-02T12:12:29.908Z
 
 ```
-   2. PENDING_OPTIMIZATION: das-erste-mal.md (Score: 3%, Issues: 1)
+   2. PENDING_OPTIMIZATION: der-sichere-hafen.md (Score: 15%, Issues: 0)
 ```
 
-### 472. [LOG] 2025-07-02T10:37:37.694Z
+### 463. [LOG] 2025-07-02T12:12:29.908Z
 
 ```
-   3. PENDING_OPTIMIZATION: der-sichere-hafen.md (Score: 7%, Issues: 1)
+   3. PENDING_OPTIMIZATION: emotionale-leere.md (Score: 13%, Issues: 0)
 ```
 
-### 473. [LOG] 2025-07-02T10:37:37.695Z
+### 464. [LOG] 2025-07-02T12:12:29.908Z
 
 ```
-   4. PENDING_OPTIMIZATION: emotionale-leere.md (Score: 7%, Issues: 0)
+   4. PENDING_OPTIMIZATION: erschoepft-vom-stark-sein.md (Score: 22%, Issues: 0)
 ```
 
-### 474. [LOG] 2025-07-02T10:37:37.695Z
+### 465. [LOG] 2025-07-02T12:12:29.908Z
 
 ```
-   5. PENDING_OPTIMIZATION: erschoepft-vom-stark-sein.md (Score: 0%, Issues: 1)
+   5. PENDING_OPTIMIZATION: ich-will-einfach-gehalten-werden.md (Score: 41%, Issues: 0)
 ```
 
-### 475. [LOG] 2025-07-02T10:37:37.695Z
+### 466. [LOG] 2025-07-02T12:12:29.908Z
 
 ```
-   6. PENDING_OPTIMIZATION: ich-will-einfach-gehalten-werden.md (Score: 35%, Issues: 0)
+   6. PENDING_OPTIMIZATION: kontrolle-abgeben.md (Score: 18%, Issues: 0)
 ```
 
-### 476. [LOG] 2025-07-02T10:37:37.695Z
+### 467. [LOG] 2025-07-02T12:12:29.908Z
 
 ```
-   7. PENDING_OPTIMIZATION: kontrolle-abgeben.md (Score: 6%, Issues: 1)
+   7. PENDING_OPTIMIZATION: README.md (Score: 18%, Issues: 0)
 ```
 
-### 477. [LOG] 2025-07-02T10:37:37.695Z
+### 468. [LOG] 2025-07-02T12:12:29.908Z
 
 ```
-   8. PENDING_OPTIMIZATION: README.md (Score: 7%, Issues: 1)
+   8. PENDING_OPTIMIZATION: sehnsucht-nach-hingabe.md (Score: 15%, Issues: 0)
 ```
 
-### 478. [LOG] 2025-07-02T10:37:37.695Z
-
-```
-   9. PENDING_OPTIMIZATION: sehnsucht-nach-hingabe.md (Score: 0%, Issues: 1)
-```
-
-### 479. [LOG] 2025-07-02T10:37:37.695Z
+### 469. [LOG] 2025-07-02T12:12:29.909Z
 
 ```
 
 🎯 KI-PROMPT BEREIT FÜR OPTIMIERUNG:
 ```
 
-### 480. [LOG] 2025-07-02T10:37:37.695Z
+### 470. [LOG] 2025-07-02T12:12:29.909Z
 
 ```
 ────────────────────────────────────────────────────────────
 ```
 
-### 481. [LOG] 2025-07-02T10:37:37.695Z
+### 471. [LOG] 2025-07-02T12:12:29.909Z
 
 ```
 
 🎯 INCREMENTAL BUILD-OPTIMIERUNG #1
 
-FILE: bindungssehnsucht-normal.md
-PROBLEM: BeschützerPositionierung schwächste Intention (25%)
+FILE: das-erste-mal.md
+PROBLEM: BeschützerPositionierung schwächste Intention (13%)
 PRIORITY: #1 von 0 Problemen
 
 ═══════════════════════════════════════
 
 EINE SPEZIFISCHE AUFGABE:
-Verstärke "sichere hafen" Trigger
+Verstärke "starke schulter" Trigger
 
 
 INTEGRATION-STELLE GEFUNDEN:
-ZEILE 5: "Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird."
+ZEILE 5: "Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage?"
 
 AKTUELLER CONTEXT:
-  ## Du spürst es: "Warum will ich das so fest?"
-> Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird. ← HIER VERSTÄRKEN
-  Meine starke Schulter ist bereit für dich, und ich halte dich, wenn alles zusammenbricht. Bin ich da, wenn du mich brauchst.
+  ## Du weißt bereits: Diese Unsicherheit ist normal
+> Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage? ← HIER VERSTÄRKEN
+  "Es isch das erschte Mal gsi", wirst du später sagen. Nicht nur körperlich. Emotional. Seelisch. Das erste Mal, dass du dich wirklich sicher gefühlt hast bei einem Mann. Das erste Mal, dass du alle Kontrolle abgeben konntest. Das erste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn alles richtig ist? Verstehst du, wie kostbar dieser Moment ist? Spürst du, dass ich der Richtige bin?
 
 OPTIMIERUNG:
-Entwickle eine authentische, situationsgerechte Integration von "sichere hafen" 
+Entwickle eine authentische, situationsgerechte Integration von "starke schulter" 
 
 INTEGRATION-PRINZIPIEN:
 - Organisch in bestehenden emotionalen Kontext einweben
@@ -3192,20 +3132,20 @@ INTEGRATION-PRINZIPIEN:
 
 
 WARUM DIESER TRIGGER:
-- "sichere hafen" = Core-Bedürfnis deiner Zielgruppe
+- "starke schulter" = Core-Bedürfnis deiner Zielgruppe
 - Verstärkt beschützerpositionierung Resonanz
 - Zieht bindungssuchende Frauen magnetisch an
 
-FEHLENDE TRIGGER (noch 6 verfügbar):
+FEHLENDE TRIGGER (noch 7 verfügbar):
+- "starke schulter"
+- "halt dir"
 - "sichere hafen"
-- "rücken stärken"
-- "führung übernehmen"
 
 ERWARTETER SCORE-ANSTIEG:
-BeschützerPositionierung: 25% → 38% (+13%)
+BeschützerPositionierung: 13% → 26% (+13%)
 
-AKTUELLER GESAMT-SCORE: 35%
-ZIEL-SCORE: 60%+ (noch 25% zu verbessern)
+AKTUELLER GESAMT-SCORE: 30%
+ZIEL-SCORE: 60%+ (noch 30% zu verbessern)
 
 NACH DEM FIX:
 1. Speichere Datei
@@ -3213,1787 +3153,1782 @@ NACH DEM FIX:
 3. System zeigt nächstes Problem
 
 NÄCHSTE OPTIMIERUNGEN (Preview):
-#2: HandlungsAufforderung (25% → 2/8 triggers)
-#3: TraumfrauMagnetismus (38% → 3/8 triggers)
+#2: TraumfrauMagnetismus (25% → 2/8 triggers)
+#3: SicherheitsVermittlung (25% → 2/8 triggers)
 
 FOKUS: NUR dieser eine Trigger - keine Überforderung!
 
 ```
 
-### 482. [LOG] 2025-07-02T10:37:37.696Z
+### 472. [LOG] 2025-07-02T12:12:29.910Z
 
 ```
 ────────────────────────────────────────────────────────────
 ```
 
-### 483. [LOG] 2025-07-02T10:37:37.697Z
+### 473. [LOG] 2025-07-02T12:12:29.910Z
 
 ```
 
 ✅ BUILD ERFOLGREICH - OPTIMIERUNG EMPFOHLEN!
 ```
 
-### 484. [LOG] 2025-07-02T10:37:37.697Z
+### 474. [LOG] 2025-07-02T12:12:29.911Z
 
 ```
 📋 QUALITY-ALERTS GESPEICHERT FÜR SPÄTERE VERBESSERUNG!
 ```
 
-### 485. [LOG] 2025-07-02T10:37:37.698Z
+### 475. [LOG] 2025-07-02T12:12:29.911Z
 
 ```
 🚀 VERCEL DEPLOYMENT KANN FORTFAHREN!
 ```
 
-### 486. [LOG] 2025-07-02T10:37:37.698Z
+### 476. [LOG] 2025-07-02T12:12:29.911Z
 
 ```
 💡 AUTOMATION-PLAN VERFÜGBAR FÜR OPTIMIERUNG!
 ```
 
-### 487. [LOG] 2025-07-02T10:37:37.698Z
+### 477. [LOG] 2025-07-02T12:12:29.911Z
 
 ```
 
 📋 FILE-MANAGEMENT-REGELN FÜR OPTIMIERUNG:
 ```
 
-### 488. [LOG] 2025-07-02T10:37:37.699Z
+### 478. [LOG] 2025-07-02T12:12:29.911Z
 
 ```
 ✅ KEINE NEUEN DATEIEN ERSTELLEN - Problem an der Ursache lösen!
 ```
 
-### 489. [LOG] 2025-07-02T10:37:37.699Z
+### 479. [LOG] 2025-07-02T12:12:29.911Z
 
 ```
 ✅ KEINE DATEIEN WIEDERHERSTELLEN - Betroffene Datei direkt optimieren!
 ```
 
-### 490. [LOG] 2025-07-02T10:37:37.699Z
+### 480. [LOG] 2025-07-02T12:12:29.911Z
 
 ```
 ✅ ZWINGEND: Problematische Datei direkt bearbeiten und verbessern
 ```
 
-### 491. [LOG] 2025-07-02T10:37:37.699Z
+### 481. [LOG] 2025-07-02T12:12:29.911Z
 
 ```
 ✅ FOKUS: Root-Cause-Lösung statt Umgehung oder Neuansatz
 ```
 
-### 492. [LOG] 2025-07-02T10:37:37.699Z
+### 482. [LOG] 2025-07-02T12:12:29.911Z
 
 ```
 💡 HINWEIS: Diese Regeln helfen der KI, gezielt und effektiv zu optimieren
 ```
 
-### 493. [LOG] 2025-07-02T10:37:37.699Z
+### 483. [LOG] 2025-07-02T12:12:29.912Z
 
 ```
 
 🤖 OPTIMIZATION-PLAN BEREIT FÜR MANUELLE VERBESSERUNG
 ```
 
-### 494. [LOG] 2025-07-02T10:37:37.699Z
+### 484. [LOG] 2025-07-02T12:12:29.912Z
 
 ```
 📝 KI KANN CONTENT NACH QUALITY-ALERTS OPTIMIEREN
 ```
 
-### 495. [LOG] 2025-07-02T10:37:37.700Z
+### 485. [LOG] 2025-07-02T12:12:29.912Z
 
 ```
 🔄 BUILD LÄUFT VOLLSTÄNDIG DURCH - KEINE BLOCKIERUNG
 ```
 
-### 496. [LOG] 2025-07-02T10:37:37.700Z
+### 486. [LOG] 2025-07-02T12:12:29.912Z
 
 ```
 ✅ BUILD ERFOLGREICH ABGESCHLOSSEN - VERCEL DEPLOYMENT READY
 ```
 
-### 497. [LOG] 2025-07-02T10:37:37.700Z
+### 487. [LOG] 2025-07-02T12:12:29.912Z
 
 ```
 
 ✅ BUILD ERFOLGREICH ABGESCHLOSSEN!
 ```
 
-### 498. [LOG] 2025-07-02T10:37:37.700Z
+### 488. [LOG] 2025-07-02T12:12:29.912Z
 
 ```
    Verarbeitete Dateien: 9/9
 ```
 
-### 499. [LOG] 2025-07-02T10:37:37.700Z
+### 489. [LOG] 2025-07-02T12:12:29.912Z
 
 ```
-   Content-Optimierungspotential: 9 Dateien
+   Content-Optimierungspotential: 8 Dateien
 ```
 
 ## Performance-Statistiken
 
-- **Gesamte Log-Einträge:** 499
+- **Gesamte Log-Einträge:** 489
 - **ERROR-Level:** 0
 - **WARN-Level:** 0
-- **LOG-Level:** 169
-- **PROBLEM-Level:** 328
-- **Build-Dauer:** 297ms
-- **Durchschnitt pro Log:** 1ms
+- **LOG-Level:** 160
+- **PROBLEM-Level:** 327
+- **Build-Dauer:** 118ms
+- **Durchschnitt pro Log:** 0ms
 
 ## VS Code Problems Report
 
-**❌ 328 Problem(e) gefunden:**
+**❌ 327 Problem(e) gefunden:**
 
 ### Übersicht
-- **Errors:** 5
+- **Errors:** 4
 - **Warnings:** 323  
 - **Infos:** 0
 
-### 🚨 Errors (5)
+### 🚨 Errors (4)
 
 #### 1. build-process\modules\logger.js:145
 **Severity:** ERROR  
 **Message:** Typo: "fucntion" should be "function"  
-**Timestamp:** 2025-07-02T10:37:37.592Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 2. build-process\modules\logger.js:146
 **Severity:** ERROR  
 **Message:** Typo: "fucntion" should be "function"  
-**Timestamp:** 2025-07-02T10:37:37.592Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 3. scripts\build.js:185
 **Severity:** ERROR  
 **Message:** Typo: "fucntion" should be "function"  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 4. scripts\build.js:186
 **Severity:** ERROR  
 **Message:** Typo: "fucntion" should be "function"  
-**Timestamp:** 2025-07-02T10:37:37.594Z
-
-#### 5. vercel.json:1
-**Severity:** ERROR  
-**Message:** JSON Syntax Error: Unexpected end of JSON input  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 ### ⚠️ Warnings (323)
 
 #### 1. app-gui\dist-electron\index-Ckhtba7t.js:40
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.580Z
+**Timestamp:** 2025-07-02T12:12:29.811Z
 
 #### 2. app-gui\dist-electron\index-Ckhtba7t.js:1943
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.580Z
+**Timestamp:** 2025-07-02T12:12:29.812Z
 
 #### 3. app-gui\dist-electron\index-Ckhtba7t.js:2327
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.580Z
+**Timestamp:** 2025-07-02T12:12:29.812Z
 
 #### 4. app-gui\dist-electron\index-Ckhtba7t.js:2713
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.580Z
+**Timestamp:** 2025-07-02T12:12:29.812Z
 
 #### 5. app-gui\dist-electron\index-Ckhtba7t.js:2741
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.580Z
+**Timestamp:** 2025-07-02T12:12:29.812Z
 
 #### 6. app-gui\dist-electron\index-Ckhtba7t.js:3562
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.813Z
 
 #### 7. app-gui\dist-electron\index-Ckhtba7t.js:3599
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.813Z
 
 #### 8. app-gui\dist-electron\index-Ckhtba7t.js:4316
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.813Z
 
 #### 9. app-gui\dist-electron\index-Ckhtba7t.js:5013
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.813Z
 
 #### 10. app-gui\dist-electron\index-Ckhtba7t.js:5406
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 11. app-gui\dist-electron\index-Ckhtba7t.js:6202
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 12. app-gui\dist-electron\index-Ckhtba7t.js:6587
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 13. app-gui\dist-electron\index-Ckhtba7t.js:6720
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 14. app-gui\dist-electron\index-Ckhtba7t.js:6743
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 15. app-gui\dist-electron\index-Ckhtba7t.js:6803
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 16. app-gui\dist-electron\index-Ckhtba7t.js:6895
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 17. app-gui\dist-electron\index-Ckhtba7t.js:6923
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 18. app-gui\dist-electron\index-Ckhtba7t.js:6954
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 19. app-gui\dist-electron\index-Ckhtba7t.js:7029
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 20. app-gui\dist-electron\index-Ckhtba7t.js:7054
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 21. app-gui\dist-electron\index-Ckhtba7t.js:7099
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.581Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 22. app-gui\dist-electron\index-Ckhtba7t.js:7531
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.582Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 23. app-gui\dist-electron\index-Ckhtba7t.js:7585
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.582Z
+**Timestamp:** 2025-07-02T12:12:29.814Z
 
 #### 24. app-gui\dist-electron\index-Ckhtba7t.js:7983
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.582Z
+**Timestamp:** 2025-07-02T12:12:29.816Z
 
 #### 25. app-gui\dist-electron\index-Ckhtba7t.js:8071
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.582Z
+**Timestamp:** 2025-07-02T12:12:29.816Z
 
 #### 26. app-gui\dist-electron\index-Ckhtba7t.js:8075
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.582Z
+**Timestamp:** 2025-07-02T12:12:29.816Z
 
 #### 27. app-gui\dist-electron\index-Ckhtba7t.js:8112
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.582Z
+**Timestamp:** 2025-07-02T12:12:29.816Z
 
 #### 28. app-gui\dist-electron\index-Ckhtba7t.js:8493
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.582Z
+**Timestamp:** 2025-07-02T12:12:29.817Z
 
 #### 29. app-gui\dist-electron\index-Ckhtba7t.js:9746
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.582Z
+**Timestamp:** 2025-07-02T12:12:29.817Z
 
 #### 30. app-gui\dist-electron\index-Ckhtba7t.js:9945
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.582Z
+**Timestamp:** 2025-07-02T12:12:29.817Z
 
 #### 31. app-gui\dist-electron\index-DhEd7u67.js:40
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.584Z
+**Timestamp:** 2025-07-02T12:12:29.818Z
 
 #### 32. app-gui\dist-electron\index-DhEd7u67.js:1950
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.584Z
+**Timestamp:** 2025-07-02T12:12:29.819Z
 
 #### 33. app-gui\dist-electron\index-DhEd7u67.js:2360
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.584Z
+**Timestamp:** 2025-07-02T12:12:29.819Z
 
 #### 34. app-gui\dist-electron\index-DhEd7u67.js:2762
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.584Z
+**Timestamp:** 2025-07-02T12:12:29.819Z
 
 #### 35. app-gui\dist-electron\index-DhEd7u67.js:2790
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.584Z
+**Timestamp:** 2025-07-02T12:12:29.819Z
 
 #### 36. app-gui\dist-electron\index-DhEd7u67.js:3618
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.585Z
+**Timestamp:** 2025-07-02T12:12:29.819Z
 
 #### 37. app-gui\dist-electron\index-DhEd7u67.js:3655
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.585Z
+**Timestamp:** 2025-07-02T12:12:29.819Z
 
 #### 38. app-gui\dist-electron\index-DhEd7u67.js:4372
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.586Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 39. app-gui\dist-electron\index-DhEd7u67.js:5069
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.586Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 40. app-gui\dist-electron\index-DhEd7u67.js:5462
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.586Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 41. app-gui\dist-electron\index-DhEd7u67.js:6258
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 42. app-gui\dist-electron\index-DhEd7u67.js:6643
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 43. app-gui\dist-electron\index-DhEd7u67.js:6776
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 44. app-gui\dist-electron\index-DhEd7u67.js:6799
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 45. app-gui\dist-electron\index-DhEd7u67.js:6859
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 46. app-gui\dist-electron\index-DhEd7u67.js:6951
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 47. app-gui\dist-electron\index-DhEd7u67.js:6979
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 48. app-gui\dist-electron\index-DhEd7u67.js:7010
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 49. app-gui\dist-electron\index-DhEd7u67.js:7085
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 50. app-gui\dist-electron\index-DhEd7u67.js:7110
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 51. app-gui\dist-electron\index-DhEd7u67.js:7155
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 52. app-gui\dist-electron\index-DhEd7u67.js:7587
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 53. app-gui\dist-electron\index-DhEd7u67.js:7641
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 54. app-gui\dist-electron\index-DhEd7u67.js:8039
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 55. app-gui\dist-electron\index-DhEd7u67.js:8127
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 56. app-gui\dist-electron\index-DhEd7u67.js:8131
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 57. app-gui\dist-electron\index-DhEd7u67.js:8168
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 58. app-gui\dist-electron\index-DhEd7u67.js:8549
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.820Z
 
 #### 59. app-gui\dist-electron\index-DhEd7u67.js:9802
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.821Z
 
 #### 60. app-gui\dist-electron\index-DhEd7u67.js:10001
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.587Z
+**Timestamp:** 2025-07-02T12:12:29.821Z
 
 #### 61. app-gui\src\App.jsx:4
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.590Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 62. app-gui\src\App.jsx:72
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.590Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 63. app-gui\src\App.jsx:99
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.590Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 64. build-process\mainBuild.js:13
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.591Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 65. build-process\modules\logger.js:17
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.592Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 66. build-process\modules\logger.js:34
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.592Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 67. build-process\modules\logger.js:62
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.592Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 68. build-process\modules\logger.js:243
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.592Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 69. build-process\modules\logger.js:276
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.592Z
+**Timestamp:** 2025-07-02T12:12:29.824Z
 
 #### 70. scripts\build.js:14
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 71. scripts\build.js:37
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 72. scripts\build.js:58
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 73. scripts\build.js:70
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 74. scripts\build.js:233
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 75. scripts\build.js:243
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 76. scripts\build.js:329
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 77. scripts\build.js:399
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 78. scripts\build.js:439
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 79. scripts\build.js:568
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 80. scripts\build.js:572
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 81. scripts\build.js:579
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 82. scripts\build.js:586
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 83. scripts\build.js:659
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 84. scripts\build.js:738
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 85. scripts\build.js:781
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 86. scripts\build.js:792
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 87. scripts\build.js:854
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 88. scripts\build.js:883
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 89. scripts\build.js:887
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 90. scripts\build.js:1006
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 91. scripts\build.js:1101
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 92. scripts\build.js:1139
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 93. scripts\build.js:1151
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 94. scripts\build.js:1231
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 95. scripts\build.js:1327
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 96. scripts\build.js:1448
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 97. scripts\build.js:1449
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 98. scripts\build.js:1471
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 99. scripts\build.js:1481
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.826Z
 
 #### 100. scripts\build.js:1486
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 101. scripts\build.js:1500
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 102. scripts\build.js:1504
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 103. scripts\build.js:1506
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 104. scripts\build.js:1509
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 105. scripts\build.js:1560
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 106. scripts\build.js:1562
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 107. scripts\build.js:1567
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 108. scripts\build.js:1573
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 109. scripts\build.js:1575
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 110. scripts\build.js:1581
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 111. scripts\build.js:1582
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 112. scripts\build.js:1583
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 113. scripts\build.js:1586
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 114. scripts\build.js:1587
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 115. scripts\build.js:1588
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 116. scripts\build.js:1589
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 117. scripts\build.js:1590
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 118. scripts\build.js:1591
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 119. scripts\build.js:1594
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 120. scripts\build.js:1598
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 121. scripts\build.js:1599
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 122. scripts\build.js:1600
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 123. scripts\build.js:1604
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 124. scripts\build.js:1628
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 125. scripts\build.js:1630
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 126. scripts\build.js:1636
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 127. scripts\build.js:1639
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 128. scripts\build.js:1659
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 129. scripts\build.js:1660
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 130. scripts\build.js:1683
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 131. scripts\build.js:1687
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 132. scripts\build.js:1688
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 133. scripts\build.js:1690
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 134. scripts\build.js:1691
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 135. scripts\build.js:1695
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.594Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 136. scripts\build.js:1697
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 137. scripts\build.js:1700
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 138. scripts\build.js:1703
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 139. scripts\build.js:1706
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 140. scripts\build.js:1707
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 141. scripts\build.js:1711
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 142. scripts\build.js:1712
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 143. scripts\build.js:1731
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 144. scripts\build.js:1739
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 145. scripts\build.js:1743
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 146. scripts\build.js:1745
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 147. scripts\build.js:1748
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 148. scripts\build.js:1749
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 149. scripts\build.js:1750
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 150. scripts\build.js:1751
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 151. scripts\build.js:1752
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 152. scripts\build.js:1755
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 153. scripts\build.js:1757
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 154. scripts\build.js:1762
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 155. scripts\build.js:1764
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 156. scripts\build.js:1769
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 157. scripts\build.js:1779
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 158. scripts\build.js:1793
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 159. scripts\build.js:1794
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 160. scripts\build.js:1795
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 161. scripts\build.js:1796
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 162. scripts\build.js:1797
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 163. scripts\build.js:1798
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 164. scripts\build.js:1799
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 165. scripts\build.js:1803
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 166. scripts\build.js:1804
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 167. scripts\build.js:1805
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 168. scripts\build.js:1806
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 169. scripts\build.js:1807
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 170. scripts\build.js:1808
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 171. scripts\build.js:1809
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 172. scripts\build.js:1810
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 173. scripts\build.js:1830
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 174. scripts\build.js:1847
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 175. scripts\build.js:1885
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 176. scripts\build.js:1941
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 177. scripts\build.js:1994
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 178. scripts\build.js:2023
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 179. scripts\build.js:2060
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 180. scripts\build.js:2072
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 181. scripts\build.js:2100
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 182. scripts\build.js:2112
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 183. scripts\build.js:2138
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 184. scripts\build.js:2190
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 185. scripts\build.js:2194
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 186. scripts\build.js:2207
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 187. scripts\build.js:2216
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 188. scripts\build.js:2225
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 189. scripts\build.js:2234
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 190. scripts\build.js:2255
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 191. scripts\build.js:2268
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 192. scripts\build.js:2281
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 193. scripts\build.js:2294
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 194. scripts\build.js:2321
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 195. scripts\build.js:2330
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 196. scripts\build.js:2339
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 197. scripts\build.js:2348
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 198. scripts\build.js:2357
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 199. scripts\build.js:2450
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 200. scripts\build.js:2454
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 201. scripts\build.js:2464
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 202. scripts\build.js:2474
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 203. scripts\build.js:2493
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 204. scripts\build.js:2518
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 205. scripts\build.js:2527
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 206. scripts\build.js:2536
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 207. scripts\build.js:2545
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 208. scripts\build.js:2554
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 209. scripts\build.js:2563
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 210. scripts\build.js:2586
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 211. scripts\build.js:2599
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 212. scripts\build.js:2612
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 213. scripts\build.js:2621
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 214. scripts\build.js:2630
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 215. scripts\build.js:2639
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 216. scripts\build.js:2668
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 217. scripts\build.js:2669
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 218. scripts\build.js:2670
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 219. scripts\build.js:2677
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 220. scripts\build.js:2682
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 221. scripts\build.js:2686
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 222. scripts\build.js:2693
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 223. scripts\build.js:2699
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 224. scripts\build.js:2700
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 225. scripts\build.js:2703
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 226. scripts\build.js:2715
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 227. scripts\build.js:2718
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 228. scripts\build.js:2721
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 229. scripts\build.js:2724
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 230. scripts\build.js:2728
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 231. scripts\build.js:2729
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 232. scripts\build.js:2735
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 233. scripts\build.js:2737
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 234. scripts\build.js:2741
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 235. scripts\build.js:2745
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 236. scripts\build.js:2753
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 237. scripts\build.js:2757
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 238. scripts\build.js:2763
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 239. scripts\build.js:2768
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 240. scripts\build.js:2769
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 241. scripts\build.js:2770
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 242. scripts\build.js:2772
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 243. scripts\build.js:2781
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 244. scripts\build.js:2786
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 245. scripts\build.js:2787
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 246. scripts\build.js:2788
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 247. scripts\build.js:2789
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 248. scripts\build.js:2803
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 249. scripts\build.js:2805
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 250. scripts\build.js:2815
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 251. scripts\build.js:2818
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 252. scripts\build.js:2821
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 253. scripts\build.js:2822
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 254. scripts\build.js:2823
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 255. scripts\build.js:2824
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 256. scripts\build.js:2825
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 257. scripts\build.js:2830
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 258. scripts\build.js:2831
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 259. scripts\build.js:2860
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 260. scripts\build.js:2863
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 261. scripts\build.js:2864
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 262. scripts\build.js:2865
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 263. scripts\build.js:2866
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 264. scripts\build.js:2867
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 265. scripts\build.js:2868
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 266. scripts\build.js:2871
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 267. scripts\build.js:2872
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 268. scripts\build.js:2873
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 269. scripts\build.js:2874
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 270. scripts\build.js:2875
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 271. scripts\build.js:2876
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 272. scripts\build.js:2877
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 273. scripts\build.js:2879
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 274. scripts\build.js:2881
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 275. scripts\build.js:2884
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 276. scripts\build.js:2885
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 277. scripts\build.js:2886
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 278. scripts\build.js:2887
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 279. scripts\build.js:2889
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 280. scripts\build.js:2890
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 281. scripts\build.js:2891
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 282. scripts\build.js:2892
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 283. scripts\build.js:2894
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 284. scripts\build.js:2895
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 285. scripts\build.js:2896
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 286. scripts\build.js:2897
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 287. scripts\build.js:2898
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 288. scripts\build.js:2899
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 289. scripts\build.js:2901
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 290. scripts\build.js:2902
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 291. scripts\build.js:2903
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 292. scripts\build.js:2904
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 293. scripts\build.js:2907
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 294. scripts\build.js:2908
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 295. scripts\build.js:2909
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 296. scripts\build.js:2929
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 297. scripts\build.js:2965
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 298. scripts\build.js:2985
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 299. scripts\build.js:3013
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.827Z
 
 #### 300. scripts\build.js:3055
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 301. scripts\build.js:3098
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 302. scripts\build.js:3140
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 303. scripts\build.js:3145
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 304. scripts\build.js:3150
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 305. scripts\build.js:3156
 **Severity:** WARNING  
 **Message:** Missing semicolon  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 306. scripts\build.js:3159
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 307. scripts\build.js:3174
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.595Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 308. scripts\build.js:3177
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 309. scripts\build.js:3181
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 310. scripts\build.js:3186
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 311. scripts\build.js:3190
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 312. scripts\build.js:3191
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 313. scripts\build.js:3197
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 314. scripts\build.js:3198
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 315. scripts\build.js:3205
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 316. scripts\build.js:3206
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 317. scripts\build.js:3214
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 318. scripts\build.js:3215
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 319. scripts\build.js:3220
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 320. scripts\build.js:3222
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 321. scripts\build.js:3225
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 322. scripts\build.js:3229
 **Severity:** WARNING  
 **Message:** Console.log statement found - consider removing in production  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 #### 323. style.css:170
 **Severity:** WARNING  
 **Message:** Missing semicolon in CSS property  
-**Timestamp:** 2025-07-02T10:37:37.596Z
+**Timestamp:** 2025-07-02T12:12:29.828Z
 
 ### 📁 Problems gruppiert nach Datei
 
@@ -5338,9 +5273,6 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 #### style.css (1 Problem(e))
 - **Zeile 170:** ⚠️ Missing semicolon in CSS property
 
-#### vercel.json (1 Problem(e))
-- **Zeile 1:** 🚨 JSON Syntax Error: Unexpected end of JSON input
-
 
 
 ## Raw-Output für Debugging
@@ -5364,7 +5296,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [INFO] Clean Build: 9 HTML-Dateien gelöscht
 [LOG] [36m[39m
 [36m🚀 STARTE INTELLIGENT BUILD PROCESS...[39m
-[LOG] [34m📋 Terminal-Ausgabe wird gespeichert in: docs\015_build_logs\BUILD_LOG_2025-07-02_103737.md[39m
+[LOG] [34m📋 Terminal-Ausgabe wird gespeichert in: docs\015_build_logs\BUILD_LOG_2025-07-02_121229.md[39m
 [LOG] [90mNeue Intention-Validation aktiv![39m
 [90m[39m
 [LOG] 🔍 Sammle VS Code Problems...
@@ -5695,24 +5627,21 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [PROBLEM] [WARNING] scripts\build.js:3225 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] scripts\build.js:3229 - Console.log statement found - consider removing in production
 [PROBLEM] [WARNING] style.css:170 - Missing semicolon in CSS property
-[PROBLEM] [ERROR] vercel.json:1 - JSON Syntax Error: Unexpected end of JSON input
-[INFO] ✅ Problems-Scan abgeschlossen. 328 Problem(e) gefunden.
+[INFO] ✅ Problems-Scan abgeschlossen. 327 Problem(e) gefunden.
 [LOG] [34m📄 Gefunden: 9 Markdown-Dateien[39m
 [34m[39m
 [LOG] [90m[39m
 [90m📋 Verarbeite: bindungssehnsucht-normal.md[39m
 [LOG] [36m   🎯 Intentionen-Analyse...[39m
-[LOG] [31m   ❌ Intention-Score: 35% (Min: 60%)[39m
+[LOG] [32m   ✅ Intention-Score: 60% - EXCELLENT![39m
 [LOG] [36m   📊 Code-Quality Check...[39m
 [LOG] [32m   ✅ Code Quality OK[39m
 [LOG] [36m   🔨 HTML generieren...[39m
 [LOG] [32m   ✅ HTML erstellt: bindungssehnsucht-normal.html[39m
-[LOG] [33m   ⚠️  HTML generiert trotz niedrigem Score für Optimierungszwecke[39m
 [LOG] [90m[39m
 [90m📋 Verarbeite: das-erste-mal.md[39m
 [LOG] [36m   🎯 Intentionen-Analyse...[39m
-[LOG] [31m   ❌ Intention-Score: 3% (Min: 60%)[39m
-[LOG] [33m   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden[39m
+[LOG] [31m   ❌ Intention-Score: 30% (Min: 60%)[39m
 [LOG] [36m   📊 Code-Quality Check...[39m
 [LOG] [32m   ✅ Code Quality OK[39m
 [LOG] [36m   🔨 HTML generieren...[39m
@@ -5721,8 +5650,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [90m[39m
 [90m📋 Verarbeite: der-sichere-hafen.md[39m
 [LOG] [36m   🎯 Intentionen-Analyse...[39m
-[LOG] [31m   ❌ Intention-Score: 7% (Min: 60%)[39m
-[LOG] [33m   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden[39m
+[LOG] [31m   ❌ Intention-Score: 15% (Min: 60%)[39m
 [LOG] [36m   📊 Code-Quality Check...[39m
 [LOG] [32m   ✅ Code Quality OK[39m
 [LOG] [36m   🔨 HTML generieren...[39m
@@ -5731,7 +5659,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [90m[39m
 [90m📋 Verarbeite: emotionale-leere.md[39m
 [LOG] [36m   🎯 Intentionen-Analyse...[39m
-[LOG] [31m   ❌ Intention-Score: 7% (Min: 60%)[39m
+[LOG] [31m   ❌ Intention-Score: 13% (Min: 60%)[39m
 [LOG] [36m   📊 Code-Quality Check...[39m
 [LOG] [32m   ✅ Code Quality OK[39m
 [LOG] [36m   🔨 HTML generieren...[39m
@@ -5740,8 +5668,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [90m[39m
 [90m📋 Verarbeite: erschoepft-vom-stark-sein.md[39m
 [LOG] [36m   🎯 Intentionen-Analyse...[39m
-[LOG] [31m   ❌ Intention-Score: 0% (Min: 60%)[39m
-[LOG] [33m   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden[39m
+[LOG] [31m   ❌ Intention-Score: 22% (Min: 60%)[39m
 [LOG] [36m   📊 Code-Quality Check...[39m
 [LOG] [32m   ✅ Code Quality OK[39m
 [LOG] [36m   🔨 HTML generieren...[39m
@@ -5750,7 +5677,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [90m[39m
 [90m📋 Verarbeite: ich-will-einfach-gehalten-werden.md[39m
 [LOG] [36m   🎯 Intentionen-Analyse...[39m
-[LOG] [31m   ❌ Intention-Score: 35% (Min: 60%)[39m
+[LOG] [31m   ❌ Intention-Score: 41% (Min: 60%)[39m
 [LOG] [36m   📊 Code-Quality Check...[39m
 [LOG] [32m   ✅ Code Quality OK[39m
 [LOG] [36m   🔨 HTML generieren...[39m
@@ -5759,8 +5686,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [90m[39m
 [90m📋 Verarbeite: kontrolle-abgeben.md[39m
 [LOG] [36m   🎯 Intentionen-Analyse...[39m
-[LOG] [31m   ❌ Intention-Score: 6% (Min: 60%)[39m
-[LOG] [33m   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden[39m
+[LOG] [31m   ❌ Intention-Score: 18% (Min: 60%)[39m
 [LOG] [36m   📊 Code-Quality Check...[39m
 [LOG] [32m   ✅ Code Quality OK[39m
 [LOG] [36m   🔨 HTML generieren...[39m
@@ -5769,8 +5695,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [90m[39m
 [90m📋 Verarbeite: README.md[39m
 [LOG] [36m   🎯 Intentionen-Analyse...[39m
-[LOG] [31m   ❌ Intention-Score: 7% (Min: 60%)[39m
-[LOG] [33m   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden[39m
+[LOG] [31m   ❌ Intention-Score: 18% (Min: 60%)[39m
 [LOG] [36m   📊 Code-Quality Check...[39m
 [LOG] [32m   ✅ Code Quality OK[39m
 [LOG] [36m   🔨 HTML generieren...[39m
@@ -5779,8 +5704,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [90m[39m
 [90m📋 Verarbeite: sehnsucht-nach-hingabe.md[39m
 [LOG] [36m   🎯 Intentionen-Analyse...[39m
-[LOG] [31m   ❌ Intention-Score: 0% (Min: 60%)[39m
-[LOG] [33m   ⚠️  MISSING_CALL_TO_ACTION: Keine konkrete Handlungsaufforderung gefunden[39m
+[LOG] [31m   ❌ Intention-Score: 15% (Min: 60%)[39m
 [LOG] [36m   📊 Code-Quality Check...[39m
 [LOG] [32m   ✅ Code Quality OK[39m
 [LOG] [36m   🔨 HTML generieren...[39m
@@ -5793,33 +5717,33 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [34m[39m
 [34m📄 Verarbeitete Dateien: 9/9[39m
 [LOG] [31m[39m
-[31m🎯 INTENTION-OPTIMIERUNG ERFORDERLICH: 9 Dateien[39m
+[31m🎯 INTENTION-OPTIMIERUNG ERFORDERLICH: 8 Dateien[39m
 [31m[39m
 [LOG] [33m🤖 AUTOMATISCH GENERIERTER KI-PROMPT:[39m
 [LOG] [90m────────────────────────────────────────────────────────────[39m
 [LOG] 
 🎯 INCREMENTAL BUILD-OPTIMIERUNG #1
 
-FILE: bindungssehnsucht-normal.md
-PROBLEM: BeschützerPositionierung schwächste Intention (25%)
+FILE: das-erste-mal.md
+PROBLEM: BeschützerPositionierung schwächste Intention (13%)
 PRIORITY: #1 von 0 Problemen
 
 ═══════════════════════════════════════
 
 EINE SPEZIFISCHE AUFGABE:
-Verstärke "sichere hafen" Trigger
+Verstärke "starke schulter" Trigger
 
 
 INTEGRATION-STELLE GEFUNDEN:
-ZEILE 5: "Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird."
+ZEILE 5: "Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage?"
 
 AKTUELLER CONTEXT:
-  ## Du spürst es: "Warum will ich das so fest?"
-> Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird. ← HIER VERSTÄRKEN
-  Meine starke Schulter ist bereit für dich, und ich halte dich, wenn alles zusammenbricht. Bin ich da, wenn du mich brauchst.
+  ## Du weißt bereits: Diese Unsicherheit ist normal
+> Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage? ← HIER VERSTÄRKEN
+  "Es isch das erschte Mal gsi", wirst du später sagen. Nicht nur körperlich. Emotional. Seelisch. Das erste Mal, dass du dich wirklich sicher gefühlt hast bei einem Mann. Das erste Mal, dass du alle Kontrolle abgeben konntest. Das erste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn alles richtig ist? Verstehst du, wie kostbar dieser Moment ist? Spürst du, dass ich der Richtige bin?
 
 OPTIMIERUNG:
-Entwickle eine authentische, situationsgerechte Integration von "sichere hafen" 
+Entwickle eine authentische, situationsgerechte Integration von "starke schulter" 
 
 INTEGRATION-PRINZIPIEN:
 - Organisch in bestehenden emotionalen Kontext einweben
@@ -5829,20 +5753,20 @@ INTEGRATION-PRINZIPIEN:
 
 
 WARUM DIESER TRIGGER:
-- "sichere hafen" = Core-Bedürfnis deiner Zielgruppe
+- "starke schulter" = Core-Bedürfnis deiner Zielgruppe
 - Verstärkt beschützerpositionierung Resonanz
 - Zieht bindungssuchende Frauen magnetisch an
 
-FEHLENDE TRIGGER (noch 6 verfügbar):
+FEHLENDE TRIGGER (noch 7 verfügbar):
+- "starke schulter"
+- "halt dir"
 - "sichere hafen"
-- "rücken stärken"
-- "führung übernehmen"
 
 ERWARTETER SCORE-ANSTIEG:
-BeschützerPositionierung: 25% → 38% (+13%)
+BeschützerPositionierung: 13% → 26% (+13%)
 
-AKTUELLER GESAMT-SCORE: 35%
-ZIEL-SCORE: 60%+ (noch 25% zu verbessern)
+AKTUELLER GESAMT-SCORE: 30%
+ZIEL-SCORE: 60%+ (noch 30% zu verbessern)
 
 NACH DEM FIX:
 1. Speichere Datei
@@ -5850,22 +5774,21 @@ NACH DEM FIX:
 3. System zeigt nächstes Problem
 
 NÄCHSTE OPTIMIERUNGEN (Preview):
-#2: HandlungsAufforderung (25% → 2/8 triggers)
-#3: TraumfrauMagnetismus (38% → 3/8 triggers)
+#2: TraumfrauMagnetismus (25% → 2/8 triggers)
+#3: SicherheitsVermittlung (25% → 2/8 triggers)
 
 FOKUS: NUR dieser eine Trigger - keine Überforderung!
 
 [LOG] [90m────────────────────────────────────────────────────────────[39m
 [LOG] [90m[39m
-[90m📋 Weitere 8 Dateien benötigen Optimierung:[39m
-[LOG] [90m   2. das-erste-mal.md (Score: 3%)[39m
-[LOG] [90m   3. der-sichere-hafen.md (Score: 7%)[39m
-[LOG] [90m   4. emotionale-leere.md (Score: 7%)[39m
-[LOG] [90m   5. erschoepft-vom-stark-sein.md (Score: 0%)[39m
-[LOG] [90m   6. ich-will-einfach-gehalten-werden.md (Score: 35%)[39m
-[LOG] [90m   7. kontrolle-abgeben.md (Score: 6%)[39m
-[LOG] [90m   8. README.md (Score: 7%)[39m
-[LOG] [90m   9. sehnsucht-nach-hingabe.md (Score: 0%)[39m
+[90m📋 Weitere 7 Dateien benötigen Optimierung:[39m
+[LOG] [90m   2. der-sichere-hafen.md (Score: 15%)[39m
+[LOG] [90m   3. emotionale-leere.md (Score: 13%)[39m
+[LOG] [90m   4. erschoepft-vom-stark-sein.md (Score: 22%)[39m
+[LOG] [90m   5. ich-will-einfach-gehalten-werden.md (Score: 41%)[39m
+[LOG] [90m   6. kontrolle-abgeben.md (Score: 18%)[39m
+[LOG] [90m   7. README.md (Score: 18%)[39m
+[LOG] [90m   8. sehnsucht-nach-hingabe.md (Score: 15%)[39m
 [LOG] [36m[39m
 [36m════════════════════════════════════════════════════════════════════════════════[39m
 [LOG] [33m[39m
@@ -5884,30 +5807,30 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [36m📊 VOLLSTÄNDIGE PROJEKT-ÜBERSICHT[39m
 [36m════════════════════════════════════════════════════════════════════════════════[39m
 [36m✅ Verarbeitete Dateien: 9/9[39m
-[36m🎯 Optimierung erforderlich: 9 Dateien (100% verbleibend)[39m
-[36m🚀 Fortschritt: 0% abgeschlossen[39m
+[36m🎯 Optimierung erforderlich: 8 Dateien (89% verbleibend)[39m
+[36m🚀 Fortschritt: 11% abgeschlossen[39m
 [36m[39m
 [36mPRIORITÄTEN-RANKING:[39m
-[36m   1. bindungssehnsucht-normal.md (Score: 35% - Gap: 25%)[39m
-[36m   2. das-erste-mal.md (Score: 3% - Gap: 57%)[39m
-[36m   3. der-sichere-hafen.md (Score: 7% - Gap: 53%)[39m
-[36m   4. emotionale-leere.md (Score: 7% - Gap: 53%)[39m
-[36m   5. erschoepft-vom-stark-sein.md (Score: 0% - Gap: 60%)[39m
+[36m   1. das-erste-mal.md (Score: 30% - Gap: 30%)[39m
+[36m   2. der-sichere-hafen.md (Score: 15% - Gap: 45%)[39m
+[36m   3. emotionale-leere.md (Score: 13% - Gap: 47%)[39m
+[36m   4. erschoepft-vom-stark-sein.md (Score: 22% - Gap: 38%)[39m
+[36m   5. ich-will-einfach-gehalten-werden.md (Score: 41% - Gap: 19%)[39m
 [36m[39m
-[36mERWARTETE ARBEITSZEIT: 18 Minuten für vollständige Optimierung[39m
+[36mERWARTETE ARBEITSZEIT: 16 Minuten für vollständige Optimierung[39m
 [36m════════════════════════════════════════════════════════════════════════════════[39m
 [LOG] [33m[39m
 [33m🎯 VOLLSTÄNDIGER HANDLUNGSPLAN (AUTOMATION)[39m
 [33m════════════════════════════════════════════════════════════════════════════════[39m
 [33mPHASE 1 - SOFORTIGE AKTION:[39m
-[33m   1️⃣ Optimiere: bindungssehnsucht-normal.md (aktuell 35%)[39m
+[33m   1️⃣ Optimiere: das-erste-mal.md (aktuell 30%)[39m
 [33m   2️⃣ Führe aus: pnpm build (erwarte Score-Anstieg)[39m
 [33m   3️⃣ System generiert automatisch nächsten Prompt[39m
 [33m[39m
 [33mPHASE 2 - FOLGE-OPTIMIERUNGEN:[39m
-[33m   2️⃣ Dann: das-erste-mal.md (Score: 3% → Ziel: 60%+)[39m
-[33m   3️⃣ Dann: der-sichere-hafen.md (Score: 7% → Ziel: 60%+)[39m
-[33m   4️⃣ Dann: emotionale-leere.md (Score: 7% → Ziel: 60%+)[39m
+[33m   2️⃣ Dann: der-sichere-hafen.md (Score: 15% → Ziel: 60%+)[39m
+[33m   3️⃣ Dann: emotionale-leere.md (Score: 13% → Ziel: 60%+)[39m
+[33m   4️⃣ Dann: erschoepft-vom-stark-sein.md (Score: 22% → Ziel: 60%+)[39m
 [33m[39m
 [33mAUTOMATION-ZYKLUS:[39m
 [33m   🔄 1. KI optimiert Content nach System-Prompt[39m
@@ -5915,7 +5838,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [33m   🔄 3. System erkennt Verbesserung + zeigt nächstes Ziel[39m
 [33m   🔄 4. Wiederholen bis alle Dateien 60%+[39m
 [33m[39m
-[33mENDERGEBNIS: Alle 9 Dateien automatisch optimiert![39m
+[33mENDERGEBNIS: Alle 8 Dateien automatisch optimiert![39m
 [33m════════════════════════════════════════════════════════════════════════════════[39m
 [LOG] [32m[39m
 [32m🧠 PSYCHOLOGISCHE OPTIMIERUNGS-STRATEGIE[39m
@@ -5999,26 +5922,26 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [35m[39m
 [35m🎯 INCREMENTAL BUILD-OPTIMIERUNG #1[39m
 [35m[39m
-[35mFILE: bindungssehnsucht-normal.md[39m
-[35mPROBLEM: BeschützerPositionierung schwächste Intention (25%)[39m
+[35mFILE: das-erste-mal.md[39m
+[35mPROBLEM: BeschützerPositionierung schwächste Intention (13%)[39m
 [35mPRIORITY: #1 von 0 Problemen[39m
 [35m[39m
 [35m═══════════════════════════════════════[39m
 [35m[39m
 [35mEINE SPEZIFISCHE AUFGABE:[39m
-[35mVerstärke "sichere hafen" Trigger[39m
+[35mVerstärke "starke schulter" Trigger[39m
 [35m[39m
 [35m[39m
 [35mINTEGRATION-STELLE GEFUNDEN:[39m
-[35mZEILE 5: "Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird."[39m
+[35mZEILE 5: "Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage?"[39m
 [35m[39m
 [35mAKTUELLER CONTEXT:[39m
-[35m  ## Du spürst es: "Warum will ich das so fest?"[39m
-[35m> Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird. ← HIER VERSTÄRKEN[39m
-[35m  Meine starke Schulter ist bereit für dich, und ich halte dich, wenn alles zusammenbricht. Bin ich da, wenn du mich brauchst.[39m
+[35m  ## Du weißt bereits: Diese Unsicherheit ist normal[39m
+[35m> Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage? ← HIER VERSTÄRKEN[39m
+[35m  "Es isch das erschte Mal gsi", wirst du später sagen. Nicht nur körperlich. Emotional. Seelisch. Das erste Mal, dass du dich wirklich sicher gefühlt hast bei einem Mann. Das erste Mal, dass du alle Kontrolle abgeben konntest. Das erste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn alles richtig ist? Verstehst du, wie kostbar dieser Moment ist? Spürst du, dass ich der Richtige bin?[39m
 [35m[39m
 [35mOPTIMIERUNG:[39m
-[35mEntwickle eine authentische, situationsgerechte Integration von "sichere hafen" [39m
+[35mEntwickle eine authentische, situationsgerechte Integration von "starke schulter" [39m
 [35m[39m
 [35mINTEGRATION-PRINZIPIEN:[39m
 [35m- Organisch in bestehenden emotionalen Kontext einweben[39m
@@ -6028,20 +5951,20 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [35m[39m
 [35m[39m
 [35mWARUM DIESER TRIGGER:[39m
-[35m- "sichere hafen" = Core-Bedürfnis deiner Zielgruppe[39m
+[35m- "starke schulter" = Core-Bedürfnis deiner Zielgruppe[39m
 [35m- Verstärkt beschützerpositionierung Resonanz[39m
 [35m- Zieht bindungssuchende Frauen magnetisch an[39m
 [35m[39m
-[35mFEHLENDE TRIGGER (noch 6 verfügbar):[39m
+[35mFEHLENDE TRIGGER (noch 7 verfügbar):[39m
+[35m- "starke schulter"[39m
+[35m- "halt dir"[39m
 [35m- "sichere hafen"[39m
-[35m- "rücken stärken"[39m
-[35m- "führung übernehmen"[39m
 [35m[39m
 [35mERWARTETER SCORE-ANSTIEG:[39m
-[35mBeschützerPositionierung: 25% → 38% (+13%)[39m
+[35mBeschützerPositionierung: 13% → 26% (+13%)[39m
 [35m[39m
-[35mAKTUELLER GESAMT-SCORE: 35%[39m
-[35mZIEL-SCORE: 60%+ (noch 25% zu verbessern)[39m
+[35mAKTUELLER GESAMT-SCORE: 30%[39m
+[35mZIEL-SCORE: 60%+ (noch 30% zu verbessern)[39m
 [35m[39m
 [35mNACH DEM FIX:[39m
 [35m1. Speichere Datei[39m
@@ -6049,8 +5972,8 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [35m3. System zeigt nächstes Problem[39m
 [35m[39m
 [35mNÄCHSTE OPTIMIERUNGEN (Preview):[39m
-[35m#2: HandlungsAufforderung (25% → 2/8 triggers)[39m
-[35m#3: TraumfrauMagnetismus (38% → 3/8 triggers)[39m
+[35m#2: TraumfrauMagnetismus (25% → 2/8 triggers)[39m
+[35m#3: SicherheitsVermittlung (25% → 2/8 triggers)[39m
 [35m[39m
 [35mFOKUS: NUR dieser eine Trigger - keine Überforderung![39m
 [35m[39m
@@ -6066,7 +5989,7 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [35m└─────────────────────────────────────────────────────────────────────────────┘[39m
 [35m[39m
 [35mNACH VOLLSTÄNDIGER OPTIMIERUNG:[39m
-[35m✅ Alle 9 Dateien erreichen 60%+ Score[39m
+[35m✅ Alle 8 Dateien erreichen 60%+ Score[39m
 [35m✅ Build läuft ohne Quality-Alerts durch[39m
 [35m✅ Content optimiert für maximale weibliche Ansprache[39m
 [35m✅ Emotionale Bindung & Handlungsaktivierung maximiert[39m
@@ -6077,47 +6000,46 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [33m� QUALITY-ALERT DETAILS:[39m
 [LOG] [33m   Type: CONTENT_OPTIMIZATION_NEEDED[39m
 [LOG] [33m   Message: Vollständige Content-Optimierung durch KI empfohlen[39m
-[LOG] [33m   Timestamp: 2025-07-02T10:37:37.694Z[39m
-[LOG] [33m   Files affected: 9/9[39m
-[LOG] [33m   First problem: bindungssehnsucht-normal.md (35%)[39m
+[LOG] [33m   Timestamp: 2025-07-02T12:12:29.907Z[39m
+[LOG] [33m   Files affected: 8/9[39m
+[LOG] [33m   First problem: das-erste-mal.md (30%)[39m
 [LOG] [33m   Recommended action: CONTENT_OPTIMIZATION_RECOMMENDED[39m
 [LOG] [33m[39m
 [33m📋 DETAILED QUALITY REPORT:[39m
-[LOG] [33m   1. INTENTION_OPTIMIZATION_REQUIRED: bindungssehnsucht-normal.md (Score: 35%, Issues: 0)[39m
-[LOG] [33m   2. PENDING_OPTIMIZATION: das-erste-mal.md (Score: 3%, Issues: 1)[39m
-[LOG] [33m   3. PENDING_OPTIMIZATION: der-sichere-hafen.md (Score: 7%, Issues: 1)[39m
-[LOG] [33m   4. PENDING_OPTIMIZATION: emotionale-leere.md (Score: 7%, Issues: 0)[39m
-[LOG] [33m   5. PENDING_OPTIMIZATION: erschoepft-vom-stark-sein.md (Score: 0%, Issues: 1)[39m
-[LOG] [33m   6. PENDING_OPTIMIZATION: ich-will-einfach-gehalten-werden.md (Score: 35%, Issues: 0)[39m
-[LOG] [33m   7. PENDING_OPTIMIZATION: kontrolle-abgeben.md (Score: 6%, Issues: 1)[39m
-[LOG] [33m   8. PENDING_OPTIMIZATION: README.md (Score: 7%, Issues: 1)[39m
-[LOG] [33m   9. PENDING_OPTIMIZATION: sehnsucht-nach-hingabe.md (Score: 0%, Issues: 1)[39m
+[LOG] [33m   1. INTENTION_OPTIMIZATION_REQUIRED: das-erste-mal.md (Score: 30%, Issues: 0)[39m
+[LOG] [33m   2. PENDING_OPTIMIZATION: der-sichere-hafen.md (Score: 15%, Issues: 0)[39m
+[LOG] [33m   3. PENDING_OPTIMIZATION: emotionale-leere.md (Score: 13%, Issues: 0)[39m
+[LOG] [33m   4. PENDING_OPTIMIZATION: erschoepft-vom-stark-sein.md (Score: 22%, Issues: 0)[39m
+[LOG] [33m   5. PENDING_OPTIMIZATION: ich-will-einfach-gehalten-werden.md (Score: 41%, Issues: 0)[39m
+[LOG] [33m   6. PENDING_OPTIMIZATION: kontrolle-abgeben.md (Score: 18%, Issues: 0)[39m
+[LOG] [33m   7. PENDING_OPTIMIZATION: README.md (Score: 18%, Issues: 0)[39m
+[LOG] [33m   8. PENDING_OPTIMIZATION: sehnsucht-nach-hingabe.md (Score: 15%, Issues: 0)[39m
 [LOG] [36m[39m
 [36m🎯 KI-PROMPT BEREIT FÜR OPTIMIERUNG:[39m
 [LOG] [33m────────────────────────────────────────────────────────────[39m
 [LOG] 
 🎯 INCREMENTAL BUILD-OPTIMIERUNG #1
 
-FILE: bindungssehnsucht-normal.md
-PROBLEM: BeschützerPositionierung schwächste Intention (25%)
+FILE: das-erste-mal.md
+PROBLEM: BeschützerPositionierung schwächste Intention (13%)
 PRIORITY: #1 von 0 Problemen
 
 ═══════════════════════════════════════
 
 EINE SPEZIFISCHE AUFGABE:
-Verstärke "sichere hafen" Trigger
+Verstärke "starke schulter" Trigger
 
 
 INTEGRATION-STELLE GEFUNDEN:
-ZEILE 5: "Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird."
+ZEILE 5: "Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage?"
 
 AKTUELLER CONTEXT:
-  ## Du spürst es: "Warum will ich das so fest?"
-> Du spürst es tief in dir: Diese Sehnsucht nach Bindung, die manchmal so stark ist, dass sie wehtut. Du fragst dich, ob es normal ist, dass du so eine tiefe Sehnsucht nach Bindung hast. Dass du dir so fest wünschst, zu jemandem zu gehören. Dass jemand halt dir, wenn alles zu schwer wird. ← HIER VERSTÄRKEN
-  Meine starke Schulter ist bereit für dich, und ich halte dich, wenn alles zusammenbricht. Bin ich da, wenn du mich brauchst.
+  ## Du weißt bereits: Diese Unsicherheit ist normal
+> Du weißt bereits, was ich meine, wenn ich vom ersten Mal spreche. Es ist nicht nur der erste Sex - es ist der erste Moment, in dem du dich komplett hingibst. Der erste Moment, in dem alle Barrieren fallen. Der erste Moment, in dem du wirklich zu jemandem gehörst. Kennst du das auch, diese tiefe Sehnsucht? Verstehst du, wie kostbar dieser Moment ist? Spürst du, wie wichtig es ist, dass er mit dem Richtigen passiert? Fühlst du dich verstanden, wenn ich das sage? ← HIER VERSTÄRKEN
+  "Es isch das erschte Mal gsi", wirst du später sagen. Nicht nur körperlich. Emotional. Seelisch. Das erste Mal, dass du dich wirklich sicher gefühlt hast bei einem Mann. Das erste Mal, dass du alle Kontrolle abgeben konntest. Das erste Mal, dass du gespürt hast: Ich gehöre zu ihm. Weißt du, was das bedeutet? Kennst du das Gefühl, wenn alles richtig ist? Verstehst du, wie kostbar dieser Moment ist? Spürst du, dass ich der Richtige bin?
 
 OPTIMIERUNG:
-Entwickle eine authentische, situationsgerechte Integration von "sichere hafen" 
+Entwickle eine authentische, situationsgerechte Integration von "starke schulter" 
 
 INTEGRATION-PRINZIPIEN:
 - Organisch in bestehenden emotionalen Kontext einweben
@@ -6127,20 +6049,20 @@ INTEGRATION-PRINZIPIEN:
 
 
 WARUM DIESER TRIGGER:
-- "sichere hafen" = Core-Bedürfnis deiner Zielgruppe
+- "starke schulter" = Core-Bedürfnis deiner Zielgruppe
 - Verstärkt beschützerpositionierung Resonanz
 - Zieht bindungssuchende Frauen magnetisch an
 
-FEHLENDE TRIGGER (noch 6 verfügbar):
+FEHLENDE TRIGGER (noch 7 verfügbar):
+- "starke schulter"
+- "halt dir"
 - "sichere hafen"
-- "rücken stärken"
-- "führung übernehmen"
 
 ERWARTETER SCORE-ANSTIEG:
-BeschützerPositionierung: 25% → 38% (+13%)
+BeschützerPositionierung: 13% → 26% (+13%)
 
-AKTUELLER GESAMT-SCORE: 35%
-ZIEL-SCORE: 60%+ (noch 25% zu verbessern)
+AKTUELLER GESAMT-SCORE: 30%
+ZIEL-SCORE: 60%+ (noch 30% zu verbessern)
 
 NACH DEM FIX:
 1. Speichere Datei
@@ -6148,8 +6070,8 @@ NACH DEM FIX:
 3. System zeigt nächstes Problem
 
 NÄCHSTE OPTIMIERUNGEN (Preview):
-#2: HandlungsAufforderung (25% → 2/8 triggers)
-#3: TraumfrauMagnetismus (38% → 3/8 triggers)
+#2: TraumfrauMagnetismus (25% → 2/8 triggers)
+#3: SicherheitsVermittlung (25% → 2/8 triggers)
 
 FOKUS: NUR dieser eine Trigger - keine Überforderung!
 
@@ -6174,16 +6096,16 @@ FOKUS: NUR dieser eine Trigger - keine Überforderung!
 [LOG] [32m[39m
 [32m✅ BUILD ERFOLGREICH ABGESCHLOSSEN![39m
 [LOG] [32m   Verarbeitete Dateien: 9/9[39m
-[LOG] [33m   Content-Optimierungspotential: 9 Dateien[39m
+[LOG] [33m   Content-Optimierungspotential: 8 Dateien[39m
 ```
 
 ## System-Information
 
-- **Datum:** 2.7.2025, 12:37:37
+- **Datum:** 2.7.2025, 14:12:29
 - **Timezone:** Europe/Zurich
 - **Platform:** win32
 - **Architecture:** x64
-- **Memory Usage:** 17MB
+- **Memory Usage:** 22MB
 
 ## Quality-Alerts & Build-Issues
 
