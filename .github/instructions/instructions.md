@@ -3,6 +3,15 @@ IM BUILD PROZESS DÜRFEN KEINE EXCEPTIONS HINTERLEGT WERDEN!!!
 
 **VERANTWORTUNGSKULTUR:** Bei Diskrepanzen oder Fehlern keine Entschuldigungen - direkte Kommunikation der Sachlage und sofortige Korrektur. Alle Änderungen werden dokumentiert.
 
+## 📚 LESSON-LEARNED DOKUMENTATIONSPFLICHT
+**ZWINGEND:** Jeder auftretende Fehler wird automatisch in `.github/instructions/LESSONS_LEARNED.md` dokumentiert:
+- **Terminal-Output:** Vollständige Ausgabe erfassen
+- **Ursachen-Analyse:** Technische und instruction-basierte Gründe
+- **Präventions-Maßnahmen:** Konkrete Schritte zur Vermeidung
+- **Rollback-Instruktionen:** Schnelle Wiederherstellung
+
+**REGEL:** Vor Fehlerbehebung IMMER prüfen ob ähnlicher Fehler bereits in LESSONS_LEARNED.md dokumentiert ist!
+
 
 # AI Instructions: "Einfach Passieren Lassen" - Authentische Website
 

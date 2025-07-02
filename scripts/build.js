@@ -721,6 +721,67 @@ function detectContentIssues(content, frontmatter, context) {
     return issues;
 }
 
+// Blog-Index-Generator für Vercel Deployment
+async function generateBlogIndex() {
+    const blogPosts = [];
+    
+    // Alle HTML-Dateien im Blog-Verzeichnis sammeln
+    const htmlFiles = fs.readdirSync(OUTPUT_DIR)
+        .filter(file => file.endsWith('.html') && file !== 'index.html');
+    
+    for (const htmlFile of htmlFiles) {
+        const htmlPath = path.join(OUTPUT_DIR, htmlFile);
+        const mdPath = path.join(INPUT_DIR, htmlFile.replace('.html', '.md'));
+        
+        if (fs.existsSync(mdPath)) {
+            const rawContent = fs.readFileSync(mdPath, 'utf8');
+            const parsed = matter(rawContent);
+            const frontmatter = parsed.attributes || {};
+            
+            blogPosts.push({
+                title: frontmatter.title || htmlFile.replace('.html', '').replace(/-/g, ' '),
+                description: frontmatter.description || '',
+                filename: htmlFile,
+                date: frontmatter.date || new Date().toISOString()
+            });
+        }
+    }
+    
+    // Nach Datum sortieren (neueste zuerst)
+    blogPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    
+    // Blog-Index HTML generieren
+    const blogIndexContent = `
+        <header class="blog-header">
+            <h1>Blog - Gedanken über Beziehungen und Bindung</h1>
+            <p>Authentische Einblicke in die Welt der emotionalen Verbindung und Hingabe.</p>
+        </header>
+        
+        <div class="blog-grid">
+            ${blogPosts.map(post => `
+                <article class="blog-card">
+                    <h2><a href="${post.filename}">${post.title}</a></h2>
+                    <p class="blog-description">${post.description}</p>
+                    <a href="${post.filename}" class="read-more">Weiterlesen</a>
+                </article>
+            `).join('')}
+        </div>
+    `;
+    
+    // Template laden und Index generieren
+    const template = fs.readFileSync(TEMPLATE_FILE, 'utf8');
+    const html = template
+        .replace('{{TITLE}}', 'Blog - Authentische Gedanken über Beziehungen')
+        .replace('{{DESCRIPTION}}', 'Persönliche Einblicke in Bindung, Hingabe und emotionale Verbindung')
+        .replace('{{KEYWORDS}}', 'Blog, Beziehungen, Bindung, Hingabe, emotionale Verbindung')
+        .replace('{{CONTENT}}', blogIndexContent)
+        .replace('{{SCHEMA}}', '');
+    
+    // Blog-Index speichern
+    const indexPath = path.join(OUTPUT_DIR, 'index.html');
+    fs.writeFileSync(indexPath, html, 'utf8');
+}
+
 function calculateTotalScore(intentionScores) {
     let weightedSum = 0;
     let totalWeight = 0;
@@ -2843,6 +2904,15 @@ async function buildBlogPosts() {
             } catch (error) {
                 console.log(chalk.red(`   ❌ Fehler bei ${filename}: ${error.message}`));
             }
+        }
+
+        // BLOG INDEX GENERATION: Blog-Übersichtsseite erstellen
+        console.log(chalk.cyan('\n🔨 Generiere Blog-Index...'));
+        try {
+            await generateBlogIndex();
+            console.log(chalk.green('   ✅ Blog-Index erstellt: blog/index.html'));
+        } catch (error) {
+            console.log(chalk.red(`   ❌ Fehler bei Blog-Index: ${error.message}`));
         }
 
         // FINAL REPORT
