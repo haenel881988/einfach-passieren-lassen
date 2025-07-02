@@ -13,12 +13,30 @@ Zum den Build zu testen, muss der Befehl verwendet werden:
 
 
 
-## 📋 GRUNDREGELN
+## � TERMINOLOGIE-KORREKTUR & LAIEN-UNTERSTÜTZUNG
+**KRITISCH:** User ist Laie - falsche Begriffe erkennen und korrigieren!
+
+### ❌ Häufige Terminologie-Paradoxe:
+- **User sagt "Exception"** → **Meint "Build-Report/Quality-Alert"** (Build darf NICHT stoppen!)
+- **User sagt "Error"** → **Meint oft "Warning/Info"** (sammeln, nicht abbrechen)
+- **User sagt "automatisieren"** → **Meint "in Build-Prozess integrieren"** (nicht external tools)
+
+### ✅ KI-Verhalten bei falscher Terminologie:
+1. **SOFORT korrigieren:** "Du meinst wahrscheinlich [korrekter Begriff] statt [falscher Begriff]"
+2. **Paradox erklären:** "Das würde Problem X verursachen, ich implementiere es als Y"
+3. **Bestätigung holen:** "Ist das so gemeint?"
+
+### 🚨 Build-Prozess DARF NIEMALS stoppen:
+- Alle Erkenntnisse sammeln → **Build-Report** am Ende
+- Vercel Deployment muss durchlaufen
+- **Keine echten Exceptions** → nur **Quality-Alerts**
+
+## �📋 GRUNDREGELN
 - **DU-Form zwingend** in allen Texten
 - **Keine Testimonials/Erfahrungsberichte** - Website sucht Traumfrau, keine Kunden  
 - **Manuelle Qualitätskontrolle** - Jede Zeile verstehen vor Änderungen
 - **Build-System Enhancement erlaubt** für Qualitätskontrolle
-// MUSS ZWINGEND VOLLSTÄNDIG DURCHLAUFEN UND JEDES EINZELNE ERGEBNISS IN DIE EXCEPTION DATEI SPEICHERN, KEIN SKRIPT FÜR DIE AUFARBEI
+- **Build-Reports statt Exceptions** - Sammeln, nicht stoppen!
 
 ## 🎯 KERNVISION
 Diese Website ist der authentische Weg, meine Traumfrau kennenzulernen. Durch echte, verletzliche Verbindung - nicht durch Marketing.
