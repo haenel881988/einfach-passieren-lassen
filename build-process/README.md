@@ -1,10 +1,15 @@
-UNIVERSELL GILT:
-CONTENT FIRST!!!
+# Build-Process: Abhängigkeits-Website Technische Umsetzung
 
-NEBENHER KANN DIE KI PROBLEME LÖSEN, ABER IMMER NACH DEM CONTENT FIRST PRINZIP ARBEITEN!!!
+## 🎯 PROJEKT-INTENTION (NIEMALS VERGESSEN!)
+**ZWECK:** Eine Frau finden, die sich von mir und meiner Liebe abhängig machen will und muss.
+**NIEMALS MARKETING-SPRACHE!** - Authentische, organische Umsetzung ohne Marketing-Formulierungen.
 
+## CONTENT FIRST PROTOCOL
+**ZWINGEND:** Alle technischen Aspekte dienen ausschließlich der optimalen Präsentation des Abhängigkeits-Contents.
 
-Für den Build Prozess muss zwingend `pnpm build` verwendet werden.
+---
+
+**Für den Build Prozess muss zwingend `pnpm build` verwendet werden.**
 
 # Build-Prozess Modularisierung
 

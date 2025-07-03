@@ -1,36 +1,45 @@
 {
   "bindungssehnsucht-normal.md": [
-    "checklist-passivitaet",
-    "checklist-besitz"
-  ],
-  "das-erste-mal.md": [
-    "checklist-passivitaet",
-    "checklist-besitz"
-  ],
-  "der-sichere-hafen.md": [
     "checklist-bindung-sicherheit",
     "checklist-leere-verschmelzung",
     "checkliste_sog_hingabe"
   ],
+  "das-erste-mal.md": [
+    "checklist-bindung-sicherheit",
+    "checklist-leere-verschmelzung",
+    "checkliste_sog_hingabe"
+  ],
+  "der-sichere-hafen.md": [
+    "checklist-passivitaet",
+    "checklist-besitz"
+  ],
   "emotionale-leere.md": [
-    "checklist-passivitaet"
+    "checklist-bindung-sicherheit",
+    "checklist-leere-verschmelzung",
+    "checkliste_sog_hingabe"
   ],
   "erschoepft-vom-stark-sein.md": [
-    "checklist-passivitaet",
-    "checklist-besitz"
+    "checklist-bindung-sicherheit",
+    "checklist-leere-verschmelzung",
+    "checkliste_sog_hingabe"
   ],
   "ich-will-einfach-gehalten-werden.md": [
-    "checklist-passivitaet",
-    "checklist-besitz"
+    "checklist-bindung-sicherheit",
+    "checklist-leere-verschmelzung",
+    "checkliste_sog_hingabe"
   ],
   "kontrolle-abgeben.md": [
-    "checklist-passivitaet"
+    "checklist-bindung-sicherheit",
+    "checklist-leere-verschmelzung",
+    "checkliste_sog_hingabe"
   ],
   "sehnsucht-nach-hingabe.md": [
     "checklist-passivitaet",
     "checklist-besitz"
   ],
   "zu-viel-liebe-zu-wenig-liebe.md": [
-    "checklist-passivitaet"
+    "checklist-bindung-sicherheit",
+    "checklist-leere-verschmelzung",
+    "checkliste_sog_hingabe"
   ]
 }
