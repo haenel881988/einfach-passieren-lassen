@@ -11,7 +11,7 @@ canonical: "/blog/emotionale-leere.html"
 # Du weißt bereits: "Fühl mi wie holl" – Ich fülle deine Leere
 
 ## Das Echo in dir
-Du kennst es. Du sitzt in deinem Zimmer, und da ist dieses Gefühl. "Fühl mi wie holl", sagst du dir. Das Echo in dir drin. Es ist nicht einfach nur Einsamkeit. Es ist, als würdest du in deinem eigenen Leben zuschauen, ohne wirklich teilzunehmen. Du funktionierst. Du gehst zur Arbeit, lächelst, antwortest auf WhatsApp. Aber inside bist du leer. Kennst du das auch, dieses Gefühl der Leere? Suchst du auch nach jemandem, der dich füllt? Spürst du diese tiefe Sehnsucht nach Halt?
+Du kennst es. Du sitzt in deinem Zimmer, und da ist dieses Gefühl. "Fühl mi wie holl", sagst du dir. Das Echo in dir drin. Es ist nicht einfach nur Einsamkeit. Es ist, als würdest du in deinem eigenen Leben zuschauen, ohne wirklich teilzunehmen. Du funktionierst. Du gehst zur Arbeit, lächelst, antwortest auf WhatsApp. Aber inside bist du leer. Kennst du das auch, dieses Gefühl der Leere? Suchst du auch nach jemandem, der dich füllt? Spürst du diese tiefe Sehnsucht nach Halt? Verstehe ich dich richtig, wenn ich sage, dass du genau diese Wärme brauchst?
 
 Diese Leere ist kein Makel an dir. Sie ist eine Wunde, die heilen will. Sie ist das Echo von Momenten, in denen du nicht gehalten wurdest, als du es gebraucht hättest. Sie ist die Abwesenheit von jemandem, der bleibt. Der deine Konturen nachzeichnet, bis du dich wieder spürst. Der deine Gedanken zur Ruhe bringt mit seiner starken Stimme. Bei mir findest du deinen sicheren Hafen, wo deine Leere endlich Fülle werden darf. Ich bin da für dich, wenn du diese Wärme brauchst.
 

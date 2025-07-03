@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}">
+    <meta name="keywords" content="{{KEYWORDS}}">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Blog Article",
+  "author": {
+    "@type": "Person", 
+    "name": "Author"
+  },
+  "datePublished": "2025-07-03T20:47:35.803Z",
+  "description": "Blog article description"
+}</script>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-logo">
+            <a href="../index.html">Ein offener Brief</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Start</a></li>
+            <li><a href="../ueber-mich.html">Über Mich</a></li>
+            <li><a href="index.html" class="active">Blog</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <article>
+                {{CONTENT}}
+            </article>
+        </main>
+        <footer>
+            <p class="subtle">Zurück zur <a href="../index.html">Startseite</a>.</p>
+        </footer>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

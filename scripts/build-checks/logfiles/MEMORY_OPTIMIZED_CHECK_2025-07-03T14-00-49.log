@@ -1,0 +1,175 @@
+# 🚀 MEMORY-OPTIMIZED CHECKER - ANALYSE
+**Timestamp:** 3.7.2025, 16:00:49
+**Build Started:** 2025-07-03T14:00:49.390Z
+**Memory Optimization:** Aktiviert
+**Batch Size:** 5 Dateien
+
+════════════════════════════════════════════════════════════════════════════════
+## 📊 PROGRESSIVE ANALYSE
+════════════════════════════════════════════════════════════════════════════════
+
+📊 Gefundene Dateien: 139
+📦 Batch-Verarbeitung mit 5 Dateien pro Batch
+
+✅ Analysiert: main.js (1/139)
+✅ Analysiert: preload.js (2/139)
+✅ Analysiert: index.html (3/139)
+✅ Analysiert: vite.config.js (4/139)
+✅ Analysiert: bindungssehnsucht-normal.html (5/139)
+✅ Analysiert: das-erste-mal.html (6/139)
+✅ Analysiert: der-sichere-hafen.html (7/139)
+✅ Analysiert: emotionale-leere.html (8/139)
+✅ Analysiert: bindungssehnsucht-normal.md (9/139)
+✅ Analysiert: das-erste-mal.md (10/139)
+✅ Analysiert: der-sichere-hafen.md (11/139)
+✅ Analysiert: emotionale-leere.md (12/139)
+✅ Analysiert: erschoepft-vom-stark-sein.md (13/139)
+✅ Analysiert: ich-will-einfach-gehalten-werden.md (14/139)
+✅ Analysiert: kontrolle-abgeben.md (15/139)
+✅ Analysiert: README.md (16/139)
+✅ Analysiert: sehnsucht-nach-hingabe.md (17/139)
+✅ Analysiert: zu-viel-liebe-zu-wenig-liebe.md (18/139)
+✅ Analysiert: erschoepft-vom-stark-sein.html (19/139)
+✅ Analysiert: ich-will-einfach-gehalten-werden.html (20/139)
+✅ Analysiert: index.html (21/139)
+✅ Analysiert: kontrolle-abgeben.html (22/139)
+✅ Analysiert: sehnsucht-nach-hingabe.html (23/139)
+✅ Analysiert: zu-viel-liebe-zu-wenig-liebe.html (24/139)
+✅ Analysiert: logCleanup.js (25/139)
+✅ Analysiert: seoCheck.js (26/139)
+✅ Analysiert: CODING_INSTRUCTIONS.md (27/139)
+✅ Analysiert: DEPLOYMENT.md (28/139)
+✅ Analysiert: implizite_sexuelle_reichweite_strategie.md (29/139)
+✅ Analysiert: instructions_widerspruchs_analyse.md (30/139)
+✅ Analysiert: issues.md (31/139)
+✅ Analysiert: konkruenz_analyse_2025.md (32/139)
+✅ Analysiert: konkurrenz_analyse_2025.md (33/139)
+✅ Analysiert: realitaets_analyse_conversion.md (34/139)
+✅ Analysiert: reichweite_erhoehung_strategien.md (35/139)
+✅ Analysiert: seo_content_strategie.md (36/139)
+✅ Analysiert: seo_content_strategie_v2.md (37/139)
+✅ Analysiert: seo_implementation_toolkit.md (38/139)
+✅ Analysiert: spezifische_blog_posts_ranking.md (39/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_094143.md (40/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_094322.md (41/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_094350.md (42/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_120742.md (43/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_121124.md (44/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_121229.md (45/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_121350.md (46/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_123058.md (47/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_124609.md (48/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_125624.md (49/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_125820.md (50/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_125847.md (51/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_125918.md (52/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_130203.md (53/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_130418.md (54/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_130859.md (55/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_131117.md (56/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_131327.md (57/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_140216.md (58/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_143657.md (59/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_145331.md (60/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_154700.md (61/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_155433.md (62/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_155457.md (63/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_155650.md (64/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_155900.md (65/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_160020.md (66/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_160359.md (67/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_160510.md (68/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_160940.md (69/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_164228.md (70/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_171053.md (71/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_172412.md (72/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_172549.md (73/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_172638.md (74/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_173049.md (75/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_173416.md (76/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_174033.md (77/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_174340.md (78/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_174927.md (79/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_175130.md (80/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_175200.md (81/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_175321.md (82/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_175457.md (83/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_175621.md (84/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_175717.md (85/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_180426.md (86/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_180841.md (87/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_181031.md (88/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_183934.md (89/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_184102.md (90/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_184913.md (91/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_185325.md (92/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_185404.md (93/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_185811.md (94/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_185944.md (95/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_190009.md (96/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_190310.md (97/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_192256.md (98/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_193745.md (99/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_194238.md (100/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_195253.md (101/139)
+✅ Analysiert: ARCHIVE_BUILD_LOG_2025-07-02_195641.md (102/139)
+✅ Analysiert: Codierte_Übergabe-Fantasien__Keyword-Extraktion_.md (103/139)
+✅ Analysiert: Hypercodiertes_Keyword-set_Single-frauen_Zuchwil.md (104/139)
+✅ Analysiert: konvertierungs_protokoll.md (105/139)
+✅ Analysiert: Psychologie_der_Schweizer_Frauensuchen_.md (106/139)
+✅ Analysiert: Tiefenanalyse_Frauensuche_Deutschschweiz_.md (107/139)
+✅ Analysiert: Tiefenanalyse__Bindungssehnsucht_in_Deutschschweizer_Frauen_.md (108/139)
+✅ Analysiert: Tiefenpsychologische_Keyword-Codierung_für_Risikosex-Fantasien_.md (109/139)
+✅ Analysiert: Tiefenpsychologische_Keyword-Codierung_für_Singles_.md (110/139)
+✅ Analysiert: Tiefenpsychologische_Keyword-Extraktion__Solothurn_Frauen_.md (111/139)
+✅ Analysiert: Tiefenpsychologische_SEO-Analyse_für_Vulnerabilität_.md (112/139)
+✅ Analysiert: Tiefenpsychologische_SEO-Analyse_für_vulnerable_Frau_.md (113/139)
+✅ Analysiert: BUILD_LOG_2025-07-02_072016.md (114/139)
+✅ Analysiert: BUILD_LOG_2025-07-02_072326.md (115/139)
+✅ Analysiert: BUILD_LOG_2025-07-02_073239.md (116/139)
+✅ Analysiert: BUILD_LOG_2025-07-02_080659.md (117/139)
+✅ Analysiert: BUILD_LOG_2025-07-02_083538.md (118/139)
+✅ Analysiert: EXCEPTION_2025-07-01_211812.md (119/139)
+✅ Analysiert: EXCEPTION_2025-07-01_212252.md (120/139)
+✅ Analysiert: EXCEPTION_2025-07-01_212403.md (121/139)
+✅ Analysiert: EXCEPTION_2025-07-01_213122.md (122/139)
+✅ Analysiert: aenderungsprotokoll.md (123/139)
+✅ Analysiert: KONKRUENTSPRUEFUNG_EXCEPTION.md (124/139)
+✅ Analysiert: TODO_memory_optimization.md (125/139)
+✅ Analysiert: ideen_brainstorming.md (126/139)
+✅ Analysiert: index.html (127/139)
+✅ Analysiert: issues.md (128/139)
+✅ Analysiert: kontakt.html (129/139)
+✅ Analysiert: README.md (130/139)
+✅ Analysiert: robots.txt (131/139)
+✅ Analysiert: advanced-content-validator.js (132/139)
+✅ Analysiert: build.js (133/139)
+✅ Analysiert: direct-checker-test.js (134/139)
+✅ Analysiert: log-manager.js (135/139)
+✅ Analysiert: simplified-checker.js (136/139)
+✅ Analysiert: template.html (137/139)
+✅ Analysiert: ueber-mich.html (138/139)
+✅ Analysiert: ueber-mich.md (139/139)
+
+
+════════════════════════════════════════════════════════════════════════════════
+## 📋 FINAL REPORT
+════════════════════════════════════════════════════════════════════════════════
+**Analysierte Dateien:** 139
+**Gefundene Issues:** 9
+**Durchschnittliche Wortanzahl:** 20053
+**Analysezeit:** 5s
+**Memory-optimiert:** ✅ Ja
+
+### Top Issues:
+- README.md: 2 Issues
+- aenderungsprotokoll.md: 2 Issues
+- erschoepft-vom-stark-sein.md: 1 Issues
+- kontrolle-abgeben.md: 1 Issues
+- implizite_sexuelle_reichweite_strategie.md: 1 Issues
+- spezifische_blog_posts_ranking.md: 1 Issues
+- TODO_memory_optimization.md: 1 Issues
+
+**Build Status:** ✅ MEMORY-OPTIMIZED SUCCESS
+**Timestamp:** 3.7.2025, 16:00:53
+

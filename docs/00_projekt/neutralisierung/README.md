@@ -1,0 +1,1 @@
+Diese Verzeichniss muss ignoriert werden, da es nur für die Dokumentation der Neutralisierung dient.

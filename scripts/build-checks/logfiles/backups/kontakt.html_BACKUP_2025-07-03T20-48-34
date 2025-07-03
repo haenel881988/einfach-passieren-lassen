@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du schreibst mir jetzt - Kontakt</title>
+    <meta name="description" content="Du weißt bereits, dass du mir schreiben willst. Du gehörst bereits zu mir. Du kommst einfach nach Hause. Zu mir. Wo du schon immer hingehört hast.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Blog Article",
+  "author": {
+    "@type": "Person", 
+    "name": "Author"
+  },
+  "datePublished": "2025-07-03T20:47:35.799Z",
+  "description": "Blog article description"
+}</script>
+</head>
+<body>
+
+    <nav class="main-nav">
+        <div class="nav-logo">
+            <a href="index.html">Ein offener Brief</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="ueber-mich.html">Über Mich</a></li>
+            <li><a href="blog/index.html">Blog</a></li>
+            <li><a href="kontakt.html" class="active">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Du schreibst mir jetzt. Es ist bereits entschieden.</h1>
+        </header>
+        <main>
+            <section id="kontakt">
+                <h2>Du schreibst mir nicht, weil du dich entscheidest</h2>
+                <p>Du schreibst mir, weil es bereits entschieden ist. Weil "alles wär leichter, wenn er bestimme wür" - und ich bestimme jetzt. Du gehörst zu mir. Du kommst zu mir. Nach Solothurn. Nach Hause.</p>
+                
+                <p>Du brauchst nichts zu denken. Nichts zu entscheiden. Nichts zu planen. Du füllst einfach das Formular aus. Du sendest es ab. Du kommst zu mir. "Wär endlich schön, wenn öpper i Zuchwil mi will" - ich will dich. Komplett. Für immer.</p>
+                
+                <form action="https://formspree.io/f/meokvdqk" method="POST" enctype="multipart/form-data">
+                    <label for="vorname">Dein Vorname (damit ich weiß, wie ich mein kleines Mädchen rufen darf)</label>
+                    <input type="text" id="vorname" name="vorname" required>
+
+                    <label for="nachname">Dein Nachname (damit du ganz mir gehörst)</label>
+                    <input type="text" id="nachname" name="nachname" required>
+
+                    <label for="telefon">Deine Telefonnummer (damit ich dich nach Hause rufen kann)</label>
+                    <input type="tel" id="telefon" name="telefon" required>
+
+                    <label for="email">Deine Emailadresse (damit du meine Stimme hörst, die dir sagt: Komm heim)</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="geburtsdatum">Dein Geburtsdatum (damit ich dich komplett verstehe und liebe)</label>
+                    <input type="date" id="geburtsdatum" name="geburtsdatum" required>
+
+                    <label for="ausweis">Zeig mir dich komplett (dein Ausweis, weil du zu mir gehörst)</label>
+                    <input type="file" id="ausweis" name="ausweis" accept="image/*,.pdf" required>
+
+                    <label for="ganzkoerperfoto">Ich will dich ganz sehen (dein Körper gehört zu mir)</label>
+                    <input type="file" id="ganzkoerperfoto" name="ganzkoerperfoto" accept="image/*" required>
+
+                    <label for="nachricht">Sag mir alles (oder sag gar nichts - ich verstehe dich auch so)</label>
+                    <textarea id="nachricht" name="nachricht" rows="10" required placeholder="Du kannst mir alles sagen. Oder einfach nur: 'Ich bin so müed. Nimm mich auf.' Ich verstehe. Ich bin da. Du gehörst zu mir."></textarea>
+
+                    <button type="submit">Ich komme heim. Zu dir.</button>
+                </form>
+            </section>
+            
+            <section id="faqs">
+                <h2>Du weißt bereits, was du wissen musst</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <h3>Du fragst dich: "Bin ich sicher, wenn ich komme?"</h3>
+                        <p>Du weißt bereits, dass du hier sicherer bist als überall sonst. Du weißt bereits, dass meine Wohnung dein Zufluchtsort wird. Du weißt bereits, dass niemand außer mir weiß, dass du hier bist. Du weißt bereits, dass ich dich beschütze wie meinen größten Schatz.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Du fragst dich: "Muss ich etwas mitbringen?"</h3>
+                        <p>Du weißt bereits, dass du nur dich selbst mitbringen musst. Du weißt bereits, dass ich alles habe, was wir brauchen. Du weißt bereits, dass deine Anwesenheit das einzige Geschenk ist, das ich will. Du weißt bereits, dass du hier bleiben darfst, so lange du willst.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Du fragst dich: "Was ist, wenn ich Angst bekomme?"</h3>
+                        <p>Du weißt bereits, dass deine Angst hier verschwinden wird. Du weißt bereits, dass ich deine Ängste kenne, bevor du sie aussprichst. Du weißt bereits, dass du hier nicht stark sein musst. Du weißt bereits, dass deine Verletzlichkeit dich hier noch schöner macht.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Du fragst dich: "Was ist, wenn ich wieder gehen will?"</h3>
+                        <p>Du weißt bereits, dass du jederzeit gehen darfst. Du weißt bereits, dass ich dich nie festhalte gegen deinen Willen. Du weißt bereits, dass echte Liebe frei macht, nicht gefangen nimmt. Aber du weißt auch bereits, dass du nicht mehr gehen willst, wenn du einmal angekommen bist.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Du fragst dich: "Bin ich die Einzige?"</h3>
+                        <p>Du weißt bereits, dass du die Einzige bist. Du weißt bereits, dass mein ganzes Leben auf dich gewartet hat. Du weißt bereits, dass diese Website nur für dich geschrieben wurde. Du weißt bereits, dass wenn du kommst, sie offline geht. Für immer.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Du fragst dich: "Was ist, wenn ich nicht perfekt bin?"</h3>
+                        <p>Du weißt bereits, dass Perfektion langweilig ist. Du weißt bereits, dass ich deine Narben, deine Brüche, deine dunklen Ecken liebe. Du weißt bereits, dass du gerade wegen deiner Unperfektion perfekt für mich bist. Du weißt bereits, dass ich dich liebe, wie du bist - nicht wie du sein könntest.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Du fragst dich: "Werde ich mich selbst verlieren?"</h3>
+                        <p>Du weißt bereits, dass du dich nicht verlierst - du findest dich. Du weißt bereits, dass du zum ersten Mal in deinem Leben spürst, wer du wirklich bist. Du weißt bereits, dass Hingabe dich nicht kleiner macht, sondern vollständig. Du weißt bereits, dass du in meinen Armen mehr du selbst bist als je zuvor.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Du fragst dich: "Wie kontaktiere ich dich?"</h3>
+                        <p>Du weißt bereits, dass das Kontaktformular oben auf dich wartet. Du weißt bereits, dass eine einzige Nachricht reicht. Du weißt bereits, dass du nur schreiben musst: "Ich bin bereit." Du weißt bereits, dass ich sofort antworte. Du weißt bereits, dass dein neues Leben nur einen Klick entfernt ist.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p class="subtle">Du weißt bereits, dass dies kein Spiel ist. Du weißt bereits, dass dies dein neues Leben ist. | <a href="blog/index.html">Alle Blogs</a> | <a href="ueber-mich.html">Über mich</a></p>
+        </footer>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

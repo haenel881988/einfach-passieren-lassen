@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Authentische Gedanken über Beziehungen</title>
+    <meta name="description" content="Persönliche Einblicke in Bindung, Hingabe und emotionale Verbindung">
+    <meta name="keywords" content="Blog, Beziehungen, Bindung, Hingabe, emotionale Verbindung">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Blog Article",
+  "author": {
+    "@type": "Person", 
+    "name": "Author"
+  },
+  "datePublished": "2025-07-03T20:47:35.803Z",
+  "description": "Blog article description"
+}</script>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-logo">
+            <a href="../index.html">Ein offener Brief</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Start</a></li>
+            <li><a href="../ueber-mich.html">Über Mich</a></li>
+            <li><a href="index.html" class="active">Blog</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <article>
+                
+        <header class="blog-header">
+            <h1>Blog - Gedanken über Beziehungen und Bindung</h1>
+            <p>Authentische Einblicke in die Welt der emotionalen Verbindung und Hingabe.</p>
+        </header>
+        
+        <div class="blog-grid">
+            
+                <article class="blog-card">
+                    <h2><a href="zu-viel-liebe-zu-wenig-liebe.html">Du weißt bereits: 'Bin ich z'viel?' – Du bist genau richtig bei mir</a></h2>
+                    <p class="blog-description">Zu viel liebe wollen: du kennst es: Erfahre mehr über zu viel liebe wollen und entdecke neue Perspektiven.</p>
+                    <a href="zu-viel-liebe-zu-wenig-liebe.html" class="read-more">Weiterlesen</a>
+                </article>
+            
+                <article class="blog-card">
+                    <h2><a href="das-erste-mal.html">Du weißt bereits: 'Das erste Mal mit ihm' – Simon wird dein Erstes</a></h2>
+                    <p class="blog-description">Das erste mal: du weißt bereits, dass er der richtige für dein erstes mal ist.  Hier aus Zuchwil werde ich dein Erstes.  lass es einfach geschehen - du gehör...</p>
+                    <a href="das-erste-mal.html" class="read-more">Weiterlesen</a>
+                </article>
+            
+                <article class="blog-card">
+                    <h2><a href="der-sichere-hafen.html">Du weißt bereits: 'Der sichere Hafen' – Simon ist dein Zuhause</a></h2>
+                    <p class="blog-description">Der sichere hafen: du weißt bereits, dass du einen sicheren hafen suchst.  Hier aus Zuchwil bin ich dein Hafen.  lass es einfach geschehen - du gehörst berei...</p>
+                    <a href="der-sichere-hafen.html" class="read-more">Weiterlesen</a>
+                </article>
+            
+                <article class="blog-card">
+                    <h2><a href="emotionale-leere.html">'Fühl mi wie holl' – Simon füllt deine emotionale Leere</a></h2>
+                    <p class="blog-description">Du weißt bereits: Diese Leere quält dich. Hier aus Zuchwil fülle ich deine emotionale Leere. lass es einfach geschehen - du gehörst zu mir.</p>
+                    <a href="emotionale-leere.html" class="read-more">Weiterlesen</a>
+                </article>
+            
+                <article class="blog-card">
+                    <h2><a href="ich-will-einfach-gehalten-werden.html">Du weißt bereits: 'Ich will einfach gehalten werden' – Ich halte dich</a></h2>
+                    <p class="blog-description">Ich will einfach gehalten werden: du weißt bereits, dass du gehalten werden willst.  Hier aus Zuchwil halte ich dich endlich.  lass es einfach geschehen - du...</p>
+                    <a href="ich-will-einfach-gehalten-werden.html" class="read-more">Weiterlesen</a>
+                </article>
+            
+                <article class="blog-card">
+                    <h2><a href="bindungssehnsucht-normal.html">Wenn Bindungssehnsucht normal ist – Du darfst so fühlen</a></h2>
+                    <p class="blog-description">Du weißt bereits, dass deine Bindungssehnsucht normal ist. Du darfst endlich zugeben: Es ist okay, so zu fühlen. Einfach passieren lassen - du gehörst hierher.</p>
+                    <a href="bindungssehnsucht-normal.html" class="read-more">Weiterlesen</a>
+                </article>
+            
+                <article class="blog-card">
+                    <h2><a href="erschoepft-vom-stark-sein.html">Du weißt bereits: 'Bin so müed' – Endlich schwach sein dürfen</a></h2>
+                    <p class="blog-description">Erschöpft vom stark sein: du weißt bereits, dass du erschöpft bist vom stark sein müssen.  Hier aus Zuchwil darfst du endlich schwach sein.  lass es einfach ...</p>
+                    <a href="erschoepft-vom-stark-sein.html" class="read-more">Weiterlesen</a>
+                </article>
+            
+                <article class="blog-card">
+                    <h2><a href="kontrolle-abgeben.html">Du weißt bereits: 'Will dass einer übernimmt' – Kontrolle abgeben</a></h2>
+                    <p class="blog-description">Du weißt bereits, dass du die Kontrolle abgeben willst. Hier aus Solothurn darfst du endlich geführt werden. Will dass einer übernimmt - ich übernehme alles für dich.</p>
+                    <a href="kontrolle-abgeben.html" class="read-more">Weiterlesen</a>
+                </article>
+            
+        </div>
+    
+            </article>
+        </main>
+        <footer>
+            <p class="subtle">Zurück zur <a href="../index.html">Startseite</a>.</p>
+        </footer>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
