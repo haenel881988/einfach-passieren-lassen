@@ -7,11 +7,16 @@
  * Modular strukturierter Build-Prozess für bessere Wartbarkeit
  */
 
-// Modulare Build-System Imports
-const fs = require('fs');
-const path = require('path');
-// const chalk = require('chalk'); // Temporär deaktiviert
-const { execFileSync } = require('child_process');
+// ES Module Imports
+import fs from 'fs';
+import path from 'path';
+import { execFileSync } from 'child_process';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+// ES Module __dirname equivalent
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Einfacher Chalk-Ersatz
 const chalk = {
@@ -25,8 +30,8 @@ const chalk = {
 };
 
 // Module importieren
-const TerminalLogger = require('./modules/logger');
-const seoCheck = require('./modules/seoCheck');
+import TerminalLogger from './modules/logger.js';
+import seoCheck from './modules/seoCheck.js';
 
 // Build-Prozess Konfiguration
 const CONFIG = {

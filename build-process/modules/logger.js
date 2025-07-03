@@ -7,9 +7,9 @@
  */
 
 // TerminalLogger-Klasse migriert aus scripts/build.js
-const fs = require('fs');
-const path = require('path');
-const chalk = require('chalk');
+import fs from 'fs';
+import path from 'path';
+import chalk from 'chalk';
 
 class TerminalLogger {
     constructor() {
@@ -279,4 +279,4 @@ class TerminalLogger {
     }
 }
 
-module.exports = TerminalLogger;
+export default TerminalLogger;

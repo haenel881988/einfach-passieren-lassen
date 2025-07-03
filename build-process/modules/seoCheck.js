@@ -6,10 +6,10 @@
  * Vollständige Implementierung aller SEO-Check-Funktionen aus scripts/build.js
  */
 
-const fs = require('fs');
-const path = require('path');
-const cheerio = require('cheerio');
-// const chalk = require('chalk'); // Temporär deaktiviert
+import fs from 'fs';
+import path from 'path';
+import * as cheerio from 'cheerio';
+// import chalk from 'chalk'; // Temporär deaktiviert
 
 /**
  * Haupteinstiegspunkt für globale SEO-Checks
@@ -571,7 +571,16 @@ function validateLinkStructure(htmlFiles, options = {}) {
     return results;
 }
 
-module.exports = {
+export {
+    validateGlobalSEO,
+    validateSitemap,
+    validateRobots,
+    validateURLConsistency,
+    validateInternalLinkTargets,
+    validateLinkStructure
+};
+
+export default {
     validateGlobalSEO,
     validateSitemap,
     validateRobots,
