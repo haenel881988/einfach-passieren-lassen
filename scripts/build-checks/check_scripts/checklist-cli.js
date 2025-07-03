@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import AdvancedContentValidator from '../../advanced-content-validator.js';
+import AdvancedContentValidator from './advanced-content-validator.js';
 import fs from 'fs';
 
 // ==================== CHECKLIST ROTATION MANAGEMENT CLI ====================
